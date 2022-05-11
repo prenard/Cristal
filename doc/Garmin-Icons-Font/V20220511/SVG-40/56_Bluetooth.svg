@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583334"
+   version="1.1"
+   id="svg339"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="2_Bluetooth.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview341"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.1649824"
+     inkscape:cx="244.57474"
+     inkscape:cy="118.01482"
+     inkscape:window-width="1294"
+     inkscape:window-height="768"
+     inkscape:window-x="1569"
+     inkscape:window-y="126"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs336" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 121.45769,113.58232 -0.8646,0.8646 -0.006,-1.73323 0.87065,0.86863 m -0.87065,4.42981 0.86863,-0.86863 -0.8646,-0.8646 z m 3.35763,-2.65023 c 0,4.14363 -1.44906,5.09086 -3.73047,5.09086 -2.28142,0 -4.0086,-0.94723 -4.0086,-5.09086 0,-4.14362 1.68083,-5.2279 3.96224,-5.2279 2.28142,0 3.77683,1.08629 3.77683,5.2279 z m -3.19438,0 1.60021,-1.78563 -2.52124,-2.70666 v 3.56522 l -1.48735,-1.48736 -0.54416,0.54214 1.86826,1.87431 -1.86826,1.8743 0.54214,0.54214 1.48735,-1.48735 0.0464,3.42615 2.56759,-2.56962 z"
+       style="clip-rule:evenodd;fill:#ffffff;fill-rule:nonzero;stroke-width:0.0201538;stroke-linejoin:round;stroke-miterlimit:1.5"
+       id="path158" />
+    <image
+       id="use152"
+       width="8.8838978"
+       height="10.318749"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAnCAYAAABqippxAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACz0lEQVRYhb2YTUhVQRTH//MMkbReKoq0CCMpkESEaCHRIgIhaCm5aFNhYEJQUBC1ltpEUrTogyg3fdDCIoioIGpRERUWlbXIsJURSb7nR1+/Fs8rl9f9mLm9+/67x5xz5nfOzJyZ+6QyCKgAtgGPgDHgPXAEWFyO+T2IWuABwXoHLCkHRCPwNgTC06W0ISqAezEQnpozKbIclrTJ0ra7Ig0CoE7SNUmVli6/0qrIXkk1DvbNptQEQI2kT5LqHNym0qhInyOEJE0vgACVwH7gBfAGuANsBVyr1uNoL0kTHkQ1MBJytG67NB1gyvLI+nXXq8igpLaQ2F2SHs6fhDiIJrltUk9fMsAKSTtjDNslDVks06oEEJL0OSOpW5LNPtgi6WCMzXRCkKsCbjms5SSQDYsG1CfYH88lKSNppQN5VlJ/2KAx5qukvEM8STrjZfHdMYMJIt4RxN+2fo0AVVKhIrOOGTRI6o0YP2sZJyep2xgz62Xw2rEiAE+jZgCOAvmYGNuLne4nAJmMSxfIAv3AYyDn880BA0EOVxKAADQWxakF9gG7gKUB8ywHOoHqMPLjCUE6i+Kc8I3lgYvARmBRXPW8AJ0JQTp8MQwwG2L3g8IjeZjC3mmKgnmVAKTe5+/SyEaCGLxLz/bIecrPNy9P9aGW/yrw+eiBnJc06hBsvOj3R0lTlr5PIkeBNmDasryHAvyHLfz+AK2xqEBvTKA5YDDEtwOYifE/aVm1hWPoPwE/KdwJB4CGGN8d8/ZBOoXrsxNYBmwGWijqA0AV0APsJrhxtQBDwEtgFLgMbHACiAAzwDrgNPDNl+WxkkygkJcZhR6xR1KrpDWSVksKas0zxpj0/lqg8Elhq9pSzBn2gRV8MQUrcgP/L8gzS/+cpLFSgAQKaLdclpupQfhgzsVAzAHrywGSAS6EQPwG+lKH8MEYoAu4AYwDH4DrwNpSz/UXmAEXFAKKwqcAAAAASUVORK5CYII="
+       style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5"
+       x="93.692993"
+       y="93.831039" />
+    <path
+       d="m 6.4686753,3.6194825 -0.8646,0.8646 -0.006,-1.73323 0.87065,0.86863 m -0.87065,4.42981 0.86863,-0.86863 -0.8646,-0.8646 z m 3.35763,-2.65023 c 0,4.14363 -1.44906,5.0908605 -3.73047,5.0908605 -2.28142,0 -4.0086001,-0.9472305 -4.0086001,-5.0908605 0,-4.14362 1.6808301,-5.22789999 3.9622401,-5.22789999 2.28142,0 3.77683,1.08628999 3.77683,5.22789999 z m -3.19438,0 1.60021,-1.78563 -2.52124,-2.70665995 V 4.4719925 l -1.48735,-1.48736 -0.54416,0.54214 1.86826,1.87431 -1.86826,1.8743 0.54214,0.54214 1.48735,-1.48735 0.0464,3.42615 2.56759,-2.56962 z"
+       style="clip-rule:evenodd;fill:#000000;fill-rule:nonzero;stroke-width:0.0201538;stroke-linejoin:round;stroke-miterlimit:1.5"
+       id="path158-3" />
+  </g>
+</svg>
