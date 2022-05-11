@@ -13,7 +13,7 @@ var gLocationLat = null;
 var gLocationLng = null;
 
 (:background)
-class CrystalApp extends App.AppBase {
+class CristalApp extends App.AppBase {
 
 	var mView;
 	var mFieldTypes = new [3];
@@ -34,7 +34,7 @@ class CrystalApp extends App.AppBase {
 
 	// Return the initial view of your application here
 	function getInitialView() {
-		mView = new CrystalView();
+		mView = new CristalView();
 		onSettingsChanged(); // After creating view.
 		return [mView];
 	}
