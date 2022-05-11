@@ -1,0 +1,105 @@
+<strings>
+
+	<string id="AppName">Crystal</string>
+	<string id="AppVersionTitle">App-version</string>
+
+	<string id="ThemeTitle">Tema</string>
+	<string id="HoursColourTitle">Färg timme</string>
+	<string id="MinutesColourTitle">Färg minut</string>
+	<string id="LeftGoalMeterTitle">Vänster mätare</string>
+	<string id="RightGoalMeterTitle">Höger mätare</string>
+	<string id="CaloriesGoalTitle">Kalorimål (1-10,000kCal)</string>
+	<string id="GoalMeterStyleTitle">Mätarstil</string>
+	<string id="MeterDigitsStyleTitle">Meter Digits Style</string><!-- TODO_TRANSLATE -->
+	<string id="LocalTimeInCityTitle">Lägg till lokal tid för stad (Beta)</string>
+	<string id="MoveBarStyleTitle">Rörelsemätarstil</string>
+	<string id="HideSecondsTitle">Dölj sekunder</string>
+	<string id="HideHoursLeadingZeroTitle">Dölj inledande nollor</string>
+	<string id="OWMKeyOverride">OpenWeatherMap API Key Override</string><!-- TODO_TRANSLATE -->
+
+	<string id="FieldCountTitle">Antal datafält</string>
+	<string id="DataField1Title">Datafält 1</string>
+	<string id="DataField2Title">Datafält 2</string>
+	<string id="DataField3Title">Datafält 3</string>
+
+	<string id="IndicatorCountTitle">Indikatorantal</string>
+	<string id="Indicator1Title">Indikator 1</string>
+	<string id="Indicator2Title">Indikator 2</string>
+	<string id="Indicator3Title">Indikator 3</string>
+
+	<string id="FromTheme">(Från tema)</string>
+	<string id="MonoHighlight">Mono Highlight</string>
+	<string id="Mono">Mono</string>
+
+	<string id="AllSegmentsMerged">Alla segment (Merged)</string><!-- TODO_TRANSLATE -->
+	<string id="FilledSegmentsMerged">Fyllda segment (Merged)</string><!-- TODO_TRANSLATE -->
+	<string id="AllSegments">Alla segment</string>
+	<string id="FilledSegments">Fyllda segment</string>
+	<string id="Hidden">Dold</string>
+	<string id="CurrentTarget">Current/Target</string><!-- TODO_TRANSLATE -->
+	<string id="Current">Current</string><!-- TODO_TRANSLATE -->
+
+	<string id="ThemeBlueDark">Blå (Mörk)</string>
+	<string id="ThemePinkDark">Rosa (Mörk)</string>
+	<string id="ThemeRedDark">Röd (Mörk)</string>
+	<string id="ThemeGreenDark">Grön (Mörk)</string>
+	<string id="ThemeCornflowerBlueDark">Blåklintsblå (Mörk)</string>
+	<string id="ThemeLemonCreamDark">Citronkräm (Mörk)</string>
+	<string id="ThemeVividYellowDark">Levande Gul (Mörk)</string>
+	<string id="ThemeDaygloOrangeDark">Lysande Orange (Mörk)</string>
+	<string id="ThemeMonoDark">Mono (Mörk)</string>
+	<string id="ThemeMonoLight">Mono (Ljus)</string>
+	<string id="ThemeBlueLight">Blå (Ljus)</string>
+	<string id="ThemeRedLight">Röd (Ljus)</string>
+	<string id="ThemeGreenLight">Grön (Ljus)</string>
+	<string id="ThemeDaygloOrangeLight">Lysande Orange (Ljus)</string>
+	<string id="ThemeCornYellowDark">Majsgul (Mörk)</string>
+
+	<string id="Steps">Steg</string>
+	<string id="FloorsClimbed">Våningar</string>
+	<string id="ActiveMinutes">Aktiva minuter (Vecka)</string>
+	<string id="CaloriesManualGoal">Kalorier (Manuellt mål)</string>
+	<string id="Off">Off</string><!-- TODO_TRANSLATE -->
+
+	<string id="HeartRate">Puls</string>
+	<string id="HeartRateLive5s">Puls (Live 5s)</string>
+	<string id="Battery">Batteri</string>
+	<string id="BatteryHidePercentage">Batteri (Dölj procent)</string>
+	<string id="Notifications">Notifieringar</string>
+	<string id="Calories">Kalorier</string>
+	<string id="Distance">Distans</string>
+	<string id="Alarms">Alarm</string>
+	<string id="Altitude">Altitud</string>
+	<string id="Temperature">Termometer</string>
+	<string id="Bluetooth">Bluetooth</string>
+	<string id="BluetoothOrNotifications">Bluetooth/Notifieringar</string>
+	<string id="SunriseSunset">Soluppgång/Solnedgång</string>
+	<string id="Weather">Väder</string>
+	<string id="Humidity">Luftfuktighet</string>
+	<string id="Pressure">Tryck</string>
+
+	<!-- Internal use only. Required because fonts cannot be overridden by locale. Leave blank for no override. -->
+	<string id="DATE_FONT_OVERRIDE"></string>
+
+	<string id="Sun">sön</string>
+	<string id="Mon">mån</string>
+	<string id="Tue">tis</string>
+	<string id="Wed">ons</string>
+	<string id="Thu">tors</string>
+	<string id="Fri">fre</string>
+	<string id="Sat">lör</string>
+
+	<string id="Jan">jan</string>
+	<string id="Feb">feb</string>
+	<string id="Mar">mar</string>
+	<string id="Apr">apr</string>
+	<string id="May">maj</string>
+	<string id="Jun">jun</string>
+	<string id="Jul">jul</string>
+	<string id="Aug">aug</string>
+	<string id="Sep">sep</string>
+	<string id="Oct">okt</string>
+	<string id="Nov">nov</string>
+	<string id="Dec">dec</string>
+
+</strings>
