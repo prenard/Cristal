@@ -22,6 +22,8 @@ class DateLine extends Ui.Drawable {
 		Drawable.initialize(params);
 
 		var rezFonts = Rez.Fonts;
+
+		/*
 		var resourceMap = {
 			"ZHS" => rezFonts.DateFontOverrideZHS,
 			"ZHT" => rezFonts.DateFontOverrideZHT,
@@ -33,6 +35,9 @@ class DateLine extends Ui.Drawable {
 		// string, then override font in code.
 		var dateFontOverride = Ui.loadResource(Rez.Strings.DATE_FONT_OVERRIDE);
 		var dateFont = (resourceMap.hasKey(dateFontOverride)) ? resourceMap[dateFontOverride] : rezFonts.DateFont;
+		*/
+		
+		var dateFont = rezFonts.DateFont;
 		mFont = Ui.loadResource(dateFont);
 
 		mX = params[:x];

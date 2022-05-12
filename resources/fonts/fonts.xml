@@ -13,8 +13,10 @@
 	<font id="WeatherIconsFontNight" filename="weather-icons-24.fnt" antialias="true" filter="abcdefghI"/>
 
 	<!-- Locale-specific manual date font overrides, because fonts cannot automatically be overridden by locale -->
+	<!--
 	<font id="DateFontOverrideZHS" filename="noto-sans-cjk-sc-medium-24.fnt" antialias="true"/>
 	<font id="DateFontOverrideZHT" filename="noto-sans-cjk-tc-medium-24.fnt" antialias="true"/>
 	<font id="DateFontOverrideRUS" filename="noto-sans-rus-bold-24.fnt" antialias="true"/>
 	<font id="DateFontOverrideKOR" filename="namum-gothic-kor-24.fnt" antialias="true"/>
+	-->
 </fonts>
