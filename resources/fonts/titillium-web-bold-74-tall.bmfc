@@ -2,14 +2,14 @@
 fileVersion=1
 
 # font settings
-fontName=Noto Sans CJK TC Medium
+fontName=Titillium Web
 fontFile=
 charSet=0
-fontSize=-36
-aa=2
-scaleH=100
+fontSize=-74
+aa=1
+scaleH=105
 useSmoothing=1
-isBold=0
+isBold=1
 isItalic=0
 useUnicode=1
 disableBoxChars=1
@@ -50,7 +50,6 @@ invB=0
 outlineThickness=0
 
 # selected chars
-chars=10,32,48-57,19968,19971,19977,20061,20108,20116,20843,20845,21313,22235,26085,26143,26376,26399
-
+chars=48-57
 
 # imported icon images

@@ -2,10 +2,10 @@
 fileVersion=1
 
 # font settings
-fontName=NanumGothicExtraBold
+fontName=Weather Icons
 fontFile=
 charSet=0
-fontSize=36
+fontSize=-34
 aa=2
 scaleH=100
 useSmoothing=1
@@ -50,6 +50,6 @@ invB=0
 outlineThickness=0
 
 # selected chars
-chars=32,40-41,48-57,44552,47785,49688,50900,51068,53664,54868
+chars=61441-61442,61445,61448-61450,61452-61453,61459,61475,61477,61480-61482,61486,61569,61574
 
 # imported icon images

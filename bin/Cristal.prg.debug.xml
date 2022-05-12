@@ -52,8 +52,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="139" parent="globals/ThickThinTime" pc="268439163" symbol="drawSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="145" parent="globals/ThickThinTime" pc="268439178" symbol="drawSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="148" parent="globals/ThickThinTime" pc="268439212" symbol="drawSeconds"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268460082" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268460082" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268462157" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268462157" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="8" lineNum="10" parent="globals/BackgroundService" pc="268435456" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="8" lineNum="11" parent="globals/BackgroundService" pc="268435460" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="9" lineNum="18" parent="globals/BackgroundService" pc="268435483" symbol="onTemporalEvent"/>
@@ -156,8 +156,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="23" lineNum="196" parent="globals/MoveBar" pc="268440808" symbol="drawBar"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="23" lineNum="198" parent="globals/MoveBar" pc="268440854" symbol="drawBar"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="23" lineNum="199" parent="globals/MoveBar" pc="268440880" symbol="drawBar"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="24" lineNum="7" parent="globals/MoveBar" pc="268460266" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="24" lineNum="7" parent="globals/MoveBar" pc="268460266" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="24" lineNum="7" parent="globals/MoveBar" pc="268462341" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="24" lineNum="7" parent="globals/MoveBar" pc="268462341" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="26" lineNum="32" parent="globals" pc="268440895" symbol="drawBatteryMeter"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="26" lineNum="33" parent="globals" pc="268440907" symbol="drawBatteryMeter"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="26" lineNum="34" parent="globals" pc="268440939" symbol="drawBatteryMeter"/>
@@ -308,10 +308,10 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="479" parent="globals/CristalView" pc="268444623" symbol="setHideSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="482" parent="globals/CristalView" pc="268444627" symbol="setHideSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="483" parent="globals/CristalView" pc="268444647" symbol="setHideSeconds"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="79" parent="globals/CristalView" pc="268460150" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="89" parent="globals/CristalView" pc="268460168" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="92" parent="globals/CristalView" pc="268460182" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="79" parent="globals/CristalView" pc="268460150" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="79" parent="globals/CristalView" pc="268462225" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="89" parent="globals/CristalView" pc="268462243" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="92" parent="globals/CristalView" pc="268462257" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="43" lineNum="79" parent="globals/CristalView" pc="268462225" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="44" lineNum="22" parent="globals" pc="268437971" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="44" lineNum="24" parent="globals" pc="268438022" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="44" lineNum="25" parent="globals" pc="268438044" symbol="&lt;init&gt;"/>
@@ -359,8 +359,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="48" lineNum="160" parent="globals/DateLine" pc="268446111" symbol="drawSingleLine"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="48" lineNum="163" parent="globals/DateLine" pc="268446143" symbol="drawSingleLine"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="48" lineNum="164" parent="globals/DateLine" pc="268446177" symbol="drawSingleLine"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="49" lineNum="7" parent="globals/DateLine" pc="268460209" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="49" lineNum="7" parent="globals/DateLine" pc="268460209" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="49" lineNum="7" parent="globals/DateLine" pc="268462284" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="49" lineNum="7" parent="globals/DateLine" pc="268462284" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="51" lineNum="24" parent="globals/Indicators" pc="268446245" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="51" lineNum="25" parent="globals/Indicators" pc="268446249" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="51" lineNum="27" parent="globals/Indicators" pc="268446269" symbol="initialize"/>
@@ -410,15 +410,15 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="56" lineNum="106" parent="globals/Indicators" pc="268447343" symbol="drawIndicator"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="56" lineNum="112" parent="globals/Indicators" pc="268447414" symbol="drawIndicator"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="56" lineNum="115" parent="globals/Indicators" pc="268447464" symbol="drawIndicator"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="57" lineNum="6" parent="globals/Indicators" pc="268460247" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="57" lineNum="6" parent="globals/Indicators" pc="268460247" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="57" lineNum="6" parent="globals/Indicators" pc="268462322" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="57" lineNum="6" parent="globals/Indicators" pc="268462322" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="7" parent="globals/Background" pc="268447566" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="8" parent="globals/Background" pc="268447570" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="60" lineNum="11" parent="globals/Background" pc="268447608" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="60" lineNum="13" parent="globals/Background" pc="268447612" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="60" lineNum="14" parent="globals/Background" pc="268447644" symbol="draw"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="61" lineNum="5" parent="globals/Background" pc="268460304" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="61" lineNum="5" parent="globals/Background" pc="268460304" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="61" lineNum="5" parent="globals/Background" pc="268462379" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="61" lineNum="5" parent="globals/Background" pc="268462379" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="63" lineNum="27" parent="globals/DataArea" pc="268447657" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="63" lineNum="28" parent="globals/DataArea" pc="268447661" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="63" lineNum="30" parent="globals/DataArea" pc="268447681" symbol="initialize"/>
@@ -486,8 +486,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="67" lineNum="184" parent="globals/DataArea" pc="268449401" symbol="drawGoalValues"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="67" lineNum="185" parent="globals/DataArea" pc="268449422" symbol="drawGoalValues"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="67" lineNum="186" parent="globals/DataArea" pc="268449454" symbol="drawGoalValues"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="68" lineNum="8" parent="globals/DataArea" pc="268460285" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="68" lineNum="8" parent="globals/DataArea" pc="268460285" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="68" lineNum="8" parent="globals/DataArea" pc="268462360" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="68" lineNum="8" parent="globals/DataArea" pc="268462360" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="70" lineNum="54" parent="globals/GoalMeter" pc="268449510" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="70" lineNum="55" parent="globals/GoalMeter" pc="268449514" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="70" lineNum="57" parent="globals/GoalMeter" pc="268449534" symbol="initialize"/>
@@ -658,8 +658,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="80" lineNum="408" parent="globals/GoalMeter" pc="268452335" symbol="getSegmentScale"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="80" lineNum="410" parent="globals/GoalMeter" pc="268452359" symbol="getSegmentScale"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="80" lineNum="414" parent="globals/GoalMeter" pc="268452380" symbol="getSegmentScale"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="81" lineNum="24" parent="globals/GoalMeter" pc="268460228" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="81" lineNum="24" parent="globals/GoalMeter" pc="268460228" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="81" lineNum="24" parent="globals/GoalMeter" pc="268462303" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="81" lineNum="24" parent="globals/GoalMeter" pc="268462303" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="84" lineNum="23" parent="globals/CristalApp" pc="268436249" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="84" lineNum="24" parent="globals/CristalApp" pc="268436253" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="85" lineNum="38" parent="globals/CristalApp" pc="268436272" symbol="getInitialView"/>
@@ -762,8 +762,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="97" lineNum="16" parent="globals/GoalMeterMask" pc="268452425" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="97" lineNum="17" parent="globals/GoalMeterMask" pc="268452429" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="97" lineNum="18" parent="globals/GoalMeterMask" pc="268452461" symbol="draw"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="98" lineNum="6" parent="globals/GoalMeterMask" pc="268460063" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="98" lineNum="6" parent="globals/GoalMeterMask" pc="268460063" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="98" lineNum="6" parent="globals/GoalMeterMask" pc="268462138" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="98" lineNum="6" parent="globals/GoalMeterMask" pc="268462138" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="100" lineNum="55" parent="globals/DataFields" pc="268452534" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="100" lineNum="56" parent="globals/DataFields" pc="268452538" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="100" lineNum="58" parent="globals/DataFields" pc="268452558" symbol="initialize"/>
@@ -1027,410 +1027,502 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="106" lineNum="736" parent="globals/DataFields" pc="268459016" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="106" lineNum="738" parent="globals/DataFields" pc="268459023" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="106" lineNum="739" parent="globals/DataFields" pc="268459064" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="107" lineNum="35" parent="globals/DataFields" pc="268460131" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="107" lineNum="35" parent="globals/DataFields" pc="268460131" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="109" lineNum="2" parent="globals/Rez/Drawables" pc="268460125" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="110" lineNum="6" parent="globals/Rez/Fonts" pc="268460127" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="111" lineNum="18" parent="globals/Rez/JsonData" pc="268460129" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="112" lineNum="27" parent="globals/Rez/Layouts" pc="268459110" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="29" parent="globals/Rez/Layouts" pc="268459122" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="30" parent="globals/Rez/Layouts" pc="268459146" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="31" parent="globals/Rez/Layouts" pc="268459241" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="32" parent="globals/Rez/Layouts" pc="268459336" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="33" parent="globals/Rez/Layouts" pc="268459470" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="34" parent="globals/Rez/Layouts" pc="268459578" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="35" parent="globals/Rez/Layouts" pc="268459634" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="36" parent="globals/Rez/Layouts" pc="268459729" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="37" parent="globals/Rez/Layouts" pc="268459837" symbol="WatchFace"/>
-        <entry filename="Rez" id="112" lineNum="39" parent="globals/Rez/Layouts" pc="268459945" symbol="WatchFace"/>
-        <entry filename="Rez" id="113" lineNum="48" parent="globals/Rez/Layouts" pc="268460043" symbol="AlwaysOn"/>
-        <entry filename="Rez" id="113" lineNum="49" parent="globals/Rez/Layouts" pc="268460055" symbol="AlwaysOn"/>
-        <entry filename="Rez" id="114" lineNum="20" parent="globals/Rez/Layouts" pc="268460128" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="115" lineNum="52" parent="globals/Rez/Menus" pc="268460126" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="116" lineNum="54" parent="globals/Rez/Strings" pc="268460130" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="117" lineNum="1" parent="globals/Rez" pc="268460101" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="117" lineNum="1" parent="globals/Rez" pc="268460101" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="107" lineNum="35" parent="globals/DataFields" pc="268462206" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="107" lineNum="35" parent="globals/DataFields" pc="268462206" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="33" parent="globals/AlwaysOnDisplay" pc="268459110" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="34" parent="globals/AlwaysOnDisplay" pc="268459114" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="36" parent="globals/AlwaysOnDisplay" pc="268459134" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="38" parent="globals/AlwaysOnDisplay" pc="268459150" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="39" parent="globals/AlwaysOnDisplay" pc="268459163" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="42" parent="globals/AlwaysOnDisplay" pc="268459182" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="43" parent="globals/AlwaysOnDisplay" pc="268459195" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="46" parent="globals/AlwaysOnDisplay" pc="268459214" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="47" parent="globals/AlwaysOnDisplay" pc="268459230" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="48" parent="globals/AlwaysOnDisplay" pc="268459246" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="50" parent="globals/AlwaysOnDisplay" pc="268459262" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="51" parent="globals/AlwaysOnDisplay" pc="268459278" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="53" parent="globals/AlwaysOnDisplay" pc="268459294" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="54" parent="globals/AlwaysOnDisplay" pc="268459337" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="55" parent="globals/AlwaysOnDisplay" pc="268459380" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="56" parent="globals/AlwaysOnDisplay" pc="268459423" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="58" parent="globals/AlwaysOnDisplay" pc="268459466" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="71" parent="globals/AlwaysOnDisplay" pc="268459482" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="109" lineNum="72" parent="globals/AlwaysOnDisplay" pc="268459492" symbol="initialize"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="75" parent="globals/AlwaysOnDisplay" pc="268459518" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="78" parent="globals/AlwaysOnDisplay" pc="268459522" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="79" parent="globals/AlwaysOnDisplay" pc="268459539" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="80" parent="globals/AlwaysOnDisplay" pc="268459581" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="83" parent="globals/AlwaysOnDisplay" pc="268459606" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="85" parent="globals/AlwaysOnDisplay" pc="268459658" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="86" parent="globals/AlwaysOnDisplay" pc="268459668" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="87" parent="globals/AlwaysOnDisplay" pc="268459678" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="89" parent="globals/AlwaysOnDisplay" pc="268459688" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="94" parent="globals/AlwaysOnDisplay" pc="268459707" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="95" parent="globals/AlwaysOnDisplay" pc="268459733" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="96" parent="globals/AlwaysOnDisplay" pc="268459746" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="98" parent="globals/AlwaysOnDisplay" pc="268459768" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="101" parent="globals/AlwaysOnDisplay" pc="268459808" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="108" parent="globals/AlwaysOnDisplay" pc="268459863" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="111" parent="globals/AlwaysOnDisplay" pc="268459889" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="120" parent="globals/AlwaysOnDisplay" pc="268459944" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="121" parent="globals/AlwaysOnDisplay" pc="268459964" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="122" parent="globals/AlwaysOnDisplay" pc="268459990" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="132" parent="globals/AlwaysOnDisplay" pc="268460057" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="133" parent="globals/AlwaysOnDisplay" pc="268460070" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="134" parent="globals/AlwaysOnDisplay" pc="268460087" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="137" parent="globals/AlwaysOnDisplay" pc="268460137" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="138" parent="globals/AlwaysOnDisplay" pc="268460153" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="143" parent="globals/AlwaysOnDisplay" pc="268460153" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="145" parent="globals/AlwaysOnDisplay" pc="268460197" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="146" parent="globals/AlwaysOnDisplay" pc="268460207" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="147" parent="globals/AlwaysOnDisplay" pc="268460221" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="149" parent="globals/AlwaysOnDisplay" pc="268460231" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="158" parent="globals/AlwaysOnDisplay" pc="268460351" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="161" parent="globals/AlwaysOnDisplay" pc="268460403" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="162" parent="globals/AlwaysOnDisplay" pc="268460413" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="163" parent="globals/AlwaysOnDisplay" pc="268460427" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="165" parent="globals/AlwaysOnDisplay" pc="268460437" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="179" parent="globals/AlwaysOnDisplay" pc="268460637" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="182" parent="globals/AlwaysOnDisplay" pc="268460689" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="185" parent="globals/AlwaysOnDisplay" pc="268460716" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="186" parent="globals/AlwaysOnDisplay" pc="268460729" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="195" parent="globals/AlwaysOnDisplay" pc="268460858" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="110" lineNum="196" parent="globals/AlwaysOnDisplay" pc="268460898" symbol="draw"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="111" lineNum="10" parent="globals/AlwaysOnDisplay" pc="268462119" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\always-on-source\\AlwaysOnDisplay.mc" id="111" lineNum="10" parent="globals/AlwaysOnDisplay" pc="268462119" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="113" lineNum="2" parent="globals/Rez/Drawables" pc="268462200" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="114" lineNum="6" parent="globals/Rez/Fonts" pc="268462202" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="115" lineNum="23" parent="globals/Rez/JsonData" pc="268462204" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="116" lineNum="32" parent="globals/Rez/Layouts" pc="268460995" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="34" parent="globals/Rez/Layouts" pc="268461007" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="35" parent="globals/Rez/Layouts" pc="268461031" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="36" parent="globals/Rez/Layouts" pc="268461126" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="37" parent="globals/Rez/Layouts" pc="268461221" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="38" parent="globals/Rez/Layouts" pc="268461355" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="39" parent="globals/Rez/Layouts" pc="268461463" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="40" parent="globals/Rez/Layouts" pc="268461519" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="41" parent="globals/Rez/Layouts" pc="268461614" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="42" parent="globals/Rez/Layouts" pc="268461696" symbol="WatchFace"/>
+        <entry filename="Rez" id="116" lineNum="44" parent="globals/Rez/Layouts" pc="268461804" symbol="WatchFace"/>
+        <entry filename="Rez" id="117" lineNum="53" parent="globals/Rez/Layouts" pc="268461902" symbol="AlwaysOn"/>
+        <entry filename="Rez" id="117" lineNum="55" parent="globals/Rez/Layouts" pc="268461914" symbol="AlwaysOn"/>
+        <entry filename="Rez" id="117" lineNum="57" parent="globals/Rez/Layouts" pc="268462101" symbol="AlwaysOn"/>
+        <entry filename="Rez" id="118" lineNum="25" parent="globals/Rez/Layouts" pc="268462203" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="119" lineNum="62" parent="globals/Rez/Menus" pc="268462201" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="120" lineNum="64" parent="globals/Rez/Strings" pc="268462205" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="121" lineNum="1" parent="globals/Rez" pc="268462176" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="121" lineNum="1" parent="globals/Rez" pc="268462176" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="306" symbol="goalIconLeftX"/>
-        <entry field="true" id="279" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconY&gt;"/>
+        <entry id="330" symbol="goalIconLeftX"/>
+        <entry field="true" id="303" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconY&gt;"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="55" method="true" symbol="onReceiveCityLocalTime"/>
-        <entry field="true" id="212" symbol="&lt;globals/DateLine/&lt;&gt;mY&gt;"/>
+        <entry field="true" id="72" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mTimeY&gt;"/>
+        <entry id="56" method="true" symbol="onReceiveCityLocalTime"/>
+        <entry field="true" id="236" symbol="&lt;globals/DateLine/&lt;&gt;mY&gt;"/>
         <entry id="8390101" object="true" symbol="BufferedBitmap"/>
-        <entry field="true" id="211" symbol="&lt;globals/DateLine/&lt;&gt;mX&gt;"/>
-        <entry field="true" id="201" symbol="&lt;globals/CristalView/&lt;&gt;mDrawables&gt;"/>
-        <entry field="true" id="166" symbol="MinutesColourTitle"/>
-        <entry field="true" id="155" symbol="ThemeRedDark"/>
-        <entry field="true" id="256" symbol="&lt;globals/MoveBar/&lt;&gt;mSeparator&gt;"/>
-        <entry field="true" id="98" symbol="ThemeCornYellowDark"/>
-        <entry field="true" id="138" symbol="FromTheme"/>
-        <entry field="true" id="180" symbol="Altitude"/>
-        <entry id="239" method="true" symbol="drawSegments"/>
-        <entry field="true" id="104" symbol="LocalTimeInCityTitle"/>
+        <entry field="true" id="68" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mSecondsFont&gt;"/>
+        <entry field="true" id="235" symbol="&lt;globals/DateLine/&lt;&gt;mX&gt;"/>
+        <entry field="true" id="67" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mMinutesFont&gt;"/>
+        <entry field="true" id="225" symbol="&lt;globals/CristalView/&lt;&gt;mDrawables&gt;"/>
+        <entry field="true" id="190" symbol="MinutesColourTitle"/>
+        <entry field="true" id="179" symbol="ThemeRedDark"/>
+        <entry field="true" id="280" symbol="&lt;globals/MoveBar/&lt;&gt;mSeparator&gt;"/>
+        <entry field="true" id="122" symbol="ThemeCornYellowDark"/>
+        <entry field="true" id="162" symbol="FromTheme"/>
+        <entry field="true" id="204" symbol="Altitude"/>
+        <entry id="263" method="true" symbol="drawSegments"/>
+        <entry field="true" id="128" symbol="LocalTimeInCityTitle"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry field="true" id="49" symbol="FIELD_TYPE_SUNRISE_SUNSET"/>
-        <entry field="true" id="144" symbol="Temperature"/>
-        <entry field="true" id="103" symbol="HideHoursLeadingZeroTitle"/>
-        <entry field="true" id="152" symbol="Humidity"/>
-        <entry id="210" method="true" symbol="isSleeping"/>
+        <entry field="true" id="113" symbol="AlwaysOnSecondsFont"/>
+        <entry field="true" id="168" symbol="Temperature"/>
+        <entry field="true" id="127" symbol="HideHoursLeadingZeroTitle"/>
+        <entry field="true" id="176" symbol="Humidity"/>
+        <entry id="234" method="true" symbol="isSleeping"/>
         <entry field="true" id="50" symbol="FIELD_TYPE_WEATHER"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="225" symbol="&lt;globals/GoalMeter/&lt;&gt;mSeparator&gt;"/>
-        <entry field="true" id="141" symbol="Steps"/>
+        <entry field="true" id="249" symbol="&lt;globals/GoalMeter/&lt;&gt;mSeparator&gt;"/>
+        <entry field="true" id="165" symbol="Steps"/>
         <entry id="54" object="true" symbol="DataFields"/>
-        <entry field="true" id="69" symbol="&lt;globals/ThickThinTime/&lt;&gt;mAdjustY&gt;"/>
-        <entry id="238" method="true" symbol="createSegmentBuffer"/>
-        <entry id="299" symbol="yLine2"/>
-        <entry field="true" id="191" symbol="&lt;globals/DataFields/&lt;&gt;mBatteryWidth&gt;"/>
-        <entry id="208" method="true" symbol="updateGoalMeters"/>
-        <entry field="true" id="151" symbol="DATE_FONT_OVERRIDE"/>
+        <entry field="true" id="88" symbol="&lt;globals/ThickThinTime/&lt;&gt;mAdjustY&gt;"/>
+        <entry id="262" method="true" symbol="createSegmentBuffer"/>
+        <entry id="323" symbol="yLine2"/>
+        <entry field="true" id="215" symbol="&lt;globals/DataFields/&lt;&gt;mBatteryWidth&gt;"/>
+        <entry id="232" method="true" symbol="updateGoalMeters"/>
+        <entry field="true" id="175" symbol="DATE_FONT_OVERRIDE"/>
         <entry field="true" id="13" symbol="gThemeColour"/>
-        <entry id="290" symbol="secondsClipY"/>
-        <entry field="true" id="132" symbol="ThemeBlueLight"/>
-        <entry field="true" id="128" symbol="Pressure"/>
+        <entry id="314" symbol="secondsClipY"/>
+        <entry field="true" id="156" symbol="ThemeBlueLight"/>
+        <entry field="true" id="152" symbol="Pressure"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-        <entry id="241" method="true" symbol="getFillHeight"/>
-        <entry field="true" id="149" symbol="Off"/>
-        <entry id="302" symbol="batteryWidth"/>
-        <entry field="true" id="111" symbol="MonoHighlight"/>
-        <entry field="true" id="257" symbol="&lt;globals/MoveBar/&lt;&gt;mTailWidth&gt;"/>
-        <entry id="285" symbol="amPm"/>
+        <entry field="true" id="82" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mMonthString&gt;"/>
+        <entry id="265" method="true" symbol="getFillHeight"/>
+        <entry field="true" id="173" symbol="Off"/>
+        <entry id="339" symbol="timeY"/>
+        <entry id="326" symbol="batteryWidth"/>
+        <entry field="true" id="135" symbol="MonoHighlight"/>
+        <entry field="true" id="281" symbol="&lt;globals/MoveBar/&lt;&gt;mTailWidth&gt;"/>
+        <entry id="309" symbol="amPm"/>
         <entry id="25" method="true" symbol="drawBatteryMeter"/>
-        <entry field="true" id="93" symbol="Oct"/>
+        <entry field="true" id="117" symbol="Oct"/>
         <entry id="8389702" method="true" symbol="getHeartRateHistory"/>
-        <entry field="true" id="175" symbol="MeterDigitsStyleTitle"/>
-        <entry field="true" id="270" symbol="&lt;globals/DataArea/&lt;&gt;mRow2Y&gt;"/>
-        <entry field="true" id="167" symbol="ThemeMonoDark"/>
-        <entry id="249" method="true" symbol="drawHorizontal"/>
+        <entry field="true" id="199" symbol="MeterDigitsStyleTitle"/>
+        <entry field="true" id="294" symbol="&lt;globals/DataArea/&lt;&gt;mRow2Y&gt;"/>
+        <entry field="true" id="191" symbol="ThemeMonoDark"/>
+        <entry field="true" id="79" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mDayOfWeek&gt;"/>
+        <entry id="273" method="true" symbol="drawHorizontal"/>
         <entry field="true" id="8389914" symbol="GOAL_TYPE_FLOORS_CLIMBED"/>
-        <entry id="206" method="true" symbol="updateHoursMinutesColours"/>
-        <entry field="true" id="183" symbol="&lt;globals/DataFields/&lt;&gt;mTop&gt;"/>
+        <entry field="true" id="65" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mBurnInYOffsets&gt;"/>
+        <entry id="230" method="true" symbol="updateHoursMinutesColours"/>
+        <entry field="true" id="207" symbol="&lt;globals/DataFields/&lt;&gt;mTop&gt;"/>
         <entry field="true" id="47" symbol="FIELD_TYPE_BATTERY_HIDE_PERCENT"/>
-        <entry field="true" id="84" symbol="MinutesFont"/>
+        <entry field="true" id="103" symbol="MinutesFont"/>
         <entry id="8390104" method="true" symbol="clearClip"/>
-        <entry field="true" id="278" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalMax&gt;"/>
+        <entry field="true" id="302" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalMax&gt;"/>
         <entry field="true" id="41" symbol="FIELD_TYPE_NOTIFICATIONS"/>
-        <entry field="true" id="169" symbol="ThemeRedLight"/>
-        <entry id="305" symbol="goalIconY"/>
-        <entry id="292" symbol="secondsClipHeight"/>
+        <entry id="338" symbol="burnInYOffsets"/>
+        <entry field="true" id="193" symbol="ThemeRedLight"/>
+        <entry id="329" symbol="goalIconY"/>
+        <entry id="316" symbol="secondsClipHeight"/>
         <entry field="true" id="8389915" symbol="GOAL_TYPE_ACTIVE_MINUTES"/>
-        <entry field="true" id="58" symbol="mFieldTypes"/>
-        <entry id="78" method="true" symbol="drawHoursMinutes"/>
-        <entry id="79" method="true" symbol="drawSeconds"/>
+        <entry field="true" id="59" symbol="mFieldTypes"/>
+        <entry id="97" method="true" symbol="drawHoursMinutes"/>
+        <entry id="98" method="true" symbol="drawSeconds"/>
         <entry id="8389800" method="true" symbol="getTemperatureHistory"/>
-        <entry id="204" method="true" symbol="updateNormalFont"/>
+        <entry id="228" method="true" symbol="updateNormalFont"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry id="298" symbol="isValid"/>
+        <entry id="322" symbol="isValid"/>
         <entry field="true" id="31" symbol="GOAL_TYPE_CALORIES"/>
-        <entry field="true" id="145" symbol="Bluetooth"/>
+        <entry field="true" id="169" symbol="Bluetooth"/>
         <entry field="true" id="15" symbol="gMonoDarkColour"/>
-        <entry field="true" id="280" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconLeftX&gt;"/>
+        <entry field="true" id="304" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconLeftX&gt;"/>
         <entry id="8391839" method="true" symbol="getBodyBatteryHistory"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="172" symbol="DataField1Title"/>
+        <entry field="true" id="196" symbol="DataField1Title"/>
         <entry id="8389801" method="true" symbol="getPressureHistory"/>
-        <entry field="true" id="133" symbol="Nov"/>
-        <entry field="true" id="110" symbol="Aug"/>
-        <entry field="true" id="115" symbol="Hidden"/>
-        <entry field="true" id="68" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsY&gt;"/>
-        <entry field="true" id="195" symbol="&lt;globals/CristalView/&lt;&gt;mIsSleeping&gt;"/>
-        <entry field="true" id="120" symbol="ThemeGreenLight"/>
-        <entry field="true" id="217" symbol="&lt;globals/DateLine/&lt;&gt;mMonthString&gt;"/>
-        <entry id="301" symbol="spacingY"/>
-        <entry id="300" symbol="spacingX"/>
-        <entry field="true" id="57" symbol="mView"/>
-        <entry field="true" id="143" symbol="HeartRate"/>
-        <entry field="true" id="218" symbol="&lt;globals/DateLine/&lt;&gt;mFont&gt;"/>
-        <entry field="true" id="176" symbol="ThemePinkDark"/>
-        <entry field="true" id="95" symbol="Apr"/>
-        <entry id="286" symbol="adjustY"/>
-        <entry field="true" id="164" symbol="Tue"/>
-        <entry field="true" id="127" symbol="ThemeMonoLight"/>
+        <entry field="true" id="157" symbol="Nov"/>
+        <entry field="true" id="134" symbol="Aug"/>
+        <entry field="true" id="139" symbol="Hidden"/>
+        <entry field="true" id="87" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsY&gt;"/>
+        <entry id="342" symbol="dataY"/>
+        <entry field="true" id="219" symbol="&lt;globals/CristalView/&lt;&gt;mIsSleeping&gt;"/>
+        <entry field="true" id="144" symbol="ThemeGreenLight"/>
+        <entry field="true" id="241" symbol="&lt;globals/DateLine/&lt;&gt;mMonthString&gt;"/>
+        <entry id="325" symbol="spacingY"/>
+        <entry id="324" symbol="spacingX"/>
+        <entry field="true" id="58" symbol="mView"/>
+        <entry field="true" id="167" symbol="HeartRate"/>
+        <entry field="true" id="242" symbol="&lt;globals/DateLine/&lt;&gt;mFont&gt;"/>
+        <entry field="true" id="200" symbol="ThemePinkDark"/>
+        <entry field="true" id="119" symbol="Apr"/>
+        <entry id="310" symbol="adjustY"/>
+        <entry field="true" id="188" symbol="Tue"/>
+        <entry field="true" id="151" symbol="ThemeMonoLight"/>
         <entry id="10" object="true" symbol="BackgroundService"/>
-        <entry field="true" id="150" symbol="AppName"/>
+        <entry field="true" id="174" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
-        <entry field="true" id="235" symbol="&lt;globals/GoalMeter/&lt;&gt;mIsOff&gt;"/>
-        <entry field="true" id="154" symbol="MoveBarStyleTitle"/>
-        <entry field="true" id="65" symbol="&lt;globals/ThickThinTime/&lt;&gt;mHoursFont&gt;"/>
-        <entry field="true" id="159" symbol="FloorsClimbed"/>
-        <entry id="312" symbol="top"/>
-        <entry field="true" id="117" symbol="BodyBattery"/>
+        <entry field="true" id="259" symbol="&lt;globals/GoalMeter/&lt;&gt;mIsOff&gt;"/>
+        <entry field="true" id="178" symbol="MoveBarStyleTitle"/>
+        <entry field="true" id="84" symbol="&lt;globals/ThickThinTime/&lt;&gt;mHoursFont&gt;"/>
+        <entry field="true" id="183" symbol="FloorsClimbed"/>
+        <entry id="336" symbol="top"/>
+        <entry field="true" id="141" symbol="BodyBattery"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry field="true" id="17" symbol="gMeterBackgroundColour"/>
-        <entry field="true" id="105" symbol="FilledSegments"/>
+        <entry field="true" id="129" symbol="FilledSegments"/>
         <entry id="8389594" symbol="headers"/>
-        <entry id="209" method="true" symbol="getValuesForGoalType"/>
-        <entry field="true" id="216" symbol="&lt;globals/DateLine/&lt;&gt;mMonth&gt;"/>
-        <entry field="true" id="276" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalIsValid&gt;"/>
+        <entry id="233" method="true" symbol="getValuesForGoalType"/>
+        <entry field="true" id="240" symbol="&lt;globals/DateLine/&lt;&gt;mMonth&gt;"/>
+        <entry field="true" id="300" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalIsValid&gt;"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="269" symbol="&lt;globals/DataArea/&lt;&gt;mRow1Y&gt;"/>
-        <entry id="251" method="true" symbol="drawIndicator"/>
+        <entry field="true" id="293" symbol="&lt;globals/DataArea/&lt;&gt;mRow1Y&gt;"/>
+        <entry id="275" method="true" symbol="drawIndicator"/>
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry id="8390147" object="true" symbol="ServiceDelegate"/>
-        <entry id="268" method="true" symbol="drawBar"/>
-        <entry field="true" id="122" symbol="Distance"/>
+        <entry id="292" method="true" symbol="drawBar"/>
+        <entry field="true" id="146" symbol="Distance"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="153" symbol="DataField3Title"/>
-        <entry field="true" id="91" symbol="WeatherIconsFontNight"/>
-        <entry field="true" id="88" symbol="NormalFontCities"/>
+        <entry field="true" id="177" symbol="DataField3Title"/>
+        <entry field="true" id="110" symbol="WeatherIconsFontNight"/>
+        <entry field="true" id="107" symbol="NormalFontCities"/>
         <entry id="8390097" method="true" symbol="onPartialUpdate"/>
-        <entry field="true" id="156" symbol="Thu"/>
-        <entry field="true" id="197" symbol="&lt;globals/CristalView/&lt;&gt;mBurnInProtectionChangedSinceLastDraw&gt;"/>
-        <entry field="true" id="185" symbol="&lt;globals/DataFields/&lt;&gt;mWeatherIconsFont&gt;"/>
-        <entry field="true" id="232" symbol="&lt;globals/GoalMeter/&lt;&gt;mBuffersNeedRedraw&gt;"/>
+        <entry field="true" id="180" symbol="Thu"/>
+        <entry field="true" id="221" symbol="&lt;globals/CristalView/&lt;&gt;mBurnInProtectionChangedSinceLastDraw&gt;"/>
+        <entry field="true" id="209" symbol="&lt;globals/DataFields/&lt;&gt;mWeatherIconsFont&gt;"/>
+        <entry field="true" id="256" symbol="&lt;globals/GoalMeter/&lt;&gt;mBuffersNeedRedraw&gt;"/>
         <entry id="28" object="true" symbol="Indicators"/>
-        <entry id="313" symbol="bottom"/>
-        <entry id="193" method="true" symbol="&lt;globals/DataFields/&lt;&gt;getValueForFieldType&gt;"/>
+        <entry field="true" id="114" symbol="AlwaysOnDateFont"/>
+        <entry id="337" symbol="bottom"/>
+        <entry id="217" method="true" symbol="&lt;globals/DataFields/&lt;&gt;getValueForFieldType&gt;"/>
         <entry id="8389117" method="true" symbol="getWidth"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="101" symbol="Indicator2Title"/>
+        <entry field="true" id="125" symbol="Indicator2Title"/>
         <entry id="8390148" method="true" symbol="onTemporalEvent"/>
-        <entry id="56" method="true" symbol="onReceiveOpenWeatherMapCurrent"/>
+        <entry field="true" id="77" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mDataLeft&gt;"/>
+        <entry id="57" method="true" symbol="onReceiveOpenWeatherMapCurrent"/>
         <entry field="true" id="19" symbol="gMinutesColour"/>
-        <entry field="true" id="187" symbol="&lt;globals/DataFields/&lt;&gt;mFieldCount&gt;"/>
+        <entry field="true" id="211" symbol="&lt;globals/DataFields/&lt;&gt;mFieldCount&gt;"/>
         <entry field="true" id="35" symbol="gLocationLng"/>
-        <entry id="308" symbol="side"/>
-        <entry field="true" id="100" symbol="RightGoalMeterTitle"/>
-        <entry id="294" symbol="LeftGoalMeter"/>
-        <entry id="264" method="true" symbol="setFullWidth"/>
+        <entry id="332" symbol="side"/>
+        <entry field="true" id="124" symbol="RightGoalMeterTitle"/>
+        <entry id="318" symbol="LeftGoalMeter"/>
+        <entry id="288" method="true" symbol="setFullWidth"/>
         <entry field="true" id="16" symbol="gBackgroundColour"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="189" symbol="&lt;globals/DataFields/&lt;&gt;mWasHRAvailable&gt;"/>
-        <entry field="true" id="170" symbol="Mon"/>
-        <entry field="true" id="136" symbol="Current"/>
-        <entry id="304" symbol="row2Y"/>
+        <entry field="true" id="213" symbol="&lt;globals/DataFields/&lt;&gt;mWasHRAvailable&gt;"/>
+        <entry field="true" id="194" symbol="Mon"/>
+        <entry field="true" id="160" symbol="Current"/>
+        <entry id="328" symbol="row2Y"/>
         <entry field="true" id="22" symbol="SCREEN_MULTIPLIER"/>
         <entry field="true" id="8391489" module="true" symbol="Weather"/>
-        <entry id="303" symbol="row1Y"/>
-        <entry field="true" id="243" symbol="&lt;globals/Indicators/&lt;&gt;mSpacing&gt;"/>
-        <entry field="true" id="277" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalCurrent&gt;"/>
+        <entry id="327" symbol="row1Y"/>
+        <entry field="true" id="267" symbol="&lt;globals/Indicators/&lt;&gt;mSpacing&gt;"/>
+        <entry field="true" id="301" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalCurrent&gt;"/>
         <entry field="true" id="20" symbol="gNormalFont"/>
         <entry field="true" id="52" symbol="FIELD_TYPE_HUMIDITY"/>
-        <entry field="true" id="107" symbol="HoursColourTitle"/>
+        <entry field="true" id="131" symbol="HoursColourTitle"/>
         <entry field="true" id="8388721" symbol="min"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="8389067" symbol="height"/>
-        <entry id="63" method="true" symbol="getFormattedTime"/>
-        <entry field="true" id="129" symbol="Sun"/>
+        <entry id="64" method="true" symbol="getFormattedTime"/>
+        <entry field="true" id="153" symbol="Sun"/>
         <entry id="36" object="true" symbol="CristalApp"/>
         <entry field="true" id="14" symbol="gMonoLightColour"/>
         <entry field="true" id="30" symbol="GOAL_TYPE_BATTERY"/>
         <entry id="11" object="true" symbol="MoveBar"/>
         <entry field="true" id="34" symbol="gLocationLat"/>
         <entry id="8390169" method="true" symbol="getServiceDelegate"/>
-        <entry id="81" module="true" symbol="Menus"/>
+        <entry id="100" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="27" object="true" symbol="DateLine"/>
         <entry field="true" id="8389869" symbol="activeMinutesWeek"/>
         <entry field="true" id="8389066" symbol="width"/>
-        <entry id="288" symbol="secondsY"/>
-        <entry id="242" method="true" symbol="getSegmentScale"/>
-        <entry id="289" symbol="secondsX"/>
+        <entry id="312" symbol="secondsY"/>
+        <entry id="266" method="true" symbol="getSegmentScale"/>
+        <entry id="313" symbol="secondsX"/>
         <entry field="true" id="51" symbol="FIELD_TYPE_PRESSURE"/>
-        <entry field="true" id="76" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipXAdjust&gt;"/>
-        <entry id="297" symbol="max"/>
-        <entry field="true" id="246" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator1Type&gt;"/>
+        <entry field="true" id="95" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipXAdjust&gt;"/>
+        <entry id="321" symbol="max"/>
+        <entry field="true" id="270" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator1Type&gt;"/>
         <entry field="true" id="40" symbol="FIELD_TYPE_BATTERY"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="23" symbol="BATTERY_HEAD_HEIGHT"/>
-        <entry field="true" id="146" symbol="May"/>
-        <entry field="true" id="139" symbol="Mar"/>
+        <entry field="true" id="170" symbol="May"/>
+        <entry field="true" id="163" symbol="Mar"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="178" symbol="Fri"/>
-        <entry field="true" id="165" symbol="Alarms"/>
-        <entry field="true" id="253" symbol="&lt;globals/MoveBar/&lt;&gt;mY&gt;"/>
-        <entry field="true" id="221" symbol="&lt;globals/GoalMeter/&lt;&gt;mSide&gt;"/>
+        <entry field="true" id="202" symbol="Fri"/>
+        <entry field="true" id="189" symbol="Alarms"/>
+        <entry field="true" id="277" symbol="&lt;globals/MoveBar/&lt;&gt;mY&gt;"/>
+        <entry field="true" id="245" symbol="&lt;globals/GoalMeter/&lt;&gt;mSide&gt;"/>
+        <entry field="true" id="70" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mBatteryFont&gt;"/>
         <entry field="true" id="42" symbol="FIELD_TYPE_CALORIES"/>
-        <entry field="true" id="252" symbol="&lt;globals/MoveBar/&lt;&gt;mX&gt;"/>
-        <entry field="true" id="228" symbol="&lt;globals/GoalMeter/&lt;&gt;mFillHeight&gt;"/>
-        <entry id="250" method="true" symbol="drawVertical"/>
-        <entry id="309" symbol="stroke"/>
-        <entry field="true" id="96" symbol="LeftGoalMeterTitle"/>
-        <entry field="true" id="131" symbol="CurrentTarget"/>
-        <entry field="true" id="140" symbol="Sep"/>
-        <entry field="true" id="245" symbol="&lt;globals/Indicators/&lt;&gt;mBatteryWidth&gt;"/>
-        <entry field="true" id="182" symbol="&lt;globals/DataFields/&lt;&gt;mRight&gt;"/>
-        <entry field="true" id="147" symbol="Sat"/>
-        <entry id="203" method="true" symbol="cacheDrawables"/>
+        <entry field="true" id="276" symbol="&lt;globals/MoveBar/&lt;&gt;mX&gt;"/>
+        <entry field="true" id="252" symbol="&lt;globals/GoalMeter/&lt;&gt;mFillHeight&gt;"/>
+        <entry id="274" method="true" symbol="drawVertical"/>
+        <entry id="333" symbol="stroke"/>
+        <entry field="true" id="120" symbol="LeftGoalMeterTitle"/>
+        <entry field="true" id="155" symbol="CurrentTarget"/>
+        <entry field="true" id="164" symbol="Sep"/>
+        <entry field="true" id="269" symbol="&lt;globals/Indicators/&lt;&gt;mBatteryWidth&gt;"/>
+        <entry field="true" id="206" symbol="&lt;globals/DataFields/&lt;&gt;mRight&gt;"/>
+        <entry field="true" id="171" symbol="Sat"/>
+        <entry id="227" method="true" symbol="cacheDrawables"/>
         <entry id="8389802" method="true" symbol="getElevationHistory"/>
-        <entry field="true" id="223" symbol="&lt;globals/GoalMeter/&lt;&gt;mWidth&gt;"/>
-        <entry id="287" symbol="amPmOffset"/>
-        <entry field="true" id="83" symbol="HoursFont"/>
+        <entry field="true" id="247" symbol="&lt;globals/GoalMeter/&lt;&gt;mWidth&gt;"/>
+        <entry id="311" symbol="amPmOffset"/>
+        <entry field="true" id="102" symbol="HoursFont"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="85" symbol="SecondsFont"/>
+        <entry field="true" id="104" symbol="SecondsFont"/>
         <entry field="true" id="21" symbol="gIconsFont"/>
-        <entry field="true" id="160" symbol="Feb"/>
+        <entry field="true" id="184" symbol="Feb"/>
         <entry field="true" id="48" symbol="FIELD_TYPE_HR_LIVE_5S"/>
-        <entry field="true" id="108" symbol="ThemeDaygloOrangeDark"/>
-        <entry field="true" id="248" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator3Type&gt;"/>
+        <entry field="true" id="132" symbol="ThemeDaygloOrangeDark"/>
+        <entry field="true" id="272" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator3Type&gt;"/>
         <entry id="37" object="true" symbol="GoalMeterMask"/>
+        <entry field="true" id="78" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;AM_PM_X_OFFSET&gt;"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8390170" method="true" symbol="onBackgroundData"/>
-        <entry field="true" id="202" symbol="&lt;globals/CristalView/&lt;&gt;PER_SECOND_UPDATES_SUPPORTED&gt;"/>
-        <entry field="true" id="87" symbol="NormalFont"/>
-        <entry field="true" id="196" symbol="&lt;globals/CristalView/&lt;&gt;mIsBurnInProtection&gt;"/>
+        <entry field="true" id="226" symbol="&lt;globals/CristalView/&lt;&gt;PER_SECOND_UPDATES_SUPPORTED&gt;"/>
+        <entry field="true" id="106" symbol="NormalFont"/>
+        <entry field="true" id="220" symbol="&lt;globals/CristalView/&lt;&gt;mIsBurnInProtection&gt;"/>
         <entry id="8389809" symbol="order"/>
-        <entry field="true" id="116" symbol="CaloriesManualGoal"/>
+        <entry field="true" id="140" symbol="CaloriesManualGoal"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry id="207" method="true" symbol="onSettingsChangedSinceLastDraw"/>
-        <entry field="true" id="86" symbol="DateFont"/>
-        <entry field="true" id="281" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconRightX&gt;"/>
-        <entry field="true" id="181" symbol="&lt;globals/DataFields/&lt;&gt;mLeft&gt;"/>
+        <entry id="231" method="true" symbol="onSettingsChangedSinceLastDraw"/>
+        <entry field="true" id="66" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mHoursFont&gt;"/>
+        <entry field="true" id="105" symbol="DateFont"/>
+        <entry field="true" id="305" symbol="&lt;globals/DataArea/&lt;&gt;mGoalIconRightX&gt;"/>
+        <entry field="true" id="205" symbol="&lt;globals/DataFields/&lt;&gt;mLeft&gt;"/>
         <entry field="true" id="8389913" symbol="GOAL_TYPE_STEPS"/>
-        <entry field="true" id="106" symbol="OWMKeyOverride"/>
-        <entry id="205" method="true" symbol="updateThemeColours"/>
+        <entry field="true" id="130" symbol="OWMKeyOverride"/>
+        <entry id="229" method="true" symbol="updateThemeColours"/>
         <entry field="true" id="46" symbol="FIELD_TYPE_TEMPERATURE"/>
-        <entry field="true" id="75" symbol="&lt;globals/ThickThinTime/&lt;&gt;AM_PM_X_OFFSET&gt;"/>
-        <entry field="true" id="67" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsFont&gt;"/>
-        <entry field="true" id="229" symbol="&lt;globals/GoalMeter/&lt;&gt;mFilledBuffer&gt;"/>
-        <entry field="true" id="66" symbol="&lt;globals/ThickThinTime/&lt;&gt;mMinutesFont&gt;"/>
-        <entry field="true" id="97" symbol="FilledSegmentsMerged"/>
-        <entry field="true" id="188" symbol="&lt;globals/DataFields/&lt;&gt;mHasLiveHR&gt;"/>
-        <entry field="true" id="255" symbol="&lt;globals/MoveBar/&lt;&gt;mHeight&gt;"/>
+        <entry field="true" id="94" symbol="&lt;globals/ThickThinTime/&lt;&gt;AM_PM_X_OFFSET&gt;"/>
+        <entry field="true" id="86" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsFont&gt;"/>
+        <entry field="true" id="253" symbol="&lt;globals/GoalMeter/&lt;&gt;mFilledBuffer&gt;"/>
+        <entry field="true" id="85" symbol="&lt;globals/ThickThinTime/&lt;&gt;mMinutesFont&gt;"/>
+        <entry field="true" id="121" symbol="FilledSegmentsMerged"/>
+        <entry field="true" id="212" symbol="&lt;globals/DataFields/&lt;&gt;mHasLiveHR&gt;"/>
+        <entry field="true" id="76" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mDataY&gt;"/>
+        <entry field="true" id="279" symbol="&lt;globals/MoveBar/&lt;&gt;mHeight&gt;"/>
         <entry field="true" id="45" symbol="FIELD_TYPE_ALTITUDE"/>
         <entry id="26" object="true" symbol="CristalView"/>
-        <entry field="true" id="99" symbol="ThemeCornflowerBlueDark"/>
-        <entry field="true" id="94" symbol="ThemeLemonCreamDark"/>
+        <entry field="true" id="123" symbol="ThemeCornflowerBlueDark"/>
+        <entry field="true" id="118" symbol="ThemeLemonCreamDark"/>
         <entry field="true" id="24" symbol="BATTERY_MARGIN"/>
         <entry id="9" object="true" symbol="ThickThinTime"/>
-        <entry field="true" id="118" symbol="GoalMeterStyleTitle"/>
-        <entry field="true" id="173" symbol="AllSegments"/>
+        <entry field="true" id="142" symbol="GoalMeterStyleTitle"/>
+        <entry field="true" id="197" symbol="AllSegments"/>
         <entry id="8388786" method="true" symbol="method"/>
-        <entry field="true" id="254" symbol="&lt;globals/MoveBar/&lt;&gt;mBaseWidth&gt;"/>
-        <entry field="true" id="234" symbol="&lt;globals/GoalMeter/&lt;&gt;mMaxValue&gt;"/>
-        <entry field="true" id="135" symbol="BluetoothOrNotifications"/>
-        <entry id="61" method="true" symbol="hasField"/>
+        <entry field="true" id="278" symbol="&lt;globals/MoveBar/&lt;&gt;mBaseWidth&gt;"/>
+        <entry field="true" id="258" symbol="&lt;globals/GoalMeter/&lt;&gt;mMaxValue&gt;"/>
+        <entry field="true" id="159" symbol="BluetoothOrNotifications"/>
+        <entry id="62" method="true" symbol="hasField"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry field="true" id="72" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectWidth&gt;"/>
-        <entry field="true" id="102" symbol="HeartRateLive5s"/>
-        <entry id="291" symbol="secondsClipWidth"/>
+        <entry field="true" id="91" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectWidth&gt;"/>
+        <entry field="true" id="126" symbol="HeartRateLive5s"/>
+        <entry id="315" symbol="secondsClipWidth"/>
+        <entry id="341" symbol="lineWidth"/>
         <entry field="true" id="43" symbol="FIELD_TYPE_DISTANCE"/>
-        <entry field="true" id="190" symbol="&lt;globals/DataFields/&lt;&gt;mMaxFieldLength&gt;"/>
+        <entry field="true" id="214" symbol="&lt;globals/DataFields/&lt;&gt;mMaxFieldLength&gt;"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="126" symbol="Mono"/>
+        <entry field="true" id="150" symbol="Mono"/>
         <entry field="true" id="38" symbol="FIELD_TYPE_SUNRISE"/>
-        <entry field="true" id="74" symbol="&lt;globals/ThickThinTime/&lt;&gt;mHideSeconds&gt;"/>
-        <entry field="true" id="259" symbol="&lt;globals/MoveBar/&lt;&gt;mBufferNeedsRedraw&gt;"/>
-        <entry id="240" method="true" symbol="getSegments"/>
-        <entry field="true" id="186" symbol="&lt;globals/DataFields/&lt;&gt;mWeatherIconsSubset&gt;"/>
-        <entry field="true" id="90" symbol="WeatherIconsFontDay"/>
+        <entry field="true" id="93" symbol="&lt;globals/ThickThinTime/&lt;&gt;mHideSeconds&gt;"/>
+        <entry id="340" symbol="lineY"/>
+        <entry field="true" id="283" symbol="&lt;globals/MoveBar/&lt;&gt;mBufferNeedsRedraw&gt;"/>
+        <entry id="343" symbol="dataLeft"/>
+        <entry id="264" method="true" symbol="getSegments"/>
+        <entry field="true" id="210" symbol="&lt;globals/DataFields/&lt;&gt;mWeatherIconsSubset&gt;"/>
+        <entry field="true" id="109" symbol="WeatherIconsFontDay"/>
         <entry id="8391770" method="true" symbol="createBufferedBitmap"/>
-        <entry id="307" symbol="goalIconRightX"/>
-        <entry field="true" id="272" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalIsValid&gt;"/>
+        <entry id="331" symbol="goalIconRightX"/>
+        <entry field="true" id="296" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalIsValid&gt;"/>
         <entry field="true" id="8388720" symbol="hour"/>
-        <entry field="true" id="199" symbol="&lt;globals/CristalView/&lt;&gt;mTime&gt;"/>
-        <entry field="true" id="230" symbol="&lt;globals/GoalMeter/&lt;&gt;mEmptyBuffer&gt;"/>
-        <entry field="true" id="233" symbol="&lt;globals/GoalMeter/&lt;&gt;mCurrentValue&gt;"/>
+        <entry field="true" id="223" symbol="&lt;globals/CristalView/&lt;&gt;mTime&gt;"/>
+        <entry field="true" id="111" symbol="AlwaysOnHoursFont"/>
+        <entry field="true" id="254" symbol="&lt;globals/GoalMeter/&lt;&gt;mEmptyBuffer&gt;"/>
+        <entry field="true" id="257" symbol="&lt;globals/GoalMeter/&lt;&gt;mCurrentValue&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="179" symbol="ThemeGreenDark"/>
-        <entry field="true" id="89" symbol="IconsFont"/>
-        <entry id="220" method="true" symbol="drawSingleLine"/>
+        <entry field="true" id="203" symbol="ThemeGreenDark"/>
+        <entry field="true" id="108" symbol="IconsFont"/>
+        <entry id="244" method="true" symbol="drawSingleLine"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry id="295" symbol="RightGoalMeter"/>
+        <entry field="true" id="112" symbol="AlwaysOnMinutesFont"/>
+        <entry id="319" symbol="RightGoalMeter"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry id="311" symbol="right"/>
-        <entry field="true" id="82" symbol="LauncherIcon"/>
+        <entry field="true" id="80" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mDayOfWeekString&gt;"/>
+        <entry id="335" symbol="right"/>
+        <entry field="true" id="101" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry field="true" id="163" symbol="HideSecondsTitle"/>
+        <entry field="true" id="187" symbol="HideSecondsTitle"/>
         <entry id="8389835" method="true" symbol="makeWebRequest"/>
-        <entry field="true" id="214" symbol="&lt;globals/DateLine/&lt;&gt;mDayOfWeek&gt;"/>
-        <entry field="true" id="168" symbol="FieldCountTitle"/>
-        <entry field="true" id="226" symbol="&lt;globals/GoalMeter/&lt;&gt;mLayoutSeparator&gt;"/>
-        <entry field="true" id="125" symbol="CaloriesGoalTitle"/>
-        <entry field="true" id="215" symbol="&lt;globals/DateLine/&lt;&gt;mDayOfWeekString&gt;"/>
-        <entry id="236" method="true" symbol="setValues"/>
-        <entry field="true" id="158" symbol="AllSegmentsMerged"/>
+        <entry id="55" object="true" symbol="AlwaysOnDisplay"/>
+        <entry field="true" id="238" symbol="&lt;globals/DateLine/&lt;&gt;mDayOfWeek&gt;"/>
+        <entry field="true" id="192" symbol="FieldCountTitle"/>
+        <entry field="true" id="250" symbol="&lt;globals/GoalMeter/&lt;&gt;mLayoutSeparator&gt;"/>
+        <entry field="true" id="149" symbol="CaloriesGoalTitle"/>
+        <entry field="true" id="239" symbol="&lt;globals/DateLine/&lt;&gt;mDayOfWeekString&gt;"/>
+        <entry id="260" method="true" symbol="setValues"/>
+        <entry field="true" id="182" symbol="AllSegmentsMerged"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="271" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalType&gt;"/>
+        <entry field="true" id="295" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalType&gt;"/>
         <entry field="true" id="8389865" object="true" symbol="ActiveMinutes"/>
         <entry field="true" id="8391194" symbol="requiresBurnInProtection"/>
-        <entry field="true" id="200" symbol="mDataFields"/>
-        <entry field="true" id="177" symbol="ThemeVividYellowDark"/>
+        <entry field="true" id="224" symbol="mDataFields"/>
+        <entry field="true" id="201" symbol="ThemeVividYellowDark"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="29" object="true" symbol="DataArea"/>
-        <entry field="true" id="114" symbol="Battery"/>
+        <entry field="true" id="138" symbol="Battery"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
-        <entry field="true" id="130" symbol="DataField2Title"/>
-        <entry field="true" id="119" symbol="ThemeDaygloOrangeLight"/>
+        <entry field="true" id="154" symbol="DataField2Title"/>
+        <entry field="true" id="143" symbol="ThemeDaygloOrangeLight"/>
         <entry field="true" id="44" symbol="FIELD_TYPE_ALARMS"/>
-        <entry field="true" id="109" symbol="SunriseSunset"/>
-        <entry id="266" method="true" symbol="drawBars"/>
+        <entry field="true" id="133" symbol="SunriseSunset"/>
+        <entry field="true" id="73" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mLineY&gt;"/>
+        <entry id="290" method="true" symbol="drawBars"/>
         <entry field="true" id="8389872" symbol="floorsClimbed"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="273" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalCurrent&gt;"/>
-        <entry field="true" id="262" symbol="&lt;globals/MoveBar/&lt;&gt;mIsFullWidth&gt;"/>
-        <entry field="true" id="263" symbol="&lt;globals/MoveBar/&lt;&gt;mCurrentWidth&gt;"/>
-        <entry field="true" id="231" symbol="&lt;globals/GoalMeter/&lt;&gt;mBuffersNeedRecreate&gt;"/>
-        <entry field="true" id="224" symbol="&lt;globals/GoalMeter/&lt;&gt;mHeight&gt;"/>
-        <entry field="true" id="121" symbol="Indicator1Title"/>
-        <entry id="192" method="true" symbol="&lt;globals/DataFields/&lt;&gt;drawDataField&gt;"/>
-        <entry id="92" method="true" symbol="AlwaysOn"/>
-        <entry field="true" id="244" symbol="&lt;globals/Indicators/&lt;&gt;mIsHorizontal&gt;"/>
-        <entry id="219" method="true" symbol="drawDoubleLine"/>
+        <entry field="true" id="297" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalCurrent&gt;"/>
+        <entry field="true" id="286" symbol="&lt;globals/MoveBar/&lt;&gt;mIsFullWidth&gt;"/>
+        <entry field="true" id="287" symbol="&lt;globals/MoveBar/&lt;&gt;mCurrentWidth&gt;"/>
+        <entry field="true" id="255" symbol="&lt;globals/GoalMeter/&lt;&gt;mBuffersNeedRecreate&gt;"/>
+        <entry field="true" id="248" symbol="&lt;globals/GoalMeter/&lt;&gt;mHeight&gt;"/>
+        <entry field="true" id="145" symbol="Indicator1Title"/>
+        <entry id="216" method="true" symbol="&lt;globals/DataFields/&lt;&gt;drawDataField&gt;"/>
+        <entry id="116" method="true" symbol="AlwaysOn"/>
+        <entry field="true" id="268" symbol="&lt;globals/Indicators/&lt;&gt;mIsHorizontal&gt;"/>
+        <entry id="243" method="true" symbol="drawDoubleLine"/>
         <entry id="8389808" symbol="period"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry field="true" id="64" symbol="&lt;globals/GoalMeterMask/&lt;&gt;mStroke&gt;"/>
-        <entry field="true" id="161" symbol="Jun"/>
-        <entry field="true" id="157" symbol="Jul"/>
-        <entry field="true" id="213" symbol="&lt;globals/DateLine/&lt;&gt;mYLine2&gt;"/>
-        <entry field="true" id="113" symbol="ThemeBlueDark"/>
-        <entry field="true" id="148" symbol="IndicatorCountTitle"/>
-        <entry field="true" id="260" symbol="&lt;globals/MoveBar/&lt;&gt;mLastMoveBarLevel&gt;"/>
+        <entry field="true" id="69" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mDateFont&gt;"/>
+        <entry field="true" id="83" symbol="&lt;globals/GoalMeterMask/&lt;&gt;mStroke&gt;"/>
+        <entry field="true" id="185" symbol="Jun"/>
+        <entry field="true" id="181" symbol="Jul"/>
+        <entry field="true" id="237" symbol="&lt;globals/DateLine/&lt;&gt;mYLine2&gt;"/>
+        <entry field="true" id="137" symbol="ThemeBlueDark"/>
+        <entry field="true" id="71" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mAdjustY&gt;"/>
+        <entry field="true" id="172" symbol="IndicatorCountTitle"/>
+        <entry field="true" id="284" symbol="&lt;globals/MoveBar/&lt;&gt;mLastMoveBarLevel&gt;"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry field="true" id="162" symbol="Dec"/>
-        <entry id="237" method="true" symbol="drawBuffered"/>
+        <entry field="true" id="186" symbol="Dec"/>
+        <entry id="261" method="true" symbol="drawBuffered"/>
         <entry id="33" object="true" symbol="GoalMeter"/>
         <entry field="true" id="39" symbol="FIELD_TYPE_HEART_RATE"/>
-        <entry id="267" method="true" symbol="getBarWidth"/>
+        <entry id="291" method="true" symbol="getBarWidth"/>
         <entry id="8389781" module="true" symbol="SensorHistory"/>
-        <entry field="true" id="134" symbol="Wed"/>
-        <entry id="60" method="true" symbol="getIntProperty"/>
+        <entry field="true" id="158" symbol="Wed"/>
+        <entry field="true" id="81" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mMonth&gt;"/>
+        <entry id="61" method="true" symbol="getIntProperty"/>
         <entry field="true" id="18" symbol="gHoursColour"/>
-        <entry field="true" id="198" symbol="&lt;globals/CristalView/&lt;&gt;mSettingsChangedSinceLastDraw&gt;"/>
-        <entry field="true" id="142" symbol="ThemeTitle"/>
-        <entry field="true" id="227" symbol="&lt;globals/GoalMeter/&lt;&gt;mSegments&gt;"/>
-        <entry field="true" id="124" symbol="Indicator3Title"/>
-        <entry field="true" id="123" symbol="AppVersionTitle"/>
-        <entry id="80" module="true" symbol="Layouts"/>
-        <entry field="true" id="222" symbol="&lt;globals/GoalMeter/&lt;&gt;mStroke&gt;"/>
-        <entry field="true" id="171" symbol="Calories"/>
-        <entry field="true" id="274" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalMax&gt;"/>
-        <entry id="194" method="true" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
-        <entry id="310" symbol="left"/>
-        <entry field="true" id="112" symbol="BatteryHidePercentage"/>
-        <entry id="296" symbol="current"/>
-        <entry field="true" id="174" symbol="Jan"/>
-        <entry field="true" id="137" symbol="Notifications"/>
+        <entry field="true" id="222" symbol="&lt;globals/CristalView/&lt;&gt;mSettingsChangedSinceLastDraw&gt;"/>
+        <entry field="true" id="166" symbol="ThemeTitle"/>
+        <entry field="true" id="75" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mLineStroke&gt;"/>
+        <entry field="true" id="251" symbol="&lt;globals/GoalMeter/&lt;&gt;mSegments&gt;"/>
+        <entry field="true" id="148" symbol="Indicator3Title"/>
+        <entry field="true" id="147" symbol="AppVersionTitle"/>
+        <entry id="99" module="true" symbol="Layouts"/>
+        <entry field="true" id="246" symbol="&lt;globals/GoalMeter/&lt;&gt;mStroke&gt;"/>
+        <entry field="true" id="195" symbol="Calories"/>
+        <entry field="true" id="298" symbol="&lt;globals/DataArea/&lt;&gt;mLeftGoalMax&gt;"/>
+        <entry id="218" method="true" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
+        <entry id="334" symbol="left"/>
+        <entry field="true" id="136" symbol="BatteryHidePercentage"/>
+        <entry id="320" symbol="current"/>
+        <entry field="true" id="198" symbol="Jan"/>
+        <entry field="true" id="161" symbol="Notifications"/>
         <entry field="true" id="53" symbol="FIELD_TYPE_BODY_BATTERY"/>
-        <entry field="true" id="258" symbol="&lt;globals/MoveBar/&lt;&gt;mBuffer&gt;"/>
-        <entry field="true" id="184" symbol="&lt;globals/DataFields/&lt;&gt;mBottom&gt;"/>
+        <entry field="true" id="282" symbol="&lt;globals/MoveBar/&lt;&gt;mBuffer&gt;"/>
+        <entry field="true" id="208" symbol="&lt;globals/DataFields/&lt;&gt;mBottom&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-        <entry id="284" method="true" symbol="drawGoalValues"/>
-        <entry field="true" id="73" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectHeight&gt;"/>
-        <entry id="265" method="true" symbol="recreateBuffer"/>
-        <entry id="77" method="true" symbol="setHideSeconds"/>
-        <entry id="62" method="true" symbol="checkPendingWebRequests"/>
-        <entry id="283" method="true" symbol="drawGoalIcon"/>
-        <entry id="59" method="true" symbol="getView"/>
+        <entry id="308" method="true" symbol="drawGoalValues"/>
+        <entry field="true" id="92" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectHeight&gt;"/>
+        <entry id="289" method="true" symbol="recreateBuffer"/>
+        <entry id="96" method="true" symbol="setHideSeconds"/>
+        <entry id="63" method="true" symbol="checkPendingWebRequests"/>
+        <entry id="307" method="true" symbol="drawGoalIcon"/>
+        <entry id="60" method="true" symbol="getView"/>
         <entry id="8390514" method="true" symbol="update"/>
         <entry field="true" id="32" symbol="GOAL_TYPE_OFF"/>
-        <entry field="true" id="275" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalType&gt;"/>
-        <entry id="293" symbol="separator"/>
+        <entry field="true" id="299" symbol="&lt;globals/DataArea/&lt;&gt;mRightGoalType&gt;"/>
+        <entry id="317" symbol="separator"/>
         <entry id="8390103" method="true" symbol="setClip"/>
-        <entry field="true" id="261" symbol="&lt;globals/MoveBar/&lt;&gt;mBufferNeedsRecreate&gt;"/>
+        <entry field="true" id="285" symbol="&lt;globals/MoveBar/&lt;&gt;mBufferNeedsRecreate&gt;"/>
         <entry field="true" id="8390079" symbol="y"/>
         <entry field="true" id="8390078" symbol="x"/>
-        <entry field="true" id="247" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator2Type&gt;"/>
+        <entry field="true" id="74" symbol="&lt;globals/AlwaysOnDisplay/&lt;&gt;mLineWidth&gt;"/>
+        <entry field="true" id="271" symbol="&lt;globals/Indicators/&lt;&gt;mIndicator2Type&gt;"/>
         <entry field="true" id="12" symbol="INTEGER_FORMAT"/>
-        <entry field="true" id="71" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectY&gt;"/>
-        <entry id="282" method="true" symbol="setGoalValues"/>
-        <entry field="true" id="70" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectX&gt;"/>
+        <entry field="true" id="115" symbol="AlwaysOnBatteryFont"/>
+        <entry field="true" id="90" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectY&gt;"/>
+        <entry id="306" method="true" symbol="setGoalValues"/>
+        <entry field="true" id="89" symbol="&lt;globals/ThickThinTime/&lt;&gt;mSecondsClipRectX&gt;"/>
         <entry id="8389660" symbol="palette"/>
     </symbolTable>
     <localVars>
@@ -1727,17 +1819,39 @@
         <entry arg="true" endPc="268459109" name="lng" stackId="2" startPc="268457872"/>
         <entry arg="true" endPc="268459109" name="lat" stackId="1" startPc="268457872"/>
         <entry arg="true" endPc="268459109" name="tz" stackId="3" startPc="268457872"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_LeftGoalMeter" stackId="3" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_Time" stackId="9" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_Date" stackId="7" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_DataFields" stackId="6" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_MoveBar" stackId="10" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_Indicators" stackId="8" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_DataArea" stackId="5" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_RightGoalMeter" stackId="4" startPc="268459122"/>
-        <entry endPc="268460041" name="rez_cmp_local_custom_drawable_11470171487861541212" stackId="2" startPc="268459122"/>
-        <entry arg="true" endPc="268460042" name="dc" stackId="1" startPc="268459110"/>
-        <entry arg="true" endPc="268460062" name="dc" stackId="1" startPc="268460043"/>
+        <entry endPc="268459516" name="dateFont" stackId="3" startPc="268459114"/>
+        <entry endPc="268459516" name="rezFonts" stackId="2" startPc="268459114"/>
+        <entry arg="true" endPc="268459517" name="params" stackId="1" startPc="268459110"/>
+        <entry endPc="268460993" name="rezStrings" stackId="12" startPc="268459522"/>
+        <entry endPc="268460993" name="now" stackId="14" startPc="268459522"/>
+        <entry endPc="268460993" name="dayOfWeek" stackId="15" startPc="268459522"/>
+        <entry endPc="268460993" name="clockTime" stackId="2" startPc="268459522"/>
+        <entry endPc="268460993" name="minutes" stackId="6" startPc="268459522"/>
+        <entry endPc="268460993" name="formattedTime" stackId="3" startPc="268459522"/>
+        <entry endPc="268460993" name="halfDCWidth" stackId="8" startPc="268459522"/>
+        <entry endPc="268460993" name="totalWidth" stackId="9" startPc="268459522"/>
+        <entry endPc="268460993" name="battery" stackId="18" startPc="268459522"/>
+        <entry endPc="268460993" name="month" stackId="16" startPc="268459522"/>
+        <entry endPc="268460993" name="resourceArray" stackId="13" startPc="268459522"/>
+        <entry endPc="268460993" name="day" stackId="17" startPc="268459522"/>
+        <entry endPc="268460993" name="y" stackId="11" startPc="268459522"/>
+        <entry endPc="268460993" name="x" stackId="10" startPc="268459522"/>
+        <entry endPc="268460993" name="hours" stackId="5" startPc="268459522"/>
+        <entry endPc="268460993" name="burnInYOffset" stackId="4" startPc="268459522"/>
+        <entry endPc="268460993" name="amPmText" stackId="7" startPc="268459522"/>
+        <entry arg="true" endPc="268460994" name="dc" stackId="1" startPc="268459518"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_LeftGoalMeter" stackId="3" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_Time" stackId="9" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_Date" stackId="7" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_DataFields" stackId="6" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_MoveBar" stackId="10" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_37861623523800416094" stackId="2" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_Indicators" stackId="8" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_DataArea" stackId="5" startPc="268461007"/>
+        <entry endPc="268461900" name="rez_cmp_local_custom_drawable_RightGoalMeter" stackId="4" startPc="268461007"/>
+        <entry arg="true" endPc="268461901" name="dc" stackId="1" startPc="268460995"/>
+        <entry endPc="268462117" name="rez_cmp_local_custom_drawable_AlwaysOnDisplay" stackId="2" startPc="268461914"/>
+        <entry arg="true" endPc="268462118" name="dc" stackId="1" startPc="268461902"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="background_method" class="BackgroundService" module="globals" symbol="initialize"/>
@@ -1770,6 +1884,11 @@
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="IconsFont"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="WeatherIconsFontDay"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="WeatherIconsFontNight"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AlwaysOnHoursFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AlwaysOnMinutesFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AlwaysOnSecondsFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AlwaysOnDateFont"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="AlwaysOnBatteryFont"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Oct"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ThemeLemonCreamDark"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Apr"/>
@@ -1863,25 +1982,26 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/BackgroundService" offset="534" parentId="globals" symbolId="BackgroundService" type="class"/>
-        <dataEntry label="globals/CristalApp" offset="613" parentId="globals" symbolId="CristalApp" type="class"/>
-        <dataEntry label="globals/GoalMeterMask" offset="1954" parentId="globals" symbolId="GoalMeterMask" type="class"/>
-        <dataEntry label="globals/ThickThinTime" offset="2017" parentId="globals" symbolId="ThickThinTime" type="class"/>
-        <dataEntry label="globals/Rez" offset="2192" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="2271" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="2310" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="2341" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="2444" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="2491" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="2522" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/DataFields" offset="3273" parentId="globals" symbolId="DataFields" type="class"/>
-        <dataEntry label="globals/CristalView" offset="3456" parentId="globals" symbolId="CristalView" type="class"/>
-        <dataEntry label="globals/DateLine" offset="3687" parentId="globals" symbolId="DateLine" type="class"/>
-        <dataEntry label="globals/GoalMeter" offset="3822" parentId="globals" symbolId="GoalMeter" type="class"/>
-        <dataEntry label="globals/Indicators" offset="4069" parentId="globals" symbolId="Indicators" type="class"/>
-        <dataEntry label="globals/MoveBar" offset="4204" parentId="globals" symbolId="MoveBar" type="class"/>
-        <dataEntry label="globals/DataArea" offset="4411" parentId="globals" symbolId="DataArea" type="class"/>
-        <dataEntry label="globals/Background" offset="4594" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/BackgroundService" offset="542" parentId="globals" symbolId="BackgroundService" type="class"/>
+        <dataEntry label="globals/CristalApp" offset="621" parentId="globals" symbolId="CristalApp" type="class"/>
+        <dataEntry label="globals/AlwaysOnDisplay" offset="1962" parentId="globals" symbolId="AlwaysOnDisplay" type="class"/>
+        <dataEntry label="globals/GoalMeterMask" offset="2161" parentId="globals" symbolId="GoalMeterMask" type="class"/>
+        <dataEntry label="globals/ThickThinTime" offset="2224" parentId="globals" symbolId="ThickThinTime" type="class"/>
+        <dataEntry label="globals/Rez" offset="2399" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="2478" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="2517" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="2548" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="2691" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="2738" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="2769" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/DataFields" offset="3520" parentId="globals" symbolId="DataFields" type="class"/>
+        <dataEntry label="globals/CristalView" offset="3703" parentId="globals" symbolId="CristalView" type="class"/>
+        <dataEntry label="globals/DateLine" offset="3934" parentId="globals" symbolId="DateLine" type="class"/>
+        <dataEntry label="globals/GoalMeter" offset="4069" parentId="globals" symbolId="GoalMeter" type="class"/>
+        <dataEntry label="globals/Indicators" offset="4316" parentId="globals" symbolId="Indicators" type="class"/>
+        <dataEntry label="globals/MoveBar" offset="4451" parentId="globals" symbolId="MoveBar" type="class"/>
+        <dataEntry label="globals/DataArea" offset="4658" parentId="globals" symbolId="DataArea" type="class"/>
+        <dataEntry label="globals/Background" offset="4841" parentId="globals" symbolId="Background" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268438410" name="initialize" parent="ThickThinTime" startPc="268438113">
@@ -1905,7 +2025,7 @@
             <param id="isPartialUpdate"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460100" name="&lt;init&gt;" parent="ThickThinTime" startPc="268460082">
+        <functionEntry accessMode="protected" endPc="268462175" name="&lt;init&gt;" parent="ThickThinTime" startPc="268462157">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435482" name="initialize" parent="BackgroundService" startPc="268435456">
@@ -1974,7 +2094,7 @@
             <param id="width"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460284" name="&lt;init&gt;" parent="MoveBar" startPc="268460266">
+        <functionEntry accessMode="protected" endPc="268462359" name="&lt;init&gt;" parent="MoveBar" startPc="268462341">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268441330" name="drawBatteryMeter" startPc="268440895">
@@ -2038,7 +2158,7 @@
             <param id="hideSeconds"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460208" name="&lt;init&gt;" parent="CristalView" startPc="268460150">
+        <functionEntry accessMode="protected" endPc="268462283" name="&lt;init&gt;" parent="CristalView" startPc="268462225">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268444797" name="initialize" parent="DateLine" startPc="268444674">
@@ -2059,7 +2179,7 @@
             <param id="day"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460227" name="&lt;init&gt;" parent="DateLine" startPc="268460209">
+        <functionEntry accessMode="protected" endPc="268462302" name="&lt;init&gt;" parent="DateLine" startPc="268462284">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268446355" name="initialize" parent="Indicators" startPc="268446245">
@@ -2090,7 +2210,7 @@
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460265" name="&lt;init&gt;" parent="Indicators" startPc="268460247">
+        <functionEntry accessMode="protected" endPc="268462340" name="&lt;init&gt;" parent="Indicators" startPc="268462322">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268447607" name="initialize" parent="Background" startPc="268447566">
@@ -2100,7 +2220,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460322" name="&lt;init&gt;" parent="Background" startPc="268460304">
+        <functionEntry accessMode="protected" endPc="268462397" name="&lt;init&gt;" parent="Background" startPc="268462379">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268447761" name="initialize" parent="DataArea" startPc="268447657">
@@ -2134,7 +2254,7 @@
             <param id="align"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460303" name="&lt;init&gt;" parent="DataArea" startPc="268460285">
+        <functionEntry accessMode="protected" endPc="268462378" name="&lt;init&gt;" parent="DataArea" startPc="268462360">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268449629" name="initialize" parent="GoalMeter" startPc="268449510">
@@ -2187,7 +2307,7 @@
         <functionEntry accessMode="public" endPc="268452383" name="getSegmentScale" parent="GoalMeter" startPc="268452182">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460246" name="&lt;init&gt;" parent="GoalMeter" startPc="268460228">
+        <functionEntry accessMode="protected" endPc="268462321" name="&lt;init&gt;" parent="GoalMeter" startPc="268462303">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436271" name="initialize" parent="CristalApp" startPc="268436249">
@@ -2237,7 +2357,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460081" name="&lt;init&gt;" parent="GoalMeterMask" startPc="268460063">
+        <functionEntry accessMode="protected" endPc="268462156" name="&lt;init&gt;" parent="GoalMeterMask" startPc="268462138">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268452650" name="initialize" parent="DataFields" startPc="268452534">
@@ -2274,36 +2394,47 @@
             <param id="tomorrow"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460149" name="&lt;init&gt;" parent="DataFields" startPc="268460131">
+        <functionEntry accessMode="protected" endPc="268462224" name="&lt;init&gt;" parent="DataFields" startPc="268462206">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460125" name="&lt;init&gt;" parent="Drawables" startPc="268460125">
+        <functionEntry accessMode="public" endPc="268459517" name="initialize" parent="AlwaysOnDisplay" startPc="268459110">
+            <param id="params"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460127" name="&lt;init&gt;" parent="Fonts" startPc="268460127">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460129" name="&lt;init&gt;" parent="JsonData" startPc="268460129">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268460042" name="WatchFace" parent="Layouts" startPc="268459110">
+        <functionEntry accessMode="public" endPc="268460994" name="draw" parent="AlwaysOnDisplay" startPc="268459518">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268460062" name="AlwaysOn" parent="Layouts" startPc="268460043">
+        <functionEntry accessMode="protected" endPc="268462137" name="&lt;init&gt;" parent="AlwaysOnDisplay" startPc="268462119">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268462200" name="&lt;init&gt;" parent="Drawables" startPc="268462200">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268462202" name="&lt;init&gt;" parent="Fonts" startPc="268462202">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268462204" name="&lt;init&gt;" parent="JsonData" startPc="268462204">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268461901" name="WatchFace" parent="Layouts" startPc="268460995">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460128" name="&lt;init&gt;" parent="Layouts" startPc="268460128">
+        <functionEntry accessMode="public" endPc="268462118" name="AlwaysOn" parent="Layouts" startPc="268461902">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460126" name="&lt;init&gt;" parent="Menus" startPc="268460126">
+        <functionEntry accessMode="protected" endPc="268462203" name="&lt;init&gt;" parent="Layouts" startPc="268462203">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460130" name="&lt;init&gt;" parent="Strings" startPc="268460130">
+        <functionEntry accessMode="protected" endPc="268462201" name="&lt;init&gt;" parent="Menus" startPc="268462201">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268460124" name="&lt;init&gt;" parent="Rez" startPc="268460101">
+        <functionEntry accessMode="protected" endPc="268462205" name="&lt;init&gt;" parent="Strings" startPc="268462205">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268462199" name="&lt;init&gt;" parent="Rez" startPc="268462176">
             <documentation/>
         </functionEntry>
     </functions>
