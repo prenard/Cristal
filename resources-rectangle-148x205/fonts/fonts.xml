@@ -1,4 +1,6 @@
 <fonts>
 	<font id="HoursFont" filename="titillium-web-bold-48-extra-tall.fnt" antialias="true"/>
 	<font id="MinutesFont" filename="titillium-web-light-48-extra-tall.fnt" antialias="true"/>
+
+	<font id="IconsFont" filename="../../resources/fonts/Garmin-Icons-25.fnt" antialias="true"/>
 </fonts>
