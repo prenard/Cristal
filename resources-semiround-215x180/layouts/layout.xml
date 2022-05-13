@@ -15,6 +15,11 @@
 		<param name="separator">2</param>
 	</drawable>
 
+	<!-- Mask required for goal meter drawing without clip support -->
+	<drawable class="GoalMeterMask">
+		<param name="stroke">6</param>
+	</drawable>
+
 	<drawable id="DataArea" class="DataArea">
 		<param name="locX">65</param>
 		<param name="width">85</param>
@@ -24,7 +29,7 @@
 		<param name="goalIconLeftX">42</param>
 		<param name="goalIconRightX">173</param>
 	</drawable>
-
+	
 	<drawable id="DataFields" class="DataFields">
 		<param name="left">68</param>
 		<param name="right">147</param>

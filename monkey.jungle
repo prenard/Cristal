@@ -4,15 +4,15 @@ project.manifest = manifest.xml
 base.sourcePath = source
 
 # #122: fr245/fr245m are CIQ 3.x, but do not support floors climbed.
-fr245.resourcePath = $(fr245.resourcePath);resources-no_floors
-fr245m.resourcePath = $(fr245m.resourcePath);resources-no_floors
+#fr245.resourcePath = $(fr245.resourcePath);resources-no_floors
+#fr245m.resourcePath = $(fr245m.resourcePath);resources-no_floors
 
 # Smaller round watches use small time font.
-round-218x218.resourcePath = $(round-218x218.resourcePath);resources-small-time
+#round-218x218.resourcePath = $(round-218x218.resourcePath);resources-small-time
 
 # Flat tyre watches use small time font and small icons.
 # Ditto smallest round watches.
-semiround-215x180.resourcePath = $(semiround-215x180.resourcePath);resources-small-time;resources-small-icons
+#semiround-215x180.resourcePath = $(semiround-215x180.resourcePath);resources-small-time;resources-small-icons
 #round-208x208.resourcePath = $(round-208x208.resourcePath);resources-small-time;resources-small-icons
 
 # Rectangle watches generally same as flat tyre, but have some overrides.
@@ -24,25 +24,25 @@ semiround-215x180.resourcePath = $(semiround-215x180.resourcePath);resources-sma
 # No BufferedBitmap support, so exclude buffer-specific variables/functions.
 # No clip support, so goal meter mask required for round/semiround watches.
 
-d2bravo.resourcePath = $(d2bravo.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x-no_hr
+#d2bravo.resourcePath = $(d2bravo.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x-no_hr
 d2bravo.excludeAnnotations = buffered
 
-d2bravo_titanium.resourcePath = $(d2bravo_titanium.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x
+#d2bravo_titanium.resourcePath = $(d2bravo_titanium.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x
 d2bravo_titanium.excludeAnnotations = buffered
 
-fenix3.resourcePath = $(fenix3.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x-no_hr
+#fenix3.resourcePath = $(fenix3.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x-no_hr
 fenix3.excludeAnnotations = buffered
 
-fenix3_hr.resourcePath = $(fenix3_hr.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x
+#fenix3_hr.resourcePath = $(fenix3_hr.resourcePath);resources-round-218x218-ciq_1.x;resources-ciq_1.x
 fenix3_hr.excludeAnnotations = buffered
 
-fr230.resourcePath = $(fr230.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x-no_hr
+#fr230.resourcePath = $(fr230.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x-no_hr
 fr230.excludeAnnotations = buffered
 
-fr235.resourcePath = $(fr235.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x
+#fr235.resourcePath = $(fr235.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x
 fr235.excludeAnnotations = buffered
 
-fr630.resourcePath = $(fr630.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x-no_hr
+#fr630.resourcePath = $(fr630.resourcePath);resources-semiround-215x180-ciq_1.x;resources-ciq_1.x-no_hr
 fr630.excludeAnnotations = buffered
 
 #fr920xt.resourcePath = $(fr920xt.resourcePath);resources-ciq_1.x-no_hr
@@ -55,11 +55,11 @@ vivoactive.excludeAnnotations = buffered
 
 # #21: Treat fr735xt as CIQ 1.x i.e. unbuffered drawing, due to insufficient memory.
 # Continue to use fr735xt-specific properties and settings, however, as does support active minutes.
-fr735xt.resourcePath = $(fr735xt.resourcePath);resources-semiround-215x180-ciq_1.x
+#fr735xt.resourcePath = $(fr735xt.resourcePath);resources-semiround-215x180-ciq_1.x
 fr735xt.excludeAnnotations = buffered
 
 # Exclude unused date/indicator code from 60kB devices (extend to other devices as necessary).
-fr735xt.excludeAnnotations = $(fr735xt.excludeAnnotations);double_line_date;horizontal_indicators
+#fr735xt.excludeAnnotations = $(fr735xt.excludeAnnotations);double_line_date;horizontal_indicators
 vivoactive_hr.excludeAnnotations = $(vivoactive_hr.excludeAnnotations);double_line_date;vertical_indicators
 
 # #124: fr45's settings.xml repeats whole of resources-ciq_1.x, then overrides, as settings were not correct inherited.
@@ -77,3 +77,4 @@ venud.sourcePath = $(venud.sourcePath);always-on-source
 venusq.sourcePath = $(venusq.sourcePath);always-on-source
 venusqm.sourcePath = $(venusqm.sourcePath);always-on-source
 d2air.sourcePath = $(d2air.sourcePath);always-on-source
+d2mach1.sourcePath = $(d2mach1.sourcePath);always-on-source

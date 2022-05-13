@@ -52,8 +52,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="139" parent="globals/ThickThinTime" pc="268436506" symbol="drawSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="145" parent="globals/ThickThinTime" pc="268436521" symbol="drawSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="5" lineNum="148" parent="globals/ThickThinTime" pc="268436555" symbol="drawSeconds"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268458548" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268458548" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268458562" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\ThickThinTime.mc" id="6" lineNum="5" parent="globals/ThickThinTime" pc="268458562" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="8" lineNum="10" parent="globals/BackgroundService" pc="268436617" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="8" lineNum="11" parent="globals/BackgroundService" pc="268436621" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="9" lineNum="18" parent="globals/BackgroundService" pc="268436644" symbol="onTemporalEvent"/>
@@ -77,8 +77,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="12" lineNum="194" parent="globals/BackgroundService" pc="268437297" symbol="makeWebRequest"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="12" lineNum="195" parent="globals/BackgroundService" pc="268437301" symbol="makeWebRequest"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="12" lineNum="202" parent="globals/BackgroundService" pc="268437385" symbol="makeWebRequest"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="13" lineNum="7" parent="globals/BackgroundService" pc="268458708" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="13" lineNum="7" parent="globals/BackgroundService" pc="268458708" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="13" lineNum="7" parent="globals/BackgroundService" pc="268458722" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\BackgroundService.mc" id="13" lineNum="7" parent="globals/BackgroundService" pc="268458722" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="15" lineNum="31" parent="globals/MoveBar" pc="268437410" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="15" lineNum="32" parent="globals/MoveBar" pc="268437414" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="15" lineNum="34" parent="globals/MoveBar" pc="268437434" symbol="initialize"/>
@@ -134,8 +134,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="21" lineNum="196" parent="globals/MoveBar" pc="268438426" symbol="drawBar"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="21" lineNum="198" parent="globals/MoveBar" pc="268438472" symbol="drawBar"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="21" lineNum="199" parent="globals/MoveBar" pc="268438498" symbol="drawBar"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="22" lineNum="7" parent="globals/MoveBar" pc="268458779" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="22" lineNum="7" parent="globals/MoveBar" pc="268458779" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="22" lineNum="7" parent="globals/MoveBar" pc="268458793" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\MoveBar.mc" id="22" lineNum="7" parent="globals/MoveBar" pc="268458793" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="24" lineNum="32" parent="globals" pc="268438513" symbol="drawBatteryMeter"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="24" lineNum="33" parent="globals" pc="268438525" symbol="drawBatteryMeter"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="24" lineNum="34" parent="globals" pc="268438557" symbol="drawBatteryMeter"/>
@@ -286,13 +286,13 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="40" lineNum="479" parent="globals/CristalView" pc="268442241" symbol="setHideSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="40" lineNum="482" parent="globals/CristalView" pc="268442245" symbol="setHideSeconds"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="40" lineNum="483" parent="globals/CristalView" pc="268442265" symbol="setHideSeconds"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="79" parent="globals/CristalView" pc="268458611" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="89" parent="globals/CristalView" pc="268458629" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="92" parent="globals/CristalView" pc="268458643" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="79" parent="globals/CristalView" pc="268458611" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="22" parent="globals" pc="268458439" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="24" parent="globals" pc="268458490" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="25" parent="globals" pc="268458512" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="79" parent="globals/CristalView" pc="268458625" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="89" parent="globals/CristalView" pc="268458643" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="92" parent="globals/CristalView" pc="268458657" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="41" lineNum="79" parent="globals/CristalView" pc="268458625" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="22" parent="globals" pc="268458453" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="24" parent="globals" pc="268458504" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalView.mc" id="42" lineNum="25" parent="globals" pc="268458526" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="43" lineNum="21" parent="globals/DateLine" pc="268442292" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="43" lineNum="22" parent="globals/DateLine" pc="268442296" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="43" lineNum="24" parent="globals/DateLine" pc="268442316" symbol="initialize"/>
@@ -337,8 +337,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="46" lineNum="160" parent="globals/DateLine" pc="268443729" symbol="drawSingleLine"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="46" lineNum="163" parent="globals/DateLine" pc="268443761" symbol="drawSingleLine"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="46" lineNum="164" parent="globals/DateLine" pc="268443795" symbol="drawSingleLine"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="47" lineNum="7" parent="globals/DateLine" pc="268458670" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="47" lineNum="7" parent="globals/DateLine" pc="268458670" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="47" lineNum="7" parent="globals/DateLine" pc="268458684" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DateLine.mc" id="47" lineNum="7" parent="globals/DateLine" pc="268458684" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="49" lineNum="24" parent="globals/Indicators" pc="268443863" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="49" lineNum="25" parent="globals/Indicators" pc="268443867" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="49" lineNum="27" parent="globals/Indicators" pc="268443887" symbol="initialize"/>
@@ -388,15 +388,15 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="54" lineNum="106" parent="globals/Indicators" pc="268444961" symbol="drawIndicator"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="54" lineNum="112" parent="globals/Indicators" pc="268445032" symbol="drawIndicator"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="54" lineNum="115" parent="globals/Indicators" pc="268445082" symbol="drawIndicator"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="55" lineNum="6" parent="globals/Indicators" pc="268458727" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="55" lineNum="6" parent="globals/Indicators" pc="268458727" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="55" lineNum="6" parent="globals/Indicators" pc="268458741" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\Indicators.mc" id="55" lineNum="6" parent="globals/Indicators" pc="268458741" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="57" lineNum="7" parent="globals/Background" pc="268445184" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="57" lineNum="8" parent="globals/Background" pc="268445188" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="58" lineNum="11" parent="globals/Background" pc="268445226" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="58" lineNum="13" parent="globals/Background" pc="268445230" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="58" lineNum="14" parent="globals/Background" pc="268445262" symbol="draw"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="5" parent="globals/Background" pc="268458817" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="5" parent="globals/Background" pc="268458817" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="5" parent="globals/Background" pc="268458831" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalBackground.mc" id="59" lineNum="5" parent="globals/Background" pc="268458831" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="61" lineNum="27" parent="globals/DataArea" pc="268445275" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="61" lineNum="28" parent="globals/DataArea" pc="268445279" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="61" lineNum="30" parent="globals/DataArea" pc="268445299" symbol="initialize"/>
@@ -464,8 +464,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="65" lineNum="184" parent="globals/DataArea" pc="268447019" symbol="drawGoalValues"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="65" lineNum="185" parent="globals/DataArea" pc="268447040" symbol="drawGoalValues"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="65" lineNum="186" parent="globals/DataArea" pc="268447072" symbol="drawGoalValues"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="66" lineNum="8" parent="globals/DataArea" pc="268458798" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="66" lineNum="8" parent="globals/DataArea" pc="268458798" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="66" lineNum="8" parent="globals/DataArea" pc="268458812" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataArea.mc" id="66" lineNum="8" parent="globals/DataArea" pc="268458812" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="68" lineNum="54" parent="globals/GoalMeter" pc="268447128" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="68" lineNum="55" parent="globals/GoalMeter" pc="268447132" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="68" lineNum="57" parent="globals/GoalMeter" pc="268447152" symbol="initialize"/>
@@ -586,8 +586,8 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="76" lineNum="408" parent="globals/GoalMeter" pc="268448976" symbol="getSegmentScale"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="76" lineNum="410" parent="globals/GoalMeter" pc="268449000" symbol="getSegmentScale"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="76" lineNum="414" parent="globals/GoalMeter" pc="268449021" symbol="getSegmentScale"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="77" lineNum="24" parent="globals/GoalMeter" pc="268458689" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="77" lineNum="24" parent="globals/GoalMeter" pc="268458689" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="77" lineNum="24" parent="globals/GoalMeter" pc="268458703" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeter.mc" id="77" lineNum="24" parent="globals/GoalMeter" pc="268458703" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="80" lineNum="23" parent="globals/CristalApp" pc="268449025" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="80" lineNum="24" parent="globals/CristalApp" pc="268449029" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="81" lineNum="38" parent="globals/CristalApp" pc="268449048" symbol="getInitialView"/>
@@ -681,17 +681,17 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="89" lineNum="250" parent="globals/CristalApp" pc="268450637" symbol="getFormattedTime"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="89" lineNum="256" parent="globals/CristalApp" pc="268450647" symbol="getFormattedTime"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="89" lineNum="258" parent="globals/CristalApp" pc="268450695" symbol="getFormattedTime"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="18" parent="globals/CristalApp" pc="268458746" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="21" parent="globals/CristalApp" pc="268458764" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="18" parent="globals/CristalApp" pc="268458746" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="18" parent="globals/CristalApp" pc="268458760" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="21" parent="globals/CristalApp" pc="268458778" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\CristalApp.mc" id="90" lineNum="18" parent="globals/CristalApp" pc="268458760" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="92" lineNum="10" parent="globals/GoalMeterMask" pc="268450747" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="92" lineNum="11" parent="globals/GoalMeterMask" pc="268450751" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="92" lineNum="13" parent="globals/GoalMeterMask" pc="268450771" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="93" lineNum="16" parent="globals/GoalMeterMask" pc="268450788" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="93" lineNum="17" parent="globals/GoalMeterMask" pc="268450792" symbol="draw"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="93" lineNum="18" parent="globals/GoalMeterMask" pc="268450824" symbol="draw"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="94" lineNum="6" parent="globals/GoalMeterMask" pc="268458529" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="94" lineNum="6" parent="globals/GoalMeterMask" pc="268458529" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="94" lineNum="6" parent="globals/GoalMeterMask" pc="268458543" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\GoalMeterMask.mc" id="94" lineNum="6" parent="globals/GoalMeterMask" pc="268458543" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="96" lineNum="55" parent="globals/DataFields" pc="268450897" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="96" lineNum="56" parent="globals/DataFields" pc="268450901" symbol="initialize"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="96" lineNum="58" parent="globals/DataFields" pc="268450921" symbol="initialize"/>
@@ -955,29 +955,30 @@
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="102" lineNum="736" parent="globals/DataFields" pc="268457379" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="102" lineNum="738" parent="globals/DataFields" pc="268457386" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
         <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="102" lineNum="739" parent="globals/DataFields" pc="268457427" symbol="&lt;globals/DataFields/&lt;&gt;getSunTimes&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="103" lineNum="35" parent="globals/DataFields" pc="268458592" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="103" lineNum="35" parent="globals/DataFields" pc="268458592" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="105" lineNum="2" parent="globals/Rez/Drawables" pc="268458586" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="106" lineNum="6" parent="globals/Rez/Fonts" pc="268458588" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="107" lineNum="18" parent="globals/Rez/JsonData" pc="268458590" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="103" lineNum="35" parent="globals/DataFields" pc="268458606" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\PatrickRenard\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\Cristal\\source\\DataFields.mc" id="103" lineNum="35" parent="globals/DataFields" pc="268458606" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="105" lineNum="2" parent="globals/Rez/Drawables" pc="268458600" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="106" lineNum="6" parent="globals/Rez/Fonts" pc="268458602" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="107" lineNum="18" parent="globals/Rez/JsonData" pc="268458604" symbol="&lt;init&gt;"/>
         <entry filename="Rez" id="108" lineNum="27" parent="globals/Rez/Layouts" pc="268457473" symbol="WatchFace"/>
         <entry filename="Rez" id="108" lineNum="29" parent="globals/Rez/Layouts" pc="268457485" symbol="WatchFace"/>
         <entry filename="Rez" id="108" lineNum="30" parent="globals/Rez/Layouts" pc="268457509" symbol="WatchFace"/>
         <entry filename="Rez" id="108" lineNum="31" parent="globals/Rez/Layouts" pc="268457604" symbol="WatchFace"/>
         <entry filename="Rez" id="108" lineNum="32" parent="globals/Rez/Layouts" pc="268457699" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="33" parent="globals/Rez/Layouts" pc="268457833" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="34" parent="globals/Rez/Layouts" pc="268457941" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="35" parent="globals/Rez/Layouts" pc="268458023" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="36" parent="globals/Rez/Layouts" pc="268458118" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="37" parent="globals/Rez/Layouts" pc="268458213" symbol="WatchFace"/>
-        <entry filename="Rez" id="108" lineNum="39" parent="globals/Rez/Layouts" pc="268458321" symbol="WatchFace"/>
-        <entry filename="Rez" id="109" lineNum="48" parent="globals/Rez/Layouts" pc="268458419" symbol="AlwaysOn"/>
-        <entry filename="Rez" id="109" lineNum="49" parent="globals/Rez/Layouts" pc="268458431" symbol="AlwaysOn"/>
-        <entry filename="Rez" id="110" lineNum="20" parent="globals/Rez/Layouts" pc="268458589" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="111" lineNum="52" parent="globals/Rez/Menus" pc="268458587" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="112" lineNum="54" parent="globals/Rez/Strings" pc="268458591" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="113" lineNum="1" parent="globals/Rez" pc="268458567" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="113" lineNum="1" parent="globals/Rez" pc="268458567" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="108" lineNum="33" parent="globals/Rez/Layouts" pc="268457742" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="34" parent="globals/Rez/Layouts" pc="268457876" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="35" parent="globals/Rez/Layouts" pc="268457984" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="36" parent="globals/Rez/Layouts" pc="268458040" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="37" parent="globals/Rez/Layouts" pc="268458135" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="38" parent="globals/Rez/Layouts" pc="268458217" symbol="WatchFace"/>
+        <entry filename="Rez" id="108" lineNum="40" parent="globals/Rez/Layouts" pc="268458325" symbol="WatchFace"/>
+        <entry filename="Rez" id="109" lineNum="49" parent="globals/Rez/Layouts" pc="268458433" symbol="AlwaysOn"/>
+        <entry filename="Rez" id="109" lineNum="50" parent="globals/Rez/Layouts" pc="268458445" symbol="AlwaysOn"/>
+        <entry filename="Rez" id="110" lineNum="20" parent="globals/Rez/Layouts" pc="268458603" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="111" lineNum="53" parent="globals/Rez/Menus" pc="268458601" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="112" lineNum="55" parent="globals/Rez/Strings" pc="268458605" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="113" lineNum="1" parent="globals/Rez" pc="268458581" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="113" lineNum="1" parent="globals/Rez" pc="268458581" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="299" symbol="goalIconLeftX"/>
@@ -1628,17 +1629,18 @@
         <entry arg="true" endPc="268457472" name="lng" stackId="2" startPc="268456235"/>
         <entry arg="true" endPc="268457472" name="lat" stackId="1" startPc="268456235"/>
         <entry arg="true" endPc="268457472" name="tz" stackId="3" startPc="268456235"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_LeftGoalMeter" stackId="3" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_Time" stackId="9" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_Date" stackId="7" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_DataFields" stackId="6" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_18907530221983086656" stackId="2" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_MoveBar" stackId="10" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_Indicators" stackId="8" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_DataArea" stackId="5" startPc="268457485"/>
-        <entry endPc="268458417" name="rez_cmp_local_custom_drawable_RightGoalMeter" stackId="4" startPc="268457485"/>
-        <entry arg="true" endPc="268458418" name="dc" stackId="1" startPc="268457473"/>
-        <entry arg="true" endPc="268458438" name="dc" stackId="1" startPc="268458419"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_LeftGoalMeter" stackId="3" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_Time" stackId="10" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_Date" stackId="8" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_DataFields" stackId="7" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_MoveBar" stackId="11" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_52108287765959568112" stackId="5" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_Indicators" stackId="9" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_17437447478208957912" stackId="2" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_DataArea" stackId="6" startPc="268457485"/>
+        <entry endPc="268458431" name="rez_cmp_local_custom_drawable_RightGoalMeter" stackId="4" startPc="268457485"/>
+        <entry arg="true" endPc="268458432" name="dc" stackId="1" startPc="268457473"/>
+        <entry arg="true" endPc="268458452" name="dc" stackId="1" startPc="268458433"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="background_method" class="BackgroundService" module="globals" symbol="initialize"/>
@@ -1797,7 +1799,7 @@
             <param id="isPartialUpdate"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458566" name="&lt;init&gt;" parent="ThickThinTime" startPc="268458548">
+        <functionEntry accessMode="protected" endPc="268458580" name="&lt;init&gt;" parent="ThickThinTime" startPc="268458562">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436643" name="initialize" parent="BackgroundService" startPc="268436617">
@@ -1822,7 +1824,7 @@
             <param id="callback"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458726" name="&lt;init&gt;" parent="BackgroundService" startPc="268458708">
+        <functionEntry accessMode="protected" endPc="268458740" name="&lt;init&gt;" parent="BackgroundService" startPc="268458722">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437536" name="initialize" parent="MoveBar" startPc="268437410">
@@ -1858,7 +1860,7 @@
             <param id="width"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458797" name="&lt;init&gt;" parent="MoveBar" startPc="268458779">
+        <functionEntry accessMode="protected" endPc="268458811" name="&lt;init&gt;" parent="MoveBar" startPc="268458793">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438948" name="drawBatteryMeter" startPc="268438513">
@@ -1922,7 +1924,7 @@
             <param id="hideSeconds"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458669" name="&lt;init&gt;" parent="CristalView" startPc="268458611">
+        <functionEntry accessMode="protected" endPc="268458683" name="&lt;init&gt;" parent="CristalView" startPc="268458625">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268442415" name="initialize" parent="DateLine" startPc="268442292">
@@ -1943,7 +1945,7 @@
             <param id="day"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458688" name="&lt;init&gt;" parent="DateLine" startPc="268458670">
+        <functionEntry accessMode="protected" endPc="268458702" name="&lt;init&gt;" parent="DateLine" startPc="268458684">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268443973" name="initialize" parent="Indicators" startPc="268443863">
@@ -1974,7 +1976,7 @@
             <param id="y"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458745" name="&lt;init&gt;" parent="Indicators" startPc="268458727">
+        <functionEntry accessMode="protected" endPc="268458759" name="&lt;init&gt;" parent="Indicators" startPc="268458741">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268445225" name="initialize" parent="Background" startPc="268445184">
@@ -1984,7 +1986,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458835" name="&lt;init&gt;" parent="Background" startPc="268458817">
+        <functionEntry accessMode="protected" endPc="268458849" name="&lt;init&gt;" parent="Background" startPc="268458831">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268445379" name="initialize" parent="DataArea" startPc="268445275">
@@ -2018,7 +2020,7 @@
             <param id="align"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458816" name="&lt;init&gt;" parent="DataArea" startPc="268458798">
+        <functionEntry accessMode="protected" endPc="268458830" name="&lt;init&gt;" parent="DataArea" startPc="268458812">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268447247" name="initialize" parent="GoalMeter" startPc="268447128">
@@ -2061,7 +2063,7 @@
         <functionEntry accessMode="public" endPc="268449024" name="getSegmentScale" parent="GoalMeter" startPc="268448823">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458707" name="&lt;init&gt;" parent="GoalMeter" startPc="268458689">
+        <functionEntry accessMode="protected" endPc="268458721" name="&lt;init&gt;" parent="GoalMeter" startPc="268458703">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268449047" name="initialize" parent="CristalApp" startPc="268449025">
@@ -2100,7 +2102,7 @@
             <param id="min"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458778" name="&lt;init&gt;" parent="CristalApp" startPc="268458746">
+        <functionEntry accessMode="protected" endPc="268458792" name="&lt;init&gt;" parent="CristalApp" startPc="268458760">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268450787" name="initialize" parent="GoalMeterMask" startPc="268450747">
@@ -2111,7 +2113,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458547" name="&lt;init&gt;" parent="GoalMeterMask" startPc="268458529">
+        <functionEntry accessMode="protected" endPc="268458561" name="&lt;init&gt;" parent="GoalMeterMask" startPc="268458543">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268451013" name="initialize" parent="DataFields" startPc="268450897">
@@ -2148,36 +2150,36 @@
             <param id="tomorrow"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458610" name="&lt;init&gt;" parent="DataFields" startPc="268458592">
+        <functionEntry accessMode="protected" endPc="268458624" name="&lt;init&gt;" parent="DataFields" startPc="268458606">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458586" name="&lt;init&gt;" parent="Drawables" startPc="268458586">
+        <functionEntry accessMode="protected" endPc="268458600" name="&lt;init&gt;" parent="Drawables" startPc="268458600">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458588" name="&lt;init&gt;" parent="Fonts" startPc="268458588">
+        <functionEntry accessMode="protected" endPc="268458602" name="&lt;init&gt;" parent="Fonts" startPc="268458602">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458590" name="&lt;init&gt;" parent="JsonData" startPc="268458590">
+        <functionEntry accessMode="protected" endPc="268458604" name="&lt;init&gt;" parent="JsonData" startPc="268458604">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268458418" name="WatchFace" parent="Layouts" startPc="268457473">
+        <functionEntry accessMode="public" endPc="268458432" name="WatchFace" parent="Layouts" startPc="268457473">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268458438" name="AlwaysOn" parent="Layouts" startPc="268458419">
+        <functionEntry accessMode="public" endPc="268458452" name="AlwaysOn" parent="Layouts" startPc="268458433">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458589" name="&lt;init&gt;" parent="Layouts" startPc="268458589">
+        <functionEntry accessMode="protected" endPc="268458603" name="&lt;init&gt;" parent="Layouts" startPc="268458603">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458587" name="&lt;init&gt;" parent="Menus" startPc="268458587">
+        <functionEntry accessMode="protected" endPc="268458601" name="&lt;init&gt;" parent="Menus" startPc="268458601">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458591" name="&lt;init&gt;" parent="Strings" startPc="268458591">
+        <functionEntry accessMode="protected" endPc="268458605" name="&lt;init&gt;" parent="Strings" startPc="268458605">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268458585" name="&lt;init&gt;" parent="Rez" startPc="268458567">
+        <functionEntry accessMode="protected" endPc="268458599" name="&lt;init&gt;" parent="Rez" startPc="268458581">
             <documentation/>
         </functionEntry>
     </functions>
