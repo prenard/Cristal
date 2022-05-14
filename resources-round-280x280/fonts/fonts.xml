@@ -4,7 +4,7 @@
 	<font id="SecondsFont" filename="../../resources/fonts/titillium-web-semibold-28.fnt" antialias="true" filter="0123456789AP"/>
 	<font id="DateFont" filename="../../resources/fonts/titillium-web-semibold-28.fnt" antialias="true" filter=" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÁÄÅÉÍÖØÚČĚŘŚŠŹŽ"/>
 	<font id="NormalFont" filename="../../resources/fonts/titillium-web-semibold-18.fnt" antialias="true" filter="%-.0123456789!:?CFabefgikmpsty°"/>
-	<font id="NormalFontCities" filename="titillium-web-semibold-18.fnt" antialias="true" filter=" %',-.0123456789!:?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz°ÅÍÎÖáãäåæèéíðñóôöøûüž"/>
+	<font id="NormalFontCities" filename="../../resources/fonts/titillium-web-semibold-18.fnt" antialias="true" filter=" %',-.0123456789!:?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz°ÅÍÎÖáãäåæèéíðñóôöøûüž"/>
 	<font id="IconsFont" filename="../../resources/fonts/Garmin-Icons-28.fnt" antialias="true"/>
 
 	<!-- Font size chosen such that height of sunshine icon is 28px -->
