@@ -29,7 +29,9 @@ enum /* FIELD_TYPES */ {
 	FIELD_TYPE_WEATHER,
 	FIELD_TYPE_PRESSURE,
 	FIELD_TYPE_HUMIDITY,
-	FIELD_TYPE_BODY_BATTERY
+	FIELD_TYPE_BODY_BATTERY,
+	FIELD_TYPE_TIME_TO_RECOVERY,
+	FIELD_TYPE_STRESS
 }
 
 class DataFields extends Ui.Drawable {
@@ -317,7 +319,9 @@ class DataFields extends Ui.Drawable {
 					FIELD_TYPE_SUNRISE_SUNSET => "?",
 					FIELD_TYPE_PRESSURE => "@",
 					FIELD_TYPE_HUMIDITY => "A",
-					FIELD_TYPE_BODY_BATTERY => "B"
+					FIELD_TYPE_BODY_BATTERY => "B",
+					FIELD_TYPE_TIME_TO_RECOVERY => "C",
+					FIELD_TYPE_STRESS => "D"
 				}[fieldType];
 			}
 
@@ -620,8 +624,24 @@ class DataFields extends Ui.Drawable {
 						value = value.format(INTEGER_FORMAT) + "%";
 					}
 				}
-
 				break;
+
+			case FIELD_TYPE_TIME_TO_RECOVERY:
+				activityInfo = ActivityMonitor.getInfo();
+				value = activityInfo.timeToRecovery.format(INTEGER_FORMAT) + "h";			
+				break;
+
+			case FIELD_TYPE_STRESS:
+				if ((Toybox has :SensorHistory) && (Toybox.SensorHistory has :getStressHistory)) {
+					sample = SensorHistory.getStressHistory(null).next();
+					if ((sample != null) && (sample.data != null)) {
+						value = sample.data;
+						value = value.format(INTEGER_FORMAT);
+					}
+				}
+				break;
+
+
 
 		}
 

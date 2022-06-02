@@ -78,6 +78,8 @@
 	<string id="Humidity">Humidity</string>
 	<string id="Pressure">Pressure</string>
 	<string id="BodyBattery">Body Battery</string>
+	<string id="TimeToRecovery">Time to Recovery</string>
+	<string id="Stress">Stress</string>
 
 	<!-- Internal use only. Required because fonts cannot be overridden by locale. Leave blank for no override. -->
 	<!--

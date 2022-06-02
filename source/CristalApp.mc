@@ -1,3 +1,4 @@
+// Prod id = 02f24e0b-a875-45d9-8f4e-81a3f464f2c9
 // Dev id = 251b4a7a-8c6f-4df9-96a8-3950afad496b
 
 using Toybox.Application as App;
@@ -5,6 +6,8 @@ using Toybox.Background as Bg;
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 using Toybox.Time;
+
+var AppVersion = "1.0.0";
 
 // In-memory current location.
 // Previously persisted in App.Storage, but now persisted in Object Store due to #86 workaround for App.Storage firmware bug.
@@ -35,7 +38,14 @@ class CristalApp extends App.AppBase {
 	*/
 
 	// Return the initial view of your application here
-	function getInitialView() {
+	function getInitialView()
+	{
+		var hasNewSettings = getProperty("AppVersion");
+        if (true)
+        {
+            System.println("AppVersion = " + AppVersion);
+            setProperty("AppVersion", AppVersion);
+		}
 		mView = new CristalView();
 		onSettingsChanged(); // After creating view.
 		return [mView];

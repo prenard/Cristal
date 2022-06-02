@@ -89,6 +89,8 @@
 			<listEntry value="11">@Strings.Weather</listEntry>
 			<listEntry value="13">@Strings.Humidity</listEntry>
 			<listEntry value="14">@Strings.BodyBattery</listEntry>
+			<listEntry value="15">@Strings.TimeToRecovery</listEntry>
+			<listEntry value="16">@Strings.Stress</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -109,6 +111,8 @@
 			<listEntry value="11">@Strings.Weather</listEntry>
 			<listEntry value="13">@Strings.Humidity</listEntry>
 			<listEntry value="14">@Strings.BodyBattery</listEntry>
+			<listEntry value="15">@Strings.TimeToRecovery</listEntry>
+			<listEntry value="16">@Strings.Stress</listEntry>
 		</settingConfig>
 	</setting>
 
@@ -129,6 +133,8 @@
 			<listEntry value="11">@Strings.Weather</listEntry>
 			<listEntry value="13">@Strings.Humidity</listEntry>
 			<listEntry value="14">@Strings.BodyBattery</listEntry>
+			<listEntry value="15">@Strings.TimeToRecovery</listEntry>
+			<listEntry value="16">@Strings.Stress</listEntry>
 		</settingConfig>
 	</setting>
 

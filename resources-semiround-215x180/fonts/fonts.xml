@@ -3,7 +3,7 @@
 	<font id="MinutesFont" filename="../../resources/fonts/titillium-web-light-68-tall.fnt" antialias="true"/>
 	<font id="SecondsFont" filename="../../resources/fonts/titillium-web-semibold-24.fnt" antialias="true" filter="0123456789AP"/>
 	<font id="DateFont" filename="../../resources/fonts/titillium-web-semibold-24.fnt" antialias="true" filter=" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÁÄÅÉÍÖØÚČĚŘŚŠŹŽ"/>
-	<font id="NormalFont" filename="../../resources/fonts/titillium-web-semibold-16.fnt" antialias="true" filter="%-.0123456789!:?CFabefgikmpsty°"/>
+	<font id="NormalFont" filename="../../resources/fonts/titillium-web-semibold-16.fnt" antialias="true" filter="%-.0123456789!:?CFabefghikmpsty°"/>
 	<font id="NormalFontCities" filename="../../resources/fonts/titillium-web-semibold-16.fnt" antialias="true" filter=" %',-.0123456789!:?ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz°ÅÍÎÖáãäåæèéíðñóôöøûüž"/>
 	<font id="IconsFont" filename="../../resources/fonts/Garmin-Icons-20.fnt" antialias="true"/>
 
