@@ -1,6 +1,6 @@
 <settings>
 
-	<setting propertyKey="@Properties.AppVersion" title="@Strings.AppVersionTitle">
+	<setting propertyKey="@Properties.App_Version" title="@Strings.AppVersionTitle">
 		<settingConfig type="alphaNumeric" readonly="true"/>
 	</setting>
 
@@ -69,7 +69,7 @@
 	</setting>
 
 	<setting propertyKey="@Properties.FieldCount" title="@Strings.FieldCountTitle">
-		<settingConfig type="numeric" min="0" max="3" required="true"/>
+		<settingConfig type="numeric" min="0" max="4" required="true"/>
 	</setting>
 
 	<setting propertyKey="@Properties.Field1Type" title="@Strings.DataField1Title">
@@ -137,6 +137,29 @@
 			<listEntry value="16">@Strings.Stress</listEntry>
 		</settingConfig>
 	</setting>
+
+	<setting propertyKey="@Properties.Field4Type" title="@Strings.DataField4Title">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.HeartRate</listEntry>
+			<listEntry value="9">@Strings.HeartRateLive5s</listEntry>
+			<listEntry value="1">@Strings.Battery</listEntry>
+			<listEntry value="8">@Strings.BatteryHidePercentage</listEntry>
+			<listEntry value="2">@Strings.Notifications</listEntry>
+			<listEntry value="3">@Strings.Calories</listEntry>
+			<listEntry value="4">@Strings.Distance</listEntry>
+			<listEntry value="5">@Strings.Alarms</listEntry>
+			<listEntry value="6">@Strings.Altitude</listEntry>
+			<listEntry value="12">@Strings.Pressure</listEntry>
+			<listEntry value="7">@Strings.Temperature</listEntry>
+			<listEntry value="10">@Strings.SunriseSunset</listEntry>
+			<listEntry value="11">@Strings.Weather</listEntry>
+			<listEntry value="13">@Strings.Humidity</listEntry>
+			<listEntry value="14">@Strings.BodyBattery</listEntry>
+			<listEntry value="15">@Strings.TimeToRecovery</listEntry>
+			<listEntry value="16">@Strings.Stress</listEntry>
+		</settingConfig>
+	</setting>
+
 
 	<setting propertyKey="@Properties.IndicatorCount" title="@Strings.IndicatorCountTitle">
 		<settingConfig type="numeric" min="0" max="3" required="true"/>

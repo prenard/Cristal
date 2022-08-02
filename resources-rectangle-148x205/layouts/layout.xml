@@ -26,11 +26,11 @@
 	</drawable>
 
 	<drawable id="DataFields" class="DataFields">
-		<param name="left">33</param>
-		<param name="right">115</param>
+		<param name="left">23</param>
+		<param name="right">125</param>
 		<param name="top">11</param>
 		<param name="bottom">30</param>
-		<param name="batteryWidth">24</param>
+		<param name="batteryWidth">17</param>
 	</drawable>
 
 	<drawable id="Date" class="DateLine">

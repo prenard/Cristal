@@ -22,6 +22,7 @@
 	<string id="DataField1Title">Data Field 1</string>
 	<string id="DataField2Title">Data Field 2</string>
 	<string id="DataField3Title">Data Field 3</string>
+	<string id="DataField4Title">Data Field 4</string>
 
 	<string id="IndicatorCountTitle">Number Of Indicators</string>
 	<string id="Indicator1Title">Indicator 1</string>
@@ -109,4 +110,5 @@
 	<string id="Nov">Nov</string>
 	<string id="Dec">Dec</string>
 
+	<string id="Support_timeToRecovery">yes</string>
 </strings>

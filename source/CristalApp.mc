@@ -7,7 +7,7 @@ using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 using Toybox.Time;
 
-var AppVersion = "0.0.0-17";
+var AppVersion = "0.00-20";
 
 // In-memory current location.
 // Previously persisted in App.Storage, but now persisted in Object Store due to #86 workaround for App.Storage firmware bug.
@@ -21,7 +21,9 @@ var gLocationLng = null;
 class CristalApp extends App.AppBase {
 
 	var mView;
-	var mFieldTypes = new [3];
+	var mFieldTypes = new [4];
+
+	var ConnectIQapiLevel;
 
 	function initialize() {
 		AppBase.initialize();
@@ -40,12 +42,29 @@ class CristalApp extends App.AppBase {
 	// Return the initial view of your application here
 	function getInitialView()
 	{
+
+		System.println("AppVersion = " + AppVersion);
+		setProperty("App_Version", AppVersion);
+
+/*
 		var hasNewSettings = getProperty("AppVersion");
         if (true)
         {
             System.println("AppVersion = " + AppVersion);
             setProperty("AppVersion", AppVersion);
 		}
+*/
+		System.println("Device Part Number = " + System.getDeviceSettings().partNumber);
+		System.println("Device Firmware Version = " + System.getDeviceSettings().firmwareVersion);
+		
+		System.println("Device Screen Shape = " + System.getDeviceSettings().screenShape);
+		System.println("Device Screen Height = " + System.getDeviceSettings().screenHeight);
+		System.println("Device Screen Width = " + System.getDeviceSettings().screenWidth);
+
+		ConnectIQapiLevel = (Lang.format("$1$$2$$3$",System.getDeviceSettings().monkeyVersion)).toNumber();
+		System.println("Device Connect IQ API level = " + ConnectIQapiLevel);
+
+
 		mView = new CristalView();
 		onSettingsChanged(); // After creating view.
 		return [mView];
@@ -70,6 +89,7 @@ class CristalApp extends App.AppBase {
 		mFieldTypes[0] = getIntProperty("Field1Type", 0);
 		mFieldTypes[1] = getIntProperty("Field2Type", 1);
 		mFieldTypes[2] = getIntProperty("Field3Type", 2);
+		mFieldTypes[3] = getIntProperty("Field4Type", 3);
 
 		mView.onSettingsChanged(); // Calls checkPendingWebRequests().
 

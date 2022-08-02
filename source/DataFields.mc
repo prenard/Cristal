@@ -87,7 +87,7 @@ class DataFields extends Ui.Drawable {
 		} */
 
 		// #116 Handle FieldCount = 0 correctly.
-		mMaxFieldLength = [0, 8, 6, 4][mFieldCount];
+		mMaxFieldLength = [0, 8, 6, 4, 2][mFieldCount];
 
 		mHasLiveHR = App.getApp().hasField(FIELD_TYPE_HR_LIVE_5S);
 
@@ -109,7 +109,14 @@ class DataFields extends Ui.Drawable {
 		var fieldTypes = App.getApp().mFieldTypes;
 
 		switch (mFieldCount) {
+			case 4:
+				drawDataField(dc, isPartialUpdate, fieldTypes[0], mLeft + 0 * (mRight - mLeft) / 3);
+				drawDataField(dc, isPartialUpdate, fieldTypes[1], mLeft + 1 * (mRight - mLeft) / 3);
+				drawDataField(dc, isPartialUpdate, fieldTypes[2], mLeft + 2 * (mRight - mLeft) / 3);
+				drawDataField(dc, isPartialUpdate, fieldTypes[3], mLeft + 3 * (mRight - mLeft) / 3);
+				break;
 			case 3:
+
 				drawDataField(dc, isPartialUpdate, fieldTypes[0], mLeft);
 				drawDataField(dc, isPartialUpdate, fieldTypes[1], (mRight + mLeft) / 2);
 				drawDataField(dc, isPartialUpdate, fieldTypes[2], mRight);
@@ -626,9 +633,14 @@ class DataFields extends Ui.Drawable {
 				}
 				break;
 
+
 			case FIELD_TYPE_TIME_TO_RECOVERY:
-				activityInfo = ActivityMonitor.getInfo();
-				value = activityInfo.timeToRecovery.format(INTEGER_FORMAT) + "h";			
+				// Minimum API level = 330 (documentation error for certain older devices < 330)
+				if ((App.getApp().ConnectIQapiLevel >= 330) && (Ui.loadResource(Rez.Strings.Support_timeToRecovery).equals("yes")))
+				{
+					activityInfo = ActivityMonitor.getInfo();
+					value = activityInfo.timeToRecovery.format(INTEGER_FORMAT) + "h";
+				}
 				break;
 
 			case FIELD_TYPE_STRESS:
