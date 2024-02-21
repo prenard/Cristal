@@ -1,0 +1,70 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
+class GoalMeterMask extends Ui.Drawable{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 8; @position = 13; ]
+    private
+    var mStroke;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 10; ]
+    function initialize(params) as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_10_29_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 11 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 13 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :stroke;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :mStroke %tmp.10;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_10_29_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 16; ]
+    function draw(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_16_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 17 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :gBackgroundColour;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 18 2 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :fillCircle;
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :getWidth;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = 2;
+        %tmp.13 = div %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :getHeight;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = 2;
+        %tmp.18 = div %tmp.16 %tmp.17;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :getWidth;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.25 = getv ? :mStroke;
+        %tmp.26 = sub %tmp.23 %tmp.25;
+        invoke %tmp.7 %tmp.8(%tmp.13, %tmp.18, %tmp.26);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_16_19_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,693 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 2; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 3; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 4; ]
+using Toybox.ActivityMonitor as :ActivityMonitor;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 5; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 7; ]
+class MoveBar extends Ui.Drawable{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 9; @position = 13; ]
+    private
+    var mX;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 9; @position = 17; ]
+    private
+    var mY;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 9; @position = 21; ]
+    private
+    var mBaseWidth;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 9; @position = 33; ]
+    private
+    var mHeight;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 9; @position = 42; ]
+    private
+    var mSeparator;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 10; @position = 13; ]
+    private
+    var mTailWidth;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 12; @position = 25; buffered = true; ]
+    private
+    var mBuffer;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 13; @position = 25; buffered = true; ]
+    private
+    var mBufferNeedsRedraw = true;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 14; @position = 25; buffered = true; ]
+    private
+    var mLastMoveBarLevel;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 16; @position = 13; ]
+    private
+    var mBufferNeedsRecreate = true;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 20; @position = 13; ]
+    private
+    var mIsFullWidth = false;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 23; @position = 13; ]
+    private
+    var mCurrentWidth;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 31; ]
+    function initialize(params) as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_31_29_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 32 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 34 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :x;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :mX %tmp.10;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 35 2 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :y;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :mY %tmp.15;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 36 2 ]
+        %tmp.17 = lgetv %params;
+        %tmp.19 = const :width;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        putv self :mBaseWidth %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 37 2 ]
+        %tmp.22 = lgetv %params;
+        %tmp.24 = const :height;
+        %tmp.25 = agetv %tmp.22 %tmp.24;
+        putv self :mHeight %tmp.25;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 38 2 ]
+        %tmp.27 = lgetv %params;
+        %tmp.29 = const :separator;
+        %tmp.30 = agetv %tmp.27 %tmp.29;
+        putv self :mSeparator %tmp.30;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 40 2 ]
+        %tmp.32 = getv ? :mHeight;
+        %tmp.33 = 2;
+        %tmp.34 = div %tmp.32 %tmp.33;
+        putv self :mTailWidth %tmp.34;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_31_29_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 43; ]
+    function onSettingsChanged() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_43_30_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 44 2 ]
+        %tmp.1 = true;
+        putv self :mBufferNeedsRecreate %tmp.1;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_43_30_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 47; ]
+    function setFullWidth(fullWidth) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_47_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 48 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_2_if_stmt:
+        %tmp.2 = getv ? :mIsFullWidth;
+        %tmp.4 = lgetv %fullWidth;
+        %tmp.5 = ne %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_33_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 49 3 ]
+        %tmp.7 = lgetv %fullWidth;
+        putv self :mIsFullWidth %tmp.7;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 50 3 ]
+        %tmp.8 = true;
+        putv self :mBufferNeedsRecreate %tmp.8;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_33_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_48_2_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_47_34_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 54; ]
+    function draw(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 55 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_2_if_stmt:
+        %tmp.1 = getm $.Toybox.Application;
+        %tmp.2 = getv function %tmp.1 :getApp;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :getProperty;
+        %tmp.5 = "MoveBarStyle";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        %tmp.7 = 2;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_66_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 56 3 ]
+        ret ?;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_66_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_55_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 59 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_stop" ]
+        %info.1 = local;
+        %tmp.9 = getm $.Toybox.ActivityMonitor;
+        %tmp.10 = getv function %tmp.9 :getInfo;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %info.1 %tmp.11;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 60 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_stop" ]
+        %currentMoveBarLevel.2 = local;
+        %tmp.12 = lgetv %info.1;
+        %tmp.13 = getv %tmp.12 :moveBarLevel;
+        lputv %currentMoveBarLevel.2 %tmp.13;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 64 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_begin:
+        %tmp.15 = getv ? :mIsFullWidth;
+        bf %tmp.15 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_true:
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = getv function %tmp.16 :getWidth;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        %tmp.19 = 2;
+        %tmp.21 = getv ? :mX;
+        %tmp.22 = mul %tmp.19 %tmp.21;
+        %tmp.23 = sub %tmp.18 %tmp.22;
+        %tmp.25 = getv ? :mTailWidth;
+        %tmp.26 = add %tmp.23 %tmp.25;
+        push %tmp.26;
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_false:
+        %tmp.28 = getv ? :mBaseWidth;
+        push %tmp.28;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_end:
+        %tmp.29 = phi [%tmp.15 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_begin] [%tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_true] [%tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_false] [%tmp.29 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_64_18_end];
+        putv self :mCurrentWidth %tmp.29;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 67 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_6_begin:
+        %tmp.31 = getm $.Toybox.Graphics;
+        %tmp.33 = const :BufferedBitmap;
+        %tmp.34 = canhazplz %tmp.31 %tmp.33;
+        %tmp.35 = dup %tmp.34;
+        bf %tmp.35 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_40_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_40_true:
+        %tmp.36 = getm $.Toybox.System;
+        %tmp.37 = getv function %tmp.36 :getDeviceSettings;
+        %tmp.38 = invoke %tmp.36 %tmp.37();
+        %tmp.39 = getv %tmp.38 :screenShape;
+        %tmp.40 = getm $.Toybox.System;
+        %tmp.41 = getv %tmp.40 :SCREEN_SHAPE_SEMI_ROUND;
+        %tmp.42 = ne %tmp.39 %tmp.41;
+        %tmp.43 = and %tmp.34 %tmp.42;
+        push %tmp.43;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_40_end:
+        %tmp.44 = phi [%tmp.35 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_6_begin] [%tmp.43 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_40_true] [%tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_40_end];
+        bf %tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_110_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 68 3 ]
+        %tmp.45 = self;
+        %tmp.46 = getv function %tmp.45 :drawBuffered;
+        %tmp.48 = lgetv %dc;
+        %tmp.50 = lgetv %currentMoveBarLevel.2;
+        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_110_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_69_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 73 3 ]
+        %tmp.51 = self;
+        %tmp.52 = getv function %tmp.51 :drawBars;
+        %tmp.54 = lgetv %dc;
+        %tmp.56 = getv ? :mX;
+        %tmp.58 = getv ? :mY;
+        %tmp.60 = getv ? :mHeight;
+        %tmp.61 = 2;
+        %tmp.62 = div %tmp.60 %tmp.61;
+        %tmp.63 = sub %tmp.58 %tmp.62;
+        %tmp.65 = lgetv %currentMoveBarLevel.2;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.56, %tmp.63, %tmp.65);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_69_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_67_2_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_54_19_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 77; buffered = true; ]
+    function drawBuffered(dc, currentMoveBarLevel) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_78_48_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 81 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_2_if_stmt:
+        %tmp.2 = getv ? :mBufferNeedsRecreate;
+        bf %tmp.2 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_28_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 82 3 ]
+        %tmp.3 = self;
+        %tmp.4 = getv function %tmp.3 :recreateBuffer;
+        invoke %tmp.3 %tmp.4();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_28_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_81_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 86 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_2_if_stmt:
+        %tmp.6 = lgetv %currentMoveBarLevel;
+        %tmp.8 = getv ? :mLastMoveBarLevel;
+        %tmp.9 = ne %tmp.6 %tmp.8;
+        bf %tmp.9 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_48_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 87 3 ]
+        %tmp.11 = lgetv %currentMoveBarLevel;
+        putv self :mLastMoveBarLevel %tmp.11;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 88 3 ]
+        %tmp.12 = true;
+        putv self :mBufferNeedsRedraw %tmp.12;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_48_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_86_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 91 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_2_if_stmt:
+        %tmp.14 = getv ? :mBufferNeedsRedraw;
+        bf %tmp.14 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_26_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 92 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_26_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_26_stop" ]
+        %bufferDc.1 = local;
+        %tmp.16 = getv ? :mBuffer;
+        %tmp.17 = getv function %tmp.16 :getDc;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        lputv %bufferDc.1 %tmp.18;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 97 3 ]
+        %tmp.19 = lgetv %bufferDc.1;
+        %tmp.20 = getv function %tmp.19 :setColor;
+        %tmp.21 = getm $.Toybox.Graphics;
+        %tmp.22 = getv %tmp.21 :COLOR_TRANSPARENT;
+        %tmp.24 = getv ? :gBackgroundColour;
+        invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 98 3 ]
+        %tmp.25 = lgetv %bufferDc.1;
+        %tmp.26 = getv function %tmp.25 :clear;
+        invoke %tmp.25 %tmp.26();
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 101 3 ]
+        %tmp.27 = self;
+        %tmp.28 = getv function %tmp.27 :drawBars;
+        %tmp.30 = lgetv %bufferDc.1;
+        %tmp.31 = 0;
+        %tmp.32 = 0;
+        %tmp.34 = lgetv %currentMoveBarLevel;
+        invoke %tmp.27 %tmp.28(%tmp.30, %tmp.31, %tmp.32, %tmp.34);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 102 3 ]
+        %tmp.35 = false;
+        putv self :mBufferNeedsRedraw %tmp.35;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_26_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_91_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 106 2 ]
+        %tmp.36 = lgetv %dc;
+        %tmp.37 = getv function %tmp.36 :setClip;
+        %tmp.39 = getv ? :mX;
+        %tmp.41 = getv ? :mY;
+        %tmp.43 = getv ? :mHeight;
+        %tmp.44 = 2;
+        %tmp.45 = div %tmp.43 %tmp.44;
+        %tmp.46 = sub %tmp.41 %tmp.45;
+        %tmp.48 = getv ? :mCurrentWidth;
+        %tmp.50 = getv ? :mHeight;
+        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.46, %tmp.48, %tmp.50);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 107 2 ]
+        %tmp.51 = lgetv %dc;
+        %tmp.52 = getv function %tmp.51 :drawBitmap;
+        %tmp.54 = getv ? :mX;
+        %tmp.56 = getv ? :mY;
+        %tmp.58 = getv ? :mHeight;
+        %tmp.59 = 2;
+        %tmp.60 = div %tmp.58 %tmp.59;
+        %tmp.61 = sub %tmp.56 %tmp.60;
+        %tmp.63 = getv ? :mBuffer;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.61, %tmp.63);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 108 2 ]
+        %tmp.64 = lgetv %dc;
+        %tmp.65 = getv function %tmp.64 :clearClip;
+        invoke %tmp.64 %tmp.65();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_78_48_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 111; buffered = true; ]
+    function recreateBuffer() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_112_27_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 113 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_112_27_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_112_27_stop" ]
+        %options.1 = local;
+        %tmp.1 = newd 3;
+        %tmp.3 = const :width;
+        %tmp.5 = getv ? :mCurrentWidth;
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 %tmp.3 %tmp.5;
+        %tmp.9 = const :height;
+        %tmp.11 = getv ? :mHeight;
+        %tmp.12 = dup %tmp.7;
+        %tmp.13 = aputv %tmp.12 %tmp.9 %tmp.11;
+        %tmp.15 = const :palette;
+        %tmp.16 = newa 3;
+        %tmp.18 = getv ? :gBackgroundColour;
+        %tmp.19 = dup %tmp.16;
+        %tmp.20 = aputv %tmp.19 0 %tmp.18;
+        %tmp.22 = getv ? :gMeterBackgroundColour;
+        %tmp.23 = dup %tmp.20;
+        %tmp.24 = aputv %tmp.23 1 %tmp.22;
+        %tmp.26 = getv ? :gThemeColour;
+        %tmp.27 = dup %tmp.24;
+        %tmp.28 = aputv %tmp.27 2 %tmp.26;
+        %tmp.29 = dup %tmp.13;
+        %tmp.30 = aputv %tmp.29 %tmp.15 %tmp.28;
+        lputv %options.1 %tmp.30;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 121 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_stmt:
+        %tmp.32 = getm $.Toybox.Graphics;
+        %tmp.34 = const :createBufferedBitmap;
+        %tmp.35 = canhazplz %tmp.32 %tmp.34;
+        bf %tmp.35 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 122 3 ]
+        %tmp.36 = getm $.Toybox.Graphics;
+        %tmp.37 = getv function %tmp.36 :createBufferedBitmap;
+        %tmp.39 = lgetv %options.1;
+        %tmp.40 = invoke %tmp.36 %tmp.37(%tmp.39);
+        %tmp.41 = getv function %tmp.40 :get;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        putv self :mBuffer %tmp.42;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_44_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_123_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 124 3 ]
+        %tmp.45 = getm $.Toybox.Graphics;
+        %tmp.46 = getv function ? %tmp.45 :BufferedBitmap;
+        %tmp.48 = lgetv %options.1;
+        %tmp.43 = newc %tmp.46 (%tmp.48);
+        putv self :mBuffer %tmp.43;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_123_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_121_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 127 2 ]
+        %tmp.49 = false;
+        putv self :mBufferNeedsRecreate %tmp.49;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 128 2 ]
+        %tmp.50 = true;
+        putv self :mBufferNeedsRedraw %tmp.50;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_112_27_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 133; ]
+    function drawBars(dc, x, y, currentMoveBarLevel) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 134 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop" ]
+        %barWidth.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getBarWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %barWidth.1 %tmp.3;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 135 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop" ]
+        %thisBarWidth.2 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 136 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop" ]
+        %thisBarColour.3 = local;
+        %tmp.4 = 0;
+        lputv %thisBarColour.3 %tmp.4;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 137 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop" ]
+        %barX.4 = local;
+        %tmp.6 = lgetv %x;
+        %tmp.8 = getv ? :mTailWidth;
+        %tmp.9 = add %tmp.6 %tmp.8;
+        lputv %barX.4 %tmp.9;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 138 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop" ]
+        %moveBarStyle.5 = local;
+        %tmp.10 = getm $.Toybox.Application;
+        %tmp.11 = getv function %tmp.10 :getApp;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = getv function %tmp.12 :getProperty;
+        %tmp.14 = "MoveBarStyle";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        lputv %moveBarStyle.5 %tmp.15;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 141 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_init:
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_end" ]
+        %i.6 = local;
+        %tmp.16 = 1;
+        lputv %i.6 %tmp.16;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_test:
+        %tmp.18 = lgetv %i.6;
+        %tmp.19 = getm $.Toybox.ActivityMonitor;
+        %tmp.20 = getv %tmp.19 :MOVE_BAR_LEVEL_MAX;
+        %tmp.21 = lte %tmp.18 %tmp.20;
+        bf %tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_64_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 144 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_begin:
+        %tmp.23 = lgetv %i.6;
+        %tmp.24 = 1;
+        %tmp.25 = eq %tmp.23 %tmp.24;
+        bf %tmp.25 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_true:
+        %tmp.26 = 2;
+        %tmp.28 = lgetv %barWidth.1;
+        %tmp.29 = mul %tmp.26 %tmp.28;
+        push %tmp.29;
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_false:
+        %tmp.31 = lgetv %barWidth.1;
+        push %tmp.31;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_end:
+        %tmp.32 = phi [%tmp.25 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_begin] [%tmp.29 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_true] [%tmp.31 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_false] [%tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_144_18_end];
+        lputv %thisBarWidth.2 %tmp.32;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 147 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_stmt:
+        %tmp.34 = lgetv %i.6;
+        %tmp.36 = lgetv %currentMoveBarLevel;
+        %tmp.37 = lte %tmp.34 %tmp.36;
+        bf %tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_33_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 148 4 ]
+        %tmp.39 = getv ? :gThemeColour;
+        lputv %thisBarColour.3 %tmp.39;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_33_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 151 10 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_stmt:
+        %tmp.41 = lgetv %moveBarStyle.5;
+        %tmp.42 = 0;
+        %tmp.43 = eq %tmp.41 %tmp.42;
+        bf %tmp.43 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_52_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 152 4 ]
+        %tmp.45 = getv ? :gMeterBackgroundColour;
+        lputv %thisBarColour.3 %tmp.45;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_52_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_155_10_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 156 4 ]
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_155_10_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_151_10_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_147_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 160 3 ]
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :drawBar;
+        %tmp.49 = lgetv %dc;
+        %tmp.51 = lgetv %thisBarColour.3;
+        %tmp.53 = lgetv %barX.4;
+        %tmp.55 = lgetv %y;
+        %tmp.57 = getv ? :mHeight;
+        %tmp.58 = 2;
+        %tmp.59 = div %tmp.57 %tmp.58;
+        %tmp.60 = add %tmp.55 %tmp.59;
+        %tmp.62 = lgetv %thisBarWidth.2;
+        invoke %tmp.46 %tmp.47(%tmp.49, %tmp.51, %tmp.53, %tmp.60, %tmp.62);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 162 3 ]
+        %tmp.63 = lgetv %barX.4;
+        %tmp.65 = lgetv %thisBarWidth.2;
+        %tmp.67 = getv ? :mSeparator;
+        %tmp.68 = add %tmp.65 %tmp.67;
+        %tmp.69 = add %tmp.63 %tmp.68;
+        lputv %barX.4 %tmp.69;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_64_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 141 ]
+        %tmp.72 = lgetv %i.6;
+        %tmp.73 = add %tmp.72 1;
+        lputv %i.6 %tmp.73;
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_141_2_for_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_133_50_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 166; ]
+    function getBarWidth() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 168 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_stop" ]
+        %numBars.1 = local;
+        %tmp.1 = getm $.Toybox.ActivityMonitor;
+        %tmp.2 = getv %tmp.1 :MOVE_BAR_LEVEL_MAX;
+        %tmp.3 = getm $.Toybox.ActivityMonitor;
+        %tmp.4 = getv %tmp.3 :MOVE_BAR_LEVEL_MIN;
+        %tmp.5 = sub %tmp.2 %tmp.4;
+        lputv %numBars.1 %tmp.5;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 171 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_stop" ]
+        %availableWidth.2 = local;
+        %tmp.7 = getv ? :mCurrentWidth;
+        %tmp.9 = getv ? :mTailWidth;
+        %tmp.10 = sub %tmp.7 %tmp.9;
+        %tmp.12 = lgetv %numBars.1;
+        %tmp.13 = 1;
+        %tmp.14 = sub %tmp.12 %tmp.13;
+        %tmp.16 = getv ? :mSeparator;
+        %tmp.17 = mul %tmp.14 %tmp.16;
+        %tmp.18 = sub %tmp.10 %tmp.17;
+        lputv %availableWidth.2 %tmp.18;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 173 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_stop" ]
+        %barWidth.3 = local;
+        %tmp.20 = lgetv %availableWidth.2;
+        %tmp.22 = lgetv %numBars.1;
+        %tmp.23 = 1;
+        %tmp.24 = add %tmp.22 %tmp.23;
+        %tmp.25 = div %tmp.20 %tmp.24;
+        lputv %barWidth.3 %tmp.25;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 176 2 ]
+        %tmp.27 = lgetv %barWidth.3;
+        ret %tmp.27;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_166_24_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 186; ]
+    function drawBar(dc, colour, x, y, width) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 187 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_stop" ]
+        %points.1 = local;
+        %tmp.2 = 6;
+        %tmp.1 = newa %tmp.2;
+        lputv %points.1 %tmp.1;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 188 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_stop" ]
+        %halfHeight.2 = local;
+        %tmp.4 = getv ? :mHeight;
+        %tmp.5 = 2;
+        %tmp.6 = div %tmp.4 %tmp.5;
+        lputv %halfHeight.2 %tmp.6;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 189 2 ]
+        %tmp.7 = lgetv %width;
+        %tmp.8 = 1;
+        %tmp.9 = sub %tmp.7 %tmp.8;
+        lputv %width %tmp.9;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 191 2 ]
+        %tmp.10 = lgetv %points.1;
+        %tmp.11 = newa 2;
+        %tmp.13 = lgetv %x;
+        %tmp.14 = dup %tmp.11;
+        %tmp.15 = aputv %tmp.14 0 %tmp.13;
+        %tmp.17 = lgetv %y;
+        %tmp.18 = dup %tmp.15;
+        %tmp.19 = aputv %tmp.18 1 %tmp.17;
+        %tmp.20 = 0;
+        aputv %tmp.10 %tmp.20 %tmp.19;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 192 2 ]
+        %tmp.21 = lgetv %points.1;
+        %tmp.22 = newa 2;
+        %tmp.24 = lgetv %x;
+        %tmp.26 = getv ? :mTailWidth;
+        %tmp.27 = sub %tmp.24 %tmp.26;
+        %tmp.28 = dup %tmp.22;
+        %tmp.29 = aputv %tmp.28 0 %tmp.27;
+        %tmp.31 = lgetv %y;
+        %tmp.33 = lgetv %halfHeight.2;
+        %tmp.34 = sub %tmp.31 %tmp.33;
+        %tmp.35 = dup %tmp.29;
+        %tmp.36 = aputv %tmp.35 1 %tmp.34;
+        %tmp.37 = 1;
+        aputv %tmp.21 %tmp.37 %tmp.36;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 193 2 ]
+        %tmp.38 = lgetv %points.1;
+        %tmp.39 = newa 2;
+        %tmp.41 = lgetv %x;
+        %tmp.43 = getv ? :mTailWidth;
+        %tmp.44 = sub %tmp.41 %tmp.43;
+        %tmp.46 = lgetv %width;
+        %tmp.47 = add %tmp.44 %tmp.46;
+        %tmp.48 = dup %tmp.39;
+        %tmp.49 = aputv %tmp.48 0 %tmp.47;
+        %tmp.51 = lgetv %y;
+        %tmp.53 = lgetv %halfHeight.2;
+        %tmp.54 = sub %tmp.51 %tmp.53;
+        %tmp.55 = dup %tmp.49;
+        %tmp.56 = aputv %tmp.55 1 %tmp.54;
+        %tmp.57 = 2;
+        aputv %tmp.38 %tmp.57 %tmp.56;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 194 2 ]
+        %tmp.58 = lgetv %points.1;
+        %tmp.59 = newa 2;
+        %tmp.61 = lgetv %x;
+        %tmp.63 = lgetv %width;
+        %tmp.64 = add %tmp.61 %tmp.63;
+        %tmp.65 = dup %tmp.59;
+        %tmp.66 = aputv %tmp.65 0 %tmp.64;
+        %tmp.68 = lgetv %y;
+        %tmp.69 = dup %tmp.66;
+        %tmp.70 = aputv %tmp.69 1 %tmp.68;
+        %tmp.71 = 3;
+        aputv %tmp.58 %tmp.71 %tmp.70;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 195 2 ]
+        %tmp.72 = lgetv %points.1;
+        %tmp.73 = newa 2;
+        %tmp.75 = lgetv %x;
+        %tmp.77 = getv ? :mTailWidth;
+        %tmp.78 = sub %tmp.75 %tmp.77;
+        %tmp.80 = lgetv %width;
+        %tmp.81 = add %tmp.78 %tmp.80;
+        %tmp.82 = dup %tmp.73;
+        %tmp.83 = aputv %tmp.82 0 %tmp.81;
+        %tmp.85 = lgetv %y;
+        %tmp.87 = lgetv %halfHeight.2;
+        %tmp.88 = add %tmp.85 %tmp.87;
+        %tmp.89 = dup %tmp.83;
+        %tmp.90 = aputv %tmp.89 1 %tmp.88;
+        %tmp.91 = 4;
+        aputv %tmp.72 %tmp.91 %tmp.90;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 196 2 ]
+        %tmp.92 = lgetv %points.1;
+        %tmp.93 = newa 2;
+        %tmp.95 = lgetv %x;
+        %tmp.97 = getv ? :mTailWidth;
+        %tmp.98 = sub %tmp.95 %tmp.97;
+        %tmp.99 = dup %tmp.93;
+        %tmp.100 = aputv %tmp.99 0 %tmp.98;
+        %tmp.102 = lgetv %y;
+        %tmp.104 = lgetv %halfHeight.2;
+        %tmp.105 = add %tmp.102 %tmp.104;
+        %tmp.106 = dup %tmp.100;
+        %tmp.107 = aputv %tmp.106 1 %tmp.105;
+        %tmp.108 = 5;
+        aputv %tmp.92 %tmp.108 %tmp.107;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 198 2 ]
+        %tmp.109 = lgetv %dc;
+        %tmp.110 = getv function %tmp.109 :setColor;
+        %tmp.112 = lgetv %colour;
+        %tmp.113 = getm $.Toybox.Graphics;
+        %tmp.114 = getv %tmp.113 :COLOR_TRANSPARENT;
+        invoke %tmp.109 %tmp.110(%tmp.112, %tmp.114);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc" 199 2 ]
+        %tmp.115 = lgetv %dc;
+        %tmp.116 = getv function %tmp.115 :fillPolygon;
+        %tmp.118 = lgetv %points.1;
+        invoke %tmp.115 %tmp.116(%tmp.118);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_MoveBar_mc_186_43_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\MoveBar.mc"; @line = 1; ]
+<init> {
+}

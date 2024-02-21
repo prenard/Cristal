@@ -1,0 +1,445 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 2; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 3; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 5; ]
+class ThickThinTime extends Ui.Drawable{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 7; @position = 13; ]
+    private
+    var mHoursFont;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 7; @position = 25; ]
+    private
+    var mMinutesFont;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 7; @position = 39; ]
+    private
+    var mSecondsFont;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 10; @position = 13; ]
+    private
+    var mSecondsY;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 13; @position = 13; ]
+    private
+    var mAdjustY = 0;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 18; @position = 13; ]
+    private
+    var mSecondsClipRectX;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 19; @position = 13; ]
+    private
+    var mSecondsClipRectY;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 20; @position = 13; ]
+    private
+    var mSecondsClipRectWidth;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 21; @position = 13; ]
+    private
+    var mSecondsClipRectHeight;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 23; @position = 13; ]
+    private
+    var mHideSeconds = false;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 24; @position = 13; ]
+    private
+    var AM_PM_X_OFFSET = 2;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 27; @position = 13; ]
+    private
+    var mSecondsClipXAdjust = 0;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 29; ]
+    function initialize(params) as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_29_29_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 30 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 32 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_2_if_stmt:
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :adjustY;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_32_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 33 3 ]
+        %tmp.14 = lgetv %params;
+        %tmp.16 = const :adjustY;
+        %tmp.17 = agetv %tmp.14 %tmp.16;
+        putv self :mAdjustY %tmp.17;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_32_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_32_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 36 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_2_if_stmt:
+        %tmp.19 = lgetv %params;
+        %tmp.21 = const :amPmOffset;
+        %tmp.22 = agetv %tmp.19 %tmp.21;
+        %tmp.23 = null;
+        %tmp.24 = ne %tmp.22 %tmp.23;
+        bf %tmp.24 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_35_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 37 3 ]
+        %tmp.26 = lgetv %params;
+        %tmp.28 = const :amPmOffset;
+        %tmp.29 = agetv %tmp.26 %tmp.28;
+        putv self :AM_PM_X_OFFSET %tmp.29;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_35_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_36_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 40 2 ]
+        %tmp.31 = lgetv %params;
+        %tmp.33 = const :secondsY;
+        %tmp.34 = agetv %tmp.31 %tmp.33;
+        putv self :mSecondsY %tmp.34;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 42 2 ]
+        %tmp.36 = lgetv %params;
+        %tmp.38 = const :secondsX;
+        %tmp.39 = agetv %tmp.36 %tmp.38;
+        putv self :mSecondsClipRectX %tmp.39;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 43 2 ]
+        %tmp.41 = lgetv %params;
+        %tmp.43 = const :secondsClipY;
+        %tmp.44 = agetv %tmp.41 %tmp.43;
+        putv self :mSecondsClipRectY %tmp.44;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 44 2 ]
+        %tmp.46 = lgetv %params;
+        %tmp.48 = const :secondsClipWidth;
+        %tmp.49 = agetv %tmp.46 %tmp.48;
+        putv self :mSecondsClipRectWidth %tmp.49;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 45 2 ]
+        %tmp.51 = lgetv %params;
+        %tmp.53 = const :secondsClipHeight;
+        %tmp.54 = agetv %tmp.51 %tmp.53;
+        putv self :mSecondsClipRectHeight %tmp.54;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 47 2 ]
+        %tmp.55 = getm $.Toybox.WatchUi;
+        %tmp.56 = getv function %tmp.55 :loadResource;
+        %tmp.58 = getv ? :Rez;
+        %tmp.59 = getv %tmp.58 :Fonts;
+        %tmp.60 = getv %tmp.59 :HoursFont;
+        %tmp.61 = invoke %tmp.55 %tmp.56(%tmp.60);
+        putv self :mHoursFont %tmp.61;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 48 2 ]
+        %tmp.62 = getm $.Toybox.WatchUi;
+        %tmp.63 = getv function %tmp.62 :loadResource;
+        %tmp.65 = getv ? :Rez;
+        %tmp.66 = getv %tmp.65 :Fonts;
+        %tmp.67 = getv %tmp.66 :MinutesFont;
+        %tmp.68 = invoke %tmp.62 %tmp.63(%tmp.67);
+        putv self :mMinutesFont %tmp.68;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 49 2 ]
+        %tmp.69 = getm $.Toybox.WatchUi;
+        %tmp.70 = getv function %tmp.69 :loadResource;
+        %tmp.72 = getv ? :Rez;
+        %tmp.73 = getv %tmp.72 :Fonts;
+        %tmp.74 = getv %tmp.73 :SecondsFont;
+        %tmp.75 = invoke %tmp.69 %tmp.70(%tmp.74);
+        putv self :mSecondsFont %tmp.75;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_29_29_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 52; ]
+    function setHideSeconds(hideSeconds) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_52_38_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 53 2 ]
+        %tmp.2 = lgetv %hideSeconds;
+        putv self :mHideSeconds %tmp.2;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_52_38_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 56; ]
+    function draw(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_56_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 57 2 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :drawHoursMinutes;
+        %tmp.4 = lgetv %dc;
+        invoke %tmp.1 %tmp.2(%tmp.4);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 58 2 ]
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :drawSeconds;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = false;
+        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.9);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_56_19_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 61; ]
+    function drawHoursMinutes(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 62 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 63 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %formattedTime.2 = local;
+        %tmp.4 = getm $.Toybox.Application;
+        %tmp.5 = getv function %tmp.4 :getApp;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.7 = getv function %tmp.6 :getFormattedTime;
+        %tmp.8 = lgetv %clockTime.1;
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = lgetv %clockTime.1;
+        %tmp.11 = getv %tmp.10 :min;
+        %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
+        lputv %formattedTime.2 %tmp.12;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 64 2 ]
+        %tmp.13 = lgetv %formattedTime.2;
+        %tmp.15 = lgetv %formattedTime.2;
+        %tmp.17 = const :amPm;
+        %tmp.18 = agetv %tmp.15 %tmp.17;
+        %tmp.19 = getv function %tmp.18 :toUpper;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.22 = const :amPm;
+        aputv %tmp.13 %tmp.22 %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 66 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %hours.3 = local;
+        %tmp.24 = lgetv %formattedTime.2;
+        %tmp.26 = const :hour;
+        %tmp.27 = agetv %tmp.24 %tmp.26;
+        lputv %hours.3 %tmp.27;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 67 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %minutes.4 = local;
+        %tmp.29 = lgetv %formattedTime.2;
+        %tmp.31 = const :min;
+        %tmp.32 = agetv %tmp.29 %tmp.31;
+        lputv %minutes.4 %tmp.32;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 68 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %amPmText.5 = local;
+        %tmp.34 = lgetv %formattedTime.2;
+        %tmp.36 = const :amPm;
+        %tmp.37 = agetv %tmp.34 %tmp.36;
+        lputv %amPmText.5 %tmp.37;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 70 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %halfDCWidth.6 = local;
+        %tmp.38 = lgetv %dc;
+        %tmp.39 = getv function %tmp.38 :getWidth;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = 2;
+        %tmp.42 = div %tmp.40 %tmp.41;
+        lputv %halfDCWidth.6 %tmp.42;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 71 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %halfDCHeight.7 = local;
+        %tmp.43 = lgetv %dc;
+        %tmp.44 = getv function %tmp.43 :getHeight;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.46 = 2;
+        %tmp.47 = div %tmp.45 %tmp.46;
+        %tmp.49 = getv ? :mAdjustY;
+        %tmp.50 = add %tmp.47 %tmp.49;
+        lputv %halfDCHeight.7 %tmp.50;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 76 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %totalWidth.8 = local;
+        %tmp.51 = lgetv %dc;
+        %tmp.52 = getv function %tmp.51 :getTextWidthInPixels;
+        %tmp.54 = lgetv %hours.3;
+        %tmp.56 = lgetv %minutes.4;
+        %tmp.57 = add %tmp.54 %tmp.56;
+        %tmp.59 = getv ? :mHoursFont;
+        %tmp.60 = invoke %tmp.51 %tmp.52(%tmp.57, %tmp.59);
+        lputv %totalWidth.8 %tmp.60;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 77 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop" ]
+        %x.9 = local;
+        %tmp.62 = lgetv %halfDCWidth.6;
+        %tmp.64 = lgetv %totalWidth.8;
+        %tmp.65 = 2;
+        %tmp.66 = div %tmp.64 %tmp.65;
+        %tmp.67 = sub %tmp.62 %tmp.66;
+        lputv %x.9 %tmp.67;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 80 2 ]
+        %tmp.68 = lgetv %dc;
+        %tmp.69 = getv function %tmp.68 :setColor;
+        %tmp.71 = getv ? :gHoursColour;
+        %tmp.73 = getv ? :Graphics;
+        %tmp.74 = getv %tmp.73 :COLOR_TRANSPARENT;
+        invoke %tmp.68 %tmp.69(%tmp.71, %tmp.74);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 81 2 ]
+        %tmp.75 = lgetv %dc;
+        %tmp.76 = getv function %tmp.75 :drawText;
+        %tmp.78 = lgetv %x.9;
+        %tmp.80 = lgetv %halfDCHeight.7;
+        %tmp.82 = getv ? :mHoursFont;
+        %tmp.84 = lgetv %hours.3;
+        %tmp.86 = getv ? :Graphics;
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_LEFT;
+        %tmp.89 = getv ? :Graphics;
+        %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_VCENTER;
+        %tmp.91 = bitor %tmp.87 %tmp.90;
+        invoke %tmp.75 %tmp.76(%tmp.78, %tmp.80, %tmp.82, %tmp.84, %tmp.91);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 88 2 ]
+        %tmp.92 = lgetv %x.9;
+        %tmp.93 = lgetv %dc;
+        %tmp.94 = getv function %tmp.93 :getTextWidthInPixels;
+        %tmp.96 = lgetv %hours.3;
+        %tmp.98 = getv ? :mHoursFont;
+        %tmp.99 = invoke %tmp.93 %tmp.94(%tmp.96, %tmp.98);
+        %tmp.100 = add %tmp.92 %tmp.99;
+        lputv %x.9 %tmp.100;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 91 2 ]
+        %tmp.101 = lgetv %dc;
+        %tmp.102 = getv function %tmp.101 :setColor;
+        %tmp.104 = getv ? :gMinutesColour;
+        %tmp.106 = getv ? :Graphics;
+        %tmp.107 = getv %tmp.106 :COLOR_TRANSPARENT;
+        invoke %tmp.101 %tmp.102(%tmp.104, %tmp.107);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 92 2 ]
+        %tmp.108 = lgetv %dc;
+        %tmp.109 = getv function %tmp.108 :drawText;
+        %tmp.111 = lgetv %x.9;
+        %tmp.113 = lgetv %halfDCHeight.7;
+        %tmp.115 = getv ? :mMinutesFont;
+        %tmp.117 = lgetv %minutes.4;
+        %tmp.119 = getv ? :Graphics;
+        %tmp.120 = getv %tmp.119 :TEXT_JUSTIFY_LEFT;
+        %tmp.122 = getv ? :Graphics;
+        %tmp.123 = getv %tmp.122 :TEXT_JUSTIFY_VCENTER;
+        %tmp.124 = bitor %tmp.120 %tmp.123;
+        invoke %tmp.108 %tmp.109(%tmp.111, %tmp.113, %tmp.115, %tmp.117, %tmp.124);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 101 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_2_if_stmt:
+        %tmp.125 = lgetv %amPmText.5;
+        %tmp.126 = getv function %tmp.125 :length;
+        %tmp.127 = invoke %tmp.125 %tmp.126();
+        %tmp.128 = 0;
+        %tmp.129 = gt %tmp.127 %tmp.128;
+        bf %tmp.129 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_29_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 102 3 ]
+        %tmp.130 = lgetv %dc;
+        %tmp.131 = getv function %tmp.130 :setColor;
+        %tmp.133 = getv ? :gThemeColour;
+        %tmp.135 = getv ? :Graphics;
+        %tmp.136 = getv %tmp.135 :COLOR_TRANSPARENT;
+        invoke %tmp.130 %tmp.131(%tmp.133, %tmp.136);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 103 3 ]
+        %tmp.137 = lgetv %x.9;
+        %tmp.138 = lgetv %dc;
+        %tmp.139 = getv function %tmp.138 :getTextWidthInPixels;
+        %tmp.141 = lgetv %minutes.4;
+        %tmp.143 = getv ? :mMinutesFont;
+        %tmp.144 = invoke %tmp.138 %tmp.139(%tmp.141, %tmp.143);
+        %tmp.145 = add %tmp.137 %tmp.144;
+        lputv %x.9 %tmp.145;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 104 3 ]
+        %tmp.146 = lgetv %dc;
+        %tmp.147 = getv function %tmp.146 :drawText;
+        %tmp.149 = lgetv %x.9;
+        %tmp.151 = getv ? :AM_PM_X_OFFSET;
+        %tmp.152 = add %tmp.149 %tmp.151;
+        %tmp.154 = lgetv %halfDCHeight.7;
+        %tmp.156 = getv ? :mSecondsFont;
+        %tmp.158 = lgetv %amPmText.5;
+        %tmp.160 = getv ? :Graphics;
+        %tmp.161 = getv %tmp.160 :TEXT_JUSTIFY_LEFT;
+        %tmp.163 = getv ? :Graphics;
+        %tmp.164 = getv %tmp.163 :TEXT_JUSTIFY_VCENTER;
+        %tmp.165 = bitor %tmp.161 %tmp.164;
+        invoke %tmp.146 %tmp.147(%tmp.152, %tmp.154, %tmp.156, %tmp.158, %tmp.165);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_29_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_101_2_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_61_31_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 117; ]
+    function drawSeconds(dc, isPartialUpdate) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 118 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_2_if_stmt:
+        %tmp.2 = getv ? :mHideSeconds;
+        bf %tmp.2 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_20_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 119 3 ]
+        ret ?;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_20_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_118_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 122 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_stop" ]
+        %clockTime.1 = local;
+        %tmp.3 = getm $.Toybox.System;
+        %tmp.4 = getv function %tmp.3 :getClockTime;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %clockTime.1 %tmp.5;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 123 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_stop" ]
+        %seconds.2 = local;
+        %tmp.6 = lgetv %clockTime.1;
+        %tmp.7 = getv %tmp.6 :sec;
+        %tmp.8 = getv function %tmp.7 :format;
+        %tmp.9 = "%02d";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        lputv %seconds.2 %tmp.10;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 125 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_stmt:
+        %tmp.12 = lgetv %isPartialUpdate;
+        bf %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_23_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 127 3 ]
+        %tmp.13 = lgetv %dc;
+        %tmp.14 = getv function %tmp.13 :setClip;
+        %tmp.16 = getv ? :mSecondsClipRectX;
+        %tmp.18 = getv ? :mSecondsClipXAdjust;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        %tmp.21 = getv ? :mSecondsClipRectY;
+        %tmp.23 = getv ? :mSecondsClipRectWidth;
+        %tmp.25 = getv ? :mSecondsClipRectHeight;
+        invoke %tmp.13 %tmp.14(%tmp.19, %tmp.21, %tmp.23, %tmp.25);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 136 3 ]
+        %tmp.26 = lgetv %dc;
+        %tmp.27 = getv function %tmp.26 :setColor;
+        %tmp.29 = getv ? :gThemeColour;
+        %tmp.31 = getv ? :gBackgroundColour;
+        invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 139 3 ]
+        %tmp.32 = lgetv %dc;
+        %tmp.33 = getv function %tmp.32 :clear;
+        invoke %tmp.32 %tmp.33();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_23_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_141_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 145 3 ]
+        %tmp.34 = lgetv %dc;
+        %tmp.35 = getv function %tmp.34 :setColor;
+        %tmp.37 = getv ? :gThemeColour;
+        %tmp.39 = getv ? :Graphics;
+        %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+        invoke %tmp.34 %tmp.35(%tmp.37, %tmp.40);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_141_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_125_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc" 148 2 ]
+        %tmp.41 = lgetv %dc;
+        %tmp.42 = getv function %tmp.41 :drawText;
+        %tmp.44 = getv ? :mSecondsClipRectX;
+        %tmp.46 = getv ? :mSecondsClipXAdjust;
+        %tmp.47 = add %tmp.44 %tmp.46;
+        %tmp.49 = getv ? :mSecondsY;
+        %tmp.51 = getv ? :mSecondsFont;
+        %tmp.53 = lgetv %seconds.2;
+        %tmp.55 = getv ? :Graphics;
+        %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.41 %tmp.42(%tmp.47, %tmp.49, %tmp.51, %tmp.53, %tmp.56);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_ThickThinTime_mc_117_43_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\ThickThinTime.mc"; @line = 1; ]
+<init> {
+}

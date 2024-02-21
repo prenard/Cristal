@@ -1,0 +1,490 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 2; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 3; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 4; ]
+using Toybox.Time;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 5; ]
+using Toybox.Time.Gregorian;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 7; ]
+class DateLine extends Ui.Drawable{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 9; @position = 13; ]
+    private
+    var mX;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 10; @position = 13; ]
+    private
+    var mY;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 11; @position = 13; ]
+    private
+    var mYLine2;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 13; @position = 13; ]
+    private
+    var mDayOfWeek;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 14; @position = 13; ]
+    private
+    var mDayOfWeekString;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 16; @position = 13; ]
+    private
+    var mMonth;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 17; @position = 13; ]
+    private
+    var mMonthString;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 19; @position = 13; ]
+    private
+    var mFont;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 21; ]
+    function initialize(params) as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 22 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 24 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_stop" ]
+        %rezFonts.1 = local;
+        %tmp.7 = getv ? :Rez;
+        %tmp.8 = getv %tmp.7 :Fonts;
+        lputv %rezFonts.1 %tmp.8;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 40 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_stop" ]
+        %dateFont.2 = local;
+        %tmp.9 = lgetv %rezFonts.1;
+        %tmp.10 = getv %tmp.9 :DateFont;
+        lputv %dateFont.2 %tmp.10;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 41 2 ]
+        %tmp.11 = getm $.Toybox.WatchUi;
+        %tmp.12 = getv function %tmp.11 :loadResource;
+        %tmp.14 = lgetv %dateFont.2;
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
+        putv self :mFont %tmp.15;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 43 2 ]
+        %tmp.17 = lgetv %params;
+        %tmp.19 = const :x;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        putv self :mX %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 44 2 ]
+        %tmp.22 = lgetv %params;
+        %tmp.24 = const :y;
+        %tmp.25 = agetv %tmp.22 %tmp.24;
+        putv self :mY %tmp.25;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 45 2 ]
+        %tmp.27 = lgetv %params;
+        %tmp.29 = const :yLine2;
+        %tmp.30 = agetv %tmp.27 %tmp.29;
+        putv self :mYLine2 %tmp.30;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_21_29_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 49; ]
+    function draw(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 50 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %rezStrings.1 = local;
+        %tmp.2 = getv ? :Rez;
+        %tmp.3 = getv %tmp.2 :Strings;
+        lputv %rezStrings.1 %tmp.3;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 51 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %resourceArray.2 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 56 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %now.3 = local;
+        %tmp.4 = getm $.Toybox.Time.Gregorian;
+        %tmp.5 = getv function %tmp.4 :info;
+        %tmp.6 = getm $.Toybox.Time;
+        %tmp.7 = getv function %tmp.6 :now;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getm $.Toybox.Time;
+        %tmp.10 = getv %tmp.9 :FORMAT_SHORT;
+        %tmp.11 = invoke %tmp.4 %tmp.5(%tmp.8, %tmp.10);
+        lputv %now.3 %tmp.11;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 58 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %dayOfWeek.4 = local;
+        %tmp.12 = lgetv %now.3;
+        %tmp.13 = getv %tmp.12 :day_of_week;
+        lputv %dayOfWeek.4 %tmp.13;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 59 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_2_if_stmt:
+        %tmp.15 = lgetv %dayOfWeek.4;
+        %tmp.17 = getv ? :mDayOfWeek;
+        %tmp.18 = ne %tmp.15 %tmp.17;
+        bf %tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_31_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 60 3 ]
+        %tmp.20 = lgetv %dayOfWeek.4;
+        putv self :mDayOfWeek %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 62 3 ]
+        %tmp.21 = newa 7;
+        %tmp.22 = lgetv %rezStrings.1;
+        %tmp.23 = getv %tmp.22 :Sun;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 0 %tmp.23;
+        %tmp.26 = lgetv %rezStrings.1;
+        %tmp.27 = getv %tmp.26 :Mon;
+        %tmp.28 = dup %tmp.25;
+        %tmp.29 = aputv %tmp.28 1 %tmp.27;
+        %tmp.30 = lgetv %rezStrings.1;
+        %tmp.31 = getv %tmp.30 :Tue;
+        %tmp.32 = dup %tmp.29;
+        %tmp.33 = aputv %tmp.32 2 %tmp.31;
+        %tmp.34 = lgetv %rezStrings.1;
+        %tmp.35 = getv %tmp.34 :Wed;
+        %tmp.36 = dup %tmp.33;
+        %tmp.37 = aputv %tmp.36 3 %tmp.35;
+        %tmp.38 = lgetv %rezStrings.1;
+        %tmp.39 = getv %tmp.38 :Thu;
+        %tmp.40 = dup %tmp.37;
+        %tmp.41 = aputv %tmp.40 4 %tmp.39;
+        %tmp.42 = lgetv %rezStrings.1;
+        %tmp.43 = getv %tmp.42 :Fri;
+        %tmp.44 = dup %tmp.41;
+        %tmp.45 = aputv %tmp.44 5 %tmp.43;
+        %tmp.46 = lgetv %rezStrings.1;
+        %tmp.47 = getv %tmp.46 :Sat;
+        %tmp.48 = dup %tmp.45;
+        %tmp.49 = aputv %tmp.48 6 %tmp.47;
+        lputv %resourceArray.2 %tmp.49;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 71 3 ]
+        %tmp.50 = getm $.Toybox.WatchUi;
+        %tmp.51 = getv function %tmp.50 :loadResource;
+        %tmp.53 = lgetv %resourceArray.2;
+        %tmp.55 = getv ? :mDayOfWeek;
+        %tmp.56 = 1;
+        %tmp.57 = sub %tmp.55 %tmp.56;
+        %tmp.58 = agetv %tmp.53 %tmp.57;
+        %tmp.59 = invoke %tmp.50 %tmp.51(%tmp.58);
+        %tmp.60 = getv function %tmp.59 :toUpper;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        putv self :mDayOfWeekString %tmp.61;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_31_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_59_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 74 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %month.5 = local;
+        %tmp.62 = lgetv %now.3;
+        %tmp.63 = getv %tmp.62 :month;
+        lputv %month.5 %tmp.63;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 75 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_2_if_stmt:
+        %tmp.65 = lgetv %month.5;
+        %tmp.67 = getv ? :mMonth;
+        %tmp.68 = ne %tmp.65 %tmp.67;
+        bf %tmp.68 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_23_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 76 3 ]
+        %tmp.70 = lgetv %month.5;
+        putv self :mMonth %tmp.70;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 78 3 ]
+        %tmp.71 = newa 12;
+        %tmp.72 = lgetv %rezStrings.1;
+        %tmp.73 = getv %tmp.72 :Jan;
+        %tmp.74 = dup %tmp.71;
+        %tmp.75 = aputv %tmp.74 0 %tmp.73;
+        %tmp.76 = lgetv %rezStrings.1;
+        %tmp.77 = getv %tmp.76 :Feb;
+        %tmp.78 = dup %tmp.75;
+        %tmp.79 = aputv %tmp.78 1 %tmp.77;
+        %tmp.80 = lgetv %rezStrings.1;
+        %tmp.81 = getv %tmp.80 :Mar;
+        %tmp.82 = dup %tmp.79;
+        %tmp.83 = aputv %tmp.82 2 %tmp.81;
+        %tmp.84 = lgetv %rezStrings.1;
+        %tmp.85 = getv %tmp.84 :Apr;
+        %tmp.86 = dup %tmp.83;
+        %tmp.87 = aputv %tmp.86 3 %tmp.85;
+        %tmp.88 = lgetv %rezStrings.1;
+        %tmp.89 = getv %tmp.88 :May;
+        %tmp.90 = dup %tmp.87;
+        %tmp.91 = aputv %tmp.90 4 %tmp.89;
+        %tmp.92 = lgetv %rezStrings.1;
+        %tmp.93 = getv %tmp.92 :Jun;
+        %tmp.94 = dup %tmp.91;
+        %tmp.95 = aputv %tmp.94 5 %tmp.93;
+        %tmp.96 = lgetv %rezStrings.1;
+        %tmp.97 = getv %tmp.96 :Jul;
+        %tmp.98 = dup %tmp.95;
+        %tmp.99 = aputv %tmp.98 6 %tmp.97;
+        %tmp.100 = lgetv %rezStrings.1;
+        %tmp.101 = getv %tmp.100 :Aug;
+        %tmp.102 = dup %tmp.99;
+        %tmp.103 = aputv %tmp.102 7 %tmp.101;
+        %tmp.104 = lgetv %rezStrings.1;
+        %tmp.105 = getv %tmp.104 :Sep;
+        %tmp.106 = dup %tmp.103;
+        %tmp.107 = aputv %tmp.106 8 %tmp.105;
+        %tmp.108 = lgetv %rezStrings.1;
+        %tmp.109 = getv %tmp.108 :Oct;
+        %tmp.110 = dup %tmp.107;
+        %tmp.111 = aputv %tmp.110 9 %tmp.109;
+        %tmp.112 = lgetv %rezStrings.1;
+        %tmp.113 = getv %tmp.112 :Nov;
+        %tmp.114 = dup %tmp.111;
+        %tmp.115 = aputv %tmp.114 10 %tmp.113;
+        %tmp.116 = lgetv %rezStrings.1;
+        %tmp.117 = getv %tmp.116 :Dec;
+        %tmp.118 = dup %tmp.115;
+        %tmp.119 = aputv %tmp.118 11 %tmp.117;
+        lputv %resourceArray.2 %tmp.119;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 92 3 ]
+        %tmp.120 = getm $.Toybox.WatchUi;
+        %tmp.121 = getv function %tmp.120 :loadResource;
+        %tmp.123 = lgetv %resourceArray.2;
+        %tmp.125 = getv ? :mMonth;
+        %tmp.126 = 1;
+        %tmp.127 = sub %tmp.125 %tmp.126;
+        %tmp.128 = agetv %tmp.123 %tmp.127;
+        %tmp.129 = invoke %tmp.120 %tmp.121(%tmp.128);
+        %tmp.130 = getv function %tmp.129 :toUpper;
+        %tmp.131 = invoke %tmp.129 %tmp.130();
+        putv self :mMonthString %tmp.131;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_23_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_75_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 95 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop" ]
+        %day.6 = local;
+        %tmp.132 = lgetv %now.3;
+        %tmp.133 = getv %tmp.132 :day;
+        %tmp.134 = getv function %tmp.133 :format;
+        %tmp.136 = getv ? :INTEGER_FORMAT;
+        %tmp.137 = invoke %tmp.133 %tmp.134(%tmp.136);
+        lputv %day.6 %tmp.137;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 96 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_stmt:
+        %tmp.139 = getv ? :mYLine2;
+        %tmp.140 = null;
+        %tmp.141 = ne %tmp.139 %tmp.140;
+        bf %tmp.141 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_23_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 97 3 ]
+        %tmp.142 = self;
+        %tmp.143 = getv function %tmp.142 :drawDoubleLine;
+        %tmp.145 = lgetv %dc;
+        %tmp.147 = lgetv %day.6;
+        invoke %tmp.142 %tmp.143(%tmp.145, %tmp.147);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_23_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_98_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 99 3 ]
+        %tmp.148 = self;
+        %tmp.149 = getv function %tmp.148 :drawSingleLine;
+        %tmp.151 = lgetv %dc;
+        %tmp.153 = lgetv %day.6;
+        invoke %tmp.148 %tmp.149(%tmp.151, %tmp.153);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_98_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_96_2_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_49_19_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 103; double_line_date = true; ]
+    function drawDoubleLine(dc, day) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_104_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 106 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :gMonoDarkColour;
+        %tmp.6 = getv ? :Graphics;
+        %tmp.7 = getv %tmp.6 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.7);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 107 2 ]
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = getv function %tmp.8 :drawText;
+        %tmp.11 = getv ? :mX;
+        %tmp.13 = getv ? :mY;
+        %tmp.15 = getv ? :mFont;
+        %tmp.17 = getv ? :mDayOfWeekString;
+        %tmp.19 = getv ? :Graphics;
+        %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_LEFT;
+        %tmp.22 = getv ? :Graphics;
+        %tmp.23 = getv %tmp.22 :TEXT_JUSTIFY_VCENTER;
+        %tmp.24 = bitor %tmp.20 %tmp.23;
+        invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13, %tmp.15, %tmp.17, %tmp.24);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 116 2 ]
+        %tmp.25 = lgetv %dc;
+        %tmp.26 = getv function %tmp.25 :drawText;
+        %tmp.28 = getv ? :mX;
+        %tmp.30 = getv ? :mYLine2;
+        %tmp.32 = getv ? :mFont;
+        %tmp.34 = getv ? :mMonthString;
+        %tmp.36 = getv ? :Graphics;
+        %tmp.37 = getv %tmp.36 :TEXT_JUSTIFY_LEFT;
+        %tmp.39 = getv ? :Graphics;
+        %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_VCENTER;
+        %tmp.41 = bitor %tmp.37 %tmp.40;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30, %tmp.32, %tmp.34, %tmp.41);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 125 2 ]
+        %tmp.42 = lgetv %dc;
+        %tmp.43 = getv function %tmp.42 :setColor;
+        %tmp.45 = getv ? :gMonoLightColour;
+        %tmp.47 = getv ? :Graphics;
+        %tmp.48 = getv %tmp.47 :COLOR_TRANSPARENT;
+        invoke %tmp.42 %tmp.43(%tmp.45, %tmp.48);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 126 2 ]
+        %tmp.49 = lgetv %dc;
+        %tmp.50 = getv function %tmp.49 :drawText;
+        %tmp.52 = getv ? :mX;
+        %tmp.53 = lgetv %dc;
+        %tmp.54 = getv function %tmp.53 :getTextWidthInPixels;
+        %tmp.56 = getv ? :mDayOfWeekString;
+        %tmp.57 = " ";
+        %tmp.58 = add %tmp.56 %tmp.57;
+        %tmp.60 = getv ? :mFont;
+        %tmp.61 = invoke %tmp.53 %tmp.54(%tmp.58, %tmp.60);
+        %tmp.62 = add %tmp.52 %tmp.61;
+        %tmp.64 = getv ? :mY;
+        %tmp.66 = getv ? :mFont;
+        %tmp.68 = lgetv %day;
+        %tmp.70 = getv ? :Graphics;
+        %tmp.71 = getv %tmp.70 :TEXT_JUSTIFY_LEFT;
+        %tmp.73 = getv ? :Graphics;
+        %tmp.74 = getv %tmp.73 :TEXT_JUSTIFY_VCENTER;
+        %tmp.75 = bitor %tmp.71 %tmp.74;
+        invoke %tmp.49 %tmp.50(%tmp.62, %tmp.64, %tmp.66, %tmp.68, %tmp.75);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_104_34_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 135; ]
+    function drawSingleLine(dc, day) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 136 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_stop" ]
+        %dateString.1 = local;
+        %tmp.2 = getv ? :Lang;
+        %tmp.3 = getv function %tmp.2 :format;
+        %tmp.4 = "$1$ $2$ $3$";
+        %tmp.5 = newa 3;
+        %tmp.7 = getv ? :mDayOfWeekString;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        %tmp.11 = lgetv %day;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 1 %tmp.11;
+        %tmp.15 = getv ? :mMonthString;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 2 %tmp.15;
+        %tmp.18 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.17);
+        lputv %dateString.1 %tmp.18;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 137 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_stop" ]
+        %length.2 = local;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :getTextWidthInPixels;
+        %tmp.22 = lgetv %dateString.1;
+        %tmp.24 = getv ? :mFont;
+        %tmp.25 = invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
+        lputv %length.2 %tmp.25;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 138 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_stop" ]
+        %x.3 = local;
+        %tmp.26 = lgetv %dc;
+        %tmp.27 = getv function %tmp.26 :getWidth;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        %tmp.29 = 2;
+        %tmp.30 = div %tmp.28 %tmp.29;
+        %tmp.32 = lgetv %length.2;
+        %tmp.33 = 2;
+        %tmp.34 = div %tmp.32 %tmp.33;
+        %tmp.35 = sub %tmp.30 %tmp.34;
+        lputv %x.3 %tmp.35;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 141 2 ]
+        %tmp.36 = lgetv %dc;
+        %tmp.37 = getv function %tmp.36 :setColor;
+        %tmp.39 = getv ? :gMonoDarkColour;
+        %tmp.41 = getv ? :Graphics;
+        %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.42);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 142 2 ]
+        %tmp.43 = lgetv %dc;
+        %tmp.44 = getv function %tmp.43 :drawText;
+        %tmp.46 = lgetv %x.3;
+        %tmp.48 = getv ? :mY;
+        %tmp.50 = getv ? :mFont;
+        %tmp.52 = getv ? :mDayOfWeekString;
+        %tmp.54 = getv ? :Graphics;
+        %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_LEFT;
+        %tmp.57 = getv ? :Graphics;
+        %tmp.58 = getv %tmp.57 :TEXT_JUSTIFY_VCENTER;
+        %tmp.59 = bitor %tmp.55 %tmp.58;
+        invoke %tmp.43 %tmp.44(%tmp.46, %tmp.48, %tmp.50, %tmp.52, %tmp.59);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 149 2 ]
+        %tmp.60 = lgetv %x.3;
+        %tmp.61 = lgetv %dc;
+        %tmp.62 = getv function %tmp.61 :getTextWidthInPixels;
+        %tmp.64 = getv ? :mDayOfWeekString;
+        %tmp.65 = " ";
+        %tmp.66 = add %tmp.64 %tmp.65;
+        %tmp.68 = getv ? :mFont;
+        %tmp.69 = invoke %tmp.61 %tmp.62(%tmp.66, %tmp.68);
+        %tmp.70 = add %tmp.60 %tmp.69;
+        lputv %x.3 %tmp.70;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 152 2 ]
+        %tmp.71 = lgetv %dc;
+        %tmp.72 = getv function %tmp.71 :setColor;
+        %tmp.74 = getv ? :gMonoLightColour;
+        %tmp.76 = getv ? :Graphics;
+        %tmp.77 = getv %tmp.76 :COLOR_TRANSPARENT;
+        invoke %tmp.71 %tmp.72(%tmp.74, %tmp.77);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 153 2 ]
+        %tmp.78 = lgetv %dc;
+        %tmp.79 = getv function %tmp.78 :drawText;
+        %tmp.81 = lgetv %x.3;
+        %tmp.83 = getv ? :mY;
+        %tmp.85 = getv ? :mFont;
+        %tmp.87 = lgetv %day;
+        %tmp.89 = getv ? :Graphics;
+        %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_LEFT;
+        %tmp.92 = getv ? :Graphics;
+        %tmp.93 = getv %tmp.92 :TEXT_JUSTIFY_VCENTER;
+        %tmp.94 = bitor %tmp.90 %tmp.93;
+        invoke %tmp.78 %tmp.79(%tmp.81, %tmp.83, %tmp.85, %tmp.87, %tmp.94);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 160 2 ]
+        %tmp.95 = lgetv %x.3;
+        %tmp.96 = lgetv %dc;
+        %tmp.97 = getv function %tmp.96 :getTextWidthInPixels;
+        %tmp.99 = lgetv %day;
+        %tmp.100 = " ";
+        %tmp.101 = add %tmp.99 %tmp.100;
+        %tmp.103 = getv ? :mFont;
+        %tmp.104 = invoke %tmp.96 %tmp.97(%tmp.101, %tmp.103);
+        %tmp.105 = add %tmp.95 %tmp.104;
+        lputv %x.3 %tmp.105;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 163 2 ]
+        %tmp.106 = lgetv %dc;
+        %tmp.107 = getv function %tmp.106 :setColor;
+        %tmp.109 = getv ? :gMonoDarkColour;
+        %tmp.111 = getv ? :Graphics;
+        %tmp.112 = getv %tmp.111 :COLOR_TRANSPARENT;
+        invoke %tmp.106 %tmp.107(%tmp.109, %tmp.112);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc" 164 2 ]
+        %tmp.113 = lgetv %dc;
+        %tmp.114 = getv function %tmp.113 :drawText;
+        %tmp.116 = lgetv %x.3;
+        %tmp.118 = getv ? :mY;
+        %tmp.120 = getv ? :mFont;
+        %tmp.122 = getv ? :mMonthString;
+        %tmp.124 = getv ? :Graphics;
+        %tmp.125 = getv %tmp.124 :TEXT_JUSTIFY_LEFT;
+        %tmp.127 = getv ? :Graphics;
+        %tmp.128 = getv %tmp.127 :TEXT_JUSTIFY_VCENTER;
+        %tmp.129 = bitor %tmp.125 %tmp.128;
+        invoke %tmp.113 %tmp.114(%tmp.116, %tmp.118, %tmp.120, %tmp.122, %tmp.129);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DateLine_mc_135_34_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DateLine.mc"; @line = 1; ]
+<init> {
+}

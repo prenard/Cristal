@@ -1,0 +1,967 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 4; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 5; ]
+using Toybox.Background as :Bg;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 6; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 7; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 8; ]
+using Toybox.Time;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 10; @position = 4; ]
+var AppVersion = "1.00-01";
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 17; @position = 4; ]
+var gLocationLat = null;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 18; @position = 4; ]
+var gLocationLng = null;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 20; background = true; ]
+class CristalApp extends App.AppBase{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 21; ]
+    <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 24 5 ]
+        %tmp.2 = 4;
+        %tmp.1 = newa %tmp.2;
+        putv self :mFieldTypes %tmp.1;
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 21; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 23; @position = 5; ]
+    var mView;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 24; @position = 5; ]
+    var mFieldTypes;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 26; @position = 5; ]
+    var ConnectIQapiLevel;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 28; ]
+    function initialize() as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_28_23_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 29 2 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_28_23_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 43; ]
+    function getInitialView() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_44_1_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 46 2 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "AppVersion = ";
+        %tmp.6 = getv ? :AppVersion;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 47 2 ]
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :setProperty;
+        %tmp.10 = "App_Version";
+        %tmp.12 = getv ? :AppVersion;
+        invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 57 2 ]
+        %tmp.14 = getv ? :System;
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "Device Part Number = ";
+        %tmp.18 = getv ? :System;
+        %tmp.19 = getv function %tmp.18 :getDeviceSettings;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = getv %tmp.20 :partNumber;
+        %tmp.22 = add %tmp.16 %tmp.21;
+        invoke %tmp.14 %tmp.15(%tmp.22);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 58 2 ]
+        %tmp.24 = getv ? :System;
+        %tmp.25 = getv function %tmp.24 :println;
+        %tmp.26 = "Device Firmware Version = ";
+        %tmp.28 = getv ? :System;
+        %tmp.29 = getv function %tmp.28 :getDeviceSettings;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        %tmp.31 = getv %tmp.30 :firmwareVersion;
+        %tmp.32 = add %tmp.26 %tmp.31;
+        invoke %tmp.24 %tmp.25(%tmp.32);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 60 2 ]
+        %tmp.34 = getv ? :System;
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.36 = "Device Screen Shape = ";
+        %tmp.38 = getv ? :System;
+        %tmp.39 = getv function %tmp.38 :getDeviceSettings;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = getv %tmp.40 :screenShape;
+        %tmp.42 = add %tmp.36 %tmp.41;
+        invoke %tmp.34 %tmp.35(%tmp.42);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 61 2 ]
+        %tmp.44 = getv ? :System;
+        %tmp.45 = getv function %tmp.44 :println;
+        %tmp.46 = "Device Screen Height = ";
+        %tmp.48 = getv ? :System;
+        %tmp.49 = getv function %tmp.48 :getDeviceSettings;
+        %tmp.50 = invoke %tmp.48 %tmp.49();
+        %tmp.51 = getv %tmp.50 :screenHeight;
+        %tmp.52 = add %tmp.46 %tmp.51;
+        invoke %tmp.44 %tmp.45(%tmp.52);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 62 2 ]
+        %tmp.54 = getv ? :System;
+        %tmp.55 = getv function %tmp.54 :println;
+        %tmp.56 = "Device Screen Width = ";
+        %tmp.58 = getv ? :System;
+        %tmp.59 = getv function %tmp.58 :getDeviceSettings;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = getv %tmp.60 :screenWidth;
+        %tmp.62 = add %tmp.56 %tmp.61;
+        invoke %tmp.54 %tmp.55(%tmp.62);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 64 2 ]
+        %tmp.64 = getv ? :Lang;
+        %tmp.65 = getv function %tmp.64 :format;
+        %tmp.66 = "$1$$2$$3$";
+        %tmp.68 = getv ? :System;
+        %tmp.69 = getv function %tmp.68 :getDeviceSettings;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        %tmp.71 = getv %tmp.70 :monkeyVersion;
+        %tmp.72 = invoke %tmp.64 %tmp.65(%tmp.66, %tmp.71);
+        %tmp.73 = getv function %tmp.72 :toNumber;
+        %tmp.74 = invoke %tmp.72 %tmp.73();
+        putv self :ConnectIQapiLevel %tmp.74;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 65 2 ]
+        %tmp.76 = getv ? :System;
+        %tmp.77 = getv function %tmp.76 :println;
+        %tmp.78 = "Device Connect IQ API level = ";
+        %tmp.80 = getv ? :ConnectIQapiLevel;
+        %tmp.81 = add %tmp.78 %tmp.80;
+        invoke %tmp.76 %tmp.77(%tmp.81);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 68 2 ]
+        %tmp.85 = getv ? :CristalView;
+        %tmp.82 = newc %tmp.85 ();
+        putv self :mView %tmp.82;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 69 2 ]
+        %tmp.86 = self;
+        %tmp.87 = getv function %tmp.86 :onSettingsChanged;
+        invoke %tmp.86 %tmp.87();
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 70 2 ]
+        %tmp.88 = newa 1;
+        %tmp.90 = getv ? :mView;
+        %tmp.91 = dup %tmp.88;
+        %tmp.92 = aputv %tmp.91 0 %tmp.90;
+        ret %tmp.92;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_44_1_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 73; ]
+    function getView() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_73_20_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 74 2 ]
+        %tmp.2 = getv ? :mView;
+        ret %tmp.2;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_73_20_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 77; ]
+    function getIntProperty(key, defaultValue) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_77_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 78 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_77_44_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_77_44_stop" ]
+        %value.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getProperty;
+        %tmp.4 = lgetv %key;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
+        lputv %value.1 %tmp.5;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 79 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_stmt:
+        %tmp.7 = lgetv %value.1;
+        %tmp.8 = null;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        bf %tmp.9 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_21_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 80 3 ]
+        %tmp.11 = lgetv %defaultValue;
+        lputv %value.1 %tmp.11;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_21_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 81 9 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_9_if_stmt:
+        %tmp.13 = lgetv %value.1;
+        %tmp.14 = as %tmp.13 { (!Null) };
+        %tmp.16 = getv ? :Number;
+        %tmp.17 = isa %tmp.14 %tmp.16;
+        %tmp.18 = not %tmp.17;
+        bf %tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_9_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_9_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_41_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 82 3 ]
+        %tmp.19 = lgetv %value.1;
+        %tmp.20 = as %tmp.19 { (!Number) && (!Null) };
+        %tmp.21 = getv function %tmp.20 :toNumber;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        lputv %value.1 %tmp.22;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_41_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_9_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_81_9_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_79_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 84 2 ]
+        %tmp.24 = lgetv %value.1;
+        ret %tmp.24;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_77_44_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 88; ]
+    function onSettingsChanged() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_88_30_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 89 2 ]
+        %tmp.1 = getv self :mFieldTypes;
+        %tmp.2 = self;
+        %tmp.3 = getv function %tmp.2 :getIntProperty;
+        %tmp.4 = "Field1Type";
+        %tmp.5 = 0;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+        %tmp.7 = 0;
+        aputv %tmp.1 %tmp.7 %tmp.6;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 90 2 ]
+        %tmp.8 = getv self :mFieldTypes;
+        %tmp.9 = self;
+        %tmp.10 = getv function %tmp.9 :getIntProperty;
+        %tmp.11 = "Field2Type";
+        %tmp.12 = 1;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+        %tmp.14 = 1;
+        aputv %tmp.8 %tmp.14 %tmp.13;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 91 2 ]
+        %tmp.15 = getv self :mFieldTypes;
+        %tmp.16 = self;
+        %tmp.17 = getv function %tmp.16 :getIntProperty;
+        %tmp.18 = "Field3Type";
+        %tmp.19 = 2;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.19);
+        %tmp.21 = 2;
+        aputv %tmp.15 %tmp.21 %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 92 2 ]
+        %tmp.22 = getv self :mFieldTypes;
+        %tmp.23 = self;
+        %tmp.24 = getv function %tmp.23 :getIntProperty;
+        %tmp.25 = "Field4Type";
+        %tmp.26 = 3;
+        %tmp.27 = invoke %tmp.23 %tmp.24(%tmp.25, %tmp.26);
+        %tmp.28 = 3;
+        aputv %tmp.22 %tmp.28 %tmp.27;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 94 2 ]
+        %tmp.30 = getv ? :mView;
+        %tmp.31 = getv function %tmp.30 :onSettingsChanged;
+        invoke %tmp.30 %tmp.31();
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 96 2 ]
+        %tmp.32 = getm $.Toybox.WatchUi;
+        %tmp.33 = getv function %tmp.32 :requestUpdate;
+        invoke %tmp.32 %tmp.33();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_88_30_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 99; ]
+    function hasField(fieldType) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_99_30_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 100 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_100_10_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_100_10_begin:
+        %tmp.2 = getv ? :mFieldTypes;
+        %tmp.3 = 0;
+        %tmp.4 = agetv %tmp.2 %tmp.3;
+        %tmp.6 = lgetv %fieldType;
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        %tmp.8 = dup %tmp.7;
+        bt %tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_101_3_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_101_3_false:
+        %tmp.10 = getv ? :mFieldTypes;
+        %tmp.11 = 1;
+        %tmp.12 = agetv %tmp.10 %tmp.11;
+        %tmp.14 = lgetv %fieldType;
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        %tmp.16 = or %tmp.7 %tmp.15;
+        push %tmp.16;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_101_3_end:
+        %tmp.17 = phi [%tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_100_10_begin] [%tmp.16 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_101_3_false] [%tmp.17 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_101_3_end];
+        %tmp.18 = dup %tmp.17;
+        bt %tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_102_3_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_102_3_false:
+        %tmp.20 = getv ? :mFieldTypes;
+        %tmp.21 = 2;
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.24 = lgetv %fieldType;
+        %tmp.25 = eq %tmp.22 %tmp.24;
+        %tmp.26 = or %tmp.17 %tmp.25;
+        push %tmp.26;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_102_3_end:
+        %tmp.27 = phi [%tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_100_10_begin] [%tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_102_3_false] [%tmp.27 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_102_3_end];
+        ret %tmp.27;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_99_30_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 109; background_method = true; ]
+    function checkPendingWebRequests() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 114 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_stop" ]
+        %location.1 = local;
+        %tmp.2 = getv ? :Activity;
+        %tmp.3 = getv function %tmp.2 :getActivityInfo;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = getv %tmp.4 :currentLocation;
+        lputv %location.1 %tmp.5;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 115 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_stmt:
+        %tmp.7 = lgetv %location.1;
+        bf %tmp.7 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_16_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 117 3 ]
+        %tmp.8 = lgetv %location.1;
+        %tmp.9 = getv function %tmp.8 :toDegrees;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        lputv %location.1 %tmp.10;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 118 3 ]
+        %tmp.12 = lgetv %location.1;
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        %tmp.15 = getv function %tmp.14 :toFloat;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        putv self :gLocationLat %tmp.16;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 119 3 ]
+        %tmp.18 = lgetv %location.1;
+        %tmp.19 = 1;
+        %tmp.20 = agetv %tmp.18 %tmp.19;
+        %tmp.21 = getv function %tmp.20 :toFloat;
+        %tmp.22 = invoke %tmp.20 %tmp.21();
+        putv self :gLocationLng %tmp.22;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 121 3 ]
+        %tmp.23 = self;
+        %tmp.24 = getv function %tmp.23 :setProperty;
+        %tmp.25 = "LastLocationLat";
+        %tmp.27 = getv ? :gLocationLat;
+        invoke %tmp.23 %tmp.24(%tmp.25, %tmp.27);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 122 3 ]
+        %tmp.28 = self;
+        %tmp.29 = getv function %tmp.28 :setProperty;
+        %tmp.30 = "LastLocationLng";
+        %tmp.32 = getv ? :gLocationLng;
+        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.32);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_16_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 127 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_stop" ]
+        %lat.2 = local;
+        %tmp.33 = self;
+        %tmp.34 = getv function %tmp.33 :getProperty;
+        %tmp.35 = "LastLocationLat";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        lputv %lat.2 %tmp.36;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 128 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_3_if_stmt:
+        %tmp.38 = lgetv %lat.2;
+        %tmp.39 = null;
+        %tmp.40 = ne %tmp.38 %tmp.39;
+        bf %tmp.40 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_20_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 129 4 ]
+        %tmp.42 = lgetv %lat.2;
+        %tmp.43 = as %tmp.42 { (!Null) };
+        putv self :gLocationLat %tmp.43;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_20_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_128_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 132 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_stop" ]
+        %lng.3 = local;
+        %tmp.44 = self;
+        %tmp.45 = getv function %tmp.44 :getProperty;
+        %tmp.46 = "LastLocationLng";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        lputv %lng.3 %tmp.47;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 133 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_3_if_stmt:
+        %tmp.49 = lgetv %lng.3;
+        %tmp.50 = null;
+        %tmp.51 = ne %tmp.49 %tmp.50;
+        bf %tmp.51 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_20_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 134 4 ]
+        %tmp.53 = lgetv %lng.3;
+        %tmp.54 = as %tmp.53 { (!Null) };
+        putv self :gLocationLng %tmp.54;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_20_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_133_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_126_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_115_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 139 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_2_if_stmt:
+        %tmp.56 = getm $.Toybox.System;
+        %tmp.58 = const :ServiceDelegate;
+        %tmp.59 = canhazplz %tmp.56 %tmp.58;
+        %tmp.60 = not %tmp.59;
+        bf %tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_35_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 140 3 ]
+        ret ?;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_35_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_139_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 143 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_stop" ]
+        %pendingWebRequests.4 = local;
+        %tmp.61 = self;
+        %tmp.62 = getv function %tmp.61 :getProperty;
+        %tmp.63 = "PendingWebRequests";
+        %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
+        lputv %pendingWebRequests.4 %tmp.64;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 144 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_2_if_stmt:
+        %tmp.66 = lgetv %pendingWebRequests.4;
+        %tmp.67 = null;
+        %tmp.68 = eq %tmp.66 %tmp.67;
+        bf %tmp.68 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 145 3 ]
+        %tmp.69 = newd 0;
+        lputv %pendingWebRequests.4 %tmp.69;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_34_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_144_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 150 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_stop" ]
+        %city.5 = local;
+        %tmp.70 = self;
+        %tmp.71 = getv function %tmp.70 :getProperty;
+        %tmp.72 = "LocalTimeInCity";
+        %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
+        lputv %city.5 %tmp.73;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 153 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_2_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_6_begin:
+        %tmp.75 = lgetv %city.5;
+        %tmp.76 = null;
+        %tmp.77 = ne %tmp.75 %tmp.76;
+        %tmp.78 = dup %tmp.77;
+        bf %tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_24_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_24_true:
+        %tmp.79 = lgetv %city.5;
+        %tmp.80 = as %tmp.79 { (!Null) };
+        %tmp.81 = getv function %tmp.80 :length;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        %tmp.83 = 0;
+        %tmp.84 = gt %tmp.82 %tmp.83;
+        %tmp.85 = and %tmp.77 %tmp.84;
+        push %tmp.85;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_24_end:
+        %tmp.86 = phi [%tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_6_begin] [%tmp.85 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_24_true] [%tmp.86 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_24_end];
+        bf %tmp.86 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_45_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 155 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_45_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_45_stop" ]
+        %cityLocalTime.6 = local;
+        %tmp.87 = self;
+        %tmp.88 = getv function %tmp.87 :getProperty;
+        %tmp.89 = "CityLocalTime";
+        %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
+        lputv %cityLocalTime.6 %tmp.90;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 158 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_7_begin:
+        %tmp.92 = lgetv %cityLocalTime.6;
+        %tmp.93 = null;
+        %tmp.94 = eq %tmp.92 %tmp.93;
+        %tmp.95 = dup %tmp.94;
+        bt %tmp.95 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_3_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_3_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_4_begin:
+        %tmp.97 = lgetv %cityLocalTime.6;
+        %tmp.98 = as %tmp.97 { (!Null) };
+        %tmp.99 = "next";
+        %tmp.100 = agetv %tmp.98 %tmp.99;
+        %tmp.101 = null;
+        %tmp.102 = ne %tmp.100 %tmp.101;
+        %tmp.103 = dup %tmp.102;
+        bf %tmp.103 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_39_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_39_true:
+        %tmp.104 = getm $.Toybox.Time;
+        %tmp.105 = getv function %tmp.104 :now;
+        %tmp.106 = invoke %tmp.104 %tmp.105();
+        %tmp.107 = getv function %tmp.106 :value;
+        %tmp.108 = invoke %tmp.106 %tmp.107();
+        %tmp.110 = lgetv %cityLocalTime.6;
+        %tmp.111 = as %tmp.110 { (!Null) };
+        %tmp.112 = "next";
+        %tmp.113 = agetv %tmp.111 %tmp.112;
+        %tmp.114 = "when";
+        %tmp.115 = agetv %tmp.113 %tmp.114;
+        %tmp.116 = gte %tmp.108 %tmp.115;
+        %tmp.117 = and %tmp.102 %tmp.116;
+        push %tmp.117;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_39_end:
+        %tmp.118 = phi [%tmp.103 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_4_begin] [%tmp.117 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_39_true] [%tmp.118 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_39_end];
+        %tmp.119 = or %tmp.94 %tmp.118;
+        push %tmp.119;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_3_end:
+        %tmp.120 = phi [%tmp.95 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_7_begin] [%tmp.119 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_3_false] [%tmp.120 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_3_end];
+        bf %tmp.120 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_95_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 163 4 ]
+        %tmp.121 = lgetv %pendingWebRequests.4;
+        %tmp.122 = true;
+        %tmp.123 = "CityLocalTime";
+        aputv %tmp.121 %tmp.123 %tmp.122;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_161_95_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 168 10 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_10_if_stmt:
+        %tmp.125 = lgetv %cityLocalTime.6;
+        %tmp.126 = as %tmp.125 { (!Null) };
+        %tmp.127 = "requestCity";
+        %tmp.128 = agetv %tmp.126 %tmp.127;
+        %tmp.129 = getv function %tmp.128 :equals;
+        %tmp.131 = lgetv %city.5;
+        %tmp.132 = as %tmp.131 { (!Null) };
+        %tmp.133 = invoke %tmp.128 %tmp.129(%tmp.132);
+        %tmp.134 = not %tmp.133;
+        bf %tmp.134 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_10_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_58_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 170 4 ]
+        %tmp.135 = self;
+        %tmp.136 = getv function %tmp.135 :deleteProperty;
+        %tmp.137 = "CityLocalTime";
+        invoke %tmp.135 %tmp.136(%tmp.137);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 171 4 ]
+        %tmp.138 = lgetv %pendingWebRequests.4;
+        %tmp.139 = true;
+        %tmp.140 = "CityLocalTime";
+        aputv %tmp.138 %tmp.140 %tmp.139;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_58_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_168_10_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_158_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_45_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_153_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 177 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_2_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_6_begin:
+        %tmp.142 = getv ? :gLocationLat;
+        %tmp.143 = null;
+        %tmp.144 = ne %tmp.142 %tmp.143;
+        %tmp.145 = dup %tmp.144;
+        bf %tmp.145 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_3_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_3_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_4_begin:
+        %tmp.146 = self;
+        %tmp.147 = getv function %tmp.146 :hasField;
+        %tmp.149 = getv ? :FIELD_TYPE_WEATHER;
+        %tmp.150 = invoke %tmp.146 %tmp.147(%tmp.149);
+        %tmp.151 = dup %tmp.150;
+        bt %tmp.151 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_36_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_36_false:
+        %tmp.152 = self;
+        %tmp.153 = getv function %tmp.152 :hasField;
+        %tmp.155 = getv ? :FIELD_TYPE_HUMIDITY;
+        %tmp.156 = invoke %tmp.152 %tmp.153(%tmp.155);
+        %tmp.157 = or %tmp.150 %tmp.156;
+        push %tmp.157;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_36_end:
+        %tmp.158 = phi [%tmp.151 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_4_begin] [%tmp.157 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_36_false] [%tmp.158 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_36_end];
+        %tmp.159 = and %tmp.144 %tmp.158;
+        push %tmp.159;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_3_end:
+        %tmp.160 = phi [%tmp.145 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_6_begin] [%tmp.159 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_3_true] [%tmp.160 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_3_end];
+        bf %tmp.160 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_68_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 180 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_68_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_68_stop" ]
+        %owmCurrent.7 = local;
+        %tmp.161 = self;
+        %tmp.162 = getv function %tmp.161 :getProperty;
+        %tmp.163 = "OpenWeatherMapCurrent";
+        %tmp.164 = invoke %tmp.161 %tmp.162(%tmp.163);
+        lputv %owmCurrent.7 %tmp.164;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 183 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_stmt:
+        %tmp.166 = lgetv %owmCurrent.7;
+        %tmp.167 = null;
+        %tmp.168 = eq %tmp.166 %tmp.167;
+        bf %tmp.168 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_27_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 185 4 ]
+        %tmp.169 = lgetv %pendingWebRequests.4;
+        %tmp.170 = true;
+        %tmp.171 = "OpenWeatherMapCurrent";
+        aputv %tmp.169 %tmp.171 %tmp.170;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_27_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 188 10 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_10_if_stmt:
+        %tmp.173 = lgetv %owmCurrent.7;
+        %tmp.174 = as %tmp.173 { (!Null) };
+        %tmp.175 = "cod";
+        %tmp.176 = agetv %tmp.174 %tmp.175;
+        %tmp.177 = 200;
+        %tmp.178 = eq %tmp.176 %tmp.177;
+        bf %tmp.178 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_10_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_40_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 192 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_4_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_8_begin:
+        %tmp.179 = getm $.Toybox.Time;
+        %tmp.180 = getv function %tmp.179 :now;
+        %tmp.181 = invoke %tmp.179 %tmp.180();
+        %tmp.182 = getv function %tmp.181 :value;
+        %tmp.183 = invoke %tmp.181 %tmp.182();
+        %tmp.185 = lgetv %owmCurrent.7;
+        %tmp.186 = as %tmp.185 { (!Null) };
+        %tmp.187 = "dt";
+        %tmp.188 = agetv %tmp.186 %tmp.187;
+        %tmp.189 = 1800;
+        %tmp.190 = add %tmp.188 %tmp.189;
+        %tmp.191 = gt %tmp.183 %tmp.190;
+        %tmp.192 = dup %tmp.191;
+        bt %tmp.192 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_4_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_4_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_5_begin:
+        %tmp.194 = getv ? :gLocationLat;
+        %tmp.196 = lgetv %owmCurrent.7;
+        %tmp.197 = as %tmp.196 { (!Null) };
+        %tmp.198 = "lat";
+        %tmp.199 = agetv %tmp.197 %tmp.198;
+        %tmp.200 = sub %tmp.194 %tmp.199;
+        %tmp.201 = getv function %tmp.200 :abs;
+        %tmp.202 = invoke %tmp.200 %tmp.201();
+        %tmp.203 = 0.02;
+        %tmp.204 = gt %tmp.202 %tmp.203;
+        %tmp.205 = dup %tmp.204;
+        bt %tmp.205 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_58_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_58_false:
+        %tmp.207 = getv ? :gLocationLng;
+        %tmp.209 = lgetv %owmCurrent.7;
+        %tmp.210 = as %tmp.209 { (!Null) };
+        %tmp.211 = "lon";
+        %tmp.212 = agetv %tmp.210 %tmp.211;
+        %tmp.213 = sub %tmp.207 %tmp.212;
+        %tmp.214 = getv function %tmp.213 :abs;
+        %tmp.215 = invoke %tmp.213 %tmp.214();
+        %tmp.216 = 0.02;
+        %tmp.217 = gt %tmp.215 %tmp.216;
+        %tmp.218 = or %tmp.204 %tmp.217;
+        push %tmp.218;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_58_end:
+        %tmp.219 = phi [%tmp.205 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_5_begin] [%tmp.218 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_58_false] [%tmp.219 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_58_end];
+        %tmp.220 = or %tmp.191 %tmp.219;
+        push %tmp.220;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_4_end:
+        %tmp.221 = phi [%tmp.192 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_8_begin] [%tmp.220 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_4_false] [%tmp.221 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_4_end];
+        bf %tmp.221 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_4_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_110_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 199 5 ]
+        %tmp.222 = lgetv %pendingWebRequests.4;
+        %tmp.223 = true;
+        %tmp.224 = "OpenWeatherMapCurrent";
+        aputv %tmp.222 %tmp.224 %tmp.223;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_197_110_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_192_4_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_40_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_188_10_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_183_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_178_68_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_177_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 205 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_2_if_stmt:
+        %tmp.225 = lgetv %pendingWebRequests.4;
+        %tmp.226 = getv function %tmp.225 :keys;
+        %tmp.227 = invoke %tmp.225 %tmp.226();
+        %tmp.228 = getv function %tmp.227 :size;
+        %tmp.229 = invoke %tmp.227 %tmp.228();
+        %tmp.230 = 0;
+        %tmp.231 = gt %tmp.229 %tmp.230;
+        bf %tmp.231 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 208 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_44_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_44_stop" ]
+        %lastTime.8 = local;
+        %tmp.232 = getm $.Toybox.Background;
+        %tmp.233 = getv function %tmp.232 :getLastTemporalEventTime;
+        %tmp.234 = invoke %tmp.232 %tmp.233();
+        lputv %lastTime.8 %tmp.234;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 209 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_stmt:
+        %tmp.236 = lgetv %lastTime.8;
+        bf %tmp.236 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_17_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 211 4 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_17_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_17_stop" ]
+        %nextTime.9 = local;
+        %tmp.237 = lgetv %lastTime.8;
+        %tmp.238 = getv function %tmp.237 :add;
+        %tmp.241 = getm $.Toybox.Time;
+        %tmp.242 = getv function ? %tmp.241 :Duration;
+        %tmp.243 = 5;
+        %tmp.244 = 60;
+        %tmp.245 = mul %tmp.243 %tmp.244;
+        %tmp.239 = newc %tmp.242 (%tmp.245);
+        %tmp.246 = invoke %tmp.237 %tmp.238(%tmp.239);
+        lputv %nextTime.9 %tmp.246;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 212 4 ]
+        %tmp.247 = getm $.Toybox.Background;
+        %tmp.248 = getv function %tmp.247 :registerForTemporalEvent;
+        %tmp.250 = lgetv %nextTime.9;
+        invoke %tmp.247 %tmp.248(%tmp.250);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_17_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_213_10_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 214 4 ]
+        %tmp.251 = getm $.Toybox.Background;
+        %tmp.252 = getv function %tmp.251 :registerForTemporalEvent;
+        %tmp.253 = getm $.Toybox.Time;
+        %tmp.254 = getv function %tmp.253 :now;
+        %tmp.255 = invoke %tmp.253 %tmp.254();
+        invoke %tmp.251 %tmp.252(%tmp.255);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_213_10_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_209_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_44_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_205_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 218 2 ]
+        %tmp.256 = self;
+        %tmp.257 = getv function %tmp.256 :setProperty;
+        %tmp.258 = "PendingWebRequests";
+        %tmp.260 = lgetv %pendingWebRequests.4;
+        invoke %tmp.256 %tmp.257(%tmp.258, %tmp.260);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_110_36_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 221; background_method = true; ]
+    function getServiceDelegate() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_222_31_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 223 2 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :BackgroundService;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_222_31_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 230; background_method = true; ]
+    function onBackgroundData(data) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 232 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_stop" ]
+        %pendingWebRequests.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getProperty;
+        %tmp.3 = "PendingWebRequests";
+        %tmp.4 = invoke %tmp.1 %tmp.2(%tmp.3);
+        lputv %pendingWebRequests.1 %tmp.4;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 233 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_2_if_stmt:
+        %tmp.6 = lgetv %pendingWebRequests.1;
+        %tmp.7 = null;
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 235 3 ]
+        %tmp.9 = newd 0;
+        lputv %pendingWebRequests.1 %tmp.9;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_34_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_233_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 238 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_stop" ]
+        %type.2 = local;
+        %tmp.10 = lgetv %data;
+        %tmp.11 = getv function %tmp.10 :keys;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = 0;
+        %tmp.14 = agetv %tmp.12 %tmp.13;
+        lputv %type.2 %tmp.14;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 239 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_stop" ]
+        %storedData.3 = local;
+        %tmp.15 = self;
+        %tmp.16 = getv function %tmp.15 :getProperty;
+        %tmp.18 = lgetv %type.2;
+        %tmp.19 = invoke %tmp.15 %tmp.16(%tmp.18);
+        lputv %storedData.3 %tmp.19;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 240 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_stop" ]
+        %receivedData.4 = local;
+        %tmp.21 = lgetv %data;
+        %tmp.23 = lgetv %type.2;
+        %tmp.24 = agetv %tmp.21 %tmp.23;
+        lputv %receivedData.4 %tmp.24;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 244 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_2_if_stmt:
+        %tmp.26 = lgetv %receivedData.4;
+        %tmp.27 = "httpError";
+        %tmp.28 = agetv %tmp.26 %tmp.27;
+        bf %tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_33_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 245 3 ]
+        ret ?;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_33_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_244_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 249 2 ]
+        %tmp.30 = lgetv %receivedData.4;
+        lputv %storedData.3 %tmp.30;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 250 2 ]
+        %tmp.31 = lgetv %pendingWebRequests.1;
+        %tmp.32 = getv function %tmp.31 :remove;
+        %tmp.34 = lgetv %type.2;
+        invoke %tmp.31 %tmp.32(%tmp.34);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 251 2 ]
+        %tmp.35 = self;
+        %tmp.36 = getv function %tmp.35 :setProperty;
+        %tmp.37 = "PendingWebRequests";
+        %tmp.39 = lgetv %pendingWebRequests.1;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.39);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 252 2 ]
+        %tmp.40 = self;
+        %tmp.41 = getv function %tmp.40 :setProperty;
+        %tmp.43 = lgetv %type.2;
+        %tmp.45 = lgetv %storedData.3;
+        invoke %tmp.40 %tmp.41(%tmp.43, %tmp.45);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 254 2 ]
+        %tmp.46 = getm $.Toybox.WatchUi;
+        %tmp.47 = getv function %tmp.46 :requestUpdate;
+        invoke %tmp.46 %tmp.47();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_231_33_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 260; ]
+    function getFormattedTime(hour, min) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_260_38_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 261 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_260_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_260_38_stop" ]
+        %amPm.1 = local;
+        %tmp.1 = "";
+        lputv %amPm.1 %tmp.1;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 263 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_2_if_stmt:
+        %tmp.2 = getm $.Toybox.System;
+        %tmp.3 = getv function %tmp.2 :getDeviceSettings;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        %tmp.5 = getv %tmp.4 :is24Hour;
+        %tmp.6 = not %tmp.5;
+        bf %tmp.6 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_41_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 266 3 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_41_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_41_stop" ]
+        %isPm.2 = local;
+        %tmp.8 = lgetv %hour;
+        %tmp.9 = 12;
+        %tmp.10 = gte %tmp.8 %tmp.9;
+        lputv %isPm.2 %tmp.10;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 267 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_stmt:
+        %tmp.12 = lgetv %isPm.2;
+        bf %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_13_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 270 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_4_if_stmt:
+        %tmp.14 = lgetv %hour;
+        %tmp.15 = 12;
+        %tmp.16 = gt %tmp.14 %tmp.15;
+        bf %tmp.16 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_4_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 271 5 ]
+        %tmp.18 = lgetv %hour;
+        %tmp.19 = 12;
+        %tmp.20 = sub %tmp.18 %tmp.19;
+        lputv %hour %tmp.20;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_19_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_270_4_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 273 4 ]
+        %tmp.21 = "p";
+        lputv %amPm.1 %tmp.21;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_13_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_274_10_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 277 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_4_if_stmt:
+        %tmp.23 = lgetv %hour;
+        %tmp.24 = 0;
+        %tmp.25 = eq %tmp.23 %tmp.24;
+        bf %tmp.25 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_4_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 278 5 ]
+        %tmp.26 = 12;
+        lputv %hour %tmp.26;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_19_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_4_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_277_4_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 280 4 ]
+        %tmp.27 = "a";
+        lputv %amPm.1 %tmp.27;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_274_10_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_267_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_41_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_263_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 286 2 ]
+        %tmp.28 = lgetv %hour;
+        %tmp.29 = getv function %tmp.28 :format;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_begin:
+        %tmp.30 = self;
+        %tmp.31 = getv function %tmp.30 :getProperty;
+        %tmp.32 = "HideHoursLeadingZero";
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        bf %tmp.33 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_true:
+        %tmp.35 = getv ? :INTEGER_FORMAT;
+        push %tmp.35;
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_false:
+        %tmp.36 = "%02d";
+        push %tmp.36;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_end:
+        %tmp.37 = phi [%tmp.33 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_begin] [%tmp.35 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_true] [%tmp.36 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_false] [%tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_286_21_end];
+        %tmp.38 = invoke %tmp.28 %tmp.29(%tmp.37);
+        lputv %hour %tmp.38;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc" 288 2 ]
+        %tmp.39 = newd 3;
+        %tmp.41 = const :hour;
+        %tmp.43 = lgetv %hour;
+        %tmp.44 = dup %tmp.39;
+        %tmp.45 = aputv %tmp.44 %tmp.41 %tmp.43;
+        %tmp.47 = const :min;
+        %tmp.48 = lgetv %min;
+        %tmp.49 = getv function %tmp.48 :format;
+        %tmp.50 = "%02d";
+        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
+        %tmp.52 = dup %tmp.45;
+        %tmp.53 = aputv %tmp.52 %tmp.47 %tmp.51;
+        %tmp.55 = const :amPm;
+        %tmp.57 = lgetv %amPm.1;
+        %tmp.58 = dup %tmp.53;
+        %tmp.59 = aputv %tmp.58 %tmp.55 %tmp.57;
+        ret %tmp.59;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalApp_mc_260_38_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 4; ]
+<init> {
+}
