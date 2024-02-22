@@ -474,26 +474,29 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
 C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_155_2_if_end:
 C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_143_19_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 176; buffered = true; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 177; unbuffered = true; ]
     function drawBuffered(dc, left, top) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 178 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %emptyBufferDc.1 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 179 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %filledBufferDc.2 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 181 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %clipBottom.3 = local;
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 180; buffered = true; ]
+    function drawBuffered(dc, left, top) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start:
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 182 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %clipTop.4 = local;
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %emptyBufferDc.1 = local;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 183 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %clipHeight.5 = local;
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %filledBufferDc.2 = local;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 185 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %clipBottom.3 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 186 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %clipTop.4 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 187 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %clipHeight.5 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 189 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
         %halfScreenDcWidth.6 = local;
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
@@ -501,78 +504,78 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.4 = 2;
         %tmp.5 = div %tmp.3 %tmp.4;
         lputv %halfScreenDcWidth.6 %tmp.5;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 186 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 190 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
         %x.7 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 187 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop" ]
-        %radius.8 = local;
 [ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 191 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_2_if_stmt:
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop" ]
+        %radius.8 = local;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 195 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_2_if_stmt:
         %tmp.7 = getv ? :mBuffersNeedRecreate;
-        bf %tmp.7 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_28_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 192 3 ]
+        bf %tmp.7 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_28_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 196 3 ]
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :createSegmentBuffer;
         %tmp.11 = getv ? :gMeterBackgroundColour;
         %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.11);
         putv self :mEmptyBuffer %tmp.12;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 193 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 197 3 ]
         %tmp.13 = self;
         %tmp.14 = getv function %tmp.13 :createSegmentBuffer;
         %tmp.16 = getv ? :gThemeColour;
         %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
         putv self :mFilledBuffer %tmp.17;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 194 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 198 3 ]
         %tmp.18 = false;
         putv self :mBuffersNeedRecreate %tmp.18;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 195 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 199 3 ]
         %tmp.19 = true;
         putv self :mBuffersNeedRedraw %tmp.19;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_28_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_191_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 199 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_2_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_28_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_195_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 203 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_2_if_stmt:
         %tmp.21 = getv ? :mBuffersNeedRedraw;
-        bf %tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_26_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 202 3 ]
+        bf %tmp.21 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_26_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 206 3 ]
         %tmp.23 = getv ? :mEmptyBuffer;
         %tmp.24 = getv function %tmp.23 :getDc;
         %tmp.25 = invoke %tmp.23 %tmp.24();
         lputv %emptyBufferDc.1 %tmp.25;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 203 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 207 3 ]
         %tmp.26 = lgetv %emptyBufferDc.1;
         %tmp.27 = getv function %tmp.26 :setColor;
         %tmp.28 = getm $.Toybox.Graphics;
         %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
         %tmp.31 = getv ? :gBackgroundColour;
         invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 204 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 208 3 ]
         %tmp.32 = lgetv %emptyBufferDc.1;
         %tmp.33 = getv function %tmp.32 :clear;
         invoke %tmp.32 %tmp.33();
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 206 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 210 3 ]
         %tmp.35 = getv ? :mFilledBuffer;
         %tmp.36 = getv function %tmp.35 :getDc;
         %tmp.37 = invoke %tmp.35 %tmp.36();
         lputv %filledBufferDc.2 %tmp.37;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 207 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 211 3 ]
         %tmp.38 = lgetv %filledBufferDc.2;
         %tmp.39 = getv function %tmp.38 :setColor;
         %tmp.40 = getm $.Toybox.Graphics;
         %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
         %tmp.43 = getv ? :gBackgroundColour;
         invoke %tmp.38 %tmp.39(%tmp.41, %tmp.43);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 208 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 212 3 ]
         %tmp.44 = lgetv %filledBufferDc.2;
         %tmp.45 = getv function %tmp.44 :clear;
         invoke %tmp.44 %tmp.45();
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 211 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 215 3 ]
         %tmp.46 = self;
         %tmp.47 = getv function %tmp.46 :drawSegments;
         %tmp.49 = lgetv %emptyBufferDc.1;
@@ -583,7 +586,7 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.56 = 0;
         %tmp.58 = getv ? :mHeight;
         invoke %tmp.46 %tmp.47(%tmp.49, %tmp.50, %tmp.51, %tmp.53, %tmp.55, %tmp.56, %tmp.58);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 213 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 217 3 ]
         %tmp.59 = self;
         %tmp.60 = getv function %tmp.59 :drawSegments;
         %tmp.62 = lgetv %filledBufferDc.2;
@@ -594,8 +597,8 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.69 = 0;
         %tmp.71 = getv ? :mHeight;
         invoke %tmp.59 %tmp.60(%tmp.62, %tmp.63, %tmp.64, %tmp.66, %tmp.68, %tmp.69, %tmp.71);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 216 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_3_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 220 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_3_if_stmt:
         %tmp.72 = getm $.Toybox.System;
         %tmp.73 = getv function %tmp.72 :getDeviceSettings;
         %tmp.74 = invoke %tmp.72 %tmp.73();
@@ -603,42 +606,42 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.76 = getm $.Toybox.System;
         %tmp.77 = getv %tmp.76 :SCREEN_SHAPE_RECTANGLE;
         %tmp.78 = ne %tmp.75 %tmp.77;
-        bf %tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_74_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 219 4 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_begin:
+        bf %tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_74_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 223 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_begin:
         %tmp.80 = getv ? :mSide;
         %tmp.82 = const :left;
         %tmp.83 = eq %tmp.80 %tmp.82;
-        bf %tmp.83 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_true:
+        bf %tmp.83 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_true:
         %tmp.85 = lgetv %halfScreenDcWidth.6;
         push %tmp.85;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_false:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_false:
         %tmp.87 = getv ? :mWidth;
         %tmp.89 = lgetv %halfScreenDcWidth.6;
         %tmp.90 = sub %tmp.87 %tmp.89;
         %tmp.91 = 1;
         %tmp.92 = sub %tmp.90 %tmp.91;
         push %tmp.92;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_end:
-        %tmp.93 = phi [%tmp.83 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_begin] [%tmp.85 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_true] [%tmp.92 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_false] [%tmp.93 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_219_8_end];
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_end:
+        %tmp.93 = phi [%tmp.83 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_begin] [%tmp.85 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_true] [%tmp.92 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_false] [%tmp.93 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_223_8_end];
         lputv %x.7 %tmp.93;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 220 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 224 4 ]
         %tmp.95 = lgetv %halfScreenDcWidth.6;
         %tmp.97 = getv ? :mStroke;
         %tmp.98 = sub %tmp.95 %tmp.97;
         lputv %radius.8 %tmp.98;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 222 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 226 4 ]
         %tmp.99 = lgetv %emptyBufferDc.1;
         %tmp.100 = getv function %tmp.99 :setColor;
         %tmp.102 = getv ? :gBackgroundColour;
         %tmp.103 = getm $.Toybox.Graphics;
         %tmp.104 = getv %tmp.103 :COLOR_TRANSPARENT;
         invoke %tmp.99 %tmp.100(%tmp.102, %tmp.104);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 223 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 227 4 ]
         %tmp.105 = lgetv %emptyBufferDc.1;
         %tmp.106 = getv function %tmp.105 :fillCircle;
         %tmp.108 = lgetv %x.7;
@@ -647,14 +650,14 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.112 = div %tmp.110 %tmp.111;
         %tmp.114 = lgetv %radius.8;
         invoke %tmp.105 %tmp.106(%tmp.108, %tmp.112, %tmp.114);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 225 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 229 4 ]
         %tmp.115 = lgetv %filledBufferDc.2;
         %tmp.116 = getv function %tmp.115 :setColor;
         %tmp.118 = getv ? :gBackgroundColour;
         %tmp.119 = getm $.Toybox.Graphics;
         %tmp.120 = getv %tmp.119 :COLOR_TRANSPARENT;
         invoke %tmp.115 %tmp.116(%tmp.118, %tmp.120);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 226 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 230 4 ]
         %tmp.121 = lgetv %filledBufferDc.2;
         %tmp.122 = getv function %tmp.121 :fillCircle;
         %tmp.124 = lgetv %x.7;
@@ -663,41 +666,41 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.128 = div %tmp.126 %tmp.127;
         %tmp.130 = lgetv %radius.8;
         invoke %tmp.121 %tmp.122(%tmp.124, %tmp.128, %tmp.130);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_74_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_216_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 229 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_74_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_220_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 233 3 ]
         %tmp.131 = false;
         putv self :mBuffersNeedRedraw %tmp.131;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_26_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_199_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 233 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_26_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_203_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 237 2 ]
         %tmp.132 = lgetv %dc;
         %tmp.133 = getv function %tmp.132 :getHeight;
         %tmp.134 = invoke %tmp.132 %tmp.133();
         %tmp.136 = lgetv %top;
         %tmp.137 = sub %tmp.134 %tmp.136;
         lputv %clipBottom.3 %tmp.137;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 234 2 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 238 2 ]
         %tmp.139 = lgetv %clipBottom.3;
         %tmp.141 = getv ? :mFillHeight;
         %tmp.142 = sub %tmp.139 %tmp.141;
         lputv %clipTop.4 %tmp.142;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 235 2 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 239 2 ]
         %tmp.144 = lgetv %clipBottom.3;
         %tmp.146 = lgetv %clipTop.4;
         %tmp.147 = sub %tmp.144 %tmp.146;
         lputv %clipHeight.5 %tmp.147;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 237 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_2_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 241 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_2_if_stmt:
         %tmp.149 = lgetv %clipHeight.5;
         %tmp.150 = 0;
         %tmp.151 = gt %tmp.149 %tmp.150;
-        bf %tmp.151 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_22_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 238 3 ]
+        bf %tmp.151 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_22_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 242 3 ]
         %tmp.152 = lgetv %dc;
         %tmp.153 = getv function %tmp.152 :setClip;
         %tmp.155 = lgetv %left;
@@ -705,18 +708,18 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.159 = getv ? :mWidth;
         %tmp.161 = lgetv %clipHeight.5;
         invoke %tmp.152 %tmp.153(%tmp.155, %tmp.157, %tmp.159, %tmp.161);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 239 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 243 3 ]
         %tmp.162 = lgetv %dc;
         %tmp.163 = getv function %tmp.162 :drawBitmap;
         %tmp.165 = lgetv %left;
         %tmp.167 = lgetv %top;
         %tmp.169 = getv ? :mFilledBuffer;
         invoke %tmp.162 %tmp.163(%tmp.165, %tmp.167, %tmp.169);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_22_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_237_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 244 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_2_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_22_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_241_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 248 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_2_if_stmt:
         %tmp.170 = getm $.Toybox.Application;
         %tmp.171 = getv function %tmp.170 :getApp;
         %tmp.172 = invoke %tmp.170 %tmp.171();
@@ -725,29 +728,29 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.175 = invoke %tmp.172 %tmp.173(%tmp.174);
         %tmp.176 = 1;
         %tmp.177 = lte %tmp.175 %tmp.176;
-        bf %tmp.177 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_55_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 245 3 ]
+        bf %tmp.177 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_55_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 249 3 ]
         %tmp.179 = lgetv %clipTop.4;
         lputv %clipBottom.3 %tmp.179;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 246 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 250 3 ]
         %tmp.181 = lgetv %top;
         lputv %clipTop.4 %tmp.181;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 247 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 251 3 ]
         %tmp.183 = lgetv %clipBottom.3;
         %tmp.185 = lgetv %clipTop.4;
         %tmp.186 = sub %tmp.183 %tmp.185;
         lputv %clipHeight.5 %tmp.186;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 249 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_3_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 253 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_3_if_stmt:
         %tmp.188 = lgetv %clipHeight.5;
         %tmp.189 = 0;
         %tmp.190 = gt %tmp.188 %tmp.189;
-        bf %tmp.190 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_23_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 250 4 ]
+        bf %tmp.190 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_23_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 254 4 ]
         %tmp.191 = lgetv %dc;
         %tmp.192 = getv function %tmp.191 :setClip;
         %tmp.194 = lgetv %left;
@@ -755,30 +758,33 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.198 = getv ? :mWidth;
         %tmp.200 = lgetv %clipHeight.5;
         invoke %tmp.191 %tmp.192(%tmp.194, %tmp.196, %tmp.198, %tmp.200);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 251 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 255 4 ]
         %tmp.201 = lgetv %dc;
         %tmp.202 = getv function %tmp.201 :drawBitmap;
         %tmp.204 = lgetv %left;
         %tmp.206 = lgetv %top;
         %tmp.208 = getv ? :mEmptyBuffer;
         invoke %tmp.201 %tmp.202(%tmp.204, %tmp.206, %tmp.208);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_23_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_249_3_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_55_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_244_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 255 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_23_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_253_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_55_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_248_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 259 2 ]
         %tmp.209 = lgetv %dc;
         %tmp.210 = getv function %tmp.209 :clearClip;
         invoke %tmp.209 %tmp.210();
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_177_38_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_181_38_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 259; buffered = true; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 264; unbuffered = true; ]
     function createSegmentBuffer(fillColour) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_260_42_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 261 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_260_42_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_260_42_stop" ]
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 267; buffered = true; ]
+    function createSegmentBuffer(fillColour) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_268_42_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 269 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_268_42_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_268_42_stop" ]
         %options.1 = local;
         %tmp.1 = newd 3;
         %tmp.3 = const :width;
@@ -800,15 +806,15 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.25 = dup %tmp.13;
         %tmp.26 = aputv %tmp.25 %tmp.15 %tmp.24;
         lputv %options.1 %tmp.26;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 269 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_2_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 277 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_2_if_stmt:
         %tmp.28 = getm $.Toybox.Graphics;
         %tmp.30 = const :createBufferedBitmap;
         %tmp.31 = canhazplz %tmp.28 %tmp.30;
-        bf %tmp.31 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_44_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 270 3 ]
+        bf %tmp.31 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_2_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 278 3 ]
         %tmp.32 = getm $.Toybox.Graphics;
         %tmp.33 = getv function %tmp.32 :createBufferedBitmap;
         %tmp.35 = lgetv %options.1;
@@ -816,157 +822,157 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.37 = getv function %tmp.36 :get;
         %tmp.38 = invoke %tmp.36 %tmp.37();
         ret %tmp.38;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_44_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_269_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 273 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_44_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_2_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_277_2_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 281 2 ]
         %tmp.41 = getm $.Toybox.Graphics;
         %tmp.42 = getv function ? %tmp.41 :BufferedBitmap;
         %tmp.44 = lgetv %options.1;
         %tmp.39 = newc %tmp.42 (%tmp.44);
         ret %tmp.39;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_260_42_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_268_42_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 279; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 287; ]
     function drawSegments(dc, x, y, fillColour, segments, startFillHeight, endFillHeight) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 280 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop" ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 288 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop" ]
         %segmentStart.1 = local;
         %tmp.1 = 0;
         lputv %segmentStart.1 %tmp.1;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 281 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 289 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop" ]
         %segmentEnd.2 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 283 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 291 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop" ]
         %fillStart.3 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 284 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 292 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop" ]
         %fillEnd.4 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 285 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 293 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop" ]
         %fillHeight.5 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 287 2 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 295 2 ]
         %tmp.2 = lgetv %y;
         %tmp.4 = getv ? :mHeight;
         %tmp.5 = add %tmp.2 %tmp.4;
         lputv %y %tmp.5;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 289 2 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 297 2 ]
         %tmp.6 = lgetv %dc;
         %tmp.7 = getv function %tmp.6 :setColor;
         %tmp.9 = lgetv %fillColour;
         %tmp.10 = getm $.Toybox.Graphics;
         %tmp.11 = getv %tmp.10 :COLOR_TRANSPARENT;
         invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 292 2 ]
-        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_init:
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_end" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 300 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_init:
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_end" ]
         %i.6 = local;
         %tmp.12 = 0;
         lputv %i.6 %tmp.12;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_test:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_test:
         %tmp.14 = lgetv %i.6;
         %tmp.15 = lgetv %segments;
         %tmp.16 = getv function %tmp.15 :size;
         %tmp.17 = invoke %tmp.15 %tmp.16();
         %tmp.18 = lt %tmp.14 %tmp.17;
-        bf %tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_44_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 293 3 ]
+        bf %tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 301 3 ]
         %tmp.20 = lgetv %segmentStart.1;
         %tmp.22 = lgetv %segments;
         %tmp.24 = lgetv %i.6;
         %tmp.25 = agetv %tmp.22 %tmp.24;
         %tmp.26 = add %tmp.20 %tmp.25;
         lputv %segmentEnd.2 %tmp.26;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 296 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_7_begin:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 304 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_7_begin:
         %tmp.28 = lgetv %segmentStart.1;
         %tmp.30 = lgetv %startFillHeight;
         %tmp.31 = gte %tmp.28 %tmp.30;
         %tmp.32 = dup %tmp.31;
-        bf %tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_44_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_44_true:
+        bf %tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_44_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_44_true:
         %tmp.34 = lgetv %segmentEnd.2;
         %tmp.36 = lgetv %endFillHeight;
         %tmp.37 = lte %tmp.34 %tmp.36;
         %tmp.38 = and %tmp.31 %tmp.37;
         push %tmp.38;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_44_end:
-        %tmp.39 = phi [%tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_7_begin] [%tmp.38 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_44_true] [%tmp.39 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_44_end];
-        bf %tmp.39 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_75_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 297 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_44_end:
+        %tmp.39 = phi [%tmp.32 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_7_begin] [%tmp.38 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_44_true] [%tmp.39 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_44_end];
+        bf %tmp.39 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_75_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 305 4 ]
         %tmp.41 = lgetv %segmentStart.1;
         lputv %fillStart.3 %tmp.41;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 298 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 306 4 ]
         %tmp.43 = lgetv %segmentEnd.2;
         lputv %fillEnd.4 %tmp.43;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_75_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 301 10 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_75_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 309 10 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_stmt:
         %tmp.45 = lgetv %segmentStart.1;
         %tmp.47 = lgetv %startFillHeight;
         %tmp.48 = gte %tmp.45 %tmp.47;
-        bf %tmp.48 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_47_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 302 4 ]
+        bf %tmp.48 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_47_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 310 4 ]
         %tmp.50 = lgetv %segmentStart.1;
         lputv %fillStart.3 %tmp.50;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 303 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 311 4 ]
         %tmp.52 = lgetv %endFillHeight;
         lputv %fillEnd.4 %tmp.52;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_47_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 306 10 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_47_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_false:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 314 10 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_stmt:
         %tmp.54 = lgetv %segmentEnd.2;
         %tmp.56 = lgetv %endFillHeight;
         %tmp.57 = lte %tmp.54 %tmp.56;
-        bf %tmp.57 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_43_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 307 4 ]
+        bf %tmp.57 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_43_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 315 4 ]
         %tmp.59 = lgetv %startFillHeight;
         lputv %fillStart.3 %tmp.59;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 308 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 316 4 ]
         %tmp.61 = lgetv %segmentEnd.2;
         lputv %fillEnd.4 %tmp.61;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_43_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_311_10_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 312 4 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_43_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_319_10_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 320 4 ]
         %tmp.62 = 0;
         lputv %fillStart.3 %tmp.62;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 313 4 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 321 4 ]
         %tmp.63 = 0;
         lputv %fillEnd.4 %tmp.63;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_311_10_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_306_10_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_301_10_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_296_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 319 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_319_10_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_314_10_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_309_10_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_304_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 327 3 ]
         %tmp.65 = lgetv %fillEnd.4;
         %tmp.67 = lgetv %fillStart.3;
         %tmp.68 = sub %tmp.65 %tmp.67;
         lputv %fillHeight.5 %tmp.68;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 320 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_3_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 328 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_3_if_stmt:
         %tmp.70 = lgetv %fillHeight.5;
-        bf %tmp.70 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_19_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 322 4 ]
+        bf %tmp.70 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_19_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 330 4 ]
         %tmp.71 = lgetv %dc;
         %tmp.72 = getv function %tmp.71 :fillRectangle;
         %tmp.74 = lgetv %x;
@@ -978,36 +984,36 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.84 = getv ? :mWidth;
         %tmp.86 = lgetv %fillHeight.5;
         invoke %tmp.71 %tmp.72(%tmp.74, %tmp.82, %tmp.84, %tmp.86);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_19_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_320_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 325 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_19_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_328_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 333 3 ]
         %tmp.88 = lgetv %segmentEnd.2;
         %tmp.90 = getv ? :mSeparator;
         %tmp.91 = add %tmp.88 %tmp.90;
         lputv %segmentStart.1 %tmp.91;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_44_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_incr:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 292 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_44_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 300 ]
         %tmp.94 = lgetv %i.6;
         %tmp.95 = add %tmp.94 1;
         lputv %i.6 %tmp.95;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_test;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_292_2_for_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_279_87_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_300_2_for_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_287_87_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 332; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 340; ]
     function getSegments() {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 333 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 341 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %segmentScale.1 = local;
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getSegmentScale;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %segmentScale.1 %tmp.3;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 335 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 343 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %numSegments.2 = local;
         %tmp.5 = getv ? :mMaxValue;
         %tmp.6 = 1.0;
@@ -1015,8 +1021,8 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.9 = lgetv %segmentScale.1;
         %tmp.10 = div %tmp.7 %tmp.9;
         lputv %numSegments.2 %tmp.10;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 336 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 344 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %numSeparators.3 = local;
         %tmp.12 = getv ? :Math;
         %tmp.13 = getv function %tmp.12 :ceil;
@@ -1025,8 +1031,8 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.17 = 1;
         %tmp.18 = sub %tmp.16 %tmp.17;
         lputv %numSeparators.3 %tmp.18;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 338 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 346 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %totalSegmentHeight.4 = local;
         %tmp.20 = getv ? :mHeight;
         %tmp.22 = lgetv %numSeparators.3;
@@ -1034,8 +1040,8 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.25 = mul %tmp.22 %tmp.24;
         %tmp.26 = sub %tmp.20 %tmp.25;
         lputv %totalSegmentHeight.4 %tmp.26;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 339 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 347 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %segmentHeight.5 = local;
         %tmp.28 = lgetv %totalSegmentHeight.4;
         %tmp.29 = 1.0;
@@ -1043,8 +1049,8 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.32 = lgetv %numSegments.2;
         %tmp.33 = div %tmp.30 %tmp.32;
         lputv %segmentHeight.5 %tmp.33;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 342 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 350 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %segments.6 = local;
         %tmp.36 = getv ? :Math;
         %tmp.37 = getv function %tmp.36 :ceil;
@@ -1052,30 +1058,30 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.40 = invoke %tmp.36 %tmp.37(%tmp.39);
         %tmp.34 = newa %tmp.40;
         lputv %segments.6 %tmp.34;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 343 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 351 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %start.7 = local;
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %end.8 = local;
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop" ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop" ]
         %height.9 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 345 2 ]
-        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_init:
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_end" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 353 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_init:
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_begin" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_end" ]
         %i.10 = local;
         %tmp.41 = 0;
         lputv %i.10 %tmp.41;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_test:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_test:
         %tmp.43 = lgetv %i.10;
         %tmp.44 = lgetv %segments.6;
         %tmp.45 = getv function %tmp.44 :size;
         %tmp.46 = invoke %tmp.44 %tmp.45();
         %tmp.47 = lt %tmp.43 %tmp.46;
-        bf %tmp.47 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_44_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 346 3 ]
+        bf %tmp.47 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_44_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 354 3 ]
         %tmp.49 = getv ? :Math;
         %tmp.50 = getv function %tmp.49 :round;
         %tmp.52 = lgetv %i.10;
@@ -1083,7 +1089,7 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.55 = mul %tmp.52 %tmp.54;
         %tmp.56 = invoke %tmp.49 %tmp.50(%tmp.55);
         lputv %start.7 %tmp.56;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 347 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 355 3 ]
         %tmp.58 = getv ? :Math;
         %tmp.59 = getv function %tmp.58 :round;
         %tmp.61 = lgetv %i.10;
@@ -1093,90 +1099,90 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.66 = mul %tmp.63 %tmp.65;
         %tmp.67 = invoke %tmp.58 %tmp.59(%tmp.66);
         lputv %end.8 %tmp.67;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 350 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_3_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 358 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_3_if_stmt:
         %tmp.69 = lgetv %end.8;
         %tmp.71 = lgetv %totalSegmentHeight.4;
         %tmp.72 = gt %tmp.69 %tmp.71;
-        bf %tmp.72 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_33_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 351 4 ]
+        bf %tmp.72 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_33_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 359 4 ]
         %tmp.74 = lgetv %totalSegmentHeight.4;
         lputv %end.8 %tmp.74;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_33_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_350_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 354 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_33_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_358_3_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 362 3 ]
         %tmp.76 = lgetv %end.8;
         %tmp.78 = lgetv %start.7;
         %tmp.79 = sub %tmp.76 %tmp.78;
         lputv %height.9 %tmp.79;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 356 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 364 3 ]
         %tmp.80 = lgetv %segments.6;
         %tmp.81 = lgetv %height.9;
         %tmp.82 = getv function %tmp.81 :toNumber;
         %tmp.83 = invoke %tmp.81 %tmp.82();
         %tmp.85 = lgetv %i.10;
         aputv %tmp.80 %tmp.85 %tmp.83;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_44_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_incr:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 345 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_44_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 353 ]
         %tmp.88 = lgetv %i.10;
         %tmp.89 = add %tmp.88 1;
         lputv %i.10 %tmp.89;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_test;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_345_2_for_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 360 2 ]
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_353_2_for_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 368 2 ]
         %tmp.91 = lgetv %segments.6;
         ret %tmp.91;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_332_24_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_340_24_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 363; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 371; ]
     function getFillHeight(segments) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 364 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_stop" ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 372 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_stop" ]
         %fillHeight.1 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 366 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 374 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_stop" ]
         %i.2 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 368 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 376 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_stop" ]
         %totalSegmentHeight.3 = local;
         %tmp.1 = 0;
         lputv %totalSegmentHeight.3 %tmp.1;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 369 2 ]
-        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_init:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 377 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_init:
         %tmp.2 = 0;
         lputv %i.2 %tmp.2;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_test:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_test:
         %tmp.4 = lgetv %i.2;
         %tmp.5 = lgetv %segments;
         %tmp.6 = getv function %tmp.5 :size;
         %tmp.7 = invoke %tmp.5 %tmp.6();
         %tmp.8 = lt %tmp.4 %tmp.7;
-        bf %tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_40_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 370 3 ]
+        bf %tmp.8 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_40_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 378 3 ]
         %tmp.9 = lgetv %totalSegmentHeight.3;
         %tmp.11 = lgetv %segments;
         %tmp.13 = lgetv %i.2;
         %tmp.14 = agetv %tmp.11 %tmp.13;
         %tmp.15 = add %tmp.9 %tmp.14;
         lputv %totalSegmentHeight.3 %tmp.15;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_40_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_incr:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 369 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_40_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 377 ]
         %tmp.18 = lgetv %i.2;
         %tmp.19 = add %tmp.18 1;
         lputv %i.2 %tmp.19;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_test;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_369_2_for_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 373 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_stop" ]
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_377_2_for_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 381 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_stop" ]
         %remainingFillHeight.4 = local;
         %tmp.21 = getv ? :Math;
         %tmp.22 = getv function %tmp.21 :floor;
@@ -1191,89 +1197,89 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.34 = getv function %tmp.33 :toNumber;
         %tmp.35 = invoke %tmp.33 %tmp.34();
         lputv %remainingFillHeight.4 %tmp.35;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 374 2 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 382 2 ]
         %tmp.37 = lgetv %remainingFillHeight.4;
         lputv %fillHeight.1 %tmp.37;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 376 2 ]
-        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_init:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 384 2 ]
+        for @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_test @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_incr @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_init:
         %tmp.38 = 0;
         lputv %i.2 %tmp.38;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_test:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_test:
         %tmp.40 = lgetv %i.2;
         %tmp.41 = lgetv %segments;
         %tmp.42 = getv function %tmp.41 :size;
         %tmp.43 = invoke %tmp.41 %tmp.42();
         %tmp.44 = lt %tmp.40 %tmp.43;
-        bf %tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_40_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 377 3 ]
+        bf %tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_40_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 385 3 ]
         %tmp.45 = lgetv %remainingFillHeight.4;
         %tmp.47 = lgetv %segments;
         %tmp.49 = lgetv %i.2;
         %tmp.50 = agetv %tmp.47 %tmp.49;
         %tmp.51 = sub %tmp.45 %tmp.50;
         lputv %remainingFillHeight.4 %tmp.51;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 378 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_stmt:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 386 3 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_stmt:
         %tmp.53 = lgetv %remainingFillHeight.4;
         %tmp.54 = 0;
         %tmp.55 = gt %tmp.53 %tmp.54;
-        bf %tmp.55 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_32_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 379 4 ]
+        bf %tmp.55 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_32_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 387 4 ]
         %tmp.56 = lgetv %fillHeight.1;
         %tmp.58 = getv ? :mSeparator;
         %tmp.59 = add %tmp.56 %tmp.58;
         lputv %fillHeight.1 %tmp.59;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_32_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_380_10_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 381 4 ]
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_380_10_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_378_3_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_40_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_incr:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 376 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_32_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_388_10_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 389 4 ]
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_388_10_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_386_3_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_40_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_incr:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 384 ]
         %tmp.62 = lgetv %i.2;
         %tmp.63 = add %tmp.62 1;
         lputv %i.2 %tmp.63;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_test;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_376_2_for_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 386 2 ]
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_test;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_384_2_for_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 394 2 ]
         %tmp.65 = lgetv %fillHeight.1;
         ret %tmp.65;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_363_34_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_371_34_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 391; ]
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 399; ]
     function getSegmentScale() {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 392 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 400 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %segmentScale.1 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 394 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 402 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %tryScaleIndex.2 = local;
         %tmp.1 = 0;
         lputv %tryScaleIndex.2 %tmp.1;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 395 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 403 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %segmentHeight.3 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 396 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 404 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %numSegments.4 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 397 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 405 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %numSeparators.5 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 398 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 406 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %totalSegmentHeight.6 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 400 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop" ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 408 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop" ]
         %SEGMENT_SCALES.7 = local;
         %tmp.2 = newa 5;
         %tmp.3 = 1;
@@ -1292,35 +1298,35 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.16 = dup %tmp.14;
         %tmp.17 = aputv %tmp.16 4 %tmp.15;
         lputv %SEGMENT_SCALES.7 %tmp.17;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 402 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_2_do_while_begin:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_5_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 403 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 410 2 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_2_do_while_begin:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_5_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 411 3 ]
         %tmp.19 = lgetv %SEGMENT_SCALES.7;
         %tmp.21 = lgetv %tryScaleIndex.2;
         %tmp.22 = agetv %tmp.19 %tmp.21;
         lputv %segmentScale.1 %tmp.22;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 405 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 413 3 ]
         %tmp.24 = getv ? :mMaxValue;
         %tmp.25 = 1.0;
         %tmp.26 = mul %tmp.24 %tmp.25;
         %tmp.28 = lgetv %segmentScale.1;
         %tmp.29 = div %tmp.26 %tmp.28;
         lputv %numSegments.4 %tmp.29;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 406 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 414 3 ]
         %tmp.31 = getv ? :Math;
         %tmp.32 = getv function %tmp.31 :ceil;
         %tmp.34 = lgetv %numSegments.4;
         %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
         lputv %numSeparators.5 %tmp.35;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 407 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 415 3 ]
         %tmp.37 = getv ? :mHeight;
         %tmp.39 = lgetv %numSeparators.5;
         %tmp.41 = getv ? :mSeparator;
         %tmp.42 = mul %tmp.39 %tmp.41;
         %tmp.43 = sub %tmp.37 %tmp.42;
         lputv %totalSegmentHeight.6 %tmp.43;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 408 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 416 3 ]
         %tmp.45 = getv ? :Math;
         %tmp.46 = getv function %tmp.45 :floor;
         %tmp.48 = lgetv %totalSegmentHeight.6;
@@ -1328,22 +1334,22 @@ C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_dat
         %tmp.51 = div %tmp.48 %tmp.50;
         %tmp.52 = invoke %tmp.45 %tmp.46(%tmp.51);
         lputv %segmentHeight.3 %tmp.52;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 410 3 ]
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 418 3 ]
         %tmp.55 = lgetv %tryScaleIndex.2;
         %tmp.56 = add %tmp.55 1;
         lputv %tryScaleIndex.2 %tmp.56;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_5_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_2_do_while_test:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 411 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_5_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_2_do_while_test:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 419 ]
         %tmp.58 = lgetv %segmentHeight.3;
         %tmp.59 = 5;
         %tmp.60 = lte %tmp.58 %tmp.59;
-        bt %tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_2_do_while_begin;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_402_2_do_while_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 414 2 ]
+        bt %tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_2_do_while_begin;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_410_2_do_while_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc" 422 2 ]
         %tmp.62 = lgetv %segmentScale.1;
         ret %tmp.62;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_391_28_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeter_mc_399_28_stop:
     }
 }
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeter.mc"; @line = 1; ]

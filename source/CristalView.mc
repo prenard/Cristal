@@ -114,11 +114,11 @@ class CristalView extends Ui.WatchFace {
 	// 	MONO_HIGHLIGHT = -2,
 	// 	MONO = -3
 	// }
-
+/*
 	function initialize() {
 		WatchFace.initialize();
 	}
-
+*/
 	// Load your resources here
 	function onLayout(dc) {
 		gIconsFont = Ui.loadResource(Rez.Fonts.IconsFont);

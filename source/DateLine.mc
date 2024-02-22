@@ -100,6 +100,9 @@ class DateLine extends Ui.Drawable {
 		}
 	}
 
+	(:no_double_line_date)
+	function drawDoubleLine(dc, day) {}
+
 	(:double_line_date)
 	function drawDoubleLine(dc, day) {
 		// Draw day of week, left-aligned at (mX, mY).

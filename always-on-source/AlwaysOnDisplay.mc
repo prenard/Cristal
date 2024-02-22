@@ -66,8 +66,8 @@ class AlwaysOnDisplay extends Ui.Drawable {
 */
 		// Unfortunate: because fonts can't be overridden based on locale, we have to read in current locale as manually-specified
 		// string, then override font in code.
-		//var dateFontOverride = Ui.loadResource(Rez.Strings.DATE_FONT_OVERRIDE);
-		//var dateFont = (resourceMap.hasKey(dateFontOverride)) ? resourceMap[dateFontOverride] : rezFonts.AlwaysOnDateFont;
+		/*var dateFontOverride = Ui.loadResource(Rez.Strings.DATE_FONT_OVERRIDE);*/
+		/*var dateFont = (resourceMap.hasKey(dateFontOverride)) ? resourceMap[dateFontOverride] : rezFonts.AlwaysOnDateFont;*/
 		var dateFont = rezFonts.AlwaysOnDateFont;
 		mDateFont = Ui.loadResource(dateFont);
 	}

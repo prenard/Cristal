@@ -1,13 +1,15 @@
 // Prod id = 02f24e0b-a875-45d9-8f4e-81a3f464f2c9
 // Dev id = 251b4a7a-8c6f-4df9-96a8-3950afad496b
 
+// Minimum API Level = 1.3.0 - Because of use of MATH.CEIL() & MATH.FLOOR()
+
 using Toybox.Application as App;
 using Toybox.Background as Bg;
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 using Toybox.Time;
 
-var AppVersion = "1.00-01";
+var AppVersion = "1.01-01";
 
 // In-memory current location.
 // Previously persisted in App.Storage, but now persisted in Object Store due to #86 workaround for App.Storage firmware bug.

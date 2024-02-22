@@ -9,7 +9,7 @@ using Toybox.SensorHistory as SensorHistory;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
 using Toybox.Position;
-
+using Toybox.Weather;
 
 enum /* FIELD_TYPES */ {
 	// Pseudo-fields.	
@@ -384,6 +384,7 @@ class DataFields extends Ui.Drawable {
 
 //************************************************
 
+/*
 gLocationLat = 50.5920552;
 gLocationLng = 3.2543685;
     System.println("Latitude: " + gLocationLat); // e.g. 38.856147
@@ -401,6 +402,7 @@ var myLocation = new Position.Location(
 //var myNow = Gregorian.moment(options);
 var myNow=Time.now();
 
+
 var myCurrentConditions = Weather.getCurrentConditions();
 
 System.println("Condition: " + myCurrentConditions.condition);
@@ -413,7 +415,7 @@ System.println("Sunrise: " + infosunrise.hour.format("%02u") + ":" + infosunrise
 var sunset = Weather.getSunset(myLocation,myNow);
 var infosunset = Gregorian.utcInfo(sunset, Time.FORMAT_SHORT);
 System.println("Sunset: " + infosunset.hour.format("%02u") + ":" + infosunset.min.format("%02u"));
-
+*/
 
 //************************************************
 

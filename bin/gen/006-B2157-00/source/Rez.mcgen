@@ -1,0 +1,155 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var HoursFont as Symbol;
+        (:initialized) var MinutesFont as Symbol;
+        (:initialized) var SecondsFont as Symbol;
+        (:initialized) var DateFont as Symbol;
+        (:initialized) var NormalFont as Symbol;
+        (:initialized) var NormalFontCities as Symbol;
+        (:initialized) var IconsFont as Symbol;
+        (:initialized) var WeatherIconsFontDay as Symbol;
+        (:initialized) var WeatherIconsFontNight as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_38053902175409469724 = new Background();
+
+            var rez_cmp_local_custom_drawable_LeftGoalMeter = new GoalMeter({:identifier=>"LeftGoalMeter", :side=>:left, :stroke=>6, :separator=>2, :height=>180});
+
+            var rez_cmp_local_custom_drawable_RightGoalMeter = new GoalMeter({:identifier=>"RightGoalMeter", :side=>:right, :stroke=>6, :separator=>2, :height=>180});
+
+            var rez_cmp_local_custom_drawable_19578863981897392107 = new GoalMeterMask({:stroke=>6});
+
+            var rez_cmp_local_custom_drawable_DataArea = new DataArea({:identifier=>"DataArea", :goalIconLeftX=>42, :width=>85, :row1Y=>147, :locX=>65, :row2Y=>163, :goalIconY=>145, :goalIconRightX=>173});
+
+            var rez_cmp_local_custom_drawable_DataFields = new DataFields({:identifier=>"DataFields", :top=>12, :left=>63, :bottom=>31, :right=>152, :batteryWidth=>19});
+
+            var rez_cmp_local_custom_drawable_Date = new DateLine({:identifier=>"Date", :y=>53});
+
+            var rez_cmp_local_custom_drawable_Indicators = new Indicators({:identifier=>"Indicators", :locX=>28, :locY=>90, :batteryWidth=>20, :spacingY=>28});
+
+            var rez_cmp_local_custom_drawable_Time = new ThickThinTime({:identifier=>"Time", :secondsX=>147, :secondsY=>109, :adjustY=>1});
+
+            var rez_cmp_local_custom_drawable_MoveBar = new MoveBar({:identifier=>"MoveBar", :width=>93, :x=>46, :y=>126, :separator=>3, :height=>7});
+
+            return [rez_cmp_local_custom_drawable_38053902175409469724, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_19578863981897392107, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
+        }
+
+        function AlwaysOn(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            return [] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var Oct as Symbol;
+        (:initialized) var ThemeLemonCreamDark as Symbol;
+        (:initialized) var Apr as Symbol;
+        (:initialized) var LeftGoalMeterTitle as Symbol;
+        (:initialized) var FilledSegmentsMerged as Symbol;
+        (:initialized) var ThemeCornYellowDark as Symbol;
+        (:initialized) var ThemeCornflowerBlueDark as Symbol;
+        (:initialized) var RightGoalMeterTitle as Symbol;
+        (:initialized) var Indicator2Title as Symbol;
+        (:initialized) var HeartRateLive5s as Symbol;
+        (:initialized) var HideHoursLeadingZeroTitle as Symbol;
+        (:initialized) var LocalTimeInCityTitle as Symbol;
+        (:initialized) var FilledSegments as Symbol;
+        (:initialized) var OWMKeyOverride as Symbol;
+        (:initialized) var HoursColourTitle as Symbol;
+        (:initialized) var ThemeDaygloOrangeDark as Symbol;
+        (:initialized) var ActiveMinutes as Symbol;
+        (:initialized) var SunriseSunset as Symbol;
+        (:initialized) var Aug as Symbol;
+        (:initialized) var MonoHighlight as Symbol;
+        (:initialized) var BatteryHidePercentage as Symbol;
+        (:initialized) var ThemeBlueDark as Symbol;
+        (:initialized) var Battery as Symbol;
+        (:initialized) var Hidden as Symbol;
+        (:initialized) var CaloriesManualGoal as Symbol;
+        (:initialized) var BodyBattery as Symbol;
+        (:initialized) var GoalMeterStyleTitle as Symbol;
+        (:initialized) var ThemeDaygloOrangeLight as Symbol;
+        (:initialized) var ThemeGreenLight as Symbol;
+        (:initialized) var Indicator1Title as Symbol;
+        (:initialized) var Distance as Symbol;
+        (:initialized) var AppVersionTitle as Symbol;
+        (:initialized) var TimeToRecovery as Symbol;
+        (:initialized) var Indicator3Title as Symbol;
+        (:initialized) var CaloriesGoalTitle as Symbol;
+        (:initialized) var Mono as Symbol;
+        (:initialized) var ThemeMonoLight as Symbol;
+        (:initialized) var Pressure as Symbol;
+        (:initialized) var Sun as Symbol;
+        (:initialized) var DataField2Title as Symbol;
+        (:initialized) var CurrentTarget as Symbol;
+        (:initialized) var ThemeBlueLight as Symbol;
+        (:initialized) var Nov as Symbol;
+        (:initialized) var Wed as Symbol;
+        (:initialized) var BluetoothOrNotifications as Symbol;
+        (:initialized) var Current as Symbol;
+        (:initialized) var Notifications as Symbol;
+        (:initialized) var FromTheme as Symbol;
+        (:initialized) var Mar as Symbol;
+        (:initialized) var Sep as Symbol;
+        (:initialized) var Steps as Symbol;
+        (:initialized) var ThemeTitle as Symbol;
+        (:initialized) var HeartRate as Symbol;
+        (:initialized) var Temperature as Symbol;
+        (:initialized) var Bluetooth as Symbol;
+        (:initialized) var May as Symbol;
+        (:initialized) var Sat as Symbol;
+        (:initialized) var IndicatorCountTitle as Symbol;
+        (:initialized) var Support_timeToRecovery as Symbol;
+        (:initialized) var Off as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var Humidity as Symbol;
+        (:initialized) var DataField3Title as Symbol;
+        (:initialized) var MoveBarStyleTitle as Symbol;
+        (:initialized) var ThemeRedDark as Symbol;
+        (:initialized) var Thu as Symbol;
+        (:initialized) var Jul as Symbol;
+        (:initialized) var AllSegmentsMerged as Symbol;
+        (:initialized) var FloorsClimbed as Symbol;
+        (:initialized) var Feb as Symbol;
+        (:initialized) var Jun as Symbol;
+        (:initialized) var Dec as Symbol;
+        (:initialized) var HideSecondsTitle as Symbol;
+        (:initialized) var Tue as Symbol;
+        (:initialized) var Alarms as Symbol;
+        (:initialized) var MinutesColourTitle as Symbol;
+        (:initialized) var ThemeMonoDark as Symbol;
+        (:initialized) var FieldCountTitle as Symbol;
+        (:initialized) var ThemeRedLight as Symbol;
+        (:initialized) var Mon as Symbol;
+        (:initialized) var Calories as Symbol;
+        (:initialized) var Stress as Symbol;
+        (:initialized) var Weather as Symbol;
+        (:initialized) var DataField1Title as Symbol;
+        (:initialized) var AllSegments as Symbol;
+        (:initialized) var Jan as Symbol;
+        (:initialized) var MeterDigitsStyleTitle as Symbol;
+        (:initialized) var DataField4Title as Symbol;
+        (:initialized) var ThemePinkDark as Symbol;
+        (:initialized) var ThemeVividYellowDark as Symbol;
+        (:initialized) var Fri as Symbol;
+        (:initialized) var ThemeGreenDark as Symbol;
+        (:initialized) var Altitude as Symbol;
+    } // Strings
+} // Rez

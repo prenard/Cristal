@@ -244,15 +244,6 @@ class CristalView extends Ui.WatchFace{
     [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalView.mc"; @line = 92; @position = 15; ]
     private
     const PER_SECOND_UPDATES_SUPPORTED;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalView.mc"; @line = 118; ]
-    function initialize() as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalView_mc_118_23_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalView.mc" 119 2 ]
-        %tmp.2 = getv ? :WatchFace;
-        %tmp.3 = getv function %tmp.2 :initialize;
-        invoke %tmp.2 %tmp.3();
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalView_mc_118_23_stop:
-    }
     [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalView.mc"; @line = 123; ]
     function onLayout(dc) {
 C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalView_mc_123_23_start:

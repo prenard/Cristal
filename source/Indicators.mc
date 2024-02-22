@@ -56,6 +56,10 @@ class Indicators extends Ui.Drawable {
 		}
 	}
 
+	(:no_horizontal_indicators)
+	function drawHorizontal(dc, indicatorCount) {}
+
+
 	(:horizontal_indicators)
 	function drawHorizontal(dc, indicatorCount) {
 		if (indicatorCount == 3) {

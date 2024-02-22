@@ -1,0 +1,794 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var HoursFont as Symbol;
+        (:initialized) var MinutesFont as Symbol;
+        (:initialized) var SecondsFont as Symbol;
+        (:initialized) var DateFont as Symbol;
+        (:initialized) var NormalFont as Symbol;
+        (:initialized) var NormalFontCities as Symbol;
+        (:initialized) var IconsFont as Symbol;
+        (:initialized) var WeatherIconsFontDay as Symbol;
+        (:initialized) var WeatherIconsFontNight as Symbol;
+        (:initialized) var AlwaysOnHoursFont as Symbol;
+        (:initialized) var AlwaysOnMinutesFont as Symbol;
+        (:initialized) var AlwaysOnSecondsFont as Symbol;
+        (:initialized) var AlwaysOnDateFont as Symbol;
+        (:initialized) var AlwaysOnBatteryFont as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_15602448345826693810 = new Background();
+
+            var rez_cmp_local_custom_drawable_LeftGoalMeter = new GoalMeter({:identifier=>"LeftGoalMeter", :side=>:left, :stroke=>4, :separator=>2, :height=>240});
+
+            var rez_cmp_local_custom_drawable_RightGoalMeter = new GoalMeter({:identifier=>"RightGoalMeter", :side=>:right, :stroke=>4, :separator=>2, :height=>240});
+
+            var rez_cmp_local_custom_drawable_DataArea = new DataArea({:identifier=>"DataArea", :goalIconLeftX=>25, :width=>205, :row1Y=>306, :locX=>65, :row2Y=>330, :goalIconY=>310, :goalIconRightX=>305});
+
+            var rez_cmp_local_custom_drawable_DataFields = new DataFields({:identifier=>"DataFields", :top=>20, :left=>60, :bottom=>58, :right=>250, :batteryWidth=>28});
+
+            var rez_cmp_local_custom_drawable_Date = new DateLine({:identifier=>"Date", :y=>100});
+
+            var rez_cmp_local_custom_drawable_Indicators = new Indicators({:identifier=>"Indicators", :locX=>24, :locY=>170, :batteryWidth=>20, :spacingY=>50});
+
+            var rez_cmp_local_custom_drawable_Time = new ThickThinTime({:identifier=>"Time", :amPmOffset=>6, :secondsX=>230, :secondsY=>215, :adjustY=>2});
+
+            var rez_cmp_local_custom_drawable_MoveBar = new MoveBar({:identifier=>"MoveBar", :width=>175, :x=>50, :y=>250, :separator=>3, :height=>11});
+
+            return [rez_cmp_local_custom_drawable_15602448345826693810, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
+        }
+
+        function AlwaysOn(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_AlwaysOnDisplay = new AlwaysOnDisplay({:dataY=>230, :identifier=>"AlwaysOnDisplay", :burnInYOffsets=>[-38, -19, 19, 38], :lineY=>200, :adjustY=>-2, :timeY=>150, :lineWidth=>162, :dataLeft=>49});
+
+            return [rez_cmp_local_custom_drawable_AlwaysOnDisplay] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var Oct as Symbol;
+        (:initialized) var ThemeLemonCreamDark as Symbol;
+        (:initialized) var Apr as Symbol;
+        (:initialized) var LeftGoalMeterTitle as Symbol;
+        (:initialized) var FilledSegmentsMerged as Symbol;
+        (:initialized) var ThemeCornYellowDark as Symbol;
+        (:initialized) var ThemeCornflowerBlueDark as Symbol;
+        (:initialized) var RightGoalMeterTitle as Symbol;
+        (:initialized) var Indicator2Title as Symbol;
+        (:initialized) var HeartRateLive5s as Symbol;
+        (:initialized) var HideHoursLeadingZeroTitle as Symbol;
+        (:initialized) var LocalTimeInCityTitle as Symbol;
+        (:initialized) var FilledSegments as Symbol;
+        (:initialized) var OWMKeyOverride as Symbol;
+        (:initialized) var HoursColourTitle as Symbol;
+        (:initialized) var ThemeDaygloOrangeDark as Symbol;
+        (:initialized) var ActiveMinutes as Symbol;
+        (:initialized) var SunriseSunset as Symbol;
+        (:initialized) var Aug as Symbol;
+        (:initialized) var MonoHighlight as Symbol;
+        (:initialized) var BatteryHidePercentage as Symbol;
+        (:initialized) var ThemeBlueDark as Symbol;
+        (:initialized) var Battery as Symbol;
+        (:initialized) var Hidden as Symbol;
+        (:initialized) var CaloriesManualGoal as Symbol;
+        (:initialized) var BodyBattery as Symbol;
+        (:initialized) var GoalMeterStyleTitle as Symbol;
+        (:initialized) var ThemeDaygloOrangeLight as Symbol;
+        (:initialized) var ThemeGreenLight as Symbol;
+        (:initialized) var Indicator1Title as Symbol;
+        (:initialized) var Distance as Symbol;
+        (:initialized) var AppVersionTitle as Symbol;
+        (:initialized) var TimeToRecovery as Symbol;
+        (:initialized) var Indicator3Title as Symbol;
+        (:initialized) var CaloriesGoalTitle as Symbol;
+        (:initialized) var Mono as Symbol;
+        (:initialized) var ThemeMonoLight as Symbol;
+        (:initialized) var Pressure as Symbol;
+        (:initialized) var Sun as Symbol;
+        (:initialized) var DataField2Title as Symbol;
+        (:initialized) var CurrentTarget as Symbol;
+        (:initialized) var ThemeBlueLight as Symbol;
+        (:initialized) var Nov as Symbol;
+        (:initialized) var Wed as Symbol;
+        (:initialized) var BluetoothOrNotifications as Symbol;
+        (:initialized) var Current as Symbol;
+        (:initialized) var Notifications as Symbol;
+        (:initialized) var FromTheme as Symbol;
+        (:initialized) var Mar as Symbol;
+        (:initialized) var Sep as Symbol;
+        (:initialized) var Steps as Symbol;
+        (:initialized) var ThemeTitle as Symbol;
+        (:initialized) var HeartRate as Symbol;
+        (:initialized) var Temperature as Symbol;
+        (:initialized) var Bluetooth as Symbol;
+        (:initialized) var May as Symbol;
+        (:initialized) var Sat as Symbol;
+        (:initialized) var IndicatorCountTitle as Symbol;
+        (:initialized) var Support_timeToRecovery as Symbol;
+        (:initialized) var Off as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var Humidity as Symbol;
+        (:initialized) var DataField3Title as Symbol;
+        (:initialized) var MoveBarStyleTitle as Symbol;
+        (:initialized) var ThemeRedDark as Symbol;
+        (:initialized) var Thu as Symbol;
+        (:initialized) var Jul as Symbol;
+        (:initialized) var AllSegmentsMerged as Symbol;
+        (:initialized) var FloorsClimbed as Symbol;
+        (:initialized) var Feb as Symbol;
+        (:initialized) var Jun as Symbol;
+        (:initialized) var Dec as Symbol;
+        (:initialized) var HideSecondsTitle as Symbol;
+        (:initialized) var Tue as Symbol;
+        (:initialized) var Alarms as Symbol;
+        (:initialized) var MinutesColourTitle as Symbol;
+        (:initialized) var ThemeMonoDark as Symbol;
+        (:initialized) var FieldCountTitle as Symbol;
+        (:initialized) var ThemeRedLight as Symbol;
+        (:initialized) var Mon as Symbol;
+        (:initialized) var Calories as Symbol;
+        (:initialized) var Stress as Symbol;
+        (:initialized) var Weather as Symbol;
+        (:initialized) var DataField1Title as Symbol;
+        (:initialized) var AllSegments as Symbol;
+        (:initialized) var Jan as Symbol;
+        (:initialized) var MeterDigitsStyleTitle as Symbol;
+        (:initialized) var DataField4Title as Symbol;
+        (:initialized) var ThemePinkDark as Symbol;
+        (:initialized) var ThemeVividYellowDark as Symbol;
+        (:initialized) var Fri as Symbol;
+        (:initialized) var ThemeGreenDark as Symbol;
+        (:initialized) var Altitude as Symbol;
+    } // Strings
+
+    module Styles {
+        module prompt_font_enhanced_readability__body_with_title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__body_with_title
+
+        module system_size__menu_header {
+            const width as Number = 320;
+            const height as Number = 68;
+        } // system_size__menu_header
+
+        module system_loc__hint_button_left_bottom {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_left_bottom
+
+        module prompt_font_enhanced_readability__body_no_title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__body_no_title
+
+        module prompt_loc__body_no_title {
+            const x as Number = 0;
+            const y as Number = 65;
+        } // prompt_loc__body_no_title
+
+        module system_icon_dark__about {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__about.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__about
+
+        module system_icon_light__question {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__question.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__question
+
+        module system_loc__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_left_top
+
+        module prompt_font__title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_SMALL;
+        } // prompt_font__title
+
+        module system_icon_dark__discard {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__discard.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__discard
+
+        module system_size__menu_item {
+            const width as Number = 320;
+            const height as Number = 98;
+        } // system_size__menu_item
+
+        module system_color_dark__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // system_color_dark__text
+
+        module system_icon_destructive__discard {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__discard.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__discard
+
+        module system_icon_dark__hint_action_menu {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__hint_action_menu.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_action_menu
+
+        module prompt_size__title {
+            const width as Number = 320;
+            const height as Number = 54;
+        } // prompt_size__title
+
+        module confirmation_font__body {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_TINY;
+        } // confirmation_font__body
+
+        module system_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // system_color_dark__background
+
+        module system_icon_destructive__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_icon_destructive__hint_button_left_top
+
+        module system_size__launch_icon {
+            const scaleX as Number = 40;
+            const scaleY as Number = 40;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__launch_icon
+
+        module confirmation_input__confirm {
+            const y1 as Number = 300;
+            const x1 as Number = 0;
+            const y2 as Number = 360;
+            const x2 as Number = 320;
+        } // confirmation_input__confirm
+
+        module prompt_font__body_with_title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER;
+            const font = Graphics.FONT_TINY;
+        } // prompt_font__body_with_title
+
+        module confirmation_loc__body {
+            const x as Number = 0;
+            const y as Number = 65;
+        } // confirmation_loc__body
+
+        module system_icon_destructive__hint_button_left_bottom {
+            const exclude as Boolean = true;
+        } // system_icon_destructive__hint_button_left_bottom
+
+        module prompt_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // prompt_color_dark__background
+
+        module system_icon_destructive__hint_action_menu {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__hint_action_menu.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_action_menu
+
+        module system_loc__hint_action_menu {
+            const x as Number = 0;
+            const y as Number = 306;
+        } // system_loc__hint_action_menu
+
+        module confirmation_icon__hint_confirm {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_confirm
+
+        module system_loc__hint_button_left_middle {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_left_middle
+
+        module prompt_size__body_no_title {
+            const width as Number = 320;
+            const height as Number = 252;
+        } // prompt_size__body_no_title
+
+        module system_icon_light__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_icon_light__hint_button_left_top
+
+        module prompt_color_light__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // prompt_color_light__background
+
+        module confirmation_input__delete {
+            const button = WatchUi.KEY_ENTER;
+        } // confirmation_input__delete
+
+        module system_icon_dark__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_icon_dark__hint_button_left_top
+
+        module system_input__action_menu {
+            const y1 as Number = 305;
+            const x1 as Number = 0;
+            const y2 as Number = 360;
+            const x2 as Number = 320;
+        } // system_input__action_menu
+
+        module system_icon_light__save {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__save.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__save
+
+        module prompt_color_light__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_light__body
+
+        module system_loc__subwindow {
+            const exclude as Boolean = true;
+        } // system_loc__subwindow
+
+        module system_icon_light__warning {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__warning.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__warning
+
+        module confirmation_color_light__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // confirmation_color_light__body
+
+        module confirmation_icon_light__hint_keep {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_keep
+
+        module activity_color_light__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // activity_color_light__background
+
+        module system_icon_positive__hint_button_right_top {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_positive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_right_top
+
+        module system_size__screen {
+            const width as Number = 320;
+            const height as Number = 360;
+        } // system_size__screen
+
+        module system_icon_destructive__hint_button_right_bottom {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_right_bottom
+
+        module system_color_light__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // system_color_light__background
+
+        module system_icon_destructive__hint_button_right_top {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__hint_button_right_top
+
+        module confirmation_loc__hint_confirm {
+            const x as Number = 0;
+            const y as Number = 299;
+        } // confirmation_loc__hint_confirm
+
+        module activity_color_dark__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // activity_color_dark__text
+
+        module confirmation_input__keep {
+            const button = WatchUi.KEY_ESC;
+        } // confirmation_input__keep
+
+        module prompt_loc__body_with_title {
+            const x as Number = 0;
+            const y as Number = 90;
+        } // prompt_loc__body_with_title
+
+        module system_icon_dark__search {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__search.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__search
+
+        module activity_color_light__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // activity_color_light__text
+
+        module confirmation_icon__hint_keep {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_keep
+
+        module system_icon_dark__save {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__save.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__save
+
+        module system_icon_destructive__hint_button_left_middle {
+            const exclude as Boolean = true;
+        } // system_icon_destructive__hint_button_left_middle
+
+        module system_icon_light__search {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__search.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__search
+
+        module system_icon_dark__hint_button_left_bottom {
+            const exclude as Boolean = true;
+        } // system_icon_dark__hint_button_left_bottom
+
+        module system_icon_positive__hint_button_left_top {
+            const exclude as Boolean = true;
+        } // system_icon_positive__hint_button_left_top
+
+        module system_loc__hint_button_right_bottom {
+            const x as Number = 307;
+            const y as Number = 287;
+            const verticalJustification as String = "center";
+        } // system_loc__hint_button_right_bottom
+
+        module confirmation_icon_dark__hint_reject {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_reject
+
+        module confirmation_color_dark__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // confirmation_color_dark__body
+
+        module confirmation_icon_light__hint_confirm {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_confirm
+
+        module prompt_color_dark__title {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_dark__title
+
+        module system_icon_destructive__cancel {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__cancel.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__cancel
+
+        module system_icon_light__hint_button_right_bottom {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_right_bottom
+
+        module prompt_loc__title {
+            const x as Number = 0;
+            const y as Number = 32;
+        } // prompt_loc__title
+
+        module confirmation_font_enhanced_readability__body {
+            const exclude as Boolean = true;
+        } // confirmation_font_enhanced_readability__body
+
+        module prompt_color_light__title {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_light__title
+
+        module system_icon_dark__hint_button_right_top {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_right_top
+
+        module system_icon_dark__hint_button_left_middle {
+            const exclude as Boolean = true;
+        } // system_icon_dark__hint_button_left_middle
+
+        module confirmation_icon_dark__hint_keep {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_keep.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_keep
+
+        module system_icon_light__cancel {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__cancel.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__cancel
+
+        module confirmation_icon_light__hint_reject {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_reject
+
+        module system_icon_light__about {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__about.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__about
+
+        module system_size__toast_icon {
+            const scaleX as Number = 34;
+            const scaleY as Number = 34;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__toast_icon
+
+        module system_icon_dark__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_dark__hint_button_right_middle
+
+        module confirmation_icon__hint_reject {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_reject.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_reject
+
+        module system_icon_light__hint_action_menu {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__hint_action_menu.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_action_menu
+
+        module system_icon_light__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_light__hint_button_right_middle
+
+        module system_icon_destructive__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_destructive__hint_button_right_middle
+
+        module confirmation_loc__hint_reject {
+            const x as Number = 0;
+            const y as Number = 0;
+        } // confirmation_loc__hint_reject
+
+        module confirmation_icon_dark__hint_delete {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_delete
+
+        module activity_color_dark__background {
+            const color as Number = 0x000000;
+            const background as Number = 0x000000;
+        } // activity_color_dark__background
+
+        module system_icon_light__hint_button_left_bottom {
+            const exclude as Boolean = true;
+        } // system_icon_light__hint_button_left_bottom
+
+        module system_icon_positive__hint_button_left_middle {
+            const exclude as Boolean = true;
+        } // system_icon_positive__hint_button_left_middle
+
+        module system_size__menu_icon {
+            const scaleX as Number = 52;
+            const scaleY as Number = 52;
+            const scaleRelativeTo as String = "screen";
+        } // system_size__menu_icon
+
+        module system_icon_destructive__warning {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_destructive__warning.svg";
+            const dithering as String = "none";
+        } // system_icon_destructive__warning
+
+        module system_loc__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_loc__hint_button_right_middle
+
+        module system_icon_dark__cancel {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__cancel.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__cancel
+
+        module prompt_size__body_with_title {
+            const width as Number = 320;
+            const height as Number = 220;
+        } // prompt_size__body_with_title
+
+        module system_loc__hint_button_right_top {
+            const x as Number = 307;
+            const y as Number = 70;
+            const verticalJustification as String = "center";
+        } // system_loc__hint_button_right_top
+
+        module system_color_light__text {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // system_color_light__text
+
+        module system_icon_light__check {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__check.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__check
+
+        module confirmation_input__reject {
+            const y1 as Number = 0;
+            const x1 as Number = 0;
+            const y2 as Number = 60;
+            const x2 as Number = 320;
+        } // confirmation_input__reject
+
+        module system_icon_light__revert {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__revert.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__revert
+
+        module system_size__subwindow {
+            const exclude as Boolean = true;
+        } // system_size__subwindow
+
+        module system_icon_positive__hint_button_left_bottom {
+            const exclude as Boolean = true;
+        } // system_icon_positive__hint_button_left_bottom
+
+        module system_icon_dark__check {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__check.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__check
+
+        module confirmation_loc__hint_keep {
+            const x as Number = 260;
+            const y as Number = 288;
+            const verticalJustification as String = "center";
+        } // confirmation_loc__hint_keep
+
+        module confirmation_loc__hint_delete {
+            const x as Number = 260;
+            const y as Number = 70;
+            const verticalJustification as String = "center";
+        } // confirmation_loc__hint_delete
+
+        module system_icon_positive__hint_action_menu {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_positive__hint_action_menu.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_action_menu
+
+        module system_icon_positive__hint_button_right_middle {
+            const exclude as Boolean = true;
+        } // system_icon_positive__hint_button_right_middle
+
+        module system_icon_light__hint_button_left_middle {
+            const exclude as Boolean = true;
+        } // system_icon_light__hint_button_left_middle
+
+        module system_icon_dark__hint_button_right_bottom {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_dark__hint_button_right_bottom
+
+        module system_icon_positive__hint_button_right_bottom {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_positive__hint_button_right_bottom.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__hint_button_right_bottom
+
+        module system_icon_dark__revert {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__revert.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__revert
+
+        module confirmation_icon_light__hint_delete {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_light__hint_delete
+
+        module system_icon_dark__question {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__question.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__question
+
+        module system_icon_light__discard {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__discard.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_light__discard
+
+        module device_info {
+            const screenWidth as Number = 320;
+            const screenShape = Toybox.System.SCREEN_SHAPE_RECTANGLE;
+            const hasNightMode as Boolean = false;
+            const screenHeight as Number = 360;
+            const hasTouchScreen as Boolean = true;
+            const hasEnhancedReadabilityMode as Boolean = false;
+        } // device_info
+
+        module confirmation_icon_dark__hint_confirm {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_completion.svg";
+            const dithering as String = "none";
+        } // confirmation_icon_dark__hint_confirm
+
+        module prompt_font__body_no_title {
+            const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
+            const font = Graphics.FONT_TINY;
+        } // prompt_font__body_no_title
+
+        module prompt_size__title_icon {
+            const scaleX as Float = 0.14;
+            const scaleRelativeTo as String = "screen";
+        } // prompt_size__title_icon
+
+        module system_icon_dark__warning {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_dark__warning.svg";
+            const compress as String = "true";
+            const dithering as String = "none";
+            const automaticPalette as String = "true";
+        } // system_icon_dark__warning
+
+        module prompt_loc__title_icon {
+            const x as Number = 160;
+            const y as Number = 47;
+            const horizontalJustification as String = "center";
+            const verticalJustification as String = "center";
+        } // prompt_loc__title_icon
+
+        module prompt_font_enhanced_readability__title {
+            const exclude as Boolean = true;
+        } // prompt_font_enhanced_readability__title
+
+        module prompt_color_dark__body {
+            const color as Number = 0xFFFFFF;
+            const background = Graphics.COLOR_TRANSPARENT;
+        } // prompt_color_dark__body
+
+        module confirmation_icon__hint_delete {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\confirmation_icon__hint_delete.svg";
+            const dithering as String = "none";
+        } // confirmation_icon__hint_delete
+
+        module system_icon_light__hint_button_right_top {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_light__hint_button_right_top.svg";
+            const dithering as String = "none";
+        } // system_icon_light__hint_button_right_top
+
+        module confirmation_size__body {
+            const width as Number = 320;
+            const height as Number = 220;
+        } // confirmation_size__body
+
+        module system_icon_positive__check {
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venusq2\\system_icon_positive__check.svg";
+            const dithering as String = "none";
+        } // system_icon_positive__check
+    } // Styles
+} // Rez
