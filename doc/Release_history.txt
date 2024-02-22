@@ -21,7 +21,7 @@ Features (depending on watch support):
 
 Release History:
 
-- V1.01-00 - 2024-02-21
+- V1.01-02 - 2024-02-22
 * Add support for Forerunner 265, 265s & 965
 - V1.00-01 - 2022-08-26
 * Fix issue with active minutes icon
