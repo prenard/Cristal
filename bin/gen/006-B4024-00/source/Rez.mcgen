@@ -26,7 +26,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_14283293561088237569 = new Background();
+            var rez_cmp_local_custom_drawable_15640807210427556919 = new Background();
 
             var rez_cmp_local_custom_drawable_LeftGoalMeter = new GoalMeter({:identifier=>"LeftGoalMeter", :side=>:left, :stroke=>10, :separator=>2, :height=>180});
 
@@ -44,7 +44,7 @@ module Rez {
 
             var rez_cmp_local_custom_drawable_MoveBar = new MoveBar({:identifier=>"MoveBar", :width=>123, :x=>52, :y=>179, :separator=>3, :height=>11});
 
-            return [rez_cmp_local_custom_drawable_14283293561088237569, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_15640807210427556919, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
         }
 
         function AlwaysOn(dc as Graphics.Dc) as Array<WatchUi.Drawable> {

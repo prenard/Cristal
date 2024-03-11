@@ -3,13 +3,24 @@
 
 // Minimum API Level = 1.3.0 - Because of use of MATH.CEIL() & MATH.FLOOR()
 
+// Unsuported devices:
+//
+
+// Epix Pro (Gen2) 47 mm System 7 Preview
+// Fenix 6 Pro System 5 Preview
+// Instinct 2 - single color
+// Instinct 2s - single color
+// Instinct 2x - single color
+// Instinct 2 Crossover - single color
+// Benu 2 System 5 Preview
+
 using Toybox.Application as App;
 using Toybox.Background as Bg;
 using Toybox.System as Sys;
 using Toybox.WatchUi as Ui;
 using Toybox.Time;
 
-var AppVersion = "1.01-02";
+var AppVersion = "1.01-03";
 
 // In-memory current location.
 // Previously persisted in App.Storage, but now persisted in Object Store due to #86 workaround for App.Storage firmware bug.

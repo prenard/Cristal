@@ -9,7 +9,7 @@ using Toybox.WatchUi as :Ui;
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 10; ]
 using Toybox.Time;
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 12; @position = 4; ]
-var AppVersion = "1.00-03";
+var AppVersion = "1.01-02";
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 19; @position = 4; ]
 var gLocationLat = null;
 [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalApp.mc"; @line = 20; @position = 4; ]

@@ -31,7 +31,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_19168967121557027173 = new Background();
+            var rez_cmp_local_custom_drawable_81694652015924439811 = new Background();
 
             var rez_cmp_local_custom_drawable_LeftGoalMeter = new GoalMeter({:identifier=>"LeftGoalMeter", :side=>:left, :stroke=>14, :separator=>3, :height=>277});
 
@@ -45,11 +45,11 @@ module Rez {
 
             var rez_cmp_local_custom_drawable_Indicators = new Indicators({:identifier=>"Indicators", :locX=>49, :locY=>208, :batteryWidth=>41, :spacingY=>51});
 
-            var rez_cmp_local_custom_drawable_Time = new ThickThinTime({:identifier=>"Time", :secondsX=>291, :secondsY=>260, :adjustY=>-4});
+            var rez_cmp_local_custom_drawable_Time = new ThickThinTime({:identifier=>"Time", :secondsX=>301, :secondsY=>260, :adjustY=>-4});
 
-            var rez_cmp_local_custom_drawable_MoveBar = new MoveBar({:identifier=>"MoveBar", :width=>192, :x=>88, :y=>286, :separator=>4, :height=>13});
+            var rez_cmp_local_custom_drawable_MoveBar = new MoveBar({:identifier=>"MoveBar", :width=>192, :x=>88, :y=>296, :separator=>4, :height=>13});
 
-            return [rez_cmp_local_custom_drawable_19168967121557027173, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_81694652015924439811, rez_cmp_local_custom_drawable_LeftGoalMeter, rez_cmp_local_custom_drawable_RightGoalMeter, rez_cmp_local_custom_drawable_DataArea, rez_cmp_local_custom_drawable_DataFields, rez_cmp_local_custom_drawable_Date, rez_cmp_local_custom_drawable_Indicators, rez_cmp_local_custom_drawable_Time, rez_cmp_local_custom_drawable_MoveBar] as Array<WatchUi.Drawable>;
         }
 
         function AlwaysOn(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
