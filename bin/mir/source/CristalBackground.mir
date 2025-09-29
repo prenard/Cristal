@@ -1,49 +1,59 @@
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 2; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; @symbol_usingAlias = [App,2,28,31]; ]
 using Toybox.Application as :App;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 3; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Graphics,3,13,21]; @symbol_usingAlias = [Gfx,3,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 5; ]
-class Background extends Ui.Drawable{
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 5; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 5; @symbol_classdef = [Background,5,6,16]; @symbol_extends<0> = [Ui,5,25,27]; @symbol_extends<1> = [Drawable,5,28,36]; ]
+class Background extends Ui.Drawable {
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 5; ]
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 5; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 5; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 7; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 7; @symbol_functiondef = [initialize,7,10,20]; ]
     function initialize() as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalBackground_mc_7_23_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc" 8 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_CristalBackground_mc_7_23_9_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc" 8 2 ]
+        symbol [ Drawable %tmp.2 8 2 10 ];
         %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 8 11 21 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 1;
         %tmp.6 = const :identifier;
+        symbol [ identifier %tmp.6 8 25 35 const ];
         %tmp.7 = "Background";
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         invoke %tmp.2 %tmp.3(%tmp.9);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalBackground_mc_7_23_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_CristalBackground_mc_7_23_9_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 11; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 11; @symbol_functiondef = [draw,11,10,14]; @symbol_param<0> = [dc,11,15,17]; ]
     function draw(dc) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalBackground_mc_11_19_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc" 13 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_CristalBackground_mc_11_19_15_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc" 13 2 ]
         %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 13 2 4 ];
+        symbol [ setColor %tmp.2 13 5 13 ];
         %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Gfx %tmp.3 13 14 17 ];
         %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.4 13 18 35 ];
         %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        symbol [ gBackgroundColour %tmp.6 13 37 54 ];
         %tmp.6 = getv ? :gBackgroundColour;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc" 14 2 ]
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc" 14 2 ]
         %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 14 2 4 ];
+        symbol [ clear %tmp.8 14 5 10 ];
         %tmp.8 = getv function %tmp.7 :clear;
         invoke %tmp.7 %tmp.8();
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_CristalBackground_mc_11_19_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_CristalBackground_mc_11_19_15_1_stop:
     }
 }
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\CristalBackground.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\CristalBackground.mc"; @line = 1; ]
 <init> {
 }

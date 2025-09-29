@@ -1,502 +1,658 @@
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 2; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 3; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; @symbol_usingAlias = [Sys,3,23,26]; ]
 using Toybox.System as :Sys;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 4; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Application,4,13,24]; @symbol_usingAlias = [App,4,28,31]; ]
 using Toybox.Application as :App;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 6; ]
-class Indicators extends Ui.Drawable{
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 6; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 6; @symbol_classdef = [Indicators,6,6,16]; @symbol_extends<0> = [Ui,6,25,27]; @symbol_extends<1> = [Drawable,6,28,36]; ]
+class Indicators extends Ui.Drawable {
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 6; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 8; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 8; @position = 13; @symbol_vardef = [mSpacing,8,13,21]; ]
     private
     var mSpacing;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 9; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 9; @position = 13; @symbol_vardef = [mIsHorizontal,9,13,26]; ]
     private
     var mIsHorizontal = false;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 10; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 10; @position = 13; @symbol_vardef = [mBatteryWidth,10,13,26]; ]
     private
     var mBatteryWidth;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 12; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 12; @position = 13; @symbol_vardef = [mIndicator1Type,12,13,28]; ]
     private
     var mIndicator1Type;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 13; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 13; @position = 13; @symbol_vardef = [mIndicator2Type,13,13,28]; ]
     private
     var mIndicator2Type;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 14; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 14; @position = 13; @symbol_vardef = [mIndicator3Type,14,13,28]; ]
     private
     var mIndicator3Type;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 24; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 24; @symbol_functiondef = [initialize,24,10,20]; @symbol_param<0> = [params,24,21,27]; ]
     function initialize(params) as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_24_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 25 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_24_29_36_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 25 2 ]
+        symbol [ Drawable %tmp.2 25 2 10 ];
         %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 25 11 21 ];
         %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 25 22 28 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 27 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_stmt:
         %tmp.5 = lgetv %params;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 27 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_stmt:
-        %tmp.7 = lgetv %params;
-        %tmp.9 = const :spacingX;
-        %tmp.10 = agetv %tmp.7 %tmp.9;
-        %tmp.11 = null;
-        %tmp.12 = ne %tmp.10 %tmp.11;
-        bf %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_33_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 28 3 ]
-        %tmp.14 = lgetv %params;
-        %tmp.16 = const :spacingX;
-        %tmp.17 = agetv %tmp.14 %tmp.16;
-        putv self :mSpacing %tmp.17;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 29 3 ]
-        %tmp.18 = true;
-        putv self :mIsHorizontal %tmp.18;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_33_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_30_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 31 3 ]
+        symbol [ params %tmp.5 27 6 12 ];
+        %tmp.7 = const :spacingX;
+        symbol [ spacingX %tmp.7 27 14 22 const ];
+        %tmp.8 = agetv %tmp.5 %tmp.7;
+        %tmp.9 = null;
+        %tmp.10 = ne %tmp.8 %tmp.9;
+        bf %tmp.10 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_33_30_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 28 3 ]
+        %tmp.11 = lgetv %params;
+        symbol [ params %tmp.11 28 14 20 ];
+        %tmp.13 = const :spacingX;
+        symbol [ spacingX %tmp.13 28 22 30 const ];
+        %tmp.14 = agetv %tmp.11 %tmp.13;
+        symbol [ mSpacing ? 28 3 11 ];
+        putv self :mSpacing %tmp.14;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 29 3 ]
+        %tmp.15 = true;
+        symbol [ mIsHorizontal ? 29 3 16 ];
+        putv self :mIsHorizontal %tmp.15;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_33_30_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_30_9_32_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 31 3 ]
+        %tmp.16 = lgetv %params;
+        symbol [ params %tmp.16 31 14 20 ];
+        %tmp.18 = const :spacingY;
+        symbol [ spacingY %tmp.18 31 22 30 const ];
+        %tmp.19 = agetv %tmp.16 %tmp.18;
+        symbol [ mSpacing ? 31 3 11 ];
+        putv self :mSpacing %tmp.19;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_30_9_32_2_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_27_2_32_2_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 33 2 ]
         %tmp.20 = lgetv %params;
-        %tmp.22 = const :spacingY;
+        symbol [ params %tmp.20 33 18 24 ];
+        %tmp.22 = const :batteryWidth;
+        symbol [ batteryWidth %tmp.22 33 26 38 const ];
         %tmp.23 = agetv %tmp.20 %tmp.22;
-        putv self :mSpacing %tmp.23;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_30_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_27_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 33 2 ]
-        %tmp.25 = lgetv %params;
-        %tmp.27 = const :batteryWidth;
-        %tmp.28 = agetv %tmp.25 %tmp.27;
-        putv self :mBatteryWidth %tmp.28;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 35 2 ]
-        %tmp.29 = self;
-        %tmp.30 = getv function %tmp.29 :onSettingsChanged;
-        invoke %tmp.29 %tmp.30();
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_24_29_stop:
+        symbol [ mBatteryWidth ? 33 2 15 ];
+        putv self :mBatteryWidth %tmp.23;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 35 2 ]
+        %tmp.24 = self;
+        symbol [ onSettingsChanged %tmp.25 35 2 19 ];
+        %tmp.25 = getv function %tmp.24 :onSettingsChanged;
+        invoke %tmp.24 %tmp.25();
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_24_29_36_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 38; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 38; @symbol_functiondef = [onSettingsChanged,38,10,27]; ]
     function onSettingsChanged() {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_38_30_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 39 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_38_30_42_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 39 2 ]
+        symbol [ App %tmp.1 39 20 23 ];
         %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 39 24 30 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ getProperty %tmp.4 39 33 44 ];
         %tmp.4 = getv function %tmp.3 :getProperty;
         %tmp.5 = "Indicator1Type";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        symbol [ mIndicator1Type ? 39 2 17 ];
         putv self :mIndicator1Type %tmp.6;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 40 2 ]
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 40 2 ]
+        symbol [ App %tmp.7 40 20 23 ];
         %tmp.7 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.8 40 24 30 ];
         %tmp.8 = getv function %tmp.7 :getApp;
         %tmp.9 = invoke %tmp.7 %tmp.8();
+        symbol [ getProperty %tmp.10 40 33 44 ];
         %tmp.10 = getv function %tmp.9 :getProperty;
         %tmp.11 = "Indicator2Type";
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        symbol [ mIndicator2Type ? 40 2 17 ];
         putv self :mIndicator2Type %tmp.12;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 41 2 ]
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 41 2 ]
+        symbol [ App %tmp.13 41 20 23 ];
         %tmp.13 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.14 41 24 30 ];
         %tmp.14 = getv function %tmp.13 :getApp;
         %tmp.15 = invoke %tmp.13 %tmp.14();
+        symbol [ getProperty %tmp.16 41 33 44 ];
         %tmp.16 = getv function %tmp.15 :getProperty;
         %tmp.17 = "Indicator3Type";
         %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        symbol [ mIndicator3Type ? 41 2 17 ];
         putv self :mIndicator3Type %tmp.18;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_38_30_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_38_30_42_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 44; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 44; @symbol_functiondef = [draw,44,10,14]; @symbol_param<0> = [dc,44,15,17]; ]
     function draw(dc) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_44_19_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 47 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_44_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_44_19_stop" ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_44_19_57_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 47 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_44_19_57_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_44_19_57_1_stop" ]
         %indicatorCount.1 = local;
+        symbol [ indicatorCount %indicatorCount.1 47 6 20 ];
+        symbol [ App %tmp.1 47 23 26 ];
         %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 47 27 33 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ getIntProperty %tmp.4 47 36 50 ];
         %tmp.4 = getv function %tmp.3 :getIntProperty;
         %tmp.5 = "IndicatorCount";
         %tmp.6 = 1;
         %tmp.7 = invoke %tmp.3 %tmp.4(%tmp.5, %tmp.6);
         lputv %indicatorCount.1 %tmp.7;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 50 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_stmt:
+        symbol [ indicatorCount %indicatorCount.1 47 6 20 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 50 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_stmt:
+        symbol [ mIsHorizontal %tmp.9 50 6 19 ];
         %tmp.9 = getv ? :mIsHorizontal;
-        bf %tmp.9 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_21_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 51 3 ]
+        bf %tmp.9 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_21_54_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 51 3 ]
         %tmp.10 = self;
+        symbol [ drawHorizontal %tmp.11 51 3 17 ];
         %tmp.11 = getv function %tmp.10 :drawHorizontal;
-        %tmp.13 = lgetv %dc;
-        %tmp.15 = lgetv %indicatorCount.1;
-        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_21_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_54_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 55 3 ]
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 51 18 20 ];
+        %tmp.13 = lgetv %indicatorCount.1;
+        symbol [ indicatorCount %tmp.13 51 22 36 ];
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.13);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_21_54_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_54_9_56_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 55 3 ]
+        %tmp.14 = self;
+        symbol [ drawVertical %tmp.15 55 3 15 ];
+        %tmp.15 = getv function %tmp.14 :drawVertical;
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 55 16 18 ];
+        %tmp.17 = lgetv %indicatorCount.1;
+        symbol [ indicatorCount %tmp.17 55 20 34 ];
+        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.17);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_54_9_56_2_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_50_2_56_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_44_19_57_1_stop:
+    }
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 60; no_horizontal_indicators = true; @symbol_functiondef = [drawHorizontal,60,10,24]; @symbol_param<0> = [dc,60,25,27]; @symbol_param<1> = [indicatorCount,60,29,43]; ]
+    function drawHorizontal(dc, indicatorCount) {
+    }
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 64; horizontal_indicators = true; @symbol_functiondef = [drawHorizontal,64,10,24]; @symbol_param<0> = [dc,64,25,27]; @symbol_param<1> = [indicatorCount,64,29,43]; ]
+    function drawHorizontal(dc, indicatorCount) {
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_64_45_75_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 65 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_stmt:
+        %tmp.1 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.1 65 6 20 ];
+        %tmp.2 = 3;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_27_69_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 66 3 ]
+        %tmp.4 = self;
+        symbol [ drawIndicator %tmp.5 66 3 16 ];
+        %tmp.5 = getv function %tmp.4 :drawIndicator;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 66 17 19 ];
+        symbol [ mIndicator1Type %tmp.8 66 21 36 ];
+        %tmp.8 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.10 66 38 42 ];
+        %tmp.10 = getv ? :locX;
+        symbol [ mSpacing %tmp.12 66 45 53 ];
+        %tmp.12 = getv ? :mSpacing;
+        %tmp.13 = sub %tmp.10 %tmp.12;
+        symbol [ locY %tmp.15 66 55 59 ];
+        %tmp.15 = getv ? :locY;
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.8, %tmp.13, %tmp.15);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 67 3 ]
         %tmp.16 = self;
-        %tmp.17 = getv function %tmp.16 :drawVertical;
-        %tmp.19 = lgetv %dc;
-        %tmp.21 = lgetv %indicatorCount.1;
-        invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_54_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_50_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_44_19_stop:
+        symbol [ drawIndicator %tmp.17 67 3 16 ];
+        %tmp.17 = getv function %tmp.16 :drawIndicator;
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 67 17 19 ];
+        symbol [ mIndicator2Type %tmp.20 67 21 36 ];
+        %tmp.20 = getv ? :mIndicator2Type;
+        symbol [ locX %tmp.22 67 38 42 ];
+        %tmp.22 = getv ? :locX;
+        symbol [ locY %tmp.24 67 44 48 ];
+        %tmp.24 = getv ? :locY;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.20, %tmp.22, %tmp.24);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 68 3 ]
+        %tmp.25 = self;
+        symbol [ drawIndicator %tmp.26 68 3 16 ];
+        %tmp.26 = getv function %tmp.25 :drawIndicator;
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 68 17 19 ];
+        symbol [ mIndicator3Type %tmp.29 68 21 36 ];
+        %tmp.29 = getv ? :mIndicator3Type;
+        symbol [ locX %tmp.31 68 38 42 ];
+        %tmp.31 = getv ? :locX;
+        symbol [ mSpacing %tmp.33 68 45 53 ];
+        %tmp.33 = getv ? :mSpacing;
+        %tmp.34 = add %tmp.31 %tmp.33;
+        symbol [ locY %tmp.36 68 55 59 ];
+        %tmp.36 = getv ? :locY;
+        invoke %tmp.25 %tmp.26(%tmp.27, %tmp.29, %tmp.34, %tmp.36);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_27_69_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_false:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 69 9 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_stmt:
+        %tmp.37 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.37 69 13 27 ];
+        %tmp.38 = 2;
+        %tmp.39 = eq %tmp.37 %tmp.38;
+        bf %tmp.39 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_34_72_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 70 3 ]
+        %tmp.40 = self;
+        symbol [ drawIndicator %tmp.41 70 3 16 ];
+        %tmp.41 = getv function %tmp.40 :drawIndicator;
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 70 17 19 ];
+        symbol [ mIndicator1Type %tmp.44 70 21 36 ];
+        %tmp.44 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.46 70 38 42 ];
+        %tmp.46 = getv ? :locX;
+        symbol [ mSpacing %tmp.48 70 46 54 ];
+        %tmp.48 = getv ? :mSpacing;
+        %tmp.49 = 2;
+        %tmp.50 = div %tmp.48 %tmp.49;
+        %tmp.51 = sub %tmp.46 %tmp.50;
+        symbol [ locY %tmp.53 70 61 65 ];
+        %tmp.53 = getv ? :locY;
+        invoke %tmp.40 %tmp.41(%tmp.42, %tmp.44, %tmp.51, %tmp.53);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 71 3 ]
+        %tmp.54 = self;
+        symbol [ drawIndicator %tmp.55 71 3 16 ];
+        %tmp.55 = getv function %tmp.54 :drawIndicator;
+        %tmp.56 = lgetv %dc;
+        symbol [ dc %tmp.56 71 17 19 ];
+        symbol [ mIndicator2Type %tmp.58 71 21 36 ];
+        %tmp.58 = getv ? :mIndicator2Type;
+        symbol [ locX %tmp.60 71 38 42 ];
+        %tmp.60 = getv ? :locX;
+        symbol [ mSpacing %tmp.62 71 46 54 ];
+        %tmp.62 = getv ? :mSpacing;
+        %tmp.63 = 2;
+        %tmp.64 = div %tmp.62 %tmp.63;
+        %tmp.65 = add %tmp.60 %tmp.64;
+        symbol [ locY %tmp.67 71 61 65 ];
+        %tmp.67 = getv ? :locY;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.58, %tmp.65, %tmp.67);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_34_72_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_false:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 72 9 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_9_74_2_if_stmt:
+        %tmp.68 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.68 72 13 27 ];
+        %tmp.69 = 1;
+        %tmp.70 = eq %tmp.68 %tmp.69;
+        bf %tmp.70 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_9_74_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_9_74_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_34_74_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 73 3 ]
+        %tmp.71 = self;
+        symbol [ drawIndicator %tmp.72 73 3 16 ];
+        %tmp.72 = getv function %tmp.71 :drawIndicator;
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 73 17 19 ];
+        symbol [ mIndicator1Type %tmp.75 73 21 36 ];
+        %tmp.75 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.77 73 38 42 ];
+        %tmp.77 = getv ? :locX;
+        symbol [ locY %tmp.79 73 44 48 ];
+        %tmp.79 = getv ? :locY;
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.75, %tmp.77, %tmp.79);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_34_74_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_9_74_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_72_9_74_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_69_9_74_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_65_2_74_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_64_45_75_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 59; no_horizontal_indicators = true; ]
-    function drawHorizontal(dc, indicatorCount) {
-    }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 63; horizontal_indicators = true; ]
-    function drawHorizontal(dc, indicatorCount) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_64_45_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 65 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_stmt:
-        %tmp.2 = lgetv %indicatorCount;
-        %tmp.3 = 3;
-        %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_27_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 66 3 ]
-        %tmp.5 = self;
-        %tmp.6 = getv function %tmp.5 :drawIndicator;
-        %tmp.8 = lgetv %dc;
-        %tmp.10 = getv ? :mIndicator1Type;
-        %tmp.12 = getv ? :locX;
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 78; vertical_indicators = true; @symbol_functiondef = [drawVertical,78,10,22]; @symbol_param<0> = [dc,78,23,25]; @symbol_param<1> = [indicatorCount,78,27,41]; ]
+    function drawVertical(dc, indicatorCount) {
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_78_43_89_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 79 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_stmt:
+        %tmp.1 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.1 79 6 20 ];
+        %tmp.2 = 3;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_27_83_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 80 3 ]
+        %tmp.4 = self;
+        symbol [ drawIndicator %tmp.5 80 3 16 ];
+        %tmp.5 = getv function %tmp.4 :drawIndicator;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 80 17 19 ];
+        symbol [ mIndicator1Type %tmp.8 80 21 36 ];
+        %tmp.8 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.10 80 38 42 ];
+        %tmp.10 = getv ? :locX;
+        symbol [ locY %tmp.12 80 44 48 ];
+        %tmp.12 = getv ? :locY;
+        symbol [ mSpacing %tmp.14 80 51 59 ];
         %tmp.14 = getv ? :mSpacing;
         %tmp.15 = sub %tmp.12 %tmp.14;
-        %tmp.17 = getv ? :locY;
-        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10, %tmp.15, %tmp.17);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 67 3 ]
-        %tmp.18 = self;
-        %tmp.19 = getv function %tmp.18 :drawIndicator;
-        %tmp.21 = lgetv %dc;
-        %tmp.23 = getv ? :mIndicator2Type;
-        %tmp.25 = getv ? :locX;
-        %tmp.27 = getv ? :locY;
-        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23, %tmp.25, %tmp.27);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 68 3 ]
-        %tmp.28 = self;
-        %tmp.29 = getv function %tmp.28 :drawIndicator;
-        %tmp.31 = lgetv %dc;
-        %tmp.33 = getv ? :mIndicator3Type;
-        %tmp.35 = getv ? :locX;
-        %tmp.37 = getv ? :mSpacing;
-        %tmp.38 = add %tmp.35 %tmp.37;
-        %tmp.40 = getv ? :locY;
-        invoke %tmp.28 %tmp.29(%tmp.31, %tmp.33, %tmp.38, %tmp.40);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_27_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 69 9 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_stmt:
-        %tmp.42 = lgetv %indicatorCount;
-        %tmp.43 = 2;
-        %tmp.44 = eq %tmp.42 %tmp.43;
-        bf %tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_34_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 70 3 ]
-        %tmp.45 = self;
-        %tmp.46 = getv function %tmp.45 :drawIndicator;
-        %tmp.48 = lgetv %dc;
-        %tmp.50 = getv ? :mIndicator1Type;
-        %tmp.52 = getv ? :locX;
-        %tmp.54 = getv ? :mSpacing;
-        %tmp.55 = 2;
-        %tmp.56 = div %tmp.54 %tmp.55;
-        %tmp.57 = sub %tmp.52 %tmp.56;
-        %tmp.59 = getv ? :locY;
-        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50, %tmp.57, %tmp.59);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 71 3 ]
-        %tmp.60 = self;
-        %tmp.61 = getv function %tmp.60 :drawIndicator;
-        %tmp.63 = lgetv %dc;
-        %tmp.65 = getv ? :mIndicator2Type;
-        %tmp.67 = getv ? :locX;
-        %tmp.69 = getv ? :mSpacing;
-        %tmp.70 = 2;
-        %tmp.71 = div %tmp.69 %tmp.70;
-        %tmp.72 = add %tmp.67 %tmp.71;
-        %tmp.74 = getv ? :locY;
-        invoke %tmp.60 %tmp.61(%tmp.63, %tmp.65, %tmp.72, %tmp.74);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_34_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 72 9 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_9_if_stmt:
-        %tmp.76 = lgetv %indicatorCount;
-        %tmp.77 = 1;
-        %tmp.78 = eq %tmp.76 %tmp.77;
-        bf %tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_9_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_34_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 73 3 ]
-        %tmp.79 = self;
-        %tmp.80 = getv function %tmp.79 :drawIndicator;
-        %tmp.82 = lgetv %dc;
-        %tmp.84 = getv ? :mIndicator1Type;
-        %tmp.86 = getv ? :locX;
-        %tmp.88 = getv ? :locY;
-        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84, %tmp.86, %tmp.88);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_34_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_72_9_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_69_9_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_65_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_64_45_stop:
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.8, %tmp.10, %tmp.15);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 81 3 ]
+        %tmp.16 = self;
+        symbol [ drawIndicator %tmp.17 81 3 16 ];
+        %tmp.17 = getv function %tmp.16 :drawIndicator;
+        %tmp.18 = lgetv %dc;
+        symbol [ dc %tmp.18 81 17 19 ];
+        symbol [ mIndicator2Type %tmp.20 81 21 36 ];
+        %tmp.20 = getv ? :mIndicator2Type;
+        symbol [ locX %tmp.22 81 38 42 ];
+        %tmp.22 = getv ? :locX;
+        symbol [ locY %tmp.24 81 44 48 ];
+        %tmp.24 = getv ? :locY;
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.20, %tmp.22, %tmp.24);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 82 3 ]
+        %tmp.25 = self;
+        symbol [ drawIndicator %tmp.26 82 3 16 ];
+        %tmp.26 = getv function %tmp.25 :drawIndicator;
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 82 17 19 ];
+        symbol [ mIndicator3Type %tmp.29 82 21 36 ];
+        %tmp.29 = getv ? :mIndicator3Type;
+        symbol [ locX %tmp.31 82 38 42 ];
+        %tmp.31 = getv ? :locX;
+        symbol [ locY %tmp.33 82 44 48 ];
+        %tmp.33 = getv ? :locY;
+        symbol [ mSpacing %tmp.35 82 51 59 ];
+        %tmp.35 = getv ? :mSpacing;
+        %tmp.36 = add %tmp.33 %tmp.35;
+        invoke %tmp.25 %tmp.26(%tmp.27, %tmp.29, %tmp.31, %tmp.36);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_27_83_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_false:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 83 9 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_stmt:
+        %tmp.37 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.37 83 13 27 ];
+        %tmp.38 = 2;
+        %tmp.39 = eq %tmp.37 %tmp.38;
+        bf %tmp.39 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_34_86_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 84 3 ]
+        %tmp.40 = self;
+        symbol [ drawIndicator %tmp.41 84 3 16 ];
+        %tmp.41 = getv function %tmp.40 :drawIndicator;
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 84 17 19 ];
+        symbol [ mIndicator1Type %tmp.44 84 21 36 ];
+        %tmp.44 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.46 84 38 42 ];
+        %tmp.46 = getv ? :locX;
+        symbol [ locY %tmp.48 84 44 48 ];
+        %tmp.48 = getv ? :locY;
+        symbol [ mSpacing %tmp.50 84 52 60 ];
+        %tmp.50 = getv ? :mSpacing;
+        %tmp.51 = 2;
+        %tmp.52 = div %tmp.50 %tmp.51;
+        %tmp.53 = sub %tmp.48 %tmp.52;
+        invoke %tmp.40 %tmp.41(%tmp.42, %tmp.44, %tmp.46, %tmp.53);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 85 3 ]
+        %tmp.54 = self;
+        symbol [ drawIndicator %tmp.55 85 3 16 ];
+        %tmp.55 = getv function %tmp.54 :drawIndicator;
+        %tmp.56 = lgetv %dc;
+        symbol [ dc %tmp.56 85 17 19 ];
+        symbol [ mIndicator2Type %tmp.58 85 21 36 ];
+        %tmp.58 = getv ? :mIndicator2Type;
+        symbol [ locX %tmp.60 85 38 42 ];
+        %tmp.60 = getv ? :locX;
+        symbol [ locY %tmp.62 85 44 48 ];
+        %tmp.62 = getv ? :locY;
+        symbol [ mSpacing %tmp.64 85 52 60 ];
+        %tmp.64 = getv ? :mSpacing;
+        %tmp.65 = 2;
+        %tmp.66 = div %tmp.64 %tmp.65;
+        %tmp.67 = add %tmp.62 %tmp.66;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.58, %tmp.60, %tmp.67);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_34_86_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_false:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 86 9 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_9_88_2_if_stmt:
+        %tmp.68 = lgetv %indicatorCount;
+        symbol [ indicatorCount %tmp.68 86 13 27 ];
+        %tmp.69 = 1;
+        %tmp.70 = eq %tmp.68 %tmp.69;
+        bf %tmp.70 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_9_88_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_9_88_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_34_88_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 87 3 ]
+        %tmp.71 = self;
+        symbol [ drawIndicator %tmp.72 87 3 16 ];
+        %tmp.72 = getv function %tmp.71 :drawIndicator;
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 87 17 19 ];
+        symbol [ mIndicator1Type %tmp.75 87 21 36 ];
+        %tmp.75 = getv ? :mIndicator1Type;
+        symbol [ locX %tmp.77 87 38 42 ];
+        %tmp.77 = getv ? :locX;
+        symbol [ locY %tmp.79 87 44 48 ];
+        %tmp.79 = getv ? :locY;
+        invoke %tmp.71 %tmp.72(%tmp.73, %tmp.75, %tmp.77, %tmp.79);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_34_88_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_9_88_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_86_9_88_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_83_9_88_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_79_2_88_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_78_43_89_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 77; vertical_indicators = true; ]
-    function drawVertical(dc, indicatorCount) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_78_43_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 79 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_stmt:
-        %tmp.2 = lgetv %indicatorCount;
-        %tmp.3 = 3;
-        %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_27_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 80 3 ]
-        %tmp.5 = self;
-        %tmp.6 = getv function %tmp.5 :drawIndicator;
-        %tmp.8 = lgetv %dc;
-        %tmp.10 = getv ? :mIndicator1Type;
-        %tmp.12 = getv ? :locX;
-        %tmp.14 = getv ? :locY;
-        %tmp.16 = getv ? :mSpacing;
-        %tmp.17 = sub %tmp.14 %tmp.16;
-        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10, %tmp.12, %tmp.17);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 81 3 ]
-        %tmp.18 = self;
-        %tmp.19 = getv function %tmp.18 :drawIndicator;
-        %tmp.21 = lgetv %dc;
-        %tmp.23 = getv ? :mIndicator2Type;
-        %tmp.25 = getv ? :locX;
-        %tmp.27 = getv ? :locY;
-        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23, %tmp.25, %tmp.27);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 82 3 ]
-        %tmp.28 = self;
-        %tmp.29 = getv function %tmp.28 :drawIndicator;
-        %tmp.31 = lgetv %dc;
-        %tmp.33 = getv ? :mIndicator3Type;
-        %tmp.35 = getv ? :locX;
-        %tmp.37 = getv ? :locY;
-        %tmp.39 = getv ? :mSpacing;
-        %tmp.40 = add %tmp.37 %tmp.39;
-        invoke %tmp.28 %tmp.29(%tmp.31, %tmp.33, %tmp.35, %tmp.40);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_27_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 83 9 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_stmt:
-        %tmp.42 = lgetv %indicatorCount;
-        %tmp.43 = 2;
-        %tmp.44 = eq %tmp.42 %tmp.43;
-        bf %tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_34_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 84 3 ]
-        %tmp.45 = self;
-        %tmp.46 = getv function %tmp.45 :drawIndicator;
-        %tmp.48 = lgetv %dc;
-        %tmp.50 = getv ? :mIndicator1Type;
-        %tmp.52 = getv ? :locX;
-        %tmp.54 = getv ? :locY;
-        %tmp.56 = getv ? :mSpacing;
-        %tmp.57 = 2;
-        %tmp.58 = div %tmp.56 %tmp.57;
-        %tmp.59 = sub %tmp.54 %tmp.58;
-        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50, %tmp.52, %tmp.59);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 85 3 ]
-        %tmp.60 = self;
-        %tmp.61 = getv function %tmp.60 :drawIndicator;
-        %tmp.63 = lgetv %dc;
-        %tmp.65 = getv ? :mIndicator2Type;
-        %tmp.67 = getv ? :locX;
-        %tmp.69 = getv ? :locY;
-        %tmp.71 = getv ? :mSpacing;
-        %tmp.72 = 2;
-        %tmp.73 = div %tmp.71 %tmp.72;
-        %tmp.74 = add %tmp.69 %tmp.73;
-        invoke %tmp.60 %tmp.61(%tmp.63, %tmp.65, %tmp.67, %tmp.74);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_34_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_false:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 86 9 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_9_if_stmt:
-        %tmp.76 = lgetv %indicatorCount;
-        %tmp.77 = 1;
-        %tmp.78 = eq %tmp.76 %tmp.77;
-        bf %tmp.78 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_9_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_34_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 87 3 ]
-        %tmp.79 = self;
-        %tmp.80 = getv function %tmp.79 :drawIndicator;
-        %tmp.82 = lgetv %dc;
-        %tmp.84 = getv ? :mIndicator1Type;
-        %tmp.86 = getv ? :locX;
-        %tmp.88 = getv ? :locY;
-        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84, %tmp.86, %tmp.88);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_34_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_9_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_86_9_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_83_9_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_79_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_78_43_stop:
-    }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 91; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 91; @symbol_functiondef = [drawIndicator,91,10,23]; @symbol_param<0> = [dc,91,24,26]; @symbol_param<1> = [indicatorType,91,28,41]; @symbol_param<2> = [x,91,43,44]; @symbol_param<3> = [y,91,46,47]; ]
     function drawIndicator(dc, indicatorType, x, y) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 94 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_2_if_stmt:
-        %tmp.2 = lgetv %indicatorType;
-        %tmp.3 = 4;
-        %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_55_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 95 3 ]
-        %tmp.5 = self;
-        %tmp.6 = getv function %tmp.5 :drawBatteryMeter;
-        %tmp.8 = lgetv %dc;
-        %tmp.10 = lgetv %x;
-        %tmp.12 = lgetv %y;
-        %tmp.14 = getv ? :mBatteryWidth;
-        %tmp.16 = getv ? :mBatteryWidth;
-        %tmp.17 = 2;
-        %tmp.18 = div %tmp.16 %tmp.17;
-        invoke %tmp.5 %tmp.6(%tmp.8, %tmp.10, %tmp.12, %tmp.14, %tmp.18);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 96 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 94 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_2_97_2_if_stmt:
+        %tmp.1 = lgetv %indicatorType;
+        symbol [ indicatorType %tmp.1 94 6 19 ];
+        %tmp.2 = 4;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_2_97_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_2_97_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_55_97_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 95 3 ]
+        %tmp.4 = self;
+        symbol [ drawBatteryMeter %tmp.5 95 3 19 ];
+        %tmp.5 = getv function %tmp.4 :drawBatteryMeter;
+        %tmp.6 = lgetv %dc;
+        symbol [ dc %tmp.6 95 20 22 ];
+        %tmp.7 = lgetv %x;
+        symbol [ x %tmp.7 95 24 25 ];
+        %tmp.8 = lgetv %y;
+        symbol [ y %tmp.8 95 27 28 ];
+        symbol [ mBatteryWidth %tmp.10 95 30 43 ];
+        %tmp.10 = getv ? :mBatteryWidth;
+        symbol [ mBatteryWidth %tmp.12 95 45 58 ];
+        %tmp.12 = getv ? :mBatteryWidth;
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        invoke %tmp.4 %tmp.5(%tmp.6, %tmp.7, %tmp.8, %tmp.10, %tmp.14);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 96 3 ]
         ret ?;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_55_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_94_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 100 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_stop" ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_55_97_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_2_97_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_94_2_97_2_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 100 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_stop" ]
         %settings.1 = local;
-        %tmp.19 = getm $.Toybox.System;
-        %tmp.20 = getv function %tmp.19 :getDeviceSettings;
-        %tmp.21 = invoke %tmp.19 %tmp.20();
-        lputv %settings.1 %tmp.21;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 101 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_2_if_stmt:
-        %tmp.23 = lgetv %indicatorType;
-        %tmp.24 = 3;
-        %tmp.25 = eq %tmp.23 %tmp.24;
-        bf %tmp.25 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_74_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 102 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_7_begin:
-        %tmp.26 = lgetv %settings.1;
-        %tmp.27 = getv %tmp.26 :phoneConnected;
-        %tmp.28 = dup %tmp.27;
-        bf %tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_34_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_34_true:
-        %tmp.29 = lgetv %settings.1;
-        %tmp.30 = getv %tmp.29 :notificationCount;
-        %tmp.31 = 0;
-        %tmp.32 = gt %tmp.30 %tmp.31;
-        %tmp.33 = and %tmp.27 %tmp.32;
-        push %tmp.33;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_34_end:
-        %tmp.34 = phi [%tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_7_begin] [%tmp.33 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_34_true] [%tmp.34 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_34_end];
-        bf %tmp.34 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_68_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 103 4 ]
-        %tmp.35 = 2;
-        lputv %indicatorType %tmp.35;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_68_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_104_10_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 105 4 ]
-        %tmp.36 = 0;
-        lputv %indicatorType %tmp.36;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_104_10_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_102_3_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_74_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_101_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 110 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_stop" ]
+        symbol [ settings %settings.1 100 6 14 ];
+        symbol [ Sys %tmp.15 100 17 20 ];
+        %tmp.15 = getm $.Toybox.System;
+        symbol [ getDeviceSettings %tmp.16 100 21 38 ];
+        %tmp.16 = getv function %tmp.15 :getDeviceSettings;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %settings.1 %tmp.17;
+        symbol [ settings %settings.1 100 6 14 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 101 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_2_107_2_if_stmt:
+        %tmp.18 = lgetv %indicatorType;
+        symbol [ indicatorType %tmp.18 101 6 19 ];
+        %tmp.19 = 3;
+        %tmp.20 = eq %tmp.18 %tmp.19;
+        bf %tmp.20 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_2_107_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_2_107_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_74_107_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 102 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_stmt:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_7_102_65_begin:
+        %tmp.21 = lgetv %settings.1;
+        symbol [ settings %tmp.21 102 7 15 ];
+        symbol [ phoneConnected %tmp.22 102 16 30 ];
+        %tmp.22 = getv %tmp.21 :phoneConnected;
+        bf %tmp.22 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_34_102_65_true:
+        %tmp.23 = lgetv %settings.1;
+        symbol [ settings %tmp.23 102 35 43 ];
+        symbol [ notificationCount %tmp.24 102 44 61 ];
+        %tmp.24 = getv %tmp.23 :notificationCount;
+        %tmp.25 = 0;
+        %tmp.26 = gt %tmp.24 %tmp.25;
+        push %tmp.26;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_34_102_65_end:
+        %tmp.27 = phi [%tmp.22 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_7_102_65_begin] [%tmp.26 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_34_102_65_true] [%tmp.27 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_34_102_65_end];
+        bf %tmp.27 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_68_104_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 103 4 ]
+        %tmp.28 = 2;
+        lputv %indicatorType %tmp.28;
+        symbol [ indicatorType %indicatorType 103 4 17 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_68_104_3_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_104_10_106_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 105 4 ]
+        %tmp.29 = 0;
+        lputv %indicatorType %tmp.29;
+        symbol [ indicatorType %indicatorType 105 4 17 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_104_10_106_3_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_102_3_106_3_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_74_107_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_2_107_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_101_2_107_2_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 110 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_stop" ]
         %value.2 = local;
-        %tmp.37 = newa 3;
-        %tmp.38 = lgetv %settings.1;
-        %tmp.39 = getv %tmp.38 :phoneConnected;
-        %tmp.40 = dup %tmp.37;
-        %tmp.41 = aputv %tmp.40 0 %tmp.39;
-        %tmp.42 = lgetv %settings.1;
-        %tmp.43 = getv %tmp.42 :alarmCount;
-        %tmp.44 = 0;
-        %tmp.45 = gt %tmp.43 %tmp.44;
-        %tmp.46 = dup %tmp.41;
-        %tmp.47 = aputv %tmp.46 1 %tmp.45;
-        %tmp.48 = lgetv %settings.1;
-        %tmp.49 = getv %tmp.48 :notificationCount;
-        %tmp.50 = 0;
-        %tmp.51 = gt %tmp.49 %tmp.50;
-        %tmp.52 = dup %tmp.47;
-        %tmp.53 = aputv %tmp.52 2 %tmp.51;
-        %tmp.55 = lgetv %indicatorType;
-        %tmp.56 = agetv %tmp.53 %tmp.55;
-        lputv %value.2 %tmp.56;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 116 2 ]
-        %tmp.57 = lgetv %dc;
-        %tmp.58 = getv function %tmp.57 :setColor;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_begin:
-        %tmp.60 = lgetv %value.2;
-        bf %tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_true:
-        %tmp.62 = getv ? :gThemeColour;
-        push %tmp.62;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_false:
-        %tmp.64 = getv ? :gMeterBackgroundColour;
-        push %tmp.64;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_end:
-        %tmp.65 = phi [%tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_begin] [%tmp.62 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_true] [%tmp.64 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_false] [%tmp.65 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_116_14_end];
-        %tmp.67 = getv ? :Graphics;
-        %tmp.68 = getv %tmp.67 :COLOR_TRANSPARENT;
-        invoke %tmp.57 %tmp.58(%tmp.65, %tmp.68);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc" 119 2 ]
-        %tmp.69 = lgetv %dc;
-        %tmp.70 = getv function %tmp.69 :drawText;
-        %tmp.72 = lgetv %x;
-        %tmp.74 = lgetv %y;
-        %tmp.76 = getv ? :gIconsFont;
-        %tmp.77 = newa 3;
-        %tmp.78 = "8";
-        %tmp.79 = dup %tmp.77;
-        %tmp.80 = aputv %tmp.79 0 %tmp.78;
-        %tmp.81 = ":";
-        %tmp.82 = dup %tmp.80;
-        %tmp.83 = aputv %tmp.82 1 %tmp.81;
-        %tmp.84 = "5";
-        %tmp.85 = dup %tmp.83;
-        %tmp.86 = aputv %tmp.85 2 %tmp.84;
-        %tmp.88 = lgetv %indicatorType;
-        %tmp.89 = agetv %tmp.86 %tmp.88;
-        %tmp.91 = getv ? :Graphics;
-        %tmp.92 = getv %tmp.91 :TEXT_JUSTIFY_CENTER;
-        %tmp.94 = getv ? :Graphics;
-        %tmp.95 = getv %tmp.94 :TEXT_JUSTIFY_VCENTER;
-        %tmp.96 = bitor %tmp.92 %tmp.95;
-        invoke %tmp.69 %tmp.70(%tmp.72, %tmp.74, %tmp.76, %tmp.89, %tmp.96);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_Indicators_mc_91_49_stop:
+        symbol [ value %value.2 110 6 11 ];
+        %tmp.30 = newa 3;
+        %tmp.31 = lgetv %settings.1;
+        symbol [ settings %tmp.31 111 34 42 ];
+        symbol [ phoneConnected %tmp.32 111 43 57 ];
+        %tmp.32 = getv %tmp.31 :phoneConnected;
+        %tmp.33 = dup %tmp.30;
+        %tmp.34 = aputv %tmp.33 0 %tmp.32;
+        %tmp.35 = lgetv %settings.1;
+        symbol [ settings %tmp.35 112 31 39 ];
+        symbol [ alarmCount %tmp.36 112 40 50 ];
+        %tmp.36 = getv %tmp.35 :alarmCount;
+        %tmp.37 = 0;
+        %tmp.38 = gt %tmp.36 %tmp.37;
+        %tmp.39 = dup %tmp.34;
+        %tmp.40 = aputv %tmp.39 1 %tmp.38;
+        %tmp.41 = lgetv %settings.1;
+        symbol [ settings %tmp.41 113 38 46 ];
+        symbol [ notificationCount %tmp.42 113 47 64 ];
+        %tmp.42 = getv %tmp.41 :notificationCount;
+        %tmp.43 = 0;
+        %tmp.44 = gt %tmp.42 %tmp.43;
+        %tmp.45 = dup %tmp.40;
+        %tmp.46 = aputv %tmp.45 2 %tmp.44;
+        %tmp.47 = lgetv %indicatorType;
+        symbol [ indicatorType %tmp.47 114 4 17 ];
+        %tmp.48 = agetv %tmp.46 %tmp.47;
+        lputv %value.2 %tmp.48;
+        symbol [ value %value.2 110 6 11 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 116 2 ]
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 116 2 4 ];
+        symbol [ setColor %tmp.50 116 5 13 ];
+        %tmp.50 = getv function %tmp.49 :setColor;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_begin:
+        %tmp.51 = lgetv %value.2;
+        symbol [ value %tmp.51 116 14 19 ];
+        bf %tmp.51 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_true:
+        symbol [ gThemeColour %tmp.53 116 22 34 ];
+        %tmp.53 = getv ? :gThemeColour;
+        push %tmp.53;
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_else_false:
+        symbol [ gMeterBackgroundColour %tmp.55 116 37 59 ];
+        %tmp.55 = getv ? :gMeterBackgroundColour;
+        push %tmp.55;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_end:
+        %tmp.56 = phi [%tmp.51 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_begin] [%tmp.53 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_true] [%tmp.55 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_else_false] [%tmp.56 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_116_14_116_37_end];
+        symbol [ Graphics %tmp.58 116 61 69 ];
+        %tmp.58 = getv ? :Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.59 116 70 87 ];
+        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+        invoke %tmp.49 %tmp.50(%tmp.56, %tmp.59);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc" 119 2 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 119 2 4 ];
+        symbol [ drawText %tmp.61 119 5 13 ];
+        %tmp.61 = getv function %tmp.60 :drawText;
+        %tmp.62 = lgetv %x;
+        symbol [ x %tmp.62 120 3 4 ];
+        %tmp.63 = lgetv %y;
+        symbol [ y %tmp.63 121 3 4 ];
+        symbol [ gIconsFont %tmp.65 122 3 13 ];
+        %tmp.65 = getv ? :gIconsFont;
+        %tmp.66 = newa 3;
+        %tmp.67 = "8";
+        %tmp.68 = dup %tmp.66;
+        %tmp.69 = aputv %tmp.68 0 %tmp.67;
+        %tmp.70 = ":";
+        %tmp.71 = dup %tmp.69;
+        %tmp.72 = aputv %tmp.71 1 %tmp.70;
+        %tmp.73 = "5";
+        %tmp.74 = dup %tmp.72;
+        %tmp.75 = aputv %tmp.74 2 %tmp.73;
+        %tmp.76 = lgetv %indicatorType;
+        symbol [ indicatorType %tmp.76 123 19 32 ];
+        %tmp.77 = agetv %tmp.75 %tmp.76;
+        symbol [ Graphics %tmp.79 124 3 11 ];
+        %tmp.79 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.80 124 12 31 ];
+        %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.82 124 34 42 ];
+        %tmp.82 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.83 124 43 63 ];
+        %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_VCENTER;
+        %tmp.84 = bitor %tmp.80 %tmp.83;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.63, %tmp.65, %tmp.77, %tmp.84);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_Indicators_mc_91_49_126_1_stop:
     }
 }
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\Indicators.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\Indicators.mc"; @line = 1; ]
 <init> {
 }

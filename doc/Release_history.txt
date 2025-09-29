@@ -21,6 +21,8 @@ Features (depending on watch support):
 
 Release History:
 
+- V1.01-05 - 2025-09-291
+* Add support for Forerunner 570 & 970
 - V1.01-03 - 2024-03-11
 * Remove Instinct 2, 2S, 2X, Corssover support
 * Update Forerunner 265, 265s & 965 display

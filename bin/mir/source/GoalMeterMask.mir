@@ -1,70 +1,90 @@
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 2; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Application,2,13,24]; @symbol_usingAlias = [App,2,28,31]; ]
 using Toybox.Application as :App;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 3; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Graphics,3,13,21]; @symbol_usingAlias = [Gfx,3,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
-class GoalMeterMask extends Ui.Drawable{
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 6; @symbol_classdef = [GoalMeterMask,6,6,19]; @symbol_extends<0> = [Ui,6,28,30]; @symbol_extends<1> = [Drawable,6,31,39]; ]
+class GoalMeterMask extends Ui.Drawable {
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 8; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 8; @position = 13; @symbol_vardef = [mStroke,8,13,20]; ]
     private
     var mStroke;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 10; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 10; @symbol_functiondef = [initialize,10,10,20]; @symbol_param<0> = [params,10,21,27]; ]
     function initialize(params) as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_10_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 11 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_GoalMeterMask_mc_10_29_14_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc" 11 2 ]
+        symbol [ Drawable %tmp.2 11 2 10 ];
         %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 11 11 21 ];
         %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 11 22 28 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc" 13 2 ]
         %tmp.5 = lgetv %params;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 13 2 ]
-        %tmp.7 = lgetv %params;
-        %tmp.9 = const :stroke;
-        %tmp.10 = agetv %tmp.7 %tmp.9;
-        putv self :mStroke %tmp.10;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_10_29_stop:
+        symbol [ params %tmp.5 13 12 18 ];
+        %tmp.7 = const :stroke;
+        symbol [ stroke %tmp.7 13 20 26 const ];
+        %tmp.8 = agetv %tmp.5 %tmp.7;
+        symbol [ mStroke ? 13 2 9 ];
+        putv self :mStroke %tmp.8;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_GoalMeterMask_mc_10_29_14_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 16; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 16; @symbol_functiondef = [draw,16,10,14]; @symbol_param<0> = [dc,16,15,17]; ]
     function draw(dc) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_16_19_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 17 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_GoalMeterMask_mc_16_19_19_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc" 17 2 ]
         %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 17 2 4 ];
+        symbol [ setColor %tmp.2 17 5 13 ];
         %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ gBackgroundColour %tmp.4 17 14 31 ];
         %tmp.4 = getv ? :gBackgroundColour;
+        symbol [ Gfx %tmp.5 17 33 36 ];
         %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.6 17 37 54 ];
         %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc" 18 2 ]
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc" 18 2 ]
         %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 18 2 4 ];
+        symbol [ fillCircle %tmp.8 18 5 15 ];
         %tmp.8 = getv function %tmp.7 :fillCircle;
         %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 18 16 18 ];
+        symbol [ getWidth %tmp.10 18 19 27 ];
         %tmp.10 = getv function %tmp.9 :getWidth;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = 2;
         %tmp.13 = div %tmp.11 %tmp.12;
         %tmp.14 = lgetv %dc;
+        symbol [ dc %tmp.14 18 35 37 ];
+        symbol [ getHeight %tmp.15 18 38 47 ];
         %tmp.15 = getv function %tmp.14 :getHeight;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         %tmp.17 = 2;
         %tmp.18 = div %tmp.16 %tmp.17;
         %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 18 56 58 ];
+        symbol [ getWidth %tmp.20 18 59 67 ];
         %tmp.20 = getv function %tmp.19 :getWidth;
         %tmp.21 = invoke %tmp.19 %tmp.20();
         %tmp.22 = 2;
         %tmp.23 = div %tmp.21 %tmp.22;
+        symbol [ mStroke %tmp.25 18 77 84 ];
         %tmp.25 = getv ? :mStroke;
         %tmp.26 = sub %tmp.23 %tmp.25;
         invoke %tmp.7 %tmp.8(%tmp.13, %tmp.18, %tmp.26);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_GoalMeterMask_mc_16_19_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_GoalMeterMask_mc_16_19_19_1_stop:
     }
 }
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\GoalMeterMask.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\GoalMeterMask.mc"; @line = 1; ]
 <init> {
 }

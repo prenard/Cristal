@@ -1,738 +1,989 @@
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [Ui,1,24,26]; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 2; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Graphics,2,13,21]; @symbol_usingAlias = [Gfx,2,25,28]; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 3; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Application,3,13,24]; @symbol_usingAlias = [App,3,28,31]; ]
 using Toybox.Application as :App;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 4; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [System,4,13,19]; @symbol_usingAlias = [Sys,4,23,26]; ]
 using Toybox.System as :Sys;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 5; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Time,5,13,17]; ]
 using Toybox.Time;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 6; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 6; @symbol_usingdef<0> = [Toybox,6,6,12]; @symbol_usingdef<1> = [Time,6,13,17]; @symbol_usingdef<2> = [Gregorian,6,18,27]; ]
 using Toybox.Time.Gregorian;
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 8; ]
-class DataArea extends Ui.Drawable{
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 8; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 8; @symbol_classdef = [DataArea,8,6,14]; @symbol_extends<0> = [Ui,8,23,25]; @symbol_extends<1> = [Drawable,8,26,34]; ]
+class DataArea extends Ui.Drawable {
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 8; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 10; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 10; @position = 13; @symbol_vardef = [mRow1Y,10,13,19]; ]
     private
     var mRow1Y;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 11; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 11; @position = 13; @symbol_vardef = [mRow2Y,11,13,19]; ]
     private
     var mRow2Y;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 13; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 13; @position = 13; @symbol_vardef = [mLeftGoalType,13,13,26]; ]
     private
     var mLeftGoalType;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 14; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 14; @position = 13; @symbol_vardef = [mLeftGoalIsValid,14,13,29]; ]
     private
     var mLeftGoalIsValid;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 15; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 15; @position = 13; @symbol_vardef = [mLeftGoalCurrent,15,13,29]; ]
     private
     var mLeftGoalCurrent;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 16; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 16; @position = 13; @symbol_vardef = [mLeftGoalMax,16,13,25]; ]
     private
     var mLeftGoalMax;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 18; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 18; @position = 13; @symbol_vardef = [mRightGoalType,18,13,27]; ]
     private
     var mRightGoalType;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 19; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 19; @position = 13; @symbol_vardef = [mRightGoalIsValid,19,13,30]; ]
     private
     var mRightGoalIsValid;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 20; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 20; @position = 13; @symbol_vardef = [mRightGoalCurrent,20,13,30]; ]
     private
     var mRightGoalCurrent;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 21; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 21; @position = 13; @symbol_vardef = [mRightGoalMax,21,13,26]; ]
     private
     var mRightGoalMax;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 23; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 23; @position = 13; @symbol_vardef = [mGoalIconY,23,13,23]; ]
     private
     var mGoalIconY;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 24; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 24; @position = 13; @symbol_vardef = [mGoalIconLeftX,24,13,27]; ]
     private
     var mGoalIconLeftX;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 25; @position = 13; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 25; @position = 13; @symbol_vardef = [mGoalIconRightX,25,13,28]; ]
     private
     var mGoalIconRightX;
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 27; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 27; @symbol_functiondef = [initialize,27,10,20]; @symbol_param<0> = [params,27,21,27]; ]
     function initialize(params) as Void {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_27_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 28 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_27_29_36_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 28 2 ]
+        symbol [ Drawable %tmp.2 28 2 10 ];
         %tmp.2 = getv ? :Drawable;
+        symbol [ initialize %tmp.3 28 11 21 ];
         %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = lgetv %params;
+        symbol [ params %tmp.4 28 22 28 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 30 2 ]
         %tmp.5 = lgetv %params;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 30 2 ]
-        %tmp.7 = lgetv %params;
-        %tmp.9 = const :row1Y;
-        %tmp.10 = agetv %tmp.7 %tmp.9;
-        putv self :mRow1Y %tmp.10;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 31 2 ]
-        %tmp.12 = lgetv %params;
-        %tmp.14 = const :row2Y;
-        %tmp.15 = agetv %tmp.12 %tmp.14;
-        putv self :mRow2Y %tmp.15;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 33 2 ]
-        %tmp.17 = lgetv %params;
-        %tmp.19 = const :goalIconY;
-        %tmp.20 = agetv %tmp.17 %tmp.19;
-        putv self :mGoalIconY %tmp.20;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 34 2 ]
-        %tmp.22 = lgetv %params;
-        %tmp.24 = const :goalIconLeftX;
-        %tmp.25 = agetv %tmp.22 %tmp.24;
-        putv self :mGoalIconLeftX %tmp.25;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 35 2 ]
-        %tmp.27 = lgetv %params;
-        %tmp.29 = const :goalIconRightX;
-        %tmp.30 = agetv %tmp.27 %tmp.29;
-        putv self :mGoalIconRightX %tmp.30;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_27_29_stop:
-    }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 38; ]
-    function setGoalValues(leftType, leftValues, rightType, rightValues) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_38_70_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 39 2 ]
-        %tmp.2 = lgetv %leftType;
-        putv self :mLeftGoalType %tmp.2;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 40 2 ]
-        %tmp.4 = lgetv %leftValues;
-        %tmp.6 = const :isValid;
-        %tmp.7 = agetv %tmp.4 %tmp.6;
-        putv self :mLeftGoalIsValid %tmp.7;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 42 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_stmt:
-        %tmp.9 = lgetv %leftValues;
-        %tmp.11 = const :isValid;
+        symbol [ params %tmp.5 30 11 17 ];
+        %tmp.7 = const :row1Y;
+        symbol [ row1Y %tmp.7 30 19 24 const ];
+        %tmp.8 = agetv %tmp.5 %tmp.7;
+        symbol [ mRow1Y ? 30 2 8 ];
+        putv self :mRow1Y %tmp.8;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 31 2 ]
+        %tmp.9 = lgetv %params;
+        symbol [ params %tmp.9 31 11 17 ];
+        %tmp.11 = const :row2Y;
+        symbol [ row2Y %tmp.11 31 19 24 const ];
         %tmp.12 = agetv %tmp.9 %tmp.11;
-        bf %tmp.12 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_28_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 43 3 ]
-        %tmp.14 = lgetv %leftValues;
-        %tmp.16 = const :current;
-        %tmp.17 = agetv %tmp.14 %tmp.16;
-        %tmp.18 = getv function %tmp.17 :format;
-        %tmp.20 = getv ? :INTEGER_FORMAT;
-        %tmp.21 = invoke %tmp.17 %tmp.18(%tmp.20);
-        putv self :mLeftGoalCurrent %tmp.21;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 44 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_begin:
-        %tmp.23 = getv ? :mLeftGoalType;
-        %tmp.25 = getv ? :GOAL_TYPE_BATTERY;
-        %tmp.26 = eq %tmp.23 %tmp.25;
-        bf %tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_true:
-        %tmp.27 = "%";
-        push %tmp.27;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_false:
-        %tmp.29 = lgetv %leftValues;
-        %tmp.31 = const :max;
-        %tmp.32 = agetv %tmp.29 %tmp.31;
-        %tmp.33 = getv function %tmp.32 :format;
-        %tmp.35 = getv ? :INTEGER_FORMAT;
-        %tmp.36 = invoke %tmp.32 %tmp.33(%tmp.35);
-        push %tmp.36;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_end:
-        %tmp.37 = phi [%tmp.26 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_begin] [%tmp.27 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_true] [%tmp.36 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_false] [%tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_44_18_end];
-        putv self :mLeftGoalMax %tmp.37;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_28_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_45_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 46 3 ]
-        %tmp.38 = null;
-        putv self :mLeftGoalCurrent %tmp.38;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 47 3 ]
-        %tmp.39 = null;
-        putv self :mLeftGoalMax %tmp.39;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_45_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_42_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 50 2 ]
-        %tmp.41 = lgetv %rightType;
-        putv self :mRightGoalType %tmp.41;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 51 2 ]
-        %tmp.43 = lgetv %rightValues;
-        %tmp.45 = const :isValid;
-        %tmp.46 = agetv %tmp.43 %tmp.45;
-        putv self :mRightGoalIsValid %tmp.46;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 53 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_stmt:
-        %tmp.48 = lgetv %rightValues;
-        %tmp.50 = const :isValid;
-        %tmp.51 = agetv %tmp.48 %tmp.50;
-        bf %tmp.51 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 54 3 ]
-        %tmp.53 = lgetv %rightValues;
-        %tmp.55 = const :current;
-        %tmp.56 = agetv %tmp.53 %tmp.55;
-        %tmp.57 = getv function %tmp.56 :format;
-        %tmp.59 = getv ? :INTEGER_FORMAT;
-        %tmp.60 = invoke %tmp.56 %tmp.57(%tmp.59);
-        putv self :mRightGoalCurrent %tmp.60;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 55 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_begin:
-        %tmp.62 = getv ? :mRightGoalType;
-        %tmp.64 = getv ? :GOAL_TYPE_BATTERY;
-        %tmp.65 = eq %tmp.62 %tmp.64;
-        bf %tmp.65 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_true:
-        %tmp.66 = "%";
-        push %tmp.66;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_false:
-        %tmp.68 = lgetv %rightValues;
-        %tmp.70 = const :max;
-        %tmp.71 = agetv %tmp.68 %tmp.70;
-        %tmp.72 = getv function %tmp.71 :format;
-        %tmp.74 = getv ? :INTEGER_FORMAT;
-        %tmp.75 = invoke %tmp.71 %tmp.72(%tmp.74);
-        push %tmp.75;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_end:
-        %tmp.76 = phi [%tmp.65 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_begin] [%tmp.66 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_true] [%tmp.75 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_false] [%tmp.76 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_55_19_end];
-        putv self :mRightGoalMax %tmp.76;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_29_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_56_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 57 3 ]
-        %tmp.77 = null;
-        putv self :mRightGoalCurrent %tmp.77;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 58 3 ]
-        %tmp.78 = null;
-        putv self :mRightGoalMax %tmp.78;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_56_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_53_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_38_70_stop:
+        symbol [ mRow2Y ? 31 2 8 ];
+        putv self :mRow2Y %tmp.12;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 33 2 ]
+        %tmp.13 = lgetv %params;
+        symbol [ params %tmp.13 33 15 21 ];
+        %tmp.15 = const :goalIconY;
+        symbol [ goalIconY %tmp.15 33 23 32 const ];
+        %tmp.16 = agetv %tmp.13 %tmp.15;
+        symbol [ mGoalIconY ? 33 2 12 ];
+        putv self :mGoalIconY %tmp.16;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 34 2 ]
+        %tmp.17 = lgetv %params;
+        symbol [ params %tmp.17 34 19 25 ];
+        %tmp.19 = const :goalIconLeftX;
+        symbol [ goalIconLeftX %tmp.19 34 27 40 const ];
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        symbol [ mGoalIconLeftX ? 34 2 16 ];
+        putv self :mGoalIconLeftX %tmp.20;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 35 2 ]
+        %tmp.21 = lgetv %params;
+        symbol [ params %tmp.21 35 20 26 ];
+        %tmp.23 = const :goalIconRightX;
+        symbol [ goalIconRightX %tmp.23 35 28 42 const ];
+        %tmp.24 = agetv %tmp.21 %tmp.23;
+        symbol [ mGoalIconRightX ? 35 2 17 ];
+        putv self :mGoalIconRightX %tmp.24;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_27_29_36_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 62; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 38; @symbol_functiondef = [setGoalValues,38,10,23]; @symbol_param<0> = [leftType,38,24,32]; @symbol_param<1> = [leftValues,38,34,44]; @symbol_param<2> = [rightType,38,46,55]; @symbol_param<3> = [rightValues,38,57,68]; ]
+    function setGoalValues(leftType, leftValues, rightType, rightValues) {
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_38_70_60_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 39 2 ]
+        %tmp.1 = lgetv %leftType;
+        symbol [ leftType %tmp.1 39 18 26 ];
+        symbol [ mLeftGoalType ? 39 2 15 ];
+        putv self :mLeftGoalType %tmp.1;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 40 2 ]
+        %tmp.2 = lgetv %leftValues;
+        symbol [ leftValues %tmp.2 40 21 31 ];
+        %tmp.4 = const :isValid;
+        symbol [ isValid %tmp.4 40 33 40 const ];
+        %tmp.5 = agetv %tmp.2 %tmp.4;
+        symbol [ mLeftGoalIsValid ? 40 2 18 ];
+        putv self :mLeftGoalIsValid %tmp.5;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 42 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_stmt:
+        %tmp.6 = lgetv %leftValues;
+        symbol [ leftValues %tmp.6 42 6 16 ];
+        %tmp.8 = const :isValid;
+        symbol [ isValid %tmp.8 42 18 25 const ];
+        %tmp.9 = agetv %tmp.6 %tmp.8;
+        bf %tmp.9 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_28_45_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 43 3 ]
+        %tmp.10 = lgetv %leftValues;
+        symbol [ leftValues %tmp.10 43 22 32 ];
+        %tmp.12 = const :current;
+        symbol [ current %tmp.12 43 34 41 const ];
+        %tmp.13 = agetv %tmp.10 %tmp.12;
+        symbol [ format %tmp.14 43 43 49 ];
+        %tmp.14 = getv function %tmp.13 :format;
+        symbol [ INTEGER_FORMAT %tmp.16 43 50 64 ];
+        %tmp.16 = getv ? :INTEGER_FORMAT;
+        %tmp.17 = invoke %tmp.13 %tmp.14(%tmp.16);
+        symbol [ mLeftGoalCurrent ? 43 3 19 ];
+        putv self :mLeftGoalCurrent %tmp.17;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 44 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_begin:
+        symbol [ mLeftGoalType %tmp.19 44 19 32 ];
+        %tmp.19 = getv ? :mLeftGoalType;
+        symbol [ GOAL_TYPE_BATTERY %tmp.21 44 36 53 ];
+        %tmp.21 = getv ? :GOAL_TYPE_BATTERY;
+        %tmp.22 = eq %tmp.19 %tmp.21;
+        bf %tmp.22 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_true:
+        %tmp.23 = "%";
+        push %tmp.23;
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_else_false:
+        %tmp.24 = lgetv %leftValues;
+        symbol [ leftValues %tmp.24 44 63 73 ];
+        %tmp.26 = const :max;
+        symbol [ max %tmp.26 44 75 78 const ];
+        %tmp.27 = agetv %tmp.24 %tmp.26;
+        symbol [ format %tmp.28 44 80 86 ];
+        %tmp.28 = getv function %tmp.27 :format;
+        symbol [ INTEGER_FORMAT %tmp.30 44 87 101 ];
+        %tmp.30 = getv ? :INTEGER_FORMAT;
+        %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+        push %tmp.31;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_end:
+        %tmp.32 = phi [%tmp.22 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_begin] [%tmp.23 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_true] [%tmp.31 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_else_false] [%tmp.32 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_44_18_44_101_end];
+        symbol [ mLeftGoalMax ? 44 3 15 ];
+        putv self :mLeftGoalMax %tmp.32;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_28_45_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_45_9_48_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 46 3 ]
+        %tmp.33 = null;
+        symbol [ mLeftGoalCurrent ? 46 3 19 ];
+        putv self :mLeftGoalCurrent %tmp.33;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 47 3 ]
+        %tmp.34 = null;
+        symbol [ mLeftGoalMax ? 47 3 15 ];
+        putv self :mLeftGoalMax %tmp.34;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_45_9_48_2_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_42_2_48_2_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 50 2 ]
+        %tmp.35 = lgetv %rightType;
+        symbol [ rightType %tmp.35 50 19 28 ];
+        symbol [ mRightGoalType ? 50 2 16 ];
+        putv self :mRightGoalType %tmp.35;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 51 2 ]
+        %tmp.36 = lgetv %rightValues;
+        symbol [ rightValues %tmp.36 51 22 33 ];
+        %tmp.38 = const :isValid;
+        symbol [ isValid %tmp.38 51 35 42 const ];
+        %tmp.39 = agetv %tmp.36 %tmp.38;
+        symbol [ mRightGoalIsValid ? 51 2 19 ];
+        putv self :mRightGoalIsValid %tmp.39;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 53 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_stmt:
+        %tmp.40 = lgetv %rightValues;
+        symbol [ rightValues %tmp.40 53 6 17 ];
+        %tmp.42 = const :isValid;
+        symbol [ isValid %tmp.42 53 19 26 const ];
+        %tmp.43 = agetv %tmp.40 %tmp.42;
+        bf %tmp.43 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_29_56_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 54 3 ]
+        %tmp.44 = lgetv %rightValues;
+        symbol [ rightValues %tmp.44 54 23 34 ];
+        %tmp.46 = const :current;
+        symbol [ current %tmp.46 54 36 43 const ];
+        %tmp.47 = agetv %tmp.44 %tmp.46;
+        symbol [ format %tmp.48 54 45 51 ];
+        %tmp.48 = getv function %tmp.47 :format;
+        symbol [ INTEGER_FORMAT %tmp.50 54 52 66 ];
+        %tmp.50 = getv ? :INTEGER_FORMAT;
+        %tmp.51 = invoke %tmp.47 %tmp.48(%tmp.50);
+        symbol [ mRightGoalCurrent ? 54 3 20 ];
+        putv self :mRightGoalCurrent %tmp.51;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 55 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_begin:
+        symbol [ mRightGoalType %tmp.53 55 20 34 ];
+        %tmp.53 = getv ? :mRightGoalType;
+        symbol [ GOAL_TYPE_BATTERY %tmp.55 55 38 55 ];
+        %tmp.55 = getv ? :GOAL_TYPE_BATTERY;
+        %tmp.56 = eq %tmp.53 %tmp.55;
+        bf %tmp.56 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_true:
+        %tmp.57 = "%";
+        push %tmp.57;
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_else_false:
+        %tmp.58 = lgetv %rightValues;
+        symbol [ rightValues %tmp.58 55 65 76 ];
+        %tmp.60 = const :max;
+        symbol [ max %tmp.60 55 78 81 const ];
+        %tmp.61 = agetv %tmp.58 %tmp.60;
+        symbol [ format %tmp.62 55 83 89 ];
+        %tmp.62 = getv function %tmp.61 :format;
+        symbol [ INTEGER_FORMAT %tmp.64 55 90 104 ];
+        %tmp.64 = getv ? :INTEGER_FORMAT;
+        %tmp.65 = invoke %tmp.61 %tmp.62(%tmp.64);
+        push %tmp.65;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_end:
+        %tmp.66 = phi [%tmp.56 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_begin] [%tmp.57 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_true] [%tmp.65 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_else_false] [%tmp.66 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_55_19_55_104_end];
+        symbol [ mRightGoalMax ? 55 3 16 ];
+        putv self :mRightGoalMax %tmp.66;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_29_56_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_56_9_59_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 57 3 ]
+        %tmp.67 = null;
+        symbol [ mRightGoalCurrent ? 57 3 20 ];
+        putv self :mRightGoalCurrent %tmp.67;
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 58 3 ]
+        %tmp.68 = null;
+        symbol [ mRightGoalMax ? 58 3 16 ];
+        putv self :mRightGoalMax %tmp.68;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_56_9_59_2_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_53_2_59_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_38_70_60_1_stop:
+    }
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 62; @symbol_functiondef = [draw,62,10,14]; @symbol_param<0> = [dc,62,15,17]; ]
     function draw(dc) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_62_19_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 63 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_62_19_139_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 63 2 ]
         %tmp.1 = self;
+        symbol [ drawGoalIcon %tmp.2 63 2 14 ];
         %tmp.2 = getv function %tmp.1 :drawGoalIcon;
-        %tmp.4 = lgetv %dc;
-        %tmp.6 = getv ? :mGoalIconLeftX;
-        %tmp.8 = getv ? :mLeftGoalType;
-        %tmp.10 = getv ? :mLeftGoalIsValid;
-        %tmp.12 = getv ? :Graphics;
-        %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6, %tmp.8, %tmp.10, %tmp.13);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 64 2 ]
-        %tmp.14 = self;
-        %tmp.15 = getv function %tmp.14 :drawGoalIcon;
-        %tmp.17 = lgetv %dc;
-        %tmp.19 = getv ? :mGoalIconRightX;
-        %tmp.21 = getv ? :mRightGoalType;
-        %tmp.23 = getv ? :mRightGoalIsValid;
-        %tmp.25 = getv ? :Graphics;
-        %tmp.26 = getv %tmp.25 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.14 %tmp.15(%tmp.17, %tmp.19, %tmp.21, %tmp.23, %tmp.26);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 66 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_62_19_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_62_19_stop" ]
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 63 15 17 ];
+        symbol [ mGoalIconLeftX %tmp.5 63 19 33 ];
+        %tmp.5 = getv ? :mGoalIconLeftX;
+        symbol [ mLeftGoalType %tmp.7 63 35 48 ];
+        %tmp.7 = getv ? :mLeftGoalType;
+        symbol [ mLeftGoalIsValid %tmp.9 63 50 66 ];
+        %tmp.9 = getv ? :mLeftGoalIsValid;
+        symbol [ Graphics %tmp.11 63 68 76 ];
+        %tmp.11 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.12 63 77 94 ];
+        %tmp.12 = getv %tmp.11 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.5, %tmp.7, %tmp.9, %tmp.12);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 64 2 ]
+        %tmp.13 = self;
+        symbol [ drawGoalIcon %tmp.14 64 2 14 ];
+        %tmp.14 = getv function %tmp.13 :drawGoalIcon;
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 64 15 17 ];
+        symbol [ mGoalIconRightX %tmp.17 64 19 34 ];
+        %tmp.17 = getv ? :mGoalIconRightX;
+        symbol [ mRightGoalType %tmp.19 64 36 50 ];
+        %tmp.19 = getv ? :mRightGoalType;
+        symbol [ mRightGoalIsValid %tmp.21 64 52 69 ];
+        %tmp.21 = getv ? :mRightGoalIsValid;
+        symbol [ Graphics %tmp.23 64 71 79 ];
+        %tmp.23 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.24 64 80 98 ];
+        %tmp.24 = getv %tmp.23 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.17, %tmp.19, %tmp.21, %tmp.24);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 66 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_62_19_139_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_62_19_139_1_stop" ]
         %city.1 = local;
-        %tmp.27 = getm $.Toybox.Application;
-        %tmp.28 = getv function %tmp.27 :getApp;
-        %tmp.29 = invoke %tmp.27 %tmp.28();
-        %tmp.30 = getv function %tmp.29 :getProperty;
-        %tmp.31 = "LocalTimeInCity";
-        %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
-        lputv %city.1 %tmp.32;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 69 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_6_begin:
+        symbol [ city %city.1 66 6 10 ];
+        symbol [ App %tmp.25 66 13 16 ];
+        %tmp.25 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.26 66 17 23 ];
+        %tmp.26 = getv function %tmp.25 :getApp;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        symbol [ getProperty %tmp.28 66 26 37 ];
+        %tmp.28 = getv function %tmp.27 :getProperty;
+        %tmp.29 = "LocalTimeInCity";
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        lputv %city.1 %tmp.30;
+        symbol [ city %city.1 66 6 10 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 69 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_stmt:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_6_69_43_begin:
+        %tmp.31 = lgetv %city.1;
+        symbol [ city %tmp.31 69 7 11 ];
+        %tmp.32 = null;
+        %tmp.33 = ne %tmp.31 %tmp.32;
+        bf %tmp.33 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_24_69_43_true:
         %tmp.34 = lgetv %city.1;
-        %tmp.35 = null;
-        %tmp.36 = ne %tmp.34 %tmp.35;
-        %tmp.37 = dup %tmp.36;
-        bf %tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_24_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_24_true:
-        %tmp.38 = lgetv %city.1;
-        %tmp.39 = as %tmp.38 { (!Null) };
-        %tmp.40 = getv function %tmp.39 :length;
-        %tmp.41 = invoke %tmp.39 %tmp.40();
-        %tmp.42 = 0;
-        %tmp.43 = ne %tmp.41 %tmp.42;
-        %tmp.44 = and %tmp.36 %tmp.43;
-        push %tmp.44;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_24_end:
-        %tmp.45 = phi [%tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_6_begin] [%tmp.44 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_24_true] [%tmp.45 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_24_end];
-        bf %tmp.45 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 71 3 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_stop" ]
+        symbol [ city %tmp.34 69 25 29 ];
+        %tmp.35 = as %tmp.34 { (!Null) };
+        symbol [ length %tmp.36 69 30 36 ];
+        %tmp.36 = getv function %tmp.35 :length;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.38 = 0;
+        %tmp.39 = ne %tmp.37 %tmp.38;
+        push %tmp.39;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_24_69_43_end:
+        %tmp.40 = phi [%tmp.33 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_6_69_43_begin] [%tmp.39 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_24_69_43_true] [%tmp.40 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_24_69_43_end];
+        bf %tmp.40 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 71 3 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_stop" ]
         %cityLocalTime.2 = local;
-        %tmp.46 = getm $.Toybox.Application;
-        %tmp.47 = getv function %tmp.46 :getApp;
-        %tmp.48 = invoke %tmp.46 %tmp.47();
-        %tmp.49 = getv function %tmp.48 :getProperty;
-        %tmp.50 = "CityLocalTime";
-        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
-        lputv %cityLocalTime.2 %tmp.51;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 75 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_3_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_7_begin:
-        %tmp.53 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %cityLocalTime.2 71 7 20 ];
+        symbol [ App %tmp.41 71 23 26 ];
+        %tmp.41 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.42 71 27 33 ];
+        %tmp.42 = getv function %tmp.41 :getApp;
+        %tmp.43 = invoke %tmp.41 %tmp.42();
+        symbol [ getProperty %tmp.44 71 36 47 ];
+        %tmp.44 = getv function %tmp.43 :getProperty;
+        %tmp.45 = "CityLocalTime";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        lputv %cityLocalTime.2 %tmp.46;
+        symbol [ cityLocalTime %cityLocalTime.2 71 7 20 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 75 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_stmt:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_7_75_64_begin:
+        %tmp.47 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.47 75 8 21 ];
+        %tmp.48 = null;
+        %tmp.49 = ne %tmp.47 %tmp.48;
+        bf %tmp.49 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_34_75_64_true:
+        %tmp.50 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.50 75 35 48 ];
+        %tmp.51 = as %tmp.50 { (!Null) };
+        %tmp.52 = "city";
+        %tmp.53 = agetv %tmp.51 %tmp.52;
         %tmp.54 = null;
         %tmp.55 = ne %tmp.53 %tmp.54;
-        %tmp.56 = dup %tmp.55;
-        bf %tmp.56 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_34_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_34_true:
-        %tmp.58 = lgetv %cityLocalTime.2;
-        %tmp.59 = as %tmp.58 { (!Null) };
-        %tmp.60 = "city";
-        %tmp.61 = agetv %tmp.59 %tmp.60;
-        %tmp.62 = null;
-        %tmp.63 = ne %tmp.61 %tmp.62;
-        %tmp.64 = and %tmp.55 %tmp.63;
-        push %tmp.64;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_34_end:
-        %tmp.65 = phi [%tmp.56 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_7_begin] [%tmp.64 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_34_true] [%tmp.65 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_34_end];
-        bf %tmp.65 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_67_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 76 4 ]
-        %tmp.67 = lgetv %cityLocalTime.2;
-        %tmp.68 = as %tmp.67 { (!Null) };
-        %tmp.69 = "city";
-        %tmp.70 = agetv %tmp.68 %tmp.69;
-        lputv %city.1 %tmp.70;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_67_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_75_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 80 3 ]
-        %tmp.71 = lgetv %dc;
-        %tmp.72 = getv function %tmp.71 :setColor;
-        %tmp.74 = getv ? :gMonoDarkColour;
-        %tmp.75 = getm $.Toybox.Graphics;
-        %tmp.76 = getv %tmp.75 :COLOR_TRANSPARENT;
-        invoke %tmp.71 %tmp.72(%tmp.74, %tmp.76);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 81 3 ]
-        %tmp.77 = lgetv %dc;
-        %tmp.78 = getv function %tmp.77 :drawText;
-        %tmp.80 = getv ? :locX;
-        %tmp.82 = getv ? :width;
-        %tmp.83 = 2;
-        %tmp.84 = div %tmp.82 %tmp.83;
-        %tmp.85 = add %tmp.80 %tmp.84;
-        %tmp.87 = getv ? :mRow1Y;
-        %tmp.89 = getv ? :gNormalFont;
-        %tmp.90 = lgetv %city.1;
-        %tmp.91 = getv function %tmp.90 :substring;
-        %tmp.92 = 0;
-        %tmp.93 = 10;
-        %tmp.94 = invoke %tmp.90 %tmp.91(%tmp.92, %tmp.93);
-        %tmp.96 = getv ? :Graphics;
-        %tmp.97 = getv %tmp.96 :TEXT_JUSTIFY_CENTER;
-        %tmp.99 = getv ? :Graphics;
-        %tmp.100 = getv %tmp.99 :TEXT_JUSTIFY_VCENTER;
-        %tmp.101 = bitor %tmp.97 %tmp.100;
-        invoke %tmp.77 %tmp.78(%tmp.85, %tmp.87, %tmp.89, %tmp.94, %tmp.101);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 91 3 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_stop" ]
+        push %tmp.55;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_34_75_64_end:
+        %tmp.56 = phi [%tmp.49 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_7_75_64_begin] [%tmp.55 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_34_75_64_true] [%tmp.56 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_34_75_64_end];
+        bf %tmp.56 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_67_77_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 76 4 ]
+        %tmp.57 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.57 76 11 24 ];
+        %tmp.58 = as %tmp.57 { (!Null) };
+        %tmp.59 = "city";
+        %tmp.60 = agetv %tmp.58 %tmp.59;
+        lputv %city.1 %tmp.60;
+        symbol [ city %city.1 76 4 8 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_67_77_3_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_75_3_77_3_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 80 3 ]
+        %tmp.61 = lgetv %dc;
+        symbol [ dc %tmp.61 80 3 5 ];
+        symbol [ setColor %tmp.62 80 6 14 ];
+        %tmp.62 = getv function %tmp.61 :setColor;
+        symbol [ gMonoDarkColour %tmp.64 80 15 30 ];
+        %tmp.64 = getv ? :gMonoDarkColour;
+        symbol [ Gfx %tmp.65 80 32 35 ];
+        %tmp.65 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.66 80 36 53 ];
+        %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
+        invoke %tmp.61 %tmp.62(%tmp.64, %tmp.66);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 81 3 ]
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 81 3 5 ];
+        symbol [ drawText %tmp.68 81 6 14 ];
+        %tmp.68 = getv function %tmp.67 :drawText;
+        symbol [ locX %tmp.70 82 4 8 ];
+        %tmp.70 = getv ? :locX;
+        symbol [ width %tmp.72 82 12 17 ];
+        %tmp.72 = getv ? :width;
+        %tmp.73 = 2;
+        %tmp.74 = div %tmp.72 %tmp.73;
+        %tmp.75 = add %tmp.70 %tmp.74;
+        symbol [ mRow1Y %tmp.77 83 4 10 ];
+        %tmp.77 = getv ? :mRow1Y;
+        symbol [ gNormalFont %tmp.79 84 4 15 ];
+        %tmp.79 = getv ? :gNormalFont;
+        %tmp.80 = lgetv %city.1;
+        symbol [ city %tmp.80 86 4 8 ];
+        symbol [ substring %tmp.81 86 9 18 ];
+        %tmp.81 = getv function %tmp.80 :substring;
+        %tmp.82 = 0;
+        %tmp.83 = 10;
+        %tmp.84 = invoke %tmp.80 %tmp.81(%tmp.82, %tmp.83);
+        symbol [ Graphics %tmp.86 87 4 12 ];
+        %tmp.86 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.87 87 13 32 ];
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.89 87 35 43 ];
+        %tmp.89 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.90 87 44 64 ];
+        %tmp.90 = getv %tmp.89 :TEXT_JUSTIFY_VCENTER;
+        %tmp.91 = bitor %tmp.87 %tmp.90;
+        invoke %tmp.67 %tmp.68(%tmp.75, %tmp.77, %tmp.79, %tmp.84, %tmp.91);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 91 3 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_stop" ]
         %time.3 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 92 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_stmt:
-        %tmp.103 = lgetv %cityLocalTime.2;
-        bf %tmp.103 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_22_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 95 4 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_stmt:
-        %tmp.105 = lgetv %cityLocalTime.2;
-        %tmp.106 = "error";
-        %tmp.107 = agetv %tmp.105 %tmp.106;
-        %tmp.108 = null;
-        %tmp.109 = ne %tmp.107 %tmp.108;
-        bf %tmp.109 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_40_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 97 5 ]
-        %tmp.110 = "???";
-        lputv %time.3 %tmp.110;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_40_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 101 5 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_stop" ]
+        symbol [ time %time.3 91 7 11 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 92 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_stmt:
+        %tmp.92 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.92 92 7 20 ];
+        bf %tmp.92 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_22_122_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 95 4 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_stmt:
+        %tmp.93 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.93 95 8 21 ];
+        %tmp.94 = "error";
+        %tmp.95 = agetv %tmp.93 %tmp.94;
+        %tmp.96 = null;
+        %tmp.97 = ne %tmp.95 %tmp.96;
+        bf %tmp.97 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_40_100_4_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 97 5 ]
+        %tmp.98 = "???";
+        lputv %time.3 %tmp.98;
+        symbol [ time %time.3 97 5 9 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_40_100_4_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 101 5 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_stop" ]
         %timeZoneGmtOffset.4 = local;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 104 5 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_9_begin:
-        %tmp.112 = lgetv %cityLocalTime.2;
-        %tmp.113 = "next";
-        %tmp.114 = agetv %tmp.112 %tmp.113;
-        %tmp.115 = null;
-        %tmp.116 = ne %tmp.114 %tmp.115;
-        %tmp.117 = dup %tmp.116;
-        bf %tmp.117 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_44_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_44_true:
-        %tmp.118 = getm $.Toybox.Time;
-        %tmp.119 = getv function %tmp.118 :now;
-        %tmp.120 = invoke %tmp.118 %tmp.119();
-        %tmp.121 = getv function %tmp.120 :value;
-        %tmp.122 = invoke %tmp.120 %tmp.121();
-        %tmp.124 = lgetv %cityLocalTime.2;
-        %tmp.125 = "next";
-        %tmp.126 = agetv %tmp.124 %tmp.125;
-        %tmp.127 = "when";
-        %tmp.128 = agetv %tmp.126 %tmp.127;
-        %tmp.129 = gte %tmp.122 %tmp.128;
-        %tmp.130 = and %tmp.116 %tmp.129;
-        push %tmp.130;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_44_end:
-        %tmp.131 = phi [%tmp.117 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_9_begin] [%tmp.130 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_44_true] [%tmp.131 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_44_end];
-        bf %tmp.131 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_99_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 105 6 ]
-        %tmp.133 = lgetv %cityLocalTime.2;
-        %tmp.134 = "next";
-        %tmp.135 = agetv %tmp.133 %tmp.134;
-        %tmp.136 = "gmtOffset";
-        %tmp.137 = agetv %tmp.135 %tmp.136;
-        lputv %timeZoneGmtOffset.4 %tmp.137;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_99_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_106_12_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 107 6 ]
-        %tmp.139 = lgetv %cityLocalTime.2;
-        %tmp.140 = "current";
-        %tmp.141 = agetv %tmp.139 %tmp.140;
-        %tmp.142 = "gmtOffset";
-        %tmp.143 = agetv %tmp.141 %tmp.142;
-        lputv %timeZoneGmtOffset.4 %tmp.143;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_106_12_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_104_5_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 109 5 ]
-        %tmp.146 = getm $.Toybox.Time;
-        %tmp.147 = getv function ? %tmp.146 :Duration;
-        %tmp.149 = lgetv %timeZoneGmtOffset.4;
-        %tmp.144 = newc %tmp.147 (%tmp.149);
-        lputv %timeZoneGmtOffset.4 %tmp.144;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 111 5 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_stop" ]
+        symbol [ timeZoneGmtOffset %timeZoneGmtOffset.4 101 9 26 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 104 5 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_stmt:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_9_104_96_begin:
+        %tmp.99 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.99 104 10 23 ];
+        %tmp.100 = "next";
+        %tmp.101 = agetv %tmp.99 %tmp.100;
+        %tmp.102 = null;
+        %tmp.103 = ne %tmp.101 %tmp.102;
+        bf %tmp.103 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_44_104_96_true:
+        symbol [ Time %tmp.104 104 45 49 ];
+        %tmp.104 = getm $.Toybox.Time;
+        symbol [ now %tmp.105 104 50 53 ];
+        %tmp.105 = getv function %tmp.104 :now;
+        %tmp.106 = invoke %tmp.104 %tmp.105();
+        symbol [ value %tmp.107 104 56 61 ];
+        %tmp.107 = getv function %tmp.106 :value;
+        %tmp.108 = invoke %tmp.106 %tmp.107();
+        %tmp.109 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.109 104 67 80 ];
+        %tmp.110 = "next";
+        %tmp.111 = agetv %tmp.109 %tmp.110;
+        %tmp.112 = "when";
+        %tmp.113 = agetv %tmp.111 %tmp.112;
+        %tmp.114 = gte %tmp.108 %tmp.113;
+        push %tmp.114;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_44_104_96_end:
+        %tmp.115 = phi [%tmp.103 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_9_104_96_begin] [%tmp.114 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_44_104_96_true] [%tmp.115 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_44_104_96_end];
+        bf %tmp.115 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_99_106_5_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 105 6 ]
+        %tmp.116 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.116 105 26 39 ];
+        %tmp.117 = "next";
+        %tmp.118 = agetv %tmp.116 %tmp.117;
+        %tmp.119 = "gmtOffset";
+        %tmp.120 = agetv %tmp.118 %tmp.119;
+        lputv %timeZoneGmtOffset.4 %tmp.120;
+        symbol [ timeZoneGmtOffset %timeZoneGmtOffset.4 105 6 23 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_99_106_5_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_106_12_108_5_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 107 6 ]
+        %tmp.121 = lgetv %cityLocalTime.2;
+        symbol [ cityLocalTime %tmp.121 107 26 39 ];
+        %tmp.122 = "current";
+        %tmp.123 = agetv %tmp.121 %tmp.122;
+        %tmp.124 = "gmtOffset";
+        %tmp.125 = agetv %tmp.123 %tmp.124;
+        lputv %timeZoneGmtOffset.4 %tmp.125;
+        symbol [ timeZoneGmtOffset %timeZoneGmtOffset.4 107 6 23 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_106_12_108_5_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_104_5_108_5_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 109 5 ]
+        symbol [ Time %tmp.128 109 29 33 ];
+        %tmp.128 = getm $.Toybox.Time;
+        symbol [ Duration %tmp.129 109 34 42 ];
+        %tmp.129 = getv function ? %tmp.128 :Duration;
+        %tmp.130 = lgetv %timeZoneGmtOffset.4;
+        symbol [ timeZoneGmtOffset %tmp.130 109 43 60 ];
+        %tmp.126 = newc %tmp.129 (%tmp.130);
+        lputv %timeZoneGmtOffset.4 %tmp.126;
+        symbol [ timeZoneGmtOffset %timeZoneGmtOffset.4 109 5 22 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 111 5 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_stop" ]
         %localGmtOffset.5 = local;
-        %tmp.150 = getm $.Toybox.System;
-        %tmp.151 = getv function %tmp.150 :getClockTime;
-        %tmp.152 = invoke %tmp.150 %tmp.151();
-        %tmp.153 = getv %tmp.152 :timeZoneOffset;
-        lputv %localGmtOffset.5 %tmp.153;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 112 5 ]
-        %tmp.156 = getm $.Toybox.Time;
-        %tmp.157 = getv function ? %tmp.156 :Duration;
-        %tmp.159 = lgetv %localGmtOffset.5;
-        %tmp.154 = newc %tmp.157 (%tmp.159);
-        lputv %localGmtOffset.5 %tmp.154;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 115 5 ]
-        %tmp.160 = getm $.Toybox.Time;
-        %tmp.161 = getv function %tmp.160 :now;
-        %tmp.162 = invoke %tmp.160 %tmp.161();
-        %tmp.163 = getv function %tmp.162 :subtract;
-        %tmp.165 = lgetv %localGmtOffset.5;
-        %tmp.166 = invoke %tmp.162 %tmp.163(%tmp.165);
-        %tmp.167 = getv function %tmp.166 :add;
-        %tmp.169 = lgetv %timeZoneGmtOffset.4;
-        %tmp.170 = invoke %tmp.166 %tmp.167(%tmp.169);
-        lputv %time.3 %tmp.170;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 116 5 ]
-        %tmp.171 = getm $.Toybox.Time.Gregorian;
-        %tmp.172 = getv function %tmp.171 :info;
-        %tmp.174 = lgetv %time.3;
-        %tmp.175 = getm $.Toybox.Time;
-        %tmp.176 = getv %tmp.175 :FORMAT_SHORT;
-        %tmp.177 = invoke %tmp.171 %tmp.172(%tmp.174, %tmp.176);
-        lputv %time.3 %tmp.177;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 117 5 ]
-        %tmp.178 = getm $.Toybox.Application;
-        %tmp.179 = getv function %tmp.178 :getApp;
-        %tmp.180 = invoke %tmp.178 %tmp.179();
-        %tmp.181 = getv function %tmp.180 :getFormattedTime;
-        %tmp.182 = lgetv %time.3;
-        %tmp.183 = getv %tmp.182 :hour;
-        %tmp.184 = lgetv %time.3;
-        %tmp.185 = getv %tmp.184 :min;
-        %tmp.186 = invoke %tmp.180 %tmp.181(%tmp.183, %tmp.185);
-        lputv %time.3 %tmp.186;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 118 5 ]
-        %tmp.188 = lgetv %time.3;
-        %tmp.190 = const :hour;
-        %tmp.191 = agetv %tmp.188 %tmp.190;
-        %tmp.192 = ":";
-        %tmp.193 = add %tmp.191 %tmp.192;
-        %tmp.195 = lgetv %time.3;
-        %tmp.197 = const :min;
-        %tmp.198 = agetv %tmp.195 %tmp.197;
-        %tmp.199 = add %tmp.193 %tmp.198;
-        %tmp.201 = lgetv %time.3;
-        %tmp.203 = const :amPm;
-        %tmp.204 = agetv %tmp.201 %tmp.203;
-        %tmp.205 = add %tmp.199 %tmp.204;
-        lputv %time.3 %tmp.205;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_100_11_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_95_4_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_22_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_122_10_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 123 4 ]
-        %tmp.206 = "...";
-        lputv %time.3 %tmp.206;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_122_10_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_92_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 126 3 ]
-        %tmp.207 = lgetv %dc;
-        %tmp.208 = getv function %tmp.207 :setColor;
-        %tmp.210 = getv ? :gMonoLightColour;
-        %tmp.211 = getm $.Toybox.Graphics;
-        %tmp.212 = getv %tmp.211 :COLOR_TRANSPARENT;
-        invoke %tmp.207 %tmp.208(%tmp.210, %tmp.212);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 127 3 ]
-        %tmp.213 = lgetv %dc;
-        %tmp.214 = getv function %tmp.213 :drawText;
-        %tmp.216 = getv ? :locX;
-        %tmp.218 = getv ? :width;
-        %tmp.219 = 2;
-        %tmp.220 = div %tmp.218 %tmp.219;
-        %tmp.221 = add %tmp.216 %tmp.220;
-        %tmp.223 = getv ? :mRow2Y;
-        %tmp.225 = getv ? :gNormalFont;
-        %tmp.227 = lgetv %time.3;
-        %tmp.229 = getv ? :Graphics;
-        %tmp.230 = getv %tmp.229 :TEXT_JUSTIFY_CENTER;
-        %tmp.232 = getv ? :Graphics;
-        %tmp.233 = getv %tmp.232 :TEXT_JUSTIFY_VCENTER;
-        %tmp.234 = bitor %tmp.230 %tmp.233;
-        invoke %tmp.213 %tmp.214(%tmp.221, %tmp.223, %tmp.225, %tmp.227, %tmp.234);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_46_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_false:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_135_9_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 136 3 ]
-        %tmp.235 = self;
-        %tmp.236 = getv function %tmp.235 :drawGoalValues;
-        %tmp.238 = lgetv %dc;
-        %tmp.240 = getv ? :locX;
-        %tmp.242 = getv ? :mLeftGoalCurrent;
-        %tmp.244 = getv ? :mLeftGoalMax;
-        %tmp.246 = getv ? :Graphics;
-        %tmp.247 = getv %tmp.246 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.235 %tmp.236(%tmp.238, %tmp.240, %tmp.242, %tmp.244, %tmp.247);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 137 3 ]
-        %tmp.248 = self;
-        %tmp.249 = getv function %tmp.248 :drawGoalValues;
-        %tmp.251 = lgetv %dc;
-        %tmp.253 = getv ? :locX;
-        %tmp.255 = getv ? :width;
-        %tmp.256 = add %tmp.253 %tmp.255;
-        %tmp.258 = getv ? :mRightGoalCurrent;
-        %tmp.260 = getv ? :mRightGoalMax;
-        %tmp.262 = getv ? :Graphics;
-        %tmp.263 = getv %tmp.262 :TEXT_JUSTIFY_RIGHT;
-        invoke %tmp.248 %tmp.249(%tmp.251, %tmp.256, %tmp.258, %tmp.260, %tmp.263);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_135_9_stop:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_69_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_62_19_stop:
+        symbol [ localGmtOffset %localGmtOffset.5 111 9 23 ];
+        symbol [ Sys %tmp.131 111 26 29 ];
+        %tmp.131 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.132 111 30 42 ];
+        %tmp.132 = getv function %tmp.131 :getClockTime;
+        %tmp.133 = invoke %tmp.131 %tmp.132();
+        symbol [ timeZoneOffset %tmp.134 111 45 59 ];
+        %tmp.134 = getv %tmp.133 :timeZoneOffset;
+        lputv %localGmtOffset.5 %tmp.134;
+        symbol [ localGmtOffset %localGmtOffset.5 111 9 23 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 112 5 ]
+        symbol [ Time %tmp.137 112 26 30 ];
+        %tmp.137 = getm $.Toybox.Time;
+        symbol [ Duration %tmp.138 112 31 39 ];
+        %tmp.138 = getv function ? %tmp.137 :Duration;
+        %tmp.139 = lgetv %localGmtOffset.5;
+        symbol [ localGmtOffset %tmp.139 112 40 54 ];
+        %tmp.135 = newc %tmp.138 (%tmp.139);
+        lputv %localGmtOffset.5 %tmp.135;
+        symbol [ localGmtOffset %localGmtOffset.5 112 5 19 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 115 5 ]
+        symbol [ Time %tmp.140 115 12 16 ];
+        %tmp.140 = getm $.Toybox.Time;
+        symbol [ now %tmp.141 115 17 20 ];
+        %tmp.141 = getv function %tmp.140 :now;
+        %tmp.142 = invoke %tmp.140 %tmp.141();
+        symbol [ subtract %tmp.143 115 23 31 ];
+        %tmp.143 = getv function %tmp.142 :subtract;
+        %tmp.144 = lgetv %localGmtOffset.5;
+        symbol [ localGmtOffset %tmp.144 115 32 46 ];
+        %tmp.145 = invoke %tmp.142 %tmp.143(%tmp.144);
+        symbol [ add %tmp.146 115 48 51 ];
+        %tmp.146 = getv function %tmp.145 :add;
+        %tmp.147 = lgetv %timeZoneGmtOffset.4;
+        symbol [ timeZoneGmtOffset %tmp.147 115 52 69 ];
+        %tmp.148 = invoke %tmp.145 %tmp.146(%tmp.147);
+        lputv %time.3 %tmp.148;
+        symbol [ time %time.3 115 5 9 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 116 5 ]
+        symbol [ Gregorian %tmp.149 116 12 21 ];
+        %tmp.149 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.150 116 22 26 ];
+        %tmp.150 = getv function %tmp.149 :info;
+        %tmp.151 = lgetv %time.3;
+        symbol [ time %tmp.151 116 27 31 ];
+        symbol [ Time %tmp.152 116 33 37 ];
+        %tmp.152 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.153 116 38 50 ];
+        %tmp.153 = getv %tmp.152 :FORMAT_SHORT;
+        %tmp.154 = invoke %tmp.149 %tmp.150(%tmp.151, %tmp.153);
+        lputv %time.3 %tmp.154;
+        symbol [ time %time.3 116 5 9 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 117 5 ]
+        symbol [ App %tmp.155 117 12 15 ];
+        %tmp.155 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.156 117 16 22 ];
+        %tmp.156 = getv function %tmp.155 :getApp;
+        %tmp.157 = invoke %tmp.155 %tmp.156();
+        symbol [ getFormattedTime %tmp.158 117 25 41 ];
+        %tmp.158 = getv function %tmp.157 :getFormattedTime;
+        %tmp.159 = lgetv %time.3;
+        symbol [ time %tmp.159 117 42 46 ];
+        symbol [ hour %tmp.160 117 47 51 ];
+        %tmp.160 = getv %tmp.159 :hour;
+        %tmp.161 = lgetv %time.3;
+        symbol [ time %tmp.161 117 53 57 ];
+        symbol [ min %tmp.162 117 58 61 ];
+        %tmp.162 = getv %tmp.161 :min;
+        %tmp.163 = invoke %tmp.157 %tmp.158(%tmp.160, %tmp.162);
+        lputv %time.3 %tmp.163;
+        symbol [ time %time.3 117 5 9 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 118 5 ]
+        %tmp.164 = lgetv %time.3;
+        symbol [ time %tmp.164 118 12 16 ];
+        %tmp.166 = const :hour;
+        symbol [ hour %tmp.166 118 18 22 const ];
+        %tmp.167 = agetv %tmp.164 %tmp.166;
+        %tmp.168 = ":";
+        %tmp.169 = add %tmp.167 %tmp.168;
+        %tmp.170 = lgetv %time.3;
+        symbol [ time %tmp.170 118 32 36 ];
+        %tmp.172 = const :min;
+        symbol [ min %tmp.172 118 38 41 const ];
+        %tmp.173 = agetv %tmp.170 %tmp.172;
+        %tmp.174 = add %tmp.169 %tmp.173;
+        %tmp.175 = lgetv %time.3;
+        symbol [ time %tmp.175 118 45 49 ];
+        %tmp.177 = const :amPm;
+        symbol [ amPm %tmp.177 118 51 55 const ];
+        %tmp.178 = agetv %tmp.175 %tmp.177;
+        %tmp.179 = add %tmp.174 %tmp.178;
+        lputv %time.3 %tmp.179;
+        symbol [ time %time.3 118 5 9 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_100_11_119_4_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_95_4_119_4_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_22_122_3_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_122_10_124_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 123 4 ]
+        %tmp.180 = "...";
+        lputv %time.3 %tmp.180;
+        symbol [ time %time.3 123 4 8 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_122_10_124_3_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_92_3_124_3_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 126 3 ]
+        %tmp.181 = lgetv %dc;
+        symbol [ dc %tmp.181 126 3 5 ];
+        symbol [ setColor %tmp.182 126 6 14 ];
+        %tmp.182 = getv function %tmp.181 :setColor;
+        symbol [ gMonoLightColour %tmp.184 126 15 31 ];
+        %tmp.184 = getv ? :gMonoLightColour;
+        symbol [ Gfx %tmp.185 126 33 36 ];
+        %tmp.185 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.186 126 37 54 ];
+        %tmp.186 = getv %tmp.185 :COLOR_TRANSPARENT;
+        invoke %tmp.181 %tmp.182(%tmp.184, %tmp.186);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 127 3 ]
+        %tmp.187 = lgetv %dc;
+        symbol [ dc %tmp.187 127 3 5 ];
+        symbol [ drawText %tmp.188 127 6 14 ];
+        %tmp.188 = getv function %tmp.187 :drawText;
+        symbol [ locX %tmp.190 128 4 8 ];
+        %tmp.190 = getv ? :locX;
+        symbol [ width %tmp.192 128 12 17 ];
+        %tmp.192 = getv ? :width;
+        %tmp.193 = 2;
+        %tmp.194 = div %tmp.192 %tmp.193;
+        %tmp.195 = add %tmp.190 %tmp.194;
+        symbol [ mRow2Y %tmp.197 129 4 10 ];
+        %tmp.197 = getv ? :mRow2Y;
+        symbol [ gNormalFont %tmp.199 130 4 15 ];
+        %tmp.199 = getv ? :gNormalFont;
+        %tmp.200 = lgetv %time.3;
+        symbol [ time %tmp.200 131 4 8 ];
+        symbol [ Graphics %tmp.202 132 4 12 ];
+        %tmp.202 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.203 132 13 32 ];
+        %tmp.203 = getv %tmp.202 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.205 132 35 43 ];
+        %tmp.205 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.206 132 44 64 ];
+        %tmp.206 = getv %tmp.205 :TEXT_JUSTIFY_VCENTER;
+        %tmp.207 = bitor %tmp.203 %tmp.206;
+        invoke %tmp.187 %tmp.188(%tmp.195, %tmp.197, %tmp.199, %tmp.200, %tmp.207);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_46_135_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_else_false:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_135_9_138_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 136 3 ]
+        %tmp.208 = self;
+        symbol [ drawGoalValues %tmp.209 136 3 17 ];
+        %tmp.209 = getv function %tmp.208 :drawGoalValues;
+        %tmp.210 = lgetv %dc;
+        symbol [ dc %tmp.210 136 18 20 ];
+        symbol [ locX %tmp.212 136 22 26 ];
+        %tmp.212 = getv ? :locX;
+        symbol [ mLeftGoalCurrent %tmp.214 136 28 44 ];
+        %tmp.214 = getv ? :mLeftGoalCurrent;
+        symbol [ mLeftGoalMax %tmp.216 136 46 58 ];
+        %tmp.216 = getv ? :mLeftGoalMax;
+        symbol [ Graphics %tmp.218 136 60 68 ];
+        %tmp.218 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.219 136 69 86 ];
+        %tmp.219 = getv %tmp.218 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.208 %tmp.209(%tmp.210, %tmp.212, %tmp.214, %tmp.216, %tmp.219);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 137 3 ]
+        %tmp.220 = self;
+        symbol [ drawGoalValues %tmp.221 137 3 17 ];
+        %tmp.221 = getv function %tmp.220 :drawGoalValues;
+        %tmp.222 = lgetv %dc;
+        symbol [ dc %tmp.222 137 18 20 ];
+        symbol [ locX %tmp.224 137 22 26 ];
+        %tmp.224 = getv ? :locX;
+        symbol [ width %tmp.226 137 29 34 ];
+        %tmp.226 = getv ? :width;
+        %tmp.227 = add %tmp.224 %tmp.226;
+        symbol [ mRightGoalCurrent %tmp.229 137 36 53 ];
+        %tmp.229 = getv ? :mRightGoalCurrent;
+        symbol [ mRightGoalMax %tmp.231 137 55 68 ];
+        %tmp.231 = getv ? :mRightGoalMax;
+        symbol [ Graphics %tmp.233 137 70 78 ];
+        %tmp.233 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.234 137 79 97 ];
+        %tmp.234 = getv %tmp.233 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.220 %tmp.221(%tmp.222, %tmp.227, %tmp.229, %tmp.231, %tmp.234);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_135_9_138_2_stop:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_69_2_138_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_62_19_139_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 141; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 141; @symbol_functiondef = [drawGoalIcon,141,10,22]; @symbol_param<0> = [dc,141,23,25]; @symbol_param<1> = [x,141,27,28]; @symbol_param<2> = [type,141,30,34]; @symbol_param<3> = [isValid,141,36,43]; @symbol_param<4> = [align,141,45,50]; ]
     function drawGoalIcon(dc, x, type, isValid, align) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_141_52_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 142 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_2_if_stmt:
-        %tmp.2 = lgetv %type;
-        %tmp.4 = getv ? :GOAL_TYPE_OFF;
-        %tmp.5 = eq %tmp.2 %tmp.4;
-        bf %tmp.5 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 143 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_141_52_162_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 142 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_2_144_2_if_stmt:
+        %tmp.1 = lgetv %type;
+        symbol [ type %tmp.1 142 6 10 ];
+        symbol [ GOAL_TYPE_OFF %tmp.3 142 14 27 ];
+        %tmp.3 = getv ? :GOAL_TYPE_OFF;
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_2_144_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_2_144_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_29_144_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 143 3 ]
         ret ?;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_29_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_142_2_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 146 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_141_52_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_141_52_stop" ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_29_144_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_2_144_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_142_2_144_2_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 146 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_141_52_162_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_141_52_162_1_stop" ]
         %icon.1 = local;
-        %tmp.6 = newd 5;
-        %tmp.8 = getv ? :GOAL_TYPE_BATTERY;
-        %tmp.9 = "9";
-        %tmp.10 = dup %tmp.6;
-        %tmp.11 = aputv %tmp.10 %tmp.8 %tmp.9;
-        %tmp.13 = getv ? :GOAL_TYPE_CALORIES;
-        %tmp.14 = "6";
-        %tmp.15 = dup %tmp.11;
-        %tmp.16 = aputv %tmp.15 %tmp.13 %tmp.14;
-        %tmp.18 = getv ? :GOAL_TYPE_STEPS;
-        %tmp.19 = "0";
-        %tmp.20 = dup %tmp.16;
-        %tmp.21 = aputv %tmp.20 %tmp.18 %tmp.19;
-        %tmp.23 = getv ? :GOAL_TYPE_FLOORS_CLIMBED;
-        %tmp.24 = "1";
-        %tmp.25 = dup %tmp.21;
-        %tmp.26 = aputv %tmp.25 %tmp.23 %tmp.24;
-        %tmp.28 = getv ? :GOAL_TYPE_ACTIVE_MINUTES;
-        %tmp.29 = "2";
-        %tmp.30 = dup %tmp.26;
-        %tmp.31 = aputv %tmp.30 %tmp.28 %tmp.29;
-        %tmp.33 = lgetv %type;
-        %tmp.34 = agetv %tmp.31 %tmp.33;
-        lputv %icon.1 %tmp.34;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 154 2 ]
-        %tmp.35 = lgetv %dc;
-        %tmp.36 = getv function %tmp.35 :setColor;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_begin:
-        %tmp.38 = lgetv %isValid;
-        bf %tmp.38 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_true:
-        %tmp.40 = getv ? :gThemeColour;
-        push %tmp.40;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_false:
-        %tmp.42 = getv ? :gMeterBackgroundColour;
-        push %tmp.42;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_end:
-        %tmp.43 = phi [%tmp.38 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_begin] [%tmp.40 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_true] [%tmp.42 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_false] [%tmp.43 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_154_14_end];
-        %tmp.44 = getm $.Toybox.Graphics;
-        %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
-        invoke %tmp.35 %tmp.36(%tmp.43, %tmp.45);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 155 2 ]
-        %tmp.46 = lgetv %dc;
-        %tmp.47 = getv function %tmp.46 :drawText;
-        %tmp.49 = lgetv %x;
-        %tmp.51 = getv ? :mGoalIconY;
-        %tmp.53 = getv ? :gIconsFont;
-        %tmp.55 = lgetv %icon.1;
-        %tmp.57 = lgetv %align;
-        invoke %tmp.46 %tmp.47(%tmp.49, %tmp.51, %tmp.53, %tmp.55, %tmp.57);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_141_52_stop:
+        symbol [ icon %icon.1 146 6 10 ];
+        %tmp.5 = newd 5;
+        symbol [ GOAL_TYPE_BATTERY %tmp.7 147 3 20 ];
+        %tmp.7 = getv ? :GOAL_TYPE_BATTERY;
+        %tmp.8 = "9";
+        %tmp.9 = dup %tmp.5;
+        %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+        symbol [ GOAL_TYPE_CALORIES %tmp.12 148 3 21 ];
+        %tmp.12 = getv ? :GOAL_TYPE_CALORIES;
+        %tmp.13 = "6";
+        %tmp.14 = dup %tmp.10;
+        %tmp.15 = aputv %tmp.14 %tmp.12 %tmp.13;
+        symbol [ GOAL_TYPE_STEPS %tmp.17 149 3 18 ];
+        %tmp.17 = getv ? :GOAL_TYPE_STEPS;
+        %tmp.18 = "0";
+        %tmp.19 = dup %tmp.15;
+        %tmp.20 = aputv %tmp.19 %tmp.17 %tmp.18;
+        symbol [ GOAL_TYPE_FLOORS_CLIMBED %tmp.22 150 3 27 ];
+        %tmp.22 = getv ? :GOAL_TYPE_FLOORS_CLIMBED;
+        %tmp.23 = "1";
+        %tmp.24 = dup %tmp.20;
+        %tmp.25 = aputv %tmp.24 %tmp.22 %tmp.23;
+        symbol [ GOAL_TYPE_ACTIVE_MINUTES %tmp.27 151 3 27 ];
+        %tmp.27 = getv ? :GOAL_TYPE_ACTIVE_MINUTES;
+        %tmp.28 = "2";
+        %tmp.29 = dup %tmp.25;
+        %tmp.30 = aputv %tmp.29 %tmp.27 %tmp.28;
+        %tmp.31 = lgetv %type;
+        symbol [ type %tmp.31 152 4 8 ];
+        %tmp.32 = agetv %tmp.30 %tmp.31;
+        lputv %icon.1 %tmp.32;
+        symbol [ icon %icon.1 146 6 10 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 154 2 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 154 2 4 ];
+        symbol [ setColor %tmp.34 154 5 13 ];
+        %tmp.34 = getv function %tmp.33 :setColor;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_begin:
+        %tmp.35 = lgetv %isValid;
+        symbol [ isValid %tmp.35 154 14 21 ];
+        bf %tmp.35 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_true:
+        symbol [ gThemeColour %tmp.37 154 24 36 ];
+        %tmp.37 = getv ? :gThemeColour;
+        push %tmp.37;
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_else_false:
+        symbol [ gMeterBackgroundColour %tmp.39 154 39 61 ];
+        %tmp.39 = getv ? :gMeterBackgroundColour;
+        push %tmp.39;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_end:
+        %tmp.40 = phi [%tmp.35 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_begin] [%tmp.37 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_true] [%tmp.39 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_else_false] [%tmp.40 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_154_14_154_39_end];
+        symbol [ Gfx %tmp.41 154 63 66 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.42 154 67 84 ];
+        %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+        invoke %tmp.33 %tmp.34(%tmp.40, %tmp.42);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 155 2 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 155 2 4 ];
+        symbol [ drawText %tmp.44 155 5 13 ];
+        %tmp.44 = getv function %tmp.43 :drawText;
+        %tmp.45 = lgetv %x;
+        symbol [ x %tmp.45 156 3 4 ];
+        symbol [ mGoalIconY %tmp.47 157 3 13 ];
+        %tmp.47 = getv ? :mGoalIconY;
+        symbol [ gIconsFont %tmp.49 158 3 13 ];
+        %tmp.49 = getv ? :gIconsFont;
+        %tmp.50 = lgetv %icon.1;
+        symbol [ icon %tmp.50 159 3 7 ];
+        %tmp.51 = lgetv %align;
+        symbol [ align %tmp.51 160 3 8 ];
+        invoke %tmp.43 %tmp.44(%tmp.45, %tmp.47, %tmp.49, %tmp.50, %tmp.51);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_141_52_162_1_stop:
     }
-    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 164; ]
+    [ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 164; @symbol_functiondef = [drawGoalValues,164,10,24]; @symbol_param<0> = [dc,164,25,27]; @symbol_param<1> = [x,164,29,30]; @symbol_param<2> = [currentValue,164,32,44]; @symbol_param<3> = [maxValue,164,46,54]; @symbol_param<4> = [align,164,56,61]; ]
     function drawGoalValues(dc, x, currentValue, maxValue, align) {
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_164_63_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 165 2 ]
-        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_164_63_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_164_63_stop" ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_164_63_195_1_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 165 2 ]
+        [ "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_164_63_195_1_start" "C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_164_63_195_1_stop" ]
         %digitStyle.1 = local;
+        symbol [ digitStyle %digitStyle.1 165 6 16 ];
+        symbol [ App %tmp.1 165 19 22 ];
         %tmp.1 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.2 165 23 29 ];
         %tmp.2 = getv function %tmp.1 :getApp;
         %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ getProperty %tmp.4 165 32 43 ];
         %tmp.4 = getv function %tmp.3 :getProperty;
         %tmp.5 = "GoalMeterDigitsStyle";
         %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
         lputv %digitStyle.1 %tmp.6;
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 168 2 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_2_if_stmt:
-        %tmp.8 = lgetv %digitStyle.1;
-        %tmp.9 = 2;
-        %tmp.10 = ne %tmp.8 %tmp.9;
-        bf %tmp.10 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_2_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_36_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 169 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_3_if_stmt:
-        %tmp.12 = lgetv %currentValue;
-        %tmp.13 = null;
-        %tmp.14 = ne %tmp.12 %tmp.13;
-        bf %tmp.14 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_29_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 170 4 ]
-        %tmp.15 = lgetv %dc;
-        %tmp.16 = getv function %tmp.15 :setColor;
-        %tmp.18 = getv ? :gMonoLightColour;
-        %tmp.19 = getm $.Toybox.Graphics;
-        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
-        invoke %tmp.15 %tmp.16(%tmp.18, %tmp.20);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 171 4 ]
-        %tmp.21 = lgetv %dc;
-        %tmp.22 = getv function %tmp.21 :drawText;
-        %tmp.24 = lgetv %x;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_begin:
-        %tmp.26 = lgetv %digitStyle.1;
-        %tmp.27 = 1;
-        %tmp.28 = eq %tmp.26 %tmp.27;
-        bf %tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_false;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_true:
-        %tmp.30 = getv ? :mRow1Y;
-        %tmp.32 = getv ? :mRow2Y;
-        %tmp.33 = add %tmp.30 %tmp.32;
-        %tmp.34 = 2;
-        %tmp.35 = div %tmp.33 %tmp.34;
-        push %tmp.35;
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_false:
-        %tmp.37 = getv ? :mRow1Y;
-        push %tmp.37;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_end:
-        %tmp.38 = phi [%tmp.28 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_begin] [%tmp.35 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_true] [%tmp.37 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_false] [%tmp.38 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_175_5_end];
-        %tmp.40 = getv ? :gNormalFont;
-        %tmp.42 = lgetv %currentValue;
-        %tmp.43 = as %tmp.42 { (!Null) };
-        %tmp.45 = lgetv %align;
-        %tmp.47 = getv ? :Graphics;
-        %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_VCENTER;
-        %tmp.49 = bitor %tmp.45 %tmp.48;
-        invoke %tmp.21 %tmp.22(%tmp.24, %tmp.38, %tmp.40, %tmp.43, %tmp.49);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_29_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_169_3_if_end:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 184 3 ]
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_3_if_stmt:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_7_begin:
-        %tmp.51 = lgetv %maxValue;
-        %tmp.52 = null;
-        %tmp.53 = ne %tmp.51 %tmp.52;
-        %tmp.54 = dup %tmp.53;
-        bf %tmp.54 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_29_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_29_true:
-        %tmp.56 = lgetv %digitStyle.1;
-        %tmp.57 = 0;
-        %tmp.58 = eq %tmp.56 %tmp.57;
-        %tmp.59 = and %tmp.53 %tmp.58;
-        push %tmp.59;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_29_end:
-        %tmp.60 = phi [%tmp.54 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_7_begin] [%tmp.59 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_29_true] [%tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_29_end];
-        bf %tmp.60 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_3_if_true:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_69_start:
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 185 4 ]
-        %tmp.61 = lgetv %dc;
-        %tmp.62 = getv function %tmp.61 :setColor;
-        %tmp.64 = getv ? :gMonoDarkColour;
-        %tmp.65 = getm $.Toybox.Graphics;
-        %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
-        invoke %tmp.61 %tmp.62(%tmp.64, %tmp.66);
-[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc" 186 4 ]
-        %tmp.67 = lgetv %dc;
-        %tmp.68 = getv function %tmp.67 :drawText;
-        %tmp.70 = lgetv %x;
-        %tmp.72 = getv ? :mRow2Y;
-        %tmp.74 = getv ? :gNormalFont;
-        %tmp.76 = lgetv %maxValue;
-        %tmp.77 = as %tmp.76 { (!Null) };
-        %tmp.79 = lgetv %align;
-        %tmp.81 = getv ? :Graphics;
-        %tmp.82 = getv %tmp.81 :TEXT_JUSTIFY_VCENTER;
-        %tmp.83 = bitor %tmp.79 %tmp.82;
-        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72, %tmp.74, %tmp.77, %tmp.83);
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_69_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_3_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_184_3_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_36_stop:
-        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_2_if_end;
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_168_2_if_end:
-C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_Cristal_source_DataArea_mc_164_63_stop:
+        symbol [ digitStyle %digitStyle.1 165 6 16 ];
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 168 2 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_2_194_2_if_stmt:
+        %tmp.7 = lgetv %digitStyle.1;
+        symbol [ digitStyle %tmp.7 168 6 16 ];
+        %tmp.8 = 2;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        bf %tmp.9 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_2_194_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_2_194_2_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_36_194_2_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 169 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_3_181_3_if_stmt:
+        %tmp.10 = lgetv %currentValue;
+        symbol [ currentValue %tmp.10 169 7 19 ];
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_3_181_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_3_181_3_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_29_181_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 170 4 ]
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 170 4 6 ];
+        symbol [ setColor %tmp.14 170 7 15 ];
+        %tmp.14 = getv function %tmp.13 :setColor;
+        symbol [ gMonoLightColour %tmp.16 170 16 32 ];
+        %tmp.16 = getv ? :gMonoLightColour;
+        symbol [ Gfx %tmp.17 170 34 37 ];
+        %tmp.17 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.18 170 38 55 ];
+        %tmp.18 = getv %tmp.17 :COLOR_TRANSPARENT;
+        invoke %tmp.13 %tmp.14(%tmp.16, %tmp.18);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 171 4 ]
+        %tmp.19 = lgetv %dc;
+        symbol [ dc %tmp.19 171 4 6 ];
+        symbol [ drawText %tmp.20 171 7 15 ];
+        %tmp.20 = getv function %tmp.19 :drawText;
+        %tmp.21 = lgetv %x;
+        symbol [ x %tmp.21 172 5 6 ];
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_begin:
+        %tmp.22 = lgetv %digitStyle.1;
+        symbol [ digitStyle %tmp.22 175 6 16 ];
+        %tmp.23 = 1;
+        %tmp.24 = eq %tmp.22 %tmp.23;
+        bf %tmp.24 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_else_false;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_true:
+        symbol [ mRow1Y %tmp.26 175 41 47 ];
+        %tmp.26 = getv ? :mRow1Y;
+        symbol [ mRow2Y %tmp.28 175 50 56 ];
+        %tmp.28 = getv ? :mRow2Y;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        push %tmp.31;
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_else_false:
+        symbol [ mRow1Y %tmp.33 175 65 71 ];
+        %tmp.33 = getv ? :mRow1Y;
+        push %tmp.33;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_end:
+        %tmp.34 = phi [%tmp.24 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_begin] [%tmp.31 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_true] [%tmp.33 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_else_false] [%tmp.34 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_175_5_175_65_end];
+        symbol [ gNormalFont %tmp.36 177 5 16 ];
+        %tmp.36 = getv ? :gNormalFont;
+        %tmp.37 = lgetv %currentValue;
+        symbol [ currentValue %tmp.37 178 5 17 ];
+        %tmp.38 = as %tmp.37 { (!Null) };
+        %tmp.39 = lgetv %align;
+        symbol [ align %tmp.39 179 5 10 ];
+        symbol [ Graphics %tmp.41 179 13 21 ];
+        %tmp.41 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.42 179 22 42 ];
+        %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_VCENTER;
+        %tmp.43 = bitor %tmp.39 %tmp.42;
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.34, %tmp.36, %tmp.38, %tmp.43);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_29_181_3_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_3_181_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_169_3_181_3_if_end:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 184 3 ]
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_stmt:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_7_184_45_begin:
+        %tmp.44 = lgetv %maxValue;
+        symbol [ maxValue %tmp.44 184 8 16 ];
+        %tmp.45 = null;
+        %tmp.46 = ne %tmp.44 %tmp.45;
+        bf %tmp.46 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_29_184_45_true:
+        %tmp.47 = lgetv %digitStyle.1;
+        symbol [ digitStyle %tmp.47 184 30 40 ];
+        %tmp.48 = 0;
+        %tmp.49 = eq %tmp.47 %tmp.48;
+        push %tmp.49;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_29_184_45_end:
+        %tmp.50 = phi [%tmp.46 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_7_184_45_begin] [%tmp.49 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_29_184_45_true] [%tmp.50 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_29_184_45_end];
+        bf %tmp.50 @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_true:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_69_193_3_start:
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 185 4 ]
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 185 4 6 ];
+        symbol [ setColor %tmp.52 185 7 15 ];
+        %tmp.52 = getv function %tmp.51 :setColor;
+        symbol [ gMonoDarkColour %tmp.54 185 16 31 ];
+        %tmp.54 = getv ? :gMonoDarkColour;
+        symbol [ Gfx %tmp.55 185 33 36 ];
+        %tmp.55 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.56 185 37 54 ];
+        %tmp.56 = getv %tmp.55 :COLOR_TRANSPARENT;
+        invoke %tmp.51 %tmp.52(%tmp.54, %tmp.56);
+[ "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc" 186 4 ]
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 186 4 6 ];
+        symbol [ drawText %tmp.58 186 7 15 ];
+        %tmp.58 = getv function %tmp.57 :drawText;
+        %tmp.59 = lgetv %x;
+        symbol [ x %tmp.59 187 5 6 ];
+        symbol [ mRow2Y %tmp.61 188 5 11 ];
+        %tmp.61 = getv ? :mRow2Y;
+        symbol [ gNormalFont %tmp.63 189 5 16 ];
+        %tmp.63 = getv ? :gNormalFont;
+        %tmp.64 = lgetv %maxValue;
+        symbol [ maxValue %tmp.64 190 5 13 ];
+        %tmp.65 = as %tmp.64 { (!Null) };
+        %tmp.66 = lgetv %align;
+        symbol [ align %tmp.66 191 5 10 ];
+        symbol [ Graphics %tmp.68 191 13 21 ];
+        %tmp.68 = getv ? :Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.69 191 22 42 ];
+        %tmp.69 = getv %tmp.68 :TEXT_JUSTIFY_VCENTER;
+        %tmp.70 = bitor %tmp.66 %tmp.69;
+        invoke %tmp.57 %tmp.58(%tmp.59, %tmp.61, %tmp.63, %tmp.65, %tmp.70);
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_69_193_3_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_184_3_193_3_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_36_194_2_stop:
+        goto @C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_2_194_2_if_end;
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_168_2_194_2_if_end:
+C__Users_prenard_SynologyDrive_prenard_SynologyDrive_Private_Data_VisualStudioCode_data_Garmin_CIQ_Cristal_Cristal_source_DataArea_mc_164_63_195_1_stop:
     }
 }
-[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\Cristal\source\DataArea.mc"; @line = 1; ]
+[ @file = "C:\Users\prenard\SynologyDrive\prenard\SynologyDrive\Private\Data\VisualStudioCode\data\Garmin-CIQ\Cristal\Cristal\source\DataArea.mc"; @line = 1; ]
 <init> {
 }
